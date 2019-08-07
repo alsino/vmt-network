@@ -1,0 +1,1546 @@
+{
+	"nodes": [{
+			"name": "Sebastian Meschenmoser",
+			"discipline": 3,
+			"gender": "male",
+			"birthYear": 1980,
+			"studio": "second home"
+		},
+		{
+			"name": "Pedro Lopes",
+			"discipline": 1,
+			"gender": "male",
+			"birthYear": 1986,
+			"studio": "workshop, the place where things get built..."
+		},
+
+
+		{
+			"name": "Caroline Kryzecki",
+			"discipline": 3
+		},
+		{
+			"name": "Kevin Kopacka",
+			"discipline": 9
+		},
+		{
+			"name": "Peter Welz",
+			"discipline": 1
+		},
+		{
+			"name": "Gonzalo Reyes Araos",
+			"discipline": 3
+		},
+		{
+			"name": "Jeewi Lee",
+			"discipline": 1
+		},
+		{
+			"name": "Michaela Zimmer",
+			"discipline": 3
+		},
+		{
+			"name": "Van Bo",
+			"discipline": 1
+		},
+		{
+			"name": "Julius Weiland",
+			"discipline": 6
+		},
+		{
+			"name": "Alex Lebus",
+			"discipline": 1
+		},
+		{
+			"name": "Viron Erol Vert",
+			"discipline": 1
+		},
+		{
+			"name": "Stefan Roigk",
+			"discipline": 7
+		},
+		{
+			"name": "Sebastian Bieniek",
+			"discipline": 4
+		},
+		{
+			"name": "Frank Arndt",
+			"discipline": 3
+		},
+		{
+			"name": "Sibylle Jazra",
+			"discipline": 1
+		},
+		{
+			"name": "Grigori Dor",
+			"discipline": 3
+		},
+		{
+			"name": "Katja Kelm",
+			"discipline": 3
+		},
+		{
+			"name": "Pilocka Krach",
+			"discipline": 7
+		},
+		{
+			"name": "Lerato Shadi",
+			"discipline": 1
+		},
+		{
+			"name": "Alex Bodea",
+			"discipline": 3
+		},
+		{
+			"name": "Robert Henke",
+			"discipline": 1
+		}
+	],
+
+
+	"links": [{
+			"source": "Sebastian Meschenmoser",
+			"target": "Pedro Lopes",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Meschenmoser",
+			"target": "Caroline Kryzecki",
+			"value": 10
+		},
+		{
+			"source": "Sebastian Meschenmoser",
+			"target": "Kevin Kopacka",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Meschenmoser",
+			"target": "Peter Welz",
+			"value": 5
+		},
+		{
+			"source": "Sebastian Meschenmoser",
+			"target": "Gonzalo Reyes Araos",
+			"value": 5
+		},
+		{
+			"source": "Sebastian Meschenmoser",
+			"target": "Jeewi Lee",
+			"value": 5
+		},
+		{
+			"source": "Sebastian Meschenmoser",
+			"target": "Michaela Zimmer",
+			"value": 5
+		},
+		{
+			"source": "Sebastian Meschenmoser",
+			"target": "Van Bo",
+			"value": 5
+		},
+		{
+			"source": "Sebastian Meschenmoser",
+			"target": "Julius Weiland",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Meschenmoser",
+			"target": "Alex Lebus",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Meschenmoser",
+			"target": "Viron Erol Vert",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Meschenmoser",
+			"target": "Stefan Roigk",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Meschenmoser",
+			"target": "Sebastian Bieniek",
+			"value": 5
+		},
+		{
+			"source": "Sebastian Meschenmoser",
+			"target": "Frank Arndt",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Meschenmoser",
+			"target": "Sibylle Jazra",
+			"value": 5
+		},
+		{
+			"source": "Sebastian Meschenmoser",
+			"target": "Grigori Dor",
+			"value": 5
+		},
+		{
+			"source": "Sebastian Meschenmoser",
+			"target": "Katja Kelm",
+			"value": 5
+		},
+		{
+			"source": "Sebastian Meschenmoser",
+			"target": "Pilocka Krach",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Meschenmoser",
+			"target": "Lerato Shadi",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Meschenmoser",
+			"target": "Alex Bodea",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Meschenmoser",
+			"target": "Robert Henke",
+			"value": 0
+		},
+
+		{
+			"source": "Pedro Lopes",
+			"target": "Sebastian Meschenmoser",
+			"value": 0
+		},
+		{
+			"source": "Pedro Lopes",
+			"target": "Caroline Kryzecki",
+			"value": 0
+		},
+		{
+			"source": "Pedro Lopes",
+			"target": "Kevin Kopacka",
+			"value": 0
+		},
+		{
+			"source": "Pedro Lopes",
+			"target": "Peter Welz",
+			"value": 0
+		},
+		{
+			"source": "Pedro Lopes",
+			"target": "Gonzalo Reyes Araos",
+			"value": 0
+		},
+		{
+			"source": "Pedro Lopes",
+			"target": "Jeewi Lee",
+			"value": 0
+		},
+		{
+			"source": "Pedro Lopes",
+			"target": "Michaela Zimmer",
+			"value": 0
+		},
+		{
+			"source": "Pedro Lopes",
+			"target": "Van Bo",
+			"value": 0
+		},
+		{
+			"source": "Pedro Lopes",
+			"target": "Julius Weiland",
+			"value": 0
+		},
+		{
+			"source": "Pedro Lopes",
+			"target": "Alex Lebus",
+			"value": 0
+		},
+		{
+			"source": "Pedro Lopes",
+			"target": "Viron Erol Vert",
+			"value": 0
+		},
+		{
+			"source": "Pedro Lopes",
+			"target": "Stefan Roigk",
+			"value": 0
+		},
+		{
+			"source": "Pedro Lopes",
+			"target": "Sebastian Bieniek",
+			"value": 0
+		},
+		{
+			"source": "Pedro Lopes",
+			"target": "Frank Arndt",
+			"value": 0
+		},
+		{
+			"source": "Pedro Lopes",
+			"target": "Sibylle Jazra",
+			"value": 0
+		},
+		{
+			"source": "Pedro Lopes",
+			"target": "Grigori Dor",
+			"value": 0
+		},
+		{
+			"source": "Pedro Lopes",
+			"target": "Katja Kelm",
+			"value": 0
+		},
+		{
+			"source": "Pedro Lopes",
+			"target": "Pilocka Krach",
+			"value": 0
+		},
+		{
+			"source": "Pedro Lopes",
+			"target": "Lerato Shadi",
+			"value": 0
+		},
+		{
+			"source": "Pedro Lopes",
+			"target": "Alex Bodea",
+			"value": 0
+		},
+		{
+			"source": "Pedro Lopes",
+			"target": "Robert Henke",
+			"value": 5
+		},
+
+		{
+			"source": "Caroline Kryzecki",
+			"target": "Sebastian Meschenmoser",
+			"value": 10
+		},
+		{
+			"source": "Caroline Kryzecki",
+			"target": "Pedro Lopes",
+			"value": 0
+		},
+		{
+			"source": "Caroline Kryzecki",
+			"target": "Kevin Kopacka",
+			"value": 0
+		},
+		{
+			"source": "Caroline Kryzecki",
+			"target": "Peter Welz",
+			"value": 5
+		},
+		{
+			"source": "Caroline Kryzecki",
+			"target": "Gonzalo Reyes Araos",
+			"value": 10
+		},
+		{
+			"source": "Caroline Kryzecki",
+			"target": "Jeewi Lee",
+			"value": 10
+		},
+		{
+			"source": "Caroline Kryzecki",
+			"target": "Michaela Zimmer",
+			"value": 10
+		},
+		{
+			"source": "Caroline Kryzecki",
+			"target": "Van Bo",
+			"value": 0
+		},
+		{
+			"source": "Caroline Kryzecki",
+			"target": "Julius Weiland",
+			"value": 0
+		},
+		{
+			"source": "Caroline Kryzecki",
+			"target": "Alex Lebus",
+			"value": 5
+		},
+		{
+			"source": "Caroline Kryzecki",
+			"target": "Viron Erol Vert",
+			"value": 5
+		},
+		{
+			"source": "Caroline Kryzecki",
+			"target": "Stefan Roigk",
+			"value": 0
+		},
+		{
+			"source": "Caroline Kryzecki",
+			"target": "Sebastian Bieniek",
+			"value": 5
+		},
+		{
+			"source": "Caroline Kryzecki",
+			"target": "Frank Arndt",
+			"value": 0
+		},
+		{
+			"source": "Caroline Kryzecki",
+			"target": "Sibylle Jazra",
+			"value": 10
+		},
+		{
+			"source": "Caroline Kryzecki",
+			"target": "Grigori Dor",
+			"value": 5
+		},
+		{
+			"source": "Caroline Kryzecki",
+			"target": "Katja Kelm",
+			"value": 5
+		},
+		{
+			"source": "Caroline Kryzecki",
+			"target": "Pilocka Krach",
+			"value": 0
+		},
+		{
+			"source": "Caroline Kryzecki",
+			"target": "Lerato Shadi",
+			"value": 0
+		},
+		{
+			"source": "Caroline Kryzecki",
+			"target": "Alex Bodea",
+			"value": 0
+		},
+		{
+			"source": "Caroline Kryzecki",
+			"target": "Robert Henke",
+			"value": 5
+		},
+
+
+		{
+			"source": "Kevin Kopacka",
+			"target": "Sebastian Meschenmoser",
+			"value": 5
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Pedro Lopes",
+			"value": 0
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Caroline Kryzecki",
+			"value": 5
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Peter Welz",
+			"value": 5
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Gonzalo Reyes Araos",
+			"value": 5
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Jeewi Lee",
+			"value": 0
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Michaela Zimmer",
+			"value": 0
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Van Bo",
+			"value": 0
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Julius Weiland",
+			"value": 0
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Alex Lebus",
+			"value": 0
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Viron Erol Vert",
+			"value": 0
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Stefan Roigk",
+			"value": 0
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Sebastian Bieniek",
+			"value": 5
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Frank Arndt",
+			"value": 0
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Sibylle Jazra",
+			"value": 0
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Grigori Dor",
+			"value": 0
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Katja Kelm",
+			"value": 0
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Pilocka Krach",
+			"value": 0
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Lerato Shadi",
+			"value": 0
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Alex Bodea",
+			"value": 0
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Robert Henke",
+			"value": 5
+		},
+
+		{
+			"source": "Peter Welz",
+			"target": "Sebastian Meschenmoser",
+			"value": 5
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Pedro Lopes",
+			"value": 0
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Caroline Kryzecki",
+			"value": 5
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Kevin Kopacka",
+			"value": 0
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Gonzalo Reyes Araos",
+			"value": 5
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Jeewi Lee",
+			"value": 5
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Michaela Zimmer",
+			"value": 0
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Van Bo",
+			"value": 0
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Julius Weiland",
+			"value": 0
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Alex Lebus",
+			"value": 0
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Viron Erol Vert",
+			"value": 5
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Stefan Roigk",
+			"value": 0
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Sebastian Bieniek",
+			"value": 5
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Frank Arndt",
+			"value": 0
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Sibylle Jazra",
+			"value": 0
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Grigori Dor",
+			"value": 0
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Katja Kelm",
+			"value": 5
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Pilocka Krach",
+			"value": 0
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Lerato Shadi",
+			"value": 0
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Alex Bodea",
+			"value": 0
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Robert Henke",
+			"value": 5
+		},
+
+		{
+			"source": "Jeewi Lee",
+			"target": "Sebastian Meschenmoser",
+			"value": 5
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Pedro Lopes",
+			"value": 0
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Caroline Kryzecki",
+			"value": 10
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Kevin Kopacka",
+			"value": 0
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Peter Welz",
+			"value": 5
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Gonzalo Reyes Araos",
+			"value": 5
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Michaela Zimmer",
+			"value": 10
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Van Bo",
+			"value": 5
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Julius Weiland",
+			"value": 0
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Alex Lebus",
+			"value": 0
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Viron Erol Vert",
+			"value": 15
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Stefan Roigk",
+			"value": 0
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Sebastian Bieniek",
+			"value": 5
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Frank Arndt",
+			"value": 0
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Sibylle Jazra",
+			"value": 5
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Grigori Dor",
+			"value": 0
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Katja Kelm",
+			"value": 0
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Pilocka Krach",
+			"value": 0
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Lerato Shadi",
+			"value": 15
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Alex Bodea",
+			"value": 0
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Robert Henke",
+			"value": 5
+		},
+
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Sebastian Meschenmoser",
+			"value": 5
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Pedro Lopes",
+			"value": 5
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Caroline Kryzecki",
+			"value": 5
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Kevin Kopacka",
+			"value": 0
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Peter Welz",
+			"value": 5
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Jeewi Lee",
+			"value": 5
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Michaela Zimmer",
+			"value": 10
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Van Bo",
+			"value": 0
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Julius Weiland",
+			"value": 0
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Alex Lebus",
+			"value": 0
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Viron Erol Vert",
+			"value": 0
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Stefan Roigk",
+			"value": 0
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Sebastian Bieniek",
+			"value": 5
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Frank Arndt",
+			"value": 0
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Sibylle Jazra",
+			"value": 5
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Grigori Dor",
+			"value": 0
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Katja Kelm",
+			"value": 0
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Pilocka Krach",
+			"value": 0
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Lerato Shadi",
+			"value": 0
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Alex Bodea",
+			"value": 0
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Robert Henke",
+			"value": 5
+		},
+
+		{
+			"source": "Michaela Zimmer",
+			"target": "Sebastian Meschenmoser",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Pedro Lopes",
+			"value": 0
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Caroline Kryzecki",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Kevin Kopacka",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Peter Welz",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Jeewi Lee",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Van Bo",
+			"value": 0
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Julius Weiland",
+			"value": 0
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Alex Lebus",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Viron Erol Vert",
+			"value": 0
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Stefan Roigk",
+			"value": 0
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Sebastian Bieniek",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Frank Arndt",
+			"value": 0
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Sibylle Jazra",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Grigori Dor",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Katja Kelm",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Pilocka Krach",
+			"value": 0
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Lerato Shadi",
+			"value": 0
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Alex Bodea",
+			"value": 0
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Robert Henke",
+			"value": 0
+		},
+
+		{
+			"source": "Van Bo",
+			"target": "Sebastian Meschenmoser",
+			"value": 0
+		},
+		{
+			"source": "Van Bo",
+			"target": "Pedro Lopes",
+			"value": 0
+		},
+		{
+			"source": "Van Bo",
+			"target": "Caroline Kryzecki",
+			"value": 0
+		},
+		{
+			"source": "Van Bo",
+			"target": "Kevin Kopacka",
+			"value": 0
+		},
+		{
+			"source": "Van Bo",
+			"target": "Peter Welz",
+			"value": 0
+		},
+		{
+			"source": "Van Bo",
+			"target": "Jeewi Lee",
+			"value": 0
+		},
+		{
+			"source": "Van Bo",
+			"target": "Michaela Zimmer",
+			"value": 0
+		},
+		{
+			"source": "Van Bo",
+			"target": "Julius Weiland",
+			"value": 0
+		},
+		{
+			"source": "Van Bo",
+			"target": "Alex Lebus",
+			"value": 0
+		},
+		{
+			"source": "Van Bo",
+			"target": "Viron Erol Vert",
+			"value": 0
+		},
+		{
+			"source": "Van Bo",
+			"target": "Stefan Roigk",
+			"value": 0
+		},
+		{
+			"source": "Van Bo",
+			"target": "Sebastian Bieniek",
+			"value": 5
+		},
+		{
+			"source": "Van Bo",
+			"target": "Frank Arndt",
+			"value": 0
+		},
+		{
+			"source": "Van Bo",
+			"target": "Sibylle Jazra",
+			"value": 0
+		},
+		{
+			"source": "Van Bo",
+			"target": "Grigori Dor",
+			"value": 0
+		},
+		{
+			"source": "Van Bo",
+			"target": "Katja Kelm",
+			"value": 0
+		},
+		{
+			"source": "Van Bo",
+			"target": "Pilocka Krach",
+			"value": 0
+		},
+		{
+			"source": "Van Bo",
+			"target": "Lerato Shadi",
+			"value": 0
+		},
+		{
+			"source": "Van Bo",
+			"target": "Alex Bodea",
+			"value": 0
+		},
+		{
+			"source": "Van Bo",
+			"target": "Robert Henke",
+			"value": 5
+		},
+
+
+		{
+			"source": "Julius Weiland",
+			"target": "Sebastian Meschenmoser",
+			"value": 0
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Caroline Kryzecki",
+			"value": 5
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Kevin Kopacka",
+			"value": 0
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Peter Welz",
+			"value": 0
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Jeewi Lee",
+			"value": 0
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Van Bo",
+			"value": 0
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Michaela Zimmer",
+			"value": 0
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Alex Lebus",
+			"value": 0
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Viron Erol Vert",
+			"value": 0
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Stefan Roigk",
+			"value": 0
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Sebastian Bieniek",
+			"value": 0
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Frank Arndt",
+			"value": 0
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Sibylle Jazra",
+			"value": 5
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Grigori Dor",
+			"value": 0
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Katja Kelm",
+			"value": 0
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Pilocka Krach",
+			"value": 0
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Lerato Shadi",
+			"value": 0
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Alex Bodea",
+			"value": 0
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Robert Henke",
+			"value": 0
+		},
+
+
+		{
+			"source": "Alex Lebus",
+			"target": "Sebastian Meschenmoser",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Caroline Kryzecki",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Kevin Kopacka",
+			"value": 0
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Peter Welz",
+			"value": 0
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Jeewi Lee",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Van Bo",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Michaela Zimmer",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Julius Weiland",
+			"value": 0
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Viron Erol Vert",
+			"value": 0
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Stefan Roigk",
+			"value": 0
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Sebastian Bieniek",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Frank Arndt",
+			"value": 0
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Sibylle Jazra",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Grigori Dor",
+			"value": 0
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Katja Kelm",
+			"value": 0
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Pilocka Krach",
+			"value": 0
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Lerato Shadi",
+			"value": 0
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Alex Bodea",
+			"value": 0
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Robert Henke",
+			"value": 5
+		},
+
+
+		{
+			"source": "Viron Erol Vert",
+			"target": "Sebastian Meschenmoser",
+			"value": 5
+		},
+		{
+			"source": "Viron Erol Vert",
+			"target": "Pedro Lopes",
+			"value": 0
+		},
+		{
+			"source": "Viron Erol Vert",
+			"target": "Caroline Kryzecki",
+			"value": 5
+		},
+		{
+			"source": "Viron Erol Vert",
+			"target": "Peter Welz",
+			"value": 5
+		},
+		{
+			"source": "Viron Erol Vert",
+			"target": "Gonzalo Reyes Araos",
+			"value": 0
+		},
+		{
+			"source": "Viron Erol Vert",
+			"target": "Jeewi Lee",
+			"value": 15
+		},
+		{
+			"source": "Viron Erol Vert",
+			"target": "Michaela Zimmer",
+			"value": 5
+		},
+		{
+			"source": "Viron Erol Vert",
+			"target": "Alex Lebus",
+			"value": 0
+		},
+		{
+			"source": "Viron Erol Vert",
+			"target": "Van Bo",
+			"value": 0
+		},
+		{
+			"source": "Viron Erol Vert",
+			"target": "Julius Weiland",
+			"value": 0
+		},
+		{
+			"source": "Viron Erol Vert",
+			"target": "Stefan Roigk",
+			"value": 0
+		},
+		{
+			"source": "Viron Erol Vert",
+			"target": "Sebastian Bieniek",
+			"value": 5
+		},
+		{
+			"source": "Viron Erol Vert",
+			"target": "Frank Arndt",
+			"value": 0
+		},
+		{
+			"source": "Viron Erol Vert",
+			"target": "Sibylle Jazra",
+			"value": 0
+		},
+		{
+			"source": "Viron Erol Vert",
+			"target": "Grigori Dor",
+			"value": 0
+		},
+		{
+			"source": "Viron Erol Vert",
+			"target": "Katja Kelm",
+			"value": 0
+		},
+		{
+			"source": "Viron Erol Vert",
+			"target": "Pilocka Krach",
+			"value": 0
+		},
+		{
+			"source": "Viron Erol Vert",
+			"target": "Lerato Shadi",
+			"value": 15
+		},
+		{
+			"source": "Viron Erol Vert",
+			"target": "Alex Bodea",
+			"value": 0
+		},
+		{
+			"source": "Viron Erol Vert",
+			"target": "Robert Henke",
+			"value": 5
+		},
+
+
+		{
+			"source": "Stefan Roigk",
+			"target": "Sebastian Meschenmoser",
+			"value": 0
+		},
+		{
+			"source": "Stefan Roigk",
+			"target": "Pedro Lopes",
+			"value": 0
+		},
+		{
+			"source": "Stefan Roigk",
+			"target": "Caroline Kryzecki",
+			"value": 0
+		},
+		{
+			"source": "Stefan Roigk",
+			"target": "Peter Welz",
+			"value": 0
+		},
+		{
+			"source": "Stefan Roigk",
+			"target": "Gonzalo Reyes Araos",
+			"value": 0
+		},
+		{
+			"source": "Stefan Roigk",
+			"target": "Jeewi Lee",
+			"value": 0
+		},
+		{
+			"source": "Stefan Roigk",
+			"target": "Michaela Zimmer",
+			"value": 0
+		},
+		{
+			"source": "Stefan Roigk",
+			"target": "Alex Lebus",
+			"value": 0
+		},
+		{
+			"source": "Stefan Roigk",
+			"target": "Van Bo",
+			"value": 0
+		},
+		{
+			"source": "Stefan Roigk",
+			"target": "Julius Weiland",
+			"value": 0
+		},
+		{
+			"source": "Stefan Roigk",
+			"target": "Viron Erol Vert",
+			"value": 0
+		},
+		{
+			"source": "Stefan Roigk",
+			"target": "Sebastian Bieniek",
+			"value": 0
+		},
+		{
+			"source": "Stefan Roigk",
+			"target": "Frank Arndt",
+			"value": 0
+		},
+		{
+			"source": "Stefan Roigk",
+			"target": "Sibylle Jazra",
+			"value": 0
+		},
+		{
+			"source": "Stefan Roigk",
+			"target": "Grigori Dor",
+			"value": 0
+		},
+		{
+			"source": "Stefan Roigk",
+			"target": "Katja Kelm",
+			"value": 0
+		},
+		{
+			"source": "Stefan Roigk",
+			"target": "Pilocka Krach",
+			"value": 0
+		},
+		{
+			"source": "Stefan Roigk",
+			"target": "Lerato Shadi",
+			"value": 0
+		},
+		{
+			"source": "Stefan Roigk",
+			"target": "Alex Bodea",
+			"value": 0
+		},
+		{
+			"source": "Stefan Roigk",
+			"target": "Robert Henke",
+			"value": 0
+		},
+
+
+		{
+			"source": "Sebastian Bieniek",
+			"target": "Sebastian Meschenmoser",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Bieniek",
+			"target": "Pedro Lopes",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Bieniek",
+			"target": "Caroline Kryzecki",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Bieniek",
+			"target": "Peter Welz",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Bieniek",
+			"target": "Gonzalo Reyes Araos",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Bieniek",
+			"target": "Jeewi Lee",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Bieniek",
+			"target": "Michaela Zimmer",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Bieniek",
+			"target": "Alex Lebus",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Bieniek",
+			"target": "Van Bo",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Bieniek",
+			"target": "Julius Weiland",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Bieniek",
+			"target": "Stefan Roigk",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Bieniek",
+			"target": "Viron Erol Vert",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Bieniek",
+			"target": "Frank Arndt",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Bieniek",
+			"target": "Sibylle Jazra",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Bieniek",
+			"target": "Grigori Dor",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Bieniek",
+			"target": "Katja Kelm",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Bieniek",
+			"target": "Pilocka Krach",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Bieniek",
+			"target": "Lerato Shadi",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Bieniek",
+			"target": "Alex Bodea",
+			"value": 0
+		},
+		{
+			"source": "Sebastian Bieniek",
+			"target": "Robert Henke",
+			"value": 5
+		}
+	]
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Network</title>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  
+
+
+  <style>
+
+    html, body {
+      font-family: Helvetica, Arial, sans-serif;
+      background: black;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    svg {
+      background: black;
+      display: block;
+      margin: 0 auto;
+
+    }
+
+    .links line {
+      stroke: white;
+      stroke-opacity: 0.6;
+      /* stroke-dasharray: 5; */
+    }
+
+    .nodes circle {
+      stroke: #fff;
+      stroke-width: 1.5px;
+      cursor: pointer;
+    }
+
+    .nodes rect {
+      stroke: #fff;
+      fill: black;
+      stroke-width: 1.5px;
+      cursor: pointer;
+    }
+
+    text {
+      font-family: "Roboto Mono";
+      font-size: 10px;
+      fill: white;
+      cursor: pointer;
+    }
+
+    
+  </style>
+
+</head>
+<body>
+  <h1>visitmytent</h1>
+  <p>artist network</p>
+  <svg width="960" height="600"></svg>
+  
+</body>
+<script src="js/main.js"></script>
+
+</html>
