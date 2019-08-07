@@ -61,6 +61,7 @@ d3.json("./data/artists.json", function(error, graph) {
         .attr("x", -5)
         .attr("y", -5)
         .attr("stroke", function(d) { return color(d.discipline); })
+        .attr("fill", function(d) { return color(d.discipline); })
         .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
         .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
         .call(d3.drag()
