@@ -13,8 +13,6 @@
 			"birthYear": 1986,
 			"studio": "workshop, the place where things get built..."
 		},
-
-
 		{
 			"name": "Caroline Kryzecki",
 			"discipline": 3
@@ -96,8 +94,6 @@
 			"discipline": 1
 		}
 	],
-
-
 	"links": [{
 			"source": "Sebastian Meschenmoser",
 			"target": "Pedro Lopes",
@@ -1540,7 +1536,7 @@
 		{
 			"source": "Sebastian Bieniek",
 			"target": "Robert Henke",
-			"value": 5
+			"value": 0
 		}
 	]
 }

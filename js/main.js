@@ -2,6 +2,15 @@
 // Disjoint Force-Directed Graph: https://observablehq.com/@d3/disjoint-force-directed-graph
 // Beziers: https://observablehq.com/@rusackas/force-graph-with-bezier-links
 
+
+// ToDos
+// 1. Dreiecke malen
+// 2. Bezier connections
+// 3. Unvernetzte besser darstellen
+// 4. Github bei Steph installieren
+// 5. Kleiner Intro-Text
+
+
 var svg = d3.select("svg"),
     width = +svg.attr("width"),
     height = +svg.attr("height");
@@ -115,11 +124,6 @@ function dragended(d) {
   d.fx = null;
   d.fy = null;
 }
-
-
-// ToDos
-// 1. Dreiecke malen
-// 2. Bezier connections
 
 
 // Kommentare:
