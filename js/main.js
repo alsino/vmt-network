@@ -6,11 +6,10 @@
 
 
 // ToDos
-// 1. Dreiecke malen
-// 2. Bezier connections
-// 3. Unvernetzte besser darstellen
-// 4. Github bei Steph installieren
-// 5. Kleiner Intro-Text
+// Bezier connections
+// Unvernetzte besser darstellen
+// Github bei Steph installieren
+// Kleiner Intro-Text
 
 
 var svg = d3.select("svg"),
@@ -53,96 +52,74 @@ d3.json("./data/artists.json", function(error, graph) {
 
   // Circles
   node
-  .filter(function(d){ return d.discipline == 3; })
-      .append("circle")
-      .attr("r", 5)
-      .attr("fill", "black")
-      .call(d3.drag()
-          .on("start", dragstarted)
-          .on("drag", dragged)
-          .on("end", dragended));
+    .filter(function(d){ return d.discipline == 3; })
+    .append("circle")
+    .attr("r", 5)
+    .attr("fill", "black")
+    .call(d3.drag()
+        .on("start", dragstarted)
+        .on("drag", dragged)
+        .on("end", dragended));
+
 
   // Diamonds
   let diamond = d3.symbol()
-  // .type(d3.symbolTriangle)
   .type(d3.symbolDiamond)
   .size(100);
 
-      node
-      .filter(function(d){ return d.discipline == 1; })
-        .append('path')
-        .attr('d', diamond)
-        .attr("class", "triangle")
-        .style("stroke", "white")
-        .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
-        .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
-        .call(d3.drag()
-            .on("start", dragstarted)
-            .on("drag", dragged)
-            .on("end", dragended));
+  node
+    .filter(function(d){ return d.discipline == 1; })
+    .append('path')
+    .attr('d', diamond)
+    .attr("class", "triangle")
+    .style("stroke", "white")
+    .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
+    .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
+    .call(d3.drag()
+        .on("start", dragstarted)
+        .on("drag", dragged)
+        .on("end", dragended));
+
 
   // Triangles
   let tri = d3.symbol()
   .type(d3.symbolTriangle)
   .size(100);
 
-      node
-      .filter(function(d){ return d.discipline == 7; })
-        .append('path')
-        .attr('d', tri)
-        .attr("class", "triangle")
-        .style("stroke", "white")
-        .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
-        .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
-        .call(d3.drag()
-            .on("start", dragstarted)
-            .on("drag", dragged)
-            .on("end", dragended));
+  node
+    .filter(function(d){ return d.discipline == 7; })
+    .append('path')
+    .attr('d', tri)
+    .attr("class", "triangle")
+    .style("stroke", "white")
+    .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
+    .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
+    .call(d3.drag()
+        .on("start", dragstarted)
+        .on("drag", dragged)
+        .on("end", dragended));
 
-  
-
-  // let triangles = node.append('path')
-  //   .attr('d', tri)
-  //   .attr("class", "triangle")
-  //   .style("stroke", "white")
-  //   .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
-  //   .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
-  //   .call(d3.drag()
-  //       .on("start", dragstarted)
-  //       .on("drag", dragged)
-  //       .on("end", dragended));
-      
-  // Circles
-  // let circles = node.append("circle")
-  //     .attr("r", 5)
-  //     .attr("fill", function(d) { return color(d.discipline); })
-  //     .call(d3.drag()
-  //         .on("start", dragstarted)
-  //         .on("drag", dragged)
-  //         .on("end", dragended));
-
+     
   // Rectangles
-  // let rectWidth = 8;
-  // let rects = node.append("rect")
-  //       .attr("width", rectWidth)
-  //       .attr("height", rectWidth)
-  //       .attr("x", -rectWidth / 2)
-  //       .attr("y", -rectWidth / 2)
-  //       // .attr("stroke", function(d) { return color(d.discipline); })
-  //       // .attr("fill", function(d) { return color(d.discipline); })
-  //       .attr("stroke", "white")
-  //       .attr("fill", "black")
-  //       .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
-  //       .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
-  //       .call(d3.drag()
-  //           .on("start", dragstarted)
-  //           .on("drag", dragged)
-  //           .on("end", dragended));
+  let rectWidth = 8;
 
-  // node.append('path')
-  //       .attr("d", d3.symbolTriangle())
-  //       .attr("transform", function(d) { return "translate(" + 100 + "," + 100 + ")"; })
-  //       .style("fill", "red");
+  node
+    .filter(function(d){ return d.discipline == 9; })
+    .append("rect")
+      .attr("width", rectWidth)
+      .attr("height", rectWidth)
+      .attr("x", -rectWidth / 2)
+      .attr("y", -rectWidth / 2)
+      // .attr("stroke", function(d) { return color(d.discipline); })
+      // .attr("fill", function(d) { return color(d.discipline); })
+      .attr("stroke", "white")
+      .attr("fill", "black")
+      .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
+      .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
+      .call(d3.drag()
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended));
 
   // Labels
   let lables = node.append("text")
