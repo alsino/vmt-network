@@ -1,6 +1,7 @@
 // See example: https://bl.ocks.org/heybignick/3faf257bbbbc7743bb72310d03b86ee8
 // Disjoint Force-Directed Graph: https://observablehq.com/@d3/disjoint-force-directed-graph
 // Beziers: https://observablehq.com/@rusackas/force-graph-with-bezier-links
+// Draw triangles: https://stackoverflow.com/questions/43174396/how-to-draw-the-triangle-symbol/43174450
 
 
 // ToDos
@@ -40,13 +41,31 @@ d3.json("./data/artists.json", function(error, graph) {
       .attr("stroke-linecap", "round");
       // .style("stroke-dasharray", function(d) { return d.value === 5 ? ("3, 3") : ("0, 0") } );
 
-
   let node = svg.append("g")
       .attr("class", "nodes")
       .selectAll("g")
       .data(graph.nodes)
       .enter().append("g")
-    
+
+
+  //Triangles
+  var tri = d3.symbol()
+    // .type(d3.symbolTriangle)
+    .type(d3.symbolDiamond)
+    .size(100);
+
+  let triangles = node.append('path')
+    .attr('d', tri)
+    .attr("class", "triangle")
+    .style("stroke", "white")
+    .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
+    .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
+    .call(d3.drag()
+        .on("start", dragstarted)
+        .on("drag", dragged)
+        .on("end", dragended));
+      
+  // Circles
   // let circles = node.append("circle")
   //     .attr("r", 5)
   //     .attr("fill", function(d) { return color(d.discipline); })
@@ -55,29 +74,31 @@ d3.json("./data/artists.json", function(error, graph) {
   //         .on("drag", dragged)
   //         .on("end", dragended));
 
-  let rectWidth = 8;
 
-  let rects = node.append("rect")
-        .attr("width", rectWidth)
-        .attr("height", rectWidth)
-        .attr("x", -rectWidth / 2)
-        .attr("y", -rectWidth / 2)
-        // .attr("stroke", function(d) { return color(d.discipline); })
-        // .attr("fill", function(d) { return color(d.discipline); })
-        .attr("stroke", "white")
-        .attr("fill", "black")
-        .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
-        .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
-        .call(d3.drag()
-            .on("start", dragstarted)
-            .on("drag", dragged)
-            .on("end", dragended));
+  // Rectangles
+  // let rectWidth = 8;
+  // let rects = node.append("rect")
+  //       .attr("width", rectWidth)
+  //       .attr("height", rectWidth)
+  //       .attr("x", -rectWidth / 2)
+  //       .attr("y", -rectWidth / 2)
+  //       // .attr("stroke", function(d) { return color(d.discipline); })
+  //       // .attr("fill", function(d) { return color(d.discipline); })
+  //       .attr("stroke", "white")
+  //       .attr("fill", "black")
+  //       .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
+  //       .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
+  //       .call(d3.drag()
+  //           .on("start", dragstarted)
+  //           .on("drag", dragged)
+  //           .on("end", dragended));
 
   // node.append('path')
   //       .attr("d", d3.symbolTriangle())
   //       .attr("transform", function(d) { return "translate(" + 100 + "," + 100 + ")"; })
   //       .style("fill", "red");
 
+  // Labels
   let lables = node.append("text")
       .text(function(d) {
         return d.name;
