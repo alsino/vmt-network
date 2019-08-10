@@ -2,6 +2,7 @@
 // Disjoint Force-Directed Graph: https://observablehq.com/@d3/disjoint-force-directed-graph
 // Beziers: https://observablehq.com/@rusackas/force-graph-with-bezier-links
 // Draw triangles: https://stackoverflow.com/questions/43174396/how-to-draw-the-triangle-symbol/43174450
+// Other shapes: https://bl.ocks.org/feyderm/4d143591b66725aed0f1855444752fd9
 
 
 // ToDos
@@ -73,7 +74,6 @@ d3.json("./data/artists.json", function(error, graph) {
   //         .on("start", dragstarted)
   //         .on("drag", dragged)
   //         .on("end", dragended));
-
 
   // Rectangles
   // let rectWidth = 8;
