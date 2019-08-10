@@ -46,25 +46,71 @@ d3.json("./data/artists.json", function(error, graph) {
       .attr("class", "nodes")
       .selectAll("g")
       .data(graph.nodes)
-      .enter().append("g")
+      .enter()
+      .append("g");
 
+  console.log(graph.nodes);
 
-  //Triangles
-  var tri = d3.symbol()
-    // .type(d3.symbolTriangle)
-    .type(d3.symbolDiamond)
-    .size(100);
+  // Circles
+  node
+  .filter(function(d){ return d.discipline == 3; })
+      .append("circle")
+      .attr("r", 5)
+      .attr("fill", "black")
+      .call(d3.drag()
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended));
 
-  let triangles = node.append('path')
-    .attr('d', tri)
-    .attr("class", "triangle")
-    .style("stroke", "white")
-    .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
-    .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
-    .call(d3.drag()
-        .on("start", dragstarted)
-        .on("drag", dragged)
-        .on("end", dragended));
+  // Diamonds
+  let diamond = d3.symbol()
+  // .type(d3.symbolTriangle)
+  .type(d3.symbolDiamond)
+  .size(100);
+
+      node
+      .filter(function(d){ return d.discipline == 1; })
+        .append('path')
+        .attr('d', diamond)
+        .attr("class", "triangle")
+        .style("stroke", "white")
+        .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
+        .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
+        .call(d3.drag()
+            .on("start", dragstarted)
+            .on("drag", dragged)
+            .on("end", dragended));
+
+  // Triangles
+  let tri = d3.symbol()
+  .type(d3.symbolTriangle)
+  .size(100);
+
+      node
+      .filter(function(d){ return d.discipline == 7; })
+        .append('path')
+        .attr('d', tri)
+        .attr("class", "triangle")
+        .style("stroke", "white")
+        .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
+        .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
+        .call(d3.drag()
+            .on("start", dragstarted)
+            .on("drag", dragged)
+            .on("end", dragended));
+
+  
+
+  // let triangles = node.append('path')
+  //   .attr('d', tri)
+  //   .attr("class", "triangle")
+  //   .style("stroke", "white")
+  //   .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
+  //   .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
+  //   .call(d3.drag()
+  //       .on("start", dragstarted)
+  //       .on("drag", dragged)
+  //       .on("end", dragended));
       
   // Circles
   // let circles = node.append("circle")
