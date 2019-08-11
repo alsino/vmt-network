@@ -30,7 +30,7 @@ let simulation = d3.forceSimulation()
 //     .force("x", d3.forceX())
 //     .force("y", d3.forceY());
 
-d3.json("./data/artists_100819.json", function(error, graph) {
+d3.json("./data/artists_110819.json", function(error, graph) {
   if (error) throw error;
 
   let link = svg.append("g")
@@ -179,26 +179,6 @@ function dragended(d) {
 // Kommentare:
 // ----------
 
-// value
-// 0 -  kein Kontakt
-// 5 -  bekannt. aber nicht näher
-// 10 - gemeinsam ausgestellt/ aufgetreten
-// 15 - gemeinsam residency/Programm
-// 20 - gemeinsam kollaboriert
-
-
-// discipline
-// 1-  installation
-// 2 - performance
-// 3 - painting/ drawing
-// 4 - photography
-// 5 - collage
-// 6 - sculpture
-// 7 - sound/ music
-// 8 - poetry
-// 9 - film
-
-
 // LATEST
 // discipline
 // 1 - installation
@@ -212,3 +192,14 @@ function dragended(d) {
 // 9 - film
 //10 – conceptual art / mixed media
 //11 – generative art
+
+
+// connections
+
+// A /  0: no contact 
+// B /  5: I know her/him, but not closer
+// C / 10: We’ve exhibited together / We’ve been on stage together
+// D / 15: We’ve been together in a residency / program
+// E / 20: I’ve been in her/his studio
+// F / 25: We’ve collaborated on a project / art piece 
+// G / 30: We know each other / We are friends 
