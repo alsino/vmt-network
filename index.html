@@ -6,18 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Network</title>
   <script src="https://d3js.org/d3.v4.min.js"></script>
+
+
+  <link href="https://fonts.googleapis.com/css?family=Amiri&display=swap" rel="stylesheet">
   
 
 
   <style>
 
     html, body {
-      font-family: Helvetica, Arial, sans-serif;
+      font-family: 'Amiri', serif;
       background: black;
       color: white;
       margin: 0;
       padding: 0;
+      font-size: 16px;
     }
+
+  
 
     svg {
       background: black;
@@ -53,11 +59,21 @@
       cursor: pointer;
     }
 
+    #title {
+      position: absolute;
+      top: 0;
+      left: 3vw;
+      font-size: 5rem;
+      margin-top: 0;
+      font-weight: normal;
+    }
+
     #intro {
       width: 20vw;
       position: absolute;
       top: 20vh;
       left: 3vw;
+      line-height: 1.5;
     }
 
     
@@ -65,9 +81,8 @@
 
 </head>
 <body>
-  <h1>visitmytent</h1>
-  <p>artist network</p>
-  <div id="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur eius cumque ut alias ipsa libero ex corrupti dolores quas facilis amet reprehenderit illum facere, omnis vero tempora mollitia soluta? Amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur eius cumque ut alias ipsa libero ex corrupti dolores quas facilis amet reprehenderit illum facere, omnis vero tempora mollitia soluta? Amet.</div>
+  <h1 id = "title">visitmytent</h1>
+  <div id = "intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur eius cumque ut alias ipsa libero ex corrupti dolores quas facilis amet reprehenderit illum facere, omnis vero tempora mollitia soluta? Amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur eius cumque ut alias ipsa libero ex corrupti dolores quas facilis amet reprehenderit illum facere, omnis vero tempora mollitia soluta? Amet.</div>
   <svg width="960" height="600"></svg>
   
 </body>
