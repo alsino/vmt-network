@@ -19,17 +19,18 @@ var svg = d3.select("svg"),
 let color = d3.scaleOrdinal(d3.schemeCategory20);
 
 let simulation = d3.forceSimulation()
-    .force("link", d3.forceLink().id(function(d) { return d.name; }).distance(300)) // distance is length of links
+    .force("link", d3.forceLink().id(function(d) { return d.name; }).distance(200)) // distance is length of links
     .force("charge", d3.forceManyBody())
     .force("center", d3.forceCenter(width / 2, height / 2));
 
 // let simulation = d3.forceSimulation()
-//     .force("link", d3.forceLink().id(d => d.name))
+//     .force("link", d3.forceLink().id(d => d.name).distance(500))
 //     .force("charge", d3.forceManyBody())
+//     .force("center", d3.forceCenter(width / 2, height / 2))
 //     .force("x", d3.forceX())
 //     .force("y", d3.forceY());
 
-d3.json("./data/artists.json", function(error, graph) {
+d3.json("./data/artists_100819.json", function(error, graph) {
   if (error) throw error;
 
   let link = svg.append("g")
@@ -52,7 +53,7 @@ d3.json("./data/artists.json", function(error, graph) {
 
   // Circles
   node
-    .filter(function(d){ return d.discipline == 3; })
+    .filter(function(d){ return d.discipline == 3;})
     .append("circle")
     .attr("r", 5)
     .attr("fill", "black")
@@ -196,3 +197,18 @@ function dragended(d) {
 // 7 - sound/ music
 // 8 - poetry
 // 9 - film
+
+
+// LATEST
+// discipline
+// 1 - installation
+// 2 - performance
+// 3 - painting / drawing/graphic
+// 4 - photography
+// 5 - collage
+// 6 - sculpture
+// 7 - music / sound
+// 8 - writing
+// 9 - film
+//10 – conceptual art / mixed media
+//11 – generative art
