@@ -19,7 +19,7 @@ var svg = d3.select("svg"),
 let color = d3.scaleOrdinal(d3.schemeCategory20);
 
 let simulation = d3.forceSimulation()
-    .force("link", d3.forceLink().id(function(d) { return d.name; }).distance(200)) // distance is length of links
+    .force("link", d3.forceLink().id(function(d) { return d.name; }).distance(100)) // distance is length of links
     .force("charge", d3.forceManyBody())
     .force("center", d3.forceCenter(width / 2, height / 2));
 
@@ -30,7 +30,7 @@ let simulation = d3.forceSimulation()
 //     .force("x", d3.forceX())
 //     .force("y", d3.forceY());
 
-d3.json("./data/artists_110819.json", function(error, graph) {
+d3.json("./data/artists_130819.json", function(error, graph) {
   if (error) throw error;
 
   let link = svg.append("g")
