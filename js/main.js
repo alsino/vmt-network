@@ -57,6 +57,8 @@ d3.json("./data/artists_140819.json", function(error, graph) {
     .append("circle")
     .attr("r", 5)
     .attr("fill", "black")
+    .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
+    .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
     .call(d3.drag()
         .on("start", dragstarted)
         .on("drag", dragged)
