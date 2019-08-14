@@ -12,7 +12,7 @@
 // Kleiner Intro-Text
 
 
-var svg = d3.select("svg"),
+let svg = d3.select("svg"),
     width = +svg.attr("width"),
     height = +svg.attr("height");
 
@@ -30,7 +30,7 @@ let simulation = d3.forceSimulation()
 //     .force("x", d3.forceX())
 //     .force("y", d3.forceY());
 
-d3.json("./data/artists_130819.json", function(error, graph) {
+d3.json("./data/artists_140819.json", function(error, graph) {
   if (error) throw error;
 
   let link = svg.append("g")
