@@ -30,7 +30,7 @@ let simulation = d3.forceSimulation()
 //     .force("x", d3.forceX())
 //     .force("y", d3.forceY());
 
-d3.json("./data/artists_140819.json", function(error, graph) {
+d3.json("./data/artists_150819.json", function(error, graph) {
   if (error) throw error;
 
   let link = svg.append("g")
@@ -128,6 +128,9 @@ d3.json("./data/artists_140819.json", function(error, graph) {
   let lables = node.append("text")
       .text(function(d) {
         return d.name;
+      })
+      .style("font-size", (d) => {
+        return 10
       })
       .attr('x', 6)
       .attr('y', 3)
