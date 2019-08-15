@@ -3,6 +3,7 @@
 // Beziers: https://observablehq.com/@rusackas/force-graph-with-bezier-links
 // Draw triangles: https://stackoverflow.com/questions/43174396/how-to-draw-the-triangle-symbol/43174450
 // Other shapes: https://bl.ocks.org/feyderm/4d143591b66725aed0f1855444752fd9
+// Node size based on # links: https://stackoverflow.com/questions/38173304/d3-javascript-network-how-to-parametrize-node-size-with-the-number-of-links
 
 
 // ToDos
@@ -42,6 +43,21 @@ d3.json("./data/artists_150819.json", function(error, graph) {
       .attr("stroke-linecap", "round");
       // .style("stroke-dasharray", function(d) { return d.value === 5 ? ("3, 3") : ("0, 0") } );
 
+      // Find number of links
+      graph.links.forEach(function(link){
+
+        // initialize a new property on the node
+        if (!link.source["linkCount"]) link.source["linkCount"] = 0; 
+        if (!link.target["linkCount"]) link.target["linkCount"] = 0;
+      
+        // count it up
+        link.source["linkCount"]++;
+        link.target["linkCount"]++;   
+        
+        // console.log(link.source);
+      });
+      
+
   let node = svg.append("g")
       .attr("class", "nodes")
       .selectAll("g")
@@ -49,13 +65,16 @@ d3.json("./data/artists_150819.json", function(error, graph) {
       .enter()
       .append("g");
 
-  console.log(graph.nodes);
+  // console.log(graph.nodes);
 
   // Circles
   node
     .filter(function(d){ return d.discipline == 3;})
     .append("circle")
-    .attr("r", 5)
+    // .attr("r", 5)
+    .attr("r", function(d){
+      return d.linkCount ? (d.linkCount * 20) : 10; //<-- some function to determine radius
+      })
     .attr("fill", "black")
     .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
     .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
@@ -130,7 +149,8 @@ d3.json("./data/artists_150819.json", function(error, graph) {
         return d.name;
       })
       .style("font-size", (d) => {
-        return 10
+        console.log(d);
+        // return d.linkCount * 20;
       })
       .attr('x', 6)
       .attr('y', 3)
