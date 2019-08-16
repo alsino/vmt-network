@@ -31,7 +31,7 @@ let simulation = d3.forceSimulation()
 //     .force("x", d3.forceX())
 //     .force("y", d3.forceY());
 
-d3.json("./data/artists_150819.json", function(error, graph) {
+d3.json("./data/artists_160819.json", function(error, graph) {
   if (error) throw error;
 
   let link = svg.append("g")
