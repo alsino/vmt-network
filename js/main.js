@@ -9,8 +9,6 @@
 // ToDos
 // Bezier connections
 // Unvernetzte besser darstellen
-// Github bei Steph installieren
-// Kleiner Intro-Text
 
 
 let svg = d3.select("svg"),
