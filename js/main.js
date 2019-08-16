@@ -1,14 +1,12 @@
 // See example: https://bl.ocks.org/heybignick/3faf257bbbbc7743bb72310d03b86ee8
 // Disjoint Force-Directed Graph: https://observablehq.com/@d3/disjoint-force-directed-graph
 // Beziers: https://observablehq.com/@rusackas/force-graph-with-bezier-links
-// Draw triangles: https://stackoverflow.com/questions/43174396/how-to-draw-the-triangle-symbol/43174450
-// Other shapes: https://bl.ocks.org/feyderm/4d143591b66725aed0f1855444752fd9
 // Node size based on # links: https://stackoverflow.com/questions/38173304/d3-javascript-network-how-to-parametrize-node-size-with-the-number-of-links
 
 
 // ToDos
-// Bezier connections
 // Unvernetzte besser darstellen
+// Bezier connections
 
 
 let svg = d3.select("svg"),
@@ -73,9 +71,9 @@ d3.json("./data/artists_160819.json", function(error, graph) {
     .attr("r", function(d){
       return d.linkCount ? (d.linkCount * 20) : 10; //<-- some function to determine radius
       })
-    .attr("fill", "black")
-    .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
-    .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
+    .style("fill", "white")
+    .on("mouseover", function(d) {return d3.select(this).style("fill", "black")})
+    .on("mouseout", function(d) {return d3.select(this).style("fill", "white")})
     .call(d3.drag()
         .on("start", dragstarted)
         .on("drag", dragged)
@@ -93,8 +91,9 @@ d3.json("./data/artists_160819.json", function(error, graph) {
     .attr('d', diamond)
     .attr("class", "triangle")
     .style("stroke", "white")
-    .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
-    .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
+    .style("fill", "white")
+    .on("mouseover", function(d) {return d3.select(this).style("fill", "black")})
+    .on("mouseout", function(d) {return d3.select(this).style("fill", "white")})
     .call(d3.drag()
         .on("start", dragstarted)
         .on("drag", dragged)
@@ -112,8 +111,9 @@ d3.json("./data/artists_160819.json", function(error, graph) {
     .attr('d', tri)
     .attr("class", "triangle")
     .style("stroke", "white")
-    .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
-    .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
+    .style("fill", "white")
+    .on("mouseover", function(d) {return d3.select(this).style("fill", "black")})
+    .on("mouseout", function(d) {return d3.select(this).style("fill", "white")})
     .call(d3.drag()
         .on("start", dragstarted)
         .on("drag", dragged)
@@ -133,9 +133,9 @@ d3.json("./data/artists_160819.json", function(error, graph) {
       // .attr("stroke", function(d) { return color(d.discipline); })
       // .attr("fill", function(d) { return color(d.discipline); })
       .attr("stroke", "white")
-      .attr("fill", "black")
-      .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
-      .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
+      .attr("fill", "white")
+      .on("mouseover", function(d) {return d3.select(this).style("fill", "black")})
+      .on("mouseout", function(d) {return d3.select(this).style("fill", "white")})
       .call(d3.drag()
           .on("start", dragstarted)
           .on("drag", dragged)
