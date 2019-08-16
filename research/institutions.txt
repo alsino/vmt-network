@@ -1,0 +1,39 @@
+
+// institutions
+
+residencies:
+
+//Villa Romana
+Jeewi Lee
+Viron Erol Ert
+Christophe Ndabananiye
+Lerato Shadi
+
+
+
+galleries:
+
+//Sexauer
+Ornella Fieres
+Jay Gard
+Philip Grözinger
+Caroline Kryzecki
+Jeewi Lee
+
+
+//Galerie Kornfeld
+Stefanie Gutheil
+Franziska Klotz
+
+
+//Galerie Reinhard Hauff
+Wolfgang Flad
+Viron Erol Vert
+
+
+//FOLD gallery
+Michaela Zimmer
+
+
+
+

@@ -1,0 +1,29 @@
+//legend
+
+
+// discipline
+
+// 1 - installation
+// 2 - performance
+// 3 - painting / drawing / graphic / illustration
+// 4 - photography
+// 5 - collage
+// 6 - sculpture
+// 7 - music / sound
+// 8 - writing
+// 9 - film
+//10 - conceptual art / mixed media
+//11 - generative art
+
+
+// connections
+
+// A /  0: no contact 
+// B /  5: I know her/him, but not closer
+// C / 10: We’ve exhibited together / We’ve been on stage together
+// D / 15: We’ve been together in a residency / program
+// E / 20: I’ve been in her/his studio
+// F / 25: We’ve collaborated on a project / art piece 
+// G / 30: We know each other / We are friends 
+
+
