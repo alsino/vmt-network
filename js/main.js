@@ -35,6 +35,8 @@ let simulation = d3.forceSimulation()
     .force("x", d3.forceX())
     .force("y", d3.forceY());
 
+// DATEN IN JSONLINT GECHECKT?
+// HIER DIE DATEN ÄNDERN -> DATUM AUSTAUSCHEN
 d3.json("./data/artists_160819.json", function(error, graph) {
   if (error) throw error;
 
