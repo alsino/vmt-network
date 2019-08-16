@@ -5,7 +5,9 @@
 
 
 // ToDos
-// Unvernetzte besser darstellen
+// On hover einzelner Künstler: Nur seine Links darstellen
+// machine learning foto erkennung
+// Organische leichte Bewegung
 // Bezier connections
 
 
@@ -13,12 +15,23 @@ let svg = d3.select("svg"),
     width = +svg.attr("width"),
     height = +svg.attr("height");
 
+svg
+.attr("viewBox", [-width / 2, -height / 2, width, height]);
+
+    
 let color = d3.scaleOrdinal(d3.schemeCategory20);
 
+// let simulation = d3.forceSimulation()
+//     .force("link", d3.forceLink().id(function(d) { return d.name; }).distance(100)) // distance is length of links
+//     .force("charge", d3.forceManyBody())
+//     .force("center", d3.forceCenter(width / 2, height / 2));
+
 let simulation = d3.forceSimulation()
-    .force("link", d3.forceLink().id(function(d) { return d.name; }).distance(100)) // distance is length of links
+    .force("link", d3.forceLink().id(d => d.name).distance(300))
     .force("charge", d3.forceManyBody())
-    .force("center", d3.forceCenter(width / 2, height / 2));
+    .force("x", d3.forceX())
+    .force("y", d3.forceY());
+
 
 // let simulation = d3.forceSimulation()
 //     .force("link", d3.forceLink().id(d => d.name).distance(500))
@@ -147,7 +160,7 @@ d3.json("./data/artists_160819.json", function(error, graph) {
         return d.name;
       })
       .style("font-size", (d) => {
-        console.log(d);
+        // console.log(d);
         // return d.linkCount * 20;
       })
       .attr('x', 6)

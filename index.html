@@ -16,7 +16,7 @@
 
     html, body {
       font-family: 'Amiri', serif;
-      background:white;
+      background:red;
       color: black;
       margin: 0;
       padding: 0;
@@ -28,13 +28,19 @@
     }
 
     svg {
+      flex: 3;
       background: white;
       display: block;
       margin: 0 auto;
     }
 
+    .wrapper {
+      display: flex;
+      margin: 5%;
+    }
+
     .links line {
-      stroke: black;
+      stroke: rgb(182, 182, 182);
       stroke-opacity: 0.6;
       /* stroke-dasharray: 5; */
     }
@@ -62,10 +68,7 @@
 
   
     #intro {
-      width: 20vw;
-      position: absolute;
-      top: 5vh;
-      left: 3vw;
+      flex: 1;
       line-height: 1.5;
       font-family: 'Work Sans', sans-serif;
       font-size: 0.85rem;
@@ -76,12 +79,14 @@
 
 </head>
 <body>
-  <div id = "intro">Exploring Artists’ Networks visualizes the relationships between contemporary artists working in various fields – painting, drawing, sculpture, photography, film, writing, installation, sound, music, generative art, and performance – creating an inside view into the networks of selected artists presented on visitmytent. Do the artists know each other, have they exhibited together or even collaborated together on a piece of art? Different vectors connect individuals depending on the manner of their relation. The bolder the names the more connections these artists have among the group. The depth of their relationship influences their proximity in the network. Selecting a specific artist points out connected artists and institutions as well as the related interview and studio visit. 
-  <br><br>
-  The visualization was developed as a collaboration between <a href="https://www.stephanieneumann.com/">Stephanie Neumann</a> and <a href="http://alsino.io/">Alsino Skowronnek</a> in Berlin, 2019.
+  <div class="wrapper">
+      <aside id = "intro">
+          Exploring Artists’ Networks visualizes the relationships between contemporary artists working in various fields – painting, drawing, sculpture, photography, film, writing, installation, sound, music, generative art, and performance – creating an inside view into the networks of selected artists presented on visitmytent. Do the artists know each other, have they exhibited together or even collaborated together on a piece of art? Different vectors connect individuals depending on the manner of their relation. The bolder the names the more connections these artists have among the group. The depth of their relationship influences their proximity in the network. Selecting a specific artist points out connected artists and institutions as well as the related interview and studio visit. 
+          <br><br>
+          The visualization was developed as a collaboration between <a href="https://www.stephanieneumann.com/">Stephanie Neumann</a> and <a href="http://alsino.io/">Alsino Skowronnek</a> in Berlin, 2019.
+      </aside>
+      <svg width="800" height="600"></svg>
   </div>
-  <svg width="960" height="600"></svg>
-  
 </body>
 <script src="js/main.js"></script>
 

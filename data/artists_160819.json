@@ -314,10 +314,6 @@
      "discipline": 10
    },
    {
-     "name": "Pedro Lopes",
-     "discipline": 1
-   },
-   {
      "name": "Sean Derrick Cooper Marquardt",
      "discipline": 7
    },
@@ -966,9 +962,6 @@
      "target": "Hansa Wißkirchen",
      "value": 5
    },
-
-
-
 
    {
      "source": "Pedro Lopes",
