@@ -470,13 +470,7 @@
      "discipline": 3
    }
  ],
-
-
-
-
  "links": [
-
-
    {
      "source": "Fehmi Baumbach",
      "target": "Bernd Begemann",
@@ -804,9 +798,6 @@
      "target": "Hansa Wißkirchen",
      "value": 30
    },
-
-
-
    {
      "source": "Moritz Frei",
      "target": "Christian Achenbach",
@@ -1412,9 +1403,6 @@
        "target": "Trak Wendisch",
        "value": 20
    },
-
-
-
    {
        "source": "Jeewi Lee",
        "target": "Christian Achenbach",
@@ -1735,9 +1723,6 @@
        "target": "Michaela Zimmer",
        "value": 5
    },
-
-
-
    {
        "source": "Bärnd Nettmann",
        "target": "Fehmi Baumbach",
@@ -1763,9 +1748,6 @@
        "target": "Maria Gideon",
        "value": 10
    },
-
-
-
    {
        "source": "Manfred Peckl",
        "target": "Christian Achenbach",
@@ -2811,7 +2793,5 @@
      "target": "Hansa Wißkirchen",
      "value": 10
    }
-
-
  ]
 }

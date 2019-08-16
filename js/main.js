@@ -2,9 +2,12 @@
 // Disjoint Force-Directed Graph: https://observablehq.com/@d3/disjoint-force-directed-graph
 // Beziers: https://observablehq.com/@rusackas/force-graph-with-bezier-links
 // Node size based on # links: https://stackoverflow.com/questions/38173304/d3-javascript-network-how-to-parametrize-node-size-with-the-number-of-links
+// Understanding force layout: http://jsdatav.is/visuals.html?id=11550728
+// No label overlap: http://bl.ocks.org/MoritzStefaner/1377729
 
 
 // ToDos
+// Label overlap problem lösen: http://bl.ocks.org/MoritzStefaner/1377729
 // On hover einzelner Künstler: Nur seine Links darstellen
 // machine learning foto erkennung
 // Organische leichte Bewegung
@@ -27,21 +30,15 @@ let color = d3.scaleOrdinal(d3.schemeCategory20);
 //     .force("center", d3.forceCenter(width / 2, height / 2));
 
 let simulation = d3.forceSimulation()
-    .force("link", d3.forceLink().id(d => d.name).distance(300))
-    .force("charge", d3.forceManyBody())
+    .force("link", d3.forceLink().id(d => d.name).distance(100))
+    .force("charge", d3.forceManyBody().strength(-80))
     .force("x", d3.forceX())
     .force("y", d3.forceY());
 
-
-// let simulation = d3.forceSimulation()
-//     .force("link", d3.forceLink().id(d => d.name).distance(500))
-//     .force("charge", d3.forceManyBody())
-//     .force("center", d3.forceCenter(width / 2, height / 2))
-//     .force("x", d3.forceX())
-//     .force("y", d3.forceY());
-
 d3.json("./data/artists_160819.json", function(error, graph) {
   if (error) throw error;
+
+  console.log(graph);
 
   let link = svg.append("g")
       .attr("class", "links")
@@ -78,7 +75,7 @@ d3.json("./data/artists_160819.json", function(error, graph) {
 
   // Circles
   node
-    .filter(function(d){ return d.discipline == 3;})
+    // .filter(function(d){ return d.discipline == 3;})
     .append("circle")
     .attr("r", 5)
     // .attr("r", function(d){
@@ -93,66 +90,66 @@ d3.json("./data/artists_160819.json", function(error, graph) {
         .on("end", dragended));
 
 
-  // Diamonds
-  let diamond = d3.symbol()
-  .type(d3.symbolDiamond)
-  .size(100);
+  // // Diamonds
+  // let diamond = d3.symbol()
+  // .type(d3.symbolDiamond)
+  // .size(100);
 
-  node
-    .filter(function(d){ return d.discipline == 1; })
-    .append('path')
-    .attr('d', diamond)
-    .attr("class", "triangle")
-    .style("stroke", "black")
-    .style("fill", "black")
-    .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
-    .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
-    .call(d3.drag()
-        .on("start", dragstarted)
-        .on("drag", dragged)
-        .on("end", dragended));
+  // node
+  //   .filter(function(d){ return d.discipline == 1; })
+  //   .append('path')
+  //   .attr('d', diamond)
+  //   .attr("class", "triangle")
+  //   .style("stroke", "black")
+  //   .style("fill", "black")
+  //   .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
+  //   .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
+  //   .call(d3.drag()
+  //       .on("start", dragstarted)
+  //       .on("drag", dragged)
+  //       .on("end", dragended));
 
 
-  // Triangles
-  let tri = d3.symbol()
-  .type(d3.symbolTriangle)
-  .size(100);
+  // // Triangles
+  // let tri = d3.symbol()
+  // .type(d3.symbolTriangle)
+  // .size(100);
 
-  node
-    .filter(function(d){ return d.discipline == 7; })
-    .append('path')
-    .attr('d', tri)
-    .attr("class", "triangle")
-    .style("stroke", "black")
-    .style("fill", "black")
-    .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
-    .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
-    .call(d3.drag()
-        .on("start", dragstarted)
-        .on("drag", dragged)
-        .on("end", dragended));
+  // node
+  //   .filter(function(d){ return d.discipline == 7; })
+  //   .append('path')
+  //   .attr('d', tri)
+  //   .attr("class", "triangle")
+  //   .style("stroke", "black")
+  //   .style("fill", "black")
+  //   .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
+  //   .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
+  //   .call(d3.drag()
+  //       .on("start", dragstarted)
+  //       .on("drag", dragged)
+  //       .on("end", dragended));
 
      
-  // Rectangles
-  let rectWidth = 8;
+  // // Rectangles
+  // let rectWidth = 8;
 
-  node
-    .filter(function(d){ return d.discipline == 9; })
-    .append("rect")
-      .attr("width", rectWidth)
-      .attr("height", rectWidth)
-      .attr("x", -rectWidth / 2)
-      .attr("y", -rectWidth / 2)
-      // .attr("stroke", function(d) { return color(d.discipline); })
-      // .attr("fill", function(d) { return color(d.discipline); })
-      .attr("stroke", "black")
-      .attr("fill", "black")
-      .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
-      .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
-      .call(d3.drag()
-          .on("start", dragstarted)
-          .on("drag", dragged)
-          .on("end", dragended));
+  // node
+  //   .filter(function(d){ return d.discipline == 9; })
+  //   .append("rect")
+  //     .attr("width", rectWidth)
+  //     .attr("height", rectWidth)
+  //     .attr("x", -rectWidth / 2)
+  //     .attr("y", -rectWidth / 2)
+  //     // .attr("stroke", function(d) { return color(d.discipline); })
+  //     // .attr("fill", function(d) { return color(d.discipline); })
+  //     .attr("stroke", "black")
+  //     .attr("fill", "black")
+  //     .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
+  //     .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
+  //     .call(d3.drag()
+  //         .on("start", dragstarted)
+  //         .on("drag", dragged)
+  //         .on("end", dragended));
 
   // Labels
   let lables = node.append("text")
