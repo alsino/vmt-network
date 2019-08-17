@@ -2,471 +2,924 @@
  "nodes": [
    {
      "name": "Christian Achenbach",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "male",
+     "birthYear": 1978,     
+     "birthTown": "Siegen",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Jörg-Uwe Albig",
-     "discipline": 8
+     "discipline": 8,
+     "gender": "male",
+     "birthYear": 1960,     
+     "birthTown": "Bremen",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Jofroi Amaral",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "male",
+     "birthYear": 1977,     
+     "birthTown": "Brussels",     
+     "birthCountry": "Belgium"
    },
    {
      "name": "Android Empire",
-     "discipline": 7
+     "discipline": 7,
+     "gender": "male"
    },
    {
      "name": "Song-Ming Ang",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "male",
+     "birthYear": 1980,
+     "birthTown": "Singapore",     
+     "birthCountry": "Singapore"
    },
    {
      "name": "Axel Anklam",
-     "discipline": 6
+     "discipline": 6,
+     "gender": "male",
+     "birthYear": 1971,     
+     "birthTown": "Wriezen",     
+     "birthCountry": "GDR"
    },
    {
      "name": "Frank Arndt",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "male",
+     "birthYear": 1971,       
+     "birthTown": "?",     
+     "birthCountry": "?"
    },
    {
      "name": "Aram Bartholl",
-     "discipline": 10
+     "discipline": 10,
+     "gender": "male",
+     "birthYear": 1972,       
+     "birthTown": "Bremen",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Christopher Bauder",
-     "discipline": 1
+     "discipline": 1,
+     "gender": "male",
+     "birthYear": 1973,       
+     "birthTown": "Stuttgart",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Fehmi Baumbach",
-     "discipline": 5
+     "discipline": 5,
+     "gender": "female",
+     "birthYear": 1971,       
+     "birthTown": "near Braunschweig",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Bernd Begemann",
-     "discipline": 7
+     "discipline": 7,
+     "gender": "male",
+     "birthYear": 1962,       
+     "birthTown": "Bad Salzuflen",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Clemens Behr",
-     "discipline": 1
+     "discipline": 1,
+     "gender": "male",
+     "birthYear": 1985,       
+     "birthTown": "Koblenz",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Sebastian Bieniek",
-     "discipline": 4
+     "discipline": 4,
+     "gender": "male",
+     "birthYear": 1975,       
+     "birthTown": "Czarnowanz",
+     "birthCountry": "Poland"
    },
    {
      "name": "Alex Bodea",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "female",
+     "birthYear": 1981,         
+     "birthTown": "?",     
+     "birthCountry": "Romania"
    },
    {
      "name": "Lothar Böhme",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "male",
+     "birthYear": 1938,         
+     "birthTown": "Berlin",     
+     "birthCountry": "GDR"
    },
    {
      "name": "Isabelle Borges",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "female",
+     "birthYear": 1966,         
+     "birthTown": "Salvador",     
+     "birthCountry": "Brazil"
    },
    {
      "name": "Fritz Bornstück",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "male",
+     "birthYear": 1982,         
+     "birthTown": "Weilburg",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Stefano Bosis",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "male",
+     "birthYear": 0,         
+     "birthTown": "Milano",     
+     "birthCountry": "Italy"
    },
    {
      "name": "Bram Braam",
-     "discipline": 6
+     "discipline": 6,
+     "gallery":"galerie burster",
+     "gender": "male",
+     "birthYear": 1980,         
+     "birthTown": "Sittard",     
+     "birthCountry": "Netherlands"
    },
    {
      "name": "Jenny Brosinski",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "female",
+     "birthYear": 1984,         
+     "birthTown": "Celle",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Mimmo Catania",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "male",
+     "birthYear": 1955,         
+     "birthTown": "Vittoria",     
+     "birthCountry": "Italy"
    },
    {
      "name": "Carla Chan",
-     "discipline": 4
+     "discipline": 4,
+     "gender": "female",
+     "birthYear": 1989,         
+     "birthTown": "Guangdong",     
+     "birthCountry": "China"
    },
    {
      "name": "Velten Doering",
-     "discipline": 7
+     "discipline": 7,
+     "gender": "male",
+     "birthYear": 1978,         
+     "birthTown": "Leipzig",     
+     "birthCountry": "GDR"
    },
    {
      "name": "Grigori Dor",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "male",
+     "birthYear": 1970,         
+     "birthTown": "Ulan-Ude",     
+     "birthCountry": "USSR"
    },
    {
      "name": "Sven Drühl",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "male",
+     "birthYear": 1968,         
+     "birthTown": "Nassau",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Craig Dyer",
-     "discipline": 7
+     "discipline": 7,
+     "gender": "male",
+     "birthYear": 0,         
+     "birthTown": "Manchester",     
+     "birthCountry": "United Kingdom"
    },
    {
      "name": "Liisi Eelmaa",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "female",
+     "birthYear": 1982,         
+     "birthTown": "Tallinn",     
+     "birthCountry": "Estonia"
    },
    {
      "name": "Otgonbayar Ershuu",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "male",
+     "birthYear": 1981,         
+     "birthTown": "Ulaanbaatar",     
+     "birthCountry": "Mongolia"
    },
    {
      "name": "Ornella Fieres",
-     "discipline": 4
+     "discipline": 4,
+     "gender": "female",
+     "birthYear": 1984,         
+     "birthTown": "Frankfurt/Main",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Francesco Fillini",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "male",
+     "birthYear": 0,         
+     "birthTown": "?",     
+     "birthCountry": "Italy"
    },
    {
      "name": "Wolfgang Flad",
-     "discipline": 6
+     "discipline": 6,
+     "gender": "male",
+     "birthYear": 1974,         
+     "birthTown": "Reutlingen",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Alex Flemming",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "male",
+     "birthYear": 1954,         
+     "birthTown": "São Paulo",     
+     "birthCountry": "Brazil"
    },
    {
      "name": "Moritz Frei",
-     "discipline": 10
+     "discipline": 10,
+     "gender": "male",
+     "birthYear": 1978,         
+     "birthTown": "Frankfurt/Main",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Peter Freitag",
-     "discipline": 5
+     "discipline": 5,
+     "gender": "male",
+     "birthYear": 1972,         
+     "birthTown": "Ochsenfurt",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Paul Frick",
-     "discipline": 7
+     "discipline": 7,
+     "gender": "male",
+     "birthYear": 1979,         
+     "birthTown": "Berlin",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Jay Gard",
-     "discipline": 10
+     "discipline": 10,
+     "gender": "male",
+     "birthYear": 1984,         
+     "birthTown": "Halle/Saale",     
+     "birthCountry": "GDR"
    },
    {
      "name": "Maria Gideon",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "female",
+     "birthYear": 1977,         
+     "birthTown": "Berlin",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Lukas Glinkowski",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "male",
+     "birthYear": 1984,         
+     "birthTown": "Chełmno",     
+     "birthCountry": "Poland"
    },
    {
      "name": "Hannah Goldstein",
-     "discipline": 4
+     "discipline": 4,
+     "gender": "female",
+     "birthYear": 0,         
+     "birthTown": "?",     
+     "birthCountry": "Sweden"
    },
    {
      "name": "Oliver Gröne",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "male",
+     "birthYear": 1969,         
+     "birthTown": "Lemgo",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Philip Grözinger",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "male",
+     "birthYear": 1972,         
+     "birthTown": "Braunschweig",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Daniel Grüttner",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "male",
+     "birthYear": 1979,         
+     "birthTown": "Rotenburg a.d. Wümme",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Stefanie Gutheil",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "female",
+     "birthYear": 1980,         
+     "birthTown": "Ravensburg",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Lucas Gutierrez",
-     "discipline": 11
+     "discipline": 11,
+     "gender": "male",
+     "birthYear": 1985,         
+     "birthTown": "Belén/Catamarca",     
+     "birthCountry": "Argentina"
    },
    {
      "name": "Janes Haid-Schmallenberg",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "male",
+     "birthYear": 1988,         
+     "birthTown": "Warstein",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Jens Hausmann",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "male",
+     "birthYear": 1964,         
+     "birthTown": "Meiningen",     
+     "birthCountry": "GDR"
    },
    {
      "name": "Robert Henke",
-     "discipline": 7
+     "discipline": 7,
+     "gender": "male",
+     "birthYear": 1969,         
+     "birthTown": "Munich",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Gepa Hinrichsen",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "female",
+     "birthYear": 0,         
+     "birthTown": "?",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Sibylle Jazra",
-     "discipline": 10
+     "discipline": 10,
+     "gender": "female",
+     "birthYear": 1973,         
+     "birthTown": "Heidelberg",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Michelle Jezierski",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "female",
+     "birthYear": 1981,         
+     "birthTown": "Berlin",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Anne Duk Hee Jordan",
-     "discipline": 10
+     "discipline": 10,
+     "gender": "female",
+     "birthYear": 1978,         
+     "birthTown": "?",     
+     "birthCountry": "South Korea"
    },
    {
      "name": "Carolin Kastner",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "female",
+     "birthYear": 1984,         
+     "birthTown": "Offenbach/Main",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Toni Kater",
-     "discipline": 7
+     "discipline": 7,
+     "gender": "female",
+     "birthYear": 1977,         
+     "birthTown": "Blankenburg",     
+     "birthCountry": "GDR"
    },
    {
      "name": "Malte Kebbel",
-     "discipline": 6
+     "discipline": 6,
+     "gender": "male",
+     "birthYear": 1981,         
+     "birthTown": "Bremen",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Katia Kelm",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "female",
+     "birthYear": 1970,         
+     "birthTown": "Burlington/Vermont",     
+     "birthCountry": "USA"
    },
    {
      "name": "Klaus Killisch",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "male",
+     "birthYear": 1959,         
+     "birthTown": "Wurzen",     
+     "birthCountry": "GDR"
    },
    {
      "name": "Franziska Klotz",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "female",
+     "birthYear": 1979,         
+     "birthTown": "Dresden",     
+     "birthCountry": "GDR"
    },
    {
      "name": "Kevin Kopacka",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "male",
+     "birthYear": 1987,         
+     "birthTown": "Graz",     
+     "birthCountry": "Austria"
    },
    {
      "name": "Astrid Köppe",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "female",
+     "birthYear": 1974,         
+     "birthTown": "Köthen/Anhalt",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Agnieszka Korejba",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "female",
+     "birthYear": 1977,         
+     "birthTown": "Gdynia",     
+     "birthCountry": "Poland"
    },
    {
      "name": "Bettina Köster",
-     "discipline": 7
+     "discipline": 7,
+     "gender": "female",
+     "birthYear": 1959,         
+     "birthTown": "Herford",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Pilocka Krach",
-     "discipline": 7
+     "discipline": 7,
+     "gender": "female",
+     "birthYear": 0,         
+     "birthTown": "Berlin",     
+     "birthCountry": "GDR"
    },
    {
      "name": "Peter Kröning",
-     "discipline": 6
+     "discipline": 6,
+     "gender": "male",
+     "birthYear": 1971,         
+     "birthTown": "Erlangen",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Gerd Kroske",
-     "discipline": 9
+     "discipline": 9,
+     "gender": "male",
+     "birthYear": 1958,         
+     "birthTown": "Dessau",     
+     "birthCountry": "GDR"
    },
    {
      "name": "Caroline Kryzecki",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "female",
+     "birthYear": 1979,         
+     "birthTown": "Wickede/Ruhr",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Michel Lamoller",
-     "discipline": 4
+     "discipline": 4,
+     "gender": "male",
+     "birthYear": 1984,         
+     "birthTown": "Black Forest",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Camille Laurelli",
-     "discipline": 1
+     "discipline": 1,
+     "gender": "male",
+     "birthYear": 1981,         
+     "birthTown": "?",     
+     "birthCountry": "France"
    },
    {
      "name": "Alanna Lawley",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "female",
+     "birthYear": 1983,         
+     "birthTown": "?",     
+     "birthCountry": "United Kingdom"
    },
    {
      "name": "Alex Lebus",
-     "discipline": 1
+     "discipline": 1,
+     "gender": "female",
+     "birthYear": 1980,         
+     "birthTown": "Magdeburg",     
+     "birthCountry": "GDR"
    },
    {
      "name": "Jeewi Lee",
-     "discipline": 10
+     "discipline": 10,
+     "gender": "female",
+     "birthYear": 1987,         
+     "birthTown": "Seoul",     
+     "birthCountry": "Korea" 
    },
    {
      "name": "Van Bo Le-Mentzel",
-     "discipline": 1
+     "discipline": 1,
+     "gender": "male",
+     "birthYear": 1977,         
+     "birthTown": "?",     
+     "birthCountry": "Laos" 
    },
    {
      "name": "Stephan Lieb",
-     "discipline": 7
+     "discipline": 7,
+     "gender": "male",
+     "birthYear": 0,         
+     "birthTown": "?",     
+     "birthCountry": "Germany" 
    },
    {
      "name": "Friedrich Liechtenstein",
-     "discipline": 7
+     "discipline": 7,
+     "gender": "male",
+     "birthYear": 1956,         
+     "birthTown": "Stalinstadt",     
+     "birthCountry": "GDR" 
    },
    {
      "name": "Robert Lippok",
-     "discipline": 7
+     "discipline": 7,
+     "gender": "male",
+     "birthYear": 1966,         
+     "birthTown": "Berlin",     
+     "birthCountry": "GDR" 
    },
    {
      "name": "Christian Loclair",
-     "discipline": 10
+     "discipline": 10,
+     "gender": "male",
+     "birthYear": 0,         
+     "birthTown": "",     
+     "birthCountry": "Germany" 
    },
    {
      "name": "Pedro Lopes",
      "discipline": 1,
      "gender": "male",
-     "birthYear": 1986,
+     "birthYear": 1986,        
+     "birthTown": "",       
+     "birthCountry": "Portugal", 
      "studio": "workshop, the place where things get built..."
    },
    {
      "name": "Sean Derrick Cooper Marquardt",
-     "discipline": 7
+     "discipline": 7,
+     "gender": "male",
+     "birthYear": 0,         
+     "birthTown": "Chicago",     
+     "birthCountry": "USA" 
    },
    {
      "name": "Sandra Meisel",
-     "discipline": 6
+     "discipline": 6,
+     "gallery":"galerie burster",
+     "gender": "female",
+     "birthYear": 1970,         
+     "birthTown": "Karlsruhe",     
+     "birthCountry": "Germany" 
    },
    {
      "name": "Bjørn Melhus",
-     "discipline": 9
+     "discipline": 9,
+     "gender": "male",
+     "birthYear": 1966,         
+     "birthTown": "Kirchheim unter Teck",     
+     "birthCountry": "Germany" 
    },
     {
      "name": "Sebastian Meschenmoser",
      "discipline": 3,
      "gender": "male",
-     "birthYear": 1980,
+     "birthYear": 1980,         
+     "birthTown": "Frankfurt/Main",     
+     "birthCountry": "Germany", 
      "studio": "second home"
    },
    {
      "name": "Ekaterina Mitichkina",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "female",
+     "birthYear": 1980,         
+     "birthTown": "Minsk",     
+     "birthCountry": "Belarus" 
    },
    {
      "name": "Barbara Morgenstern",
-     "discipline": 7
+     "discipline": 7,
+     "gender": "female",
+     "birthYear": 1971,         
+     "birthTown": "Hagen",     
+     "birthCountry": "Germany" 
    },
    {
      "name": "Jan Muche",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "male",
+     "birthYear": 1975,         
+     "birthTown": "Herford",     
+     "birthCountry": "Germany" 
    },
    {
      "name": "Johannes Mundinger",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "male",
+     "birthYear": 1982,         
+     "birthTown": "Offenburg",     
+     "birthCountry": "Germany"     
    },
    {
      "name": "Christophe Ndabananiye",
-     "discipline": 10
+     "discipline": 10,
+     "gender": "male",
+     "birthYear": 1977,         
+     "birthTown": "Lubumbashi",     
+     "birthCountry": "Democratic Republic of Congo"  
    },
    {
      "name": "Bärnd Nettmann",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "male",
+     "birthYear": 1978,         
+     "birthTown": "Berlin",     
+     "birthCountry": "GDR" 
    },
    {
      "name": "Rainer Neumeier",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "male",
+     "birthYear": 1975,         
+     "birthTown": "Cham",     
+     "birthCountry": "Germany" 
    },
    {
      "name": "Nik Nowak",
-     "discipline": 7
+     "discipline": 7,
+     "gender": "male",
+     "birthYear": 1981,         
+     "birthTown": "Mainz",     
+     "birthCountry": "Germany" 
    },
    {
      "name": "Ostberlin Androgyn",
-     "discipline": 7
+     "discipline": 7,
+     "gender": "mixed"
    },
    {
      "name": "Manfred Peckl",
-     "discipline": 5
+     "discipline": 5,
+     "gender": "male",
+     "birthYear": 1968,         
+     "birthTown": "Wels",     
+     "birthCountry": "Austria" 
    },
    {
      "name": "Laura Põld",
-     "discipline": 6
+     "discipline": 6,
+     "gender": "female",
+     "birthYear": 1984,         
+     "birthTown": "Tallinn",     
+     "birthCountry": "USSR" 
    },
    {
      "name": "Max Prosa",
-     "discipline": 7
+     "discipline": 7,
+     "gender": "male",
+     "birthYear": 1989,         
+     "birthTown": "Berlin",     
+     "birthCountry": "Germany" 
    },
    {
      "name": "Gonzalo Reyes Araos",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "male",
+     "birthYear": 1980,         
+     "birthTown": "Quilpué",     
+     "birthCountry": "Chile" 
    },
    {
      "name": "Stefan Roigk",
-     "discipline": 7
+     "discipline": 7,
+     "gender": "male",
+     "birthYear": 1974,         
+     "birthTown": "Bückeburg",     
+     "birthCountry": "Germany" 
    },
    {
      "name": "Pietro Sanguineti",
-     "discipline": 6
+     "discipline": 6,
+     "gender": "male",
+     "birthYear": 1965,         
+     "birthTown": "Stuttgart",     
+     "birthCountry": "Germany" 
    },
    {
      "name": "Susanne Schirdewahn",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "female",
+     "birthYear": 1970,         
+     "birthTown": "Berlin",     
+     "birthCountry": "Germany" 
    },
    {
      "name": "Erik Schmidt",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "male",
+     "birthYear": 1968,         
+     "birthTown": "Herford",     
+     "birthCountry": "Germany" 
    },
    {
      "name": "Lerato Shadi",
-     "discipline": 10
+     "discipline": 10,
+     "gender": "female",
+     "birthYear": 1979,         
+     "birthTown": "Mafikeg",     
+     "birthCountry": "South Africa" 
    },
    {
      "name": "Tracey Snelling",
-     "discipline": 1
+     "discipline": 1,
+     "gender": "female",
+     "birthYear": 1970,         
+     "birthTown": "Oakland",     
+     "birthCountry": "USA" 
    },
    {
      "name": "Kitty Solaris",
-     "discipline": 7
+     "discipline": 7,
+     "gender": "female",
+     "birthYear": 0,         
+     "birthTown": "?",     
+     "birthCountry": "?" 
    },
    {
      "name": "Frank Spilker",
-     "discipline": 7
+     "discipline": 7,
+     "gender": "male",
+     "birthYear": 1966,         
+     "birthTown": "Herford",     
+     "birthCountry": "Germany" 
    },
    {
      "name": "T.Raumschmiere",
-     "discipline": 7
+     "discipline": 7,
+     "gender": "male",
+     "birthYear": 1975,         
+     "birthTown": "Heidelburg",     
+     "birthCountry": "Germany" 
    },
    {
      "name": "Tomoyuki Ueno",
-     "discipline": 10
+     "discipline": 10,
+     "gender": "male",
+     "birthYear": 1982,         
+     "birthTown": "Kobe",     
+     "birthCountry": "Japan" 
    },
    {
      "name": "Hans Unstern",
-     "discipline": 7
+     "discipline": 7,
+     "gender": "male",
+     "birthYear": 0,         
+     "birthTown": "?",     
+     "birthCountry": "?" 
    },
    {
      "name": "Viron Erol Vert",
-     "discipline": 10
+     "discipline": 10,
+     "gender": "male",
+     "birthYear": 0,         
+     "birthTown": "?",     
+     "birthCountry": "?" 
    },
    {
      "name": "Miriam Vlaming",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "female",
+     "birthYear": 1971,         
+     "birthTown": "Düsseldorf",     
+     "birthCountry": "Germany" 
    },
    {
      "name": "Wiebke Maria Wachmann",
-     "discipline": 1
+     "discipline": 1,
+     "gender": "female",
+     "birthYear": 1969,         
+     "birthTown": "Berlin",     
+     "birthCountry": "Germany" 
    },
    {
      "name": "Shira Wachsmann",
-     "discipline": 1
+     "discipline": 1,
+     "gender": "female",
+     "birthYear": 1984,         
+     "birthTown": "Tel Aviv",     
+     "birthCountry": "Israel" 
    },
    {
      "name": "Julius Weiland",
-     "discipline": 6
+     "discipline": 6,
+     "gender": "male",
+     "birthYear": 1971,         
+     "birthTown": "Lübeck",     
+     "birthCountry": "Germany" 
    },
    {
      "name": "Peter Welz",
-     "discipline": 10
+     "discipline": 10,
+     "gender": "male",
+     "birthYear": 1972,         
+     "birthTown": "Lauingen",     
+     "birthCountry": "Germany" 
    },
    {
      "name": "Trak Wendisch",
-     "discipline": 6
+     "discipline": 6,
+     "gender": "male",
+     "birthYear": 1958,         
+     "birthTown": "Berlin",     
+     "birthCountry": "GDR" 
    },
    {
      "name": "Sinta Werner",
-     "discipline": 1
+     "discipline": 1,
+     "gender": "female",
+     "birthYear": 1977,         
+     "birthTown": "Hattingen",     
+     "birthCountry": "Germany" 
    },
    {
      "name": "Hansa Wißkirchen",
-     "discipline": 10
+     "discipline": 10,
+     "gender": "male",
+     "birthYear": 1966,         
+     "birthTown": "Düsseldorf",     
+     "birthCountry": "Germany" 
    },
    {
      "name": "Markus Wüste",
-     "discipline": 10
+     "discipline": 10,
+     "gender": "male",
+     "birthYear": 1970,         
+     "birthTown": "?",     
+     "birthCountry": "Germany"
    },
    {
      "name": "Michaela Zimmer",
-     "discipline": 3
+     "discipline": 3,
+     "gender": "female",
+     "birthYear": 1964,         
+     "birthTown": "Berlin",     
+     "birthCountry": "Germany"
    }
  ],
+
  "links": [
    {
      "source": "Fehmi Baumbach",
