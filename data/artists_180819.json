@@ -40,6 +40,7 @@
    {
      "name": "Axel Anklam",
      "discipline": 6,
+     "gallery":"Galerie Rothamel",
      "gender": "male",
      "birthYear": 1971,     
      "birthTown": "Wriezen",     
@@ -185,6 +186,7 @@
    {
      "name": "Grigori Dor",
      "discipline": 3,
+     "gallery":"Galerie Rothamel",
      "gender": "male",
      "birthYear": 1970,         
      "birthTown": "Ulan-Ude",     
