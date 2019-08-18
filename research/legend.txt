@@ -24,7 +24,6 @@
 // D / 15: We’ve been together in a residency / program
 // E / 20: I’ve been in her/his studio
 // F / 25: We’ve collaborated on a project / art piece 
-
 // G / 30: We know each other / We are friends 
 
 
