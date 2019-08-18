@@ -718,7 +718,9 @@
    {
      "name": "Ostberlin Androgyn",
      "discipline": 7,
-     "gender": "mixed"
+     "gender": "mixed",
+     "birthTown": "Berlin",     
+     "birthCountry": "Germany" 
    },
    {
      "name": "Manfred Peckl",
@@ -1277,6 +1279,19 @@
      "target": "Hansa Wißkirchen",
      "value": 30
    },
+
+   {
+       "source": "Liisi Eelmaa",
+       "target": "Camille Laurelli",
+       "value": 5
+   },
+   {
+       "source": "Liisi Eelmaa",
+       "target": "Laura Põld",
+       "value": 5
+   },
+
+
    {
      "source": "Moritz Frei",
      "target": "Christian Achenbach",
@@ -1622,6 +1637,35 @@
    },
 
 
+   {
+     "source": "Paul Frick",
+     "target": "Hans Unstern",
+     "value": 20
+   },
+   {
+     "source": "Paul Frick",
+     "target": "Hans Unstern",
+     "value": 30
+   },
+   {
+     "source": "Paul Frick",
+     "target": "T.Raumschmiere",
+     "value": 30
+   },
+
+
+   {
+     "source": "Robert Lippok",
+     "target": "Lucas Gutierrez",
+     "value": 10
+   },
+   {
+     "source": "Robert Lippok",
+     "target": "Lucas Gutierrez",
+     "value": 25
+   },
+
+
 
 
    {
@@ -1786,6 +1830,33 @@
    {
        "source": "Sibylle Jazra",
        "target": "Michaela Zimmer",
+       "value": 30
+   },
+   {
+       "source": "Robert Henke",
+       "target": "Christopher Bauder",
+       "value": 10
+   },
+   {
+       "source": "Robert Henke",
+       "target": "Christopher Bauder",
+       "value": 25
+   },
+   {
+       "source": "Robert Henke",
+       "target": "Christopher Bauder",
+       "value": 30
+   },
+
+
+   {
+       "source": "Anne Duk Hee Jordan",
+       "target": "Shira Wachsmann",
+       "value": 10
+   },
+   {
+       "source": "Anne Duk Hee Jordan",
+       "target": "Shira Wachsmann",
        "value": 30
    },
 
@@ -2073,6 +2144,22 @@
        "target": "Trak Wendisch",
        "value": 20
    },
+
+
+
+   {
+       "source": "Camille Laurelli",
+       "target": "Laura Põld",
+       "value": 5
+   },
+   {
+       "source": "Camille Laurelli",
+       "target": "Liisi Eelmaa",
+       "value": 5
+   },
+
+
+
    {
        "source": "Jeewi Lee",
        "target": "Christian Achenbach",
@@ -2740,6 +2827,16 @@
    },
 
 
+   {
+       "source": "Laura Põld",
+       "target": "Camille Laurelli",
+       "value": 5
+   },
+   {
+       "source": "Laura Põld",
+       "target": "Liisi Eelmaa",
+       "value": 5
+   },
 
 
 
@@ -3115,6 +3212,21 @@
      "value": 30    
    },
 
+
+
+   {
+     "source": "Markus Wüste",
+     "target": "Sinta Werner",
+     "value": 30    
+   },
+
+
+
+   {
+     "source": "Sinta Werner",
+     "target": "Markus Wüste",
+     "value": 30    
+   },
 
 
 
