@@ -13,7 +13,7 @@ Lerato Shadi
 
 galleries:
 
-//Sexauer
+//Sexauer (done)
 Ornella Fieres
 Jay Gard
 Philip Grözinger
@@ -21,18 +21,18 @@ Caroline Kryzecki
 Jeewi Lee
 
 
-//Galerie Kornfeld
+//Galerie Kornfeld (done)
 Stefanie Gutheil
 Franziska Klotz
 
 
-//Galerie Reinhard Hauff
+//Galerie Reinhard Hauff (done)
 Wolfgang Flad
 Viron Erol Vert
 
 
 //FOLD gallery
-Michaela Zimmer
+Michaela Zimmer (done)
 
 
 

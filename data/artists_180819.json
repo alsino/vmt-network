@@ -225,6 +225,7 @@
    {
      "name": "Ornella Fieres",
      "discipline": 4,
+     "gallery":"Sexauer",
      "gender": "female",
      "birthYear": 1984,         
      "birthTown": "Frankfurt/Main",     
@@ -241,6 +242,7 @@
    {
      "name": "Wolfgang Flad",
      "discipline": 6,
+     "gallery":"Galerie Reinhard Hauff",
      "gender": "male",
      "birthYear": 1974,         
      "birthTown": "Reutlingen",     
@@ -281,6 +283,7 @@
    {
      "name": "Jay Gard",
      "discipline": 10,
+     "gallery":"Sexauer",
      "gender": "male",
      "birthYear": 1984,         
      "birthTown": "Halle/Saale",     
@@ -321,6 +324,7 @@
    {
      "name": "Philip Grözinger",
      "discipline": 3,
+     "gallery":"Sexauer",
      "gender": "male",
      "birthYear": 1972,         
      "birthTown": "Braunschweig",     
@@ -337,6 +341,7 @@
    {
      "name": "Stefanie Gutheil",
      "discipline": 3,
+     "gallery":"Galerie Kornfeld",
      "gender": "female",
      "birthYear": 1980,         
      "birthTown": "Ravensburg",     
@@ -449,6 +454,7 @@
    {
      "name": "Franziska Klotz",
      "discipline": 3,
+     "gallery":"Galerie Kornfeld",
      "gender": "female",
      "birthYear": 1979,         
      "birthTown": "Dresden",     
@@ -513,6 +519,7 @@
    {
      "name": "Caroline Kryzecki",
      "discipline": 3,
+     "gallery":"Sexauer",
      "gender": "female",
      "birthYear": 1979,         
      "birthTown": "Wickede/Ruhr",     
@@ -553,6 +560,7 @@
    {
      "name": "Jeewi Lee",
      "discipline": 10,
+     "gallery":"Sexauer",
      "gender": "female",
      "birthYear": 1987,         
      "birthTown": "Seoul",     
@@ -833,6 +841,7 @@
    {
      "name": "Viron Erol Vert",
      "discipline": 10,
+     "gallery":"Galerie Reinhard Hauff",
      "gender": "male",
      "birthYear": 0,         
      "birthTown": "?",     
@@ -913,6 +922,7 @@
    {
      "name": "Michaela Zimmer",
      "discipline": 3,
+     "gallery":"FOLD gallery",
      "gender": "female",
      "birthYear": 1964,         
      "birthTown": "Berlin",     
