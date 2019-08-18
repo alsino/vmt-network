@@ -1662,7 +1662,32 @@
    {
      "source": "Robert Lippok",
      "target": "Lucas Gutierrez",
+     "value": 20
+   },
+   {
+     "source": "Robert Lippok",
+     "target": "Lucas Gutierrez",
      "value": 25
+   },
+   {
+     "source": "Robert Lippok",
+     "target": "Barbara Morgenstern",
+     "value": 10
+   },
+   {
+     "source": "Robert Lippok",
+     "target": "Barbara Morgenstern",
+     "value": 20
+   },
+   {
+     "source": "Robert Lippok",
+     "target": "Barbara Morgenstern",
+     "value": 25
+   },
+   {
+     "source": "Robert Lippok",
+     "target": "Barbara Morgenstern",
+     "value": 30
    },
 
 
