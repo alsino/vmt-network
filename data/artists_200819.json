@@ -1272,6 +1272,109 @@
 			"target": "Hansa Wißkirchen",
 			"value": 30
 		},
+
+
+
+
+    {
+      "source": "Grigori Dor",
+      "target": "Fehmi Baumbach",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Sebastian Bieniek",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Isabelle Borges",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Fritz Bornstück",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Sven Drühl",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Otgonbayar Ershuu",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Wolfgang Flad",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Peter Freitag",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Jay Gard",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Lukas Glinkowski",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Oliver Gröne",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Philip Grözinger",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Jens Hausmann",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Caroline Kryzecki",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Ekaterina Mitichkina",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Jan Muche",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Manfred Peckl",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Susanne Schirdewahn",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Miriam Vlaming",
+      "value": 5
+    },
+
+
+
+
 		{
 			"source": "Liisi Eelmaa",
 			"target": "Camille Laurelli",
