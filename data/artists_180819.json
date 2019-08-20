@@ -2186,6 +2186,55 @@
 
 
    {
+       "source": "Alanna Lawley",
+       "target": "Aram Bartholl",
+       "value": 10
+   },
+   {
+       "source": "Alanna Lawley",
+       "target": "Bram Braam",
+       "value": 10
+   },
+   {
+       "source": "Alanna Lawley",
+       "target": "Bram Braam",
+       "value": 20
+   },
+   {
+       "source": "Alanna Lawley",
+       "target": "Bram Braam",
+       "value": 25
+   },
+   {
+       "source": "Alanna Lawley",
+       "target": "Bram Braam",
+       "value": 30
+   },
+   {
+       "source": "Alanna Lawley",
+       "target": "Jeewi Lee",
+       "value": 20
+   },
+   {
+       "source": "Alanna Lawley",
+       "target": "Jeewi Lee",
+       "value": 30
+   },
+   {
+       "source": "Alanna Lawley",
+       "target": "Sinta Werner",
+       "value": 20
+   },
+   {
+       "source": "Alanna Lawley",
+       "target": "Sinta Werner",
+       "value": 30
+   },
+
+
+
+
+   {
        "source": "Jeewi Lee",
        "target": "Christian Achenbach",
        "value": 10
