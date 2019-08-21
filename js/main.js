@@ -84,8 +84,22 @@ d3.json("./data/artists_200819.json", function(error, graph) {
     //   return d.linkCount ? (d.linkCount * 20) : 10; //<-- some function to determine radius
     //   })
     .style("fill", "black")
-    .on("mouseover", function(d) {return d3.select(this).style("fill", "white")})
-    .on("mouseout", function(d) {return d3.select(this).style("fill", "black")})
+    // Color links on hover
+    .on("mouseover", function(d) {
+      link.style("stroke", function(l){
+        // console.log(l);
+        if (d === l.source || d === l.target) {
+          return "#0000ff";
+        } else {
+          return "rgb(177, 177, 177)";
+        } 
+        })
+      link.style("stroke-opacity", 1);
+    })
+    .on("mouseout", function(){
+      link.style("stroke","rgb(177, 177, 177)");
+      link.style("stroke-opacity", 0.6);
+    } )
     .call(d3.drag()
         .on("start", dragstarted)
         .on("drag", dragged)
@@ -164,6 +178,21 @@ d3.json("./data/artists_200819.json", function(error, graph) {
       })
       .attr('x', 6)
       .attr('y', 3)
+      .on("mouseover", function(d) {
+        link.style("stroke", function(l){
+          // console.log(l);
+          if (d === l.source || d === l.target) {
+            return "#0000ff";
+          } else {
+            return "rgb(177, 177, 177)";
+          } 
+          })
+        link.style("stroke-opacity", 1);
+      })
+      .on("mouseout", function(){
+        link.style("stroke","rgb(177, 177, 177)");
+        link.style("stroke-opacity", 0.6);
+      } )
       .call(d3.drag()
           .on("start", dragstarted)
           .on("drag", dragged)
