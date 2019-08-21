@@ -91,13 +91,13 @@ d3.json("./data/artists_200819.json", function(error, graph) {
         if (d === l.source || d === l.target) {
           return "#0000ff";
         } else {
-          return "rgb(177, 177, 177)";
+          return "rgba(177, 177, 177, 0.1)";
         } 
         })
       link.style("stroke-opacity", 1);
     })
     .on("mouseout", function(){
-      link.style("stroke","rgb(177, 177, 177)");
+      link.style("stroke","rgba(177, 177, 177, 1)");
       link.style("stroke-opacity", 0.6);
     } )
     .call(d3.drag()
@@ -184,13 +184,13 @@ d3.json("./data/artists_200819.json", function(error, graph) {
           if (d === l.source || d === l.target) {
             return "#0000ff";
           } else {
-            return "rgb(177, 177, 177)";
+            return "rgba(177, 177, 177, 0.1)";
           } 
           })
         link.style("stroke-opacity", 1);
       })
       .on("mouseout", function(){
-        link.style("stroke","rgb(177, 177, 177)");
+        link.style("stroke","rgba(177, 177, 177, 1)");
         link.style("stroke-opacity", 0.6);
       } )
       .call(d3.drag()
