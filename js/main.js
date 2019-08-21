@@ -8,7 +8,6 @@
 
 // ToDos
 // Label overlap problem lösen: http://bl.ocks.org/MoritzStefaner/1377729
-// On hover einzelner Künstler: Nur seine Links darstellen
 // machine learning foto erkennung
 // Organische leichte Bewegung
 // Bezier connections
