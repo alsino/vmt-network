@@ -1873,6 +1873,50 @@
 			"target": "Michaela Zimmer",
 			"value": 10
 		},
+
+
+
+
+		{
+			"source": "Paul Frick",
+			"target": "Clemens Behr",
+			"value": 5
+		},
+		{
+			"source": "Paul Frick",
+			"target": "Robert Henke",
+			"value": 5
+		},
+		{
+			"source": "Paul Frick",
+			"target": "Michelle Jezierski",
+			"value": 20
+		},
+		{
+			"source": "Paul Frick",
+			"target": "Michelle Jezierski",
+			"value": 30
+		},
+		{
+			"source": "Paul Frick",
+			"target": "Pilocka Krach",
+			"value": 5
+		},
+		{
+			"source": "Paul Frick",
+			"target": "Friedrich Liechtenstein",
+			"value": 5
+		},
+		{
+			"source": "Paul Frick",
+			"target": "T.Raumschmiere",
+			"value": 10
+		},
+		{
+			"source": "Paul Frick",
+			"target": "T.Raumschmiere",
+			"value": 20
+		},
 		{
 			"source": "Paul Frick",
 			"target": "Hans Unstern",
@@ -1883,11 +1927,10 @@
 			"target": "Hans Unstern",
 			"value": 30
 		},
-		{
-			"source": "Paul Frick",
-			"target": "T.Raumschmiere",
-			"value": 30
-		},
+
+
+
+
 		{
 			"source": "Robert Lippok",
 			"target": "Lucas Gutierrez",
