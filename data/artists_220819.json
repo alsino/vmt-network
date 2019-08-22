@@ -3977,6 +3977,44 @@
 			"target": "Peter Welz",
 			"value": 30
 		},
+
+
+
+		{
+			"source": "Frank Spilker",
+			"target": "Fehmi Baumbach",
+			"value": 10
+		},
+		{
+			"source": "Frank Spilker",
+			"target": "Fehmi Baumbach",
+			"value": 30
+		},
+		{
+			"source": "Frank Spilker",
+			"target": "Bernd Begemann",
+			"value": 10
+		},
+		{
+			"source": "Frank Spilker",
+			"target": "Bernd Begemann",
+			"value": 30
+		},
+		{
+			"source": "Frank Spilker",
+			"target": "Gepa Hinrichsen",
+			"value": 30
+		},
+		{
+			"source": "Frank Spilker",
+			"target": "Barbara Morgenstern",
+			"value": 5
+		},
+
+
+
+
+
 		{
 			"source": "Tomoyuki Ueno",
 			"target": "Song-Ming Ang",
