@@ -3994,6 +3994,121 @@
 			"target": "Hansa Wißkirchen",
 			"value": 10
 		},
+
+
+		{
+			"source": "Johannes Mundinger",
+			"target": "Christian Achenbach",
+			"value": 5
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Fehmi Baumbach",
+			"value": 5
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Clemens Behr",
+			"value": 10
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Clemens Behr",
+			"value": 20
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Fritz Bornstück",
+			"value": 5
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Jenny Brosinski",
+			"value": 5
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Jenny Brosinski",
+			"value": 10
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Jay Gard",
+			"value": 5
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Philip Grözinger",
+			"value": 5
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Stefanie Gutheil",
+			"value": 5
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Michelle Jezierski",
+			"value": 5
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Anne Duk Hee Jordan",
+			"value": 5
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Sebastian Meschenmoser",
+			"value": 5
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Ekaterina Mitichkina",
+			"value": 5
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Ekaterina Mitichkina",
+			"value": 10
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Ekaterina Mitichkina",
+			"value": 20
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Ekaterina Mitichkina",
+			"value": 25
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Jan Muche",
+			"value": 5
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Jan Muche",
+			"value": 10
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Manfred Peckl",
+			"value": 5
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Manfred Peckl",
+			"value": 10
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Susanne Schirdewahn",
+			"value": 5
+		},
+
+
+
 		{
 			"source": "Bärnd Nettmann",
 			"target": "Fehmi Baumbach",
