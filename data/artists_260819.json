@@ -1050,6 +1050,136 @@
 			"target": "Hans Unstern",
 			"value": 5
 		},
+
+		{
+			"source": "Clemens Behr",
+			"target": "Axel Anklam",
+			"value": 10
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Bram Braam",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Bram Braam",
+			"value": 10
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Jenny Brosinski",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Wolfgang Flad",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Wolfgang Flad",
+			"value": 10
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Paul Frick",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Paul Frick",
+			"value": 10
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Jay Gard",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Lukas Glinkowski",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Michelle Jezierski",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Jeewi Lee",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Jeewi Lee",
+			"value": 10
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Ekaterina Mitichkina",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Ekaterina Mitichkina",
+			"value": 10
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Jan Muche",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Jan Muche",
+			"value": 10
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Johannes Mundinger",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Johannes Mundinger",
+			"value": 10
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Johannes Mundinger",
+			"value": 25
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Nik Nowak",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Manfred Peckl",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Manfred Peckl",
+			"value": 10
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Susanne Schirdewahn",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "T.Raumschmiere",
+			"value": 5
+		},
+
+
+
+
 		{
 			"source": "Fritz Bornstück",
 			"target": "Christian Achenbach",
