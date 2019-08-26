@@ -84,21 +84,8 @@ d3.json("./data/artists_260819.json", function(error, graph) {
     //   })
     .style("fill", "black")
     // Color links on hover
-    .on("mouseover", function(d) {
-      link.style("stroke", function(l){
-        // console.log(l);
-        if (d === l.source || d === l.target) {
-          return "#0000ff";
-        } else {
-          return "rgba(177, 177, 177, 0.1)";
-        } 
-        })
-      link.style("stroke-opacity", 1);
-    })
-    .on("mouseout", function(){
-      link.style("stroke","rgba(177, 177, 177, 1)");
-      link.style("stroke-opacity", 0.6);
-    } )
+    .on("mouseover", d => highlightLinks(d))
+    .on("mouseout", resetLinks())
     .call(d3.drag()
         .on("start", dragstarted)
         .on("drag", dragged)
@@ -177,21 +164,8 @@ d3.json("./data/artists_260819.json", function(error, graph) {
       })
       .attr('x', 6)
       .attr('y', 3)
-      .on("mouseover", function(d) {
-        link.style("stroke", function(l){
-          // console.log(l);
-          if (d === l.source || d === l.target) {
-            return "#0000ff";
-          } else {
-            return "rgba(177, 177, 177, 0.1)";
-          } 
-          })
-        link.style("stroke-opacity", 1);
-      })
-      .on("mouseout", function(){
-        link.style("stroke","rgba(177, 177, 177, 1)");
-        link.style("stroke-opacity", 0.6);
-      } )
+      .on("mouseover", d => highlightLinks(d))
+      .on("mouseout", resetLinks())
       .call(d3.drag()
           .on("start", dragstarted)
           .on("drag", dragged)
@@ -219,6 +193,26 @@ d3.json("./data/artists_260819.json", function(error, graph) {
           return "translate(" + d.x + "," + d.y + ")";
         })
   }
+
+  function highlightLinks(d) {
+    link
+      .transition()
+      .duration(50)
+      .style("stroke", function(l){
+        if (d === l.source || d === l.target) {
+          return "#0000ff";
+        } else {
+          return "rgba(177, 177, 177, 0.1)";
+        } 
+        })
+      .style("stroke-opacity", 1);
+  }
+  
+  function resetLinks() {
+    link.style("stroke","rgba(177, 177, 177, 1)");
+    link.style("stroke-opacity", 0.6);
+  }
+
 });
 
 function dragstarted(d) {
@@ -237,6 +231,8 @@ function dragended(d) {
   d.fx = null;
   d.fy = null;
 }
+
+
 
 
 // Kommentare:
