@@ -2306,58 +2306,78 @@
 		},
 
 
-
-
 		{
-			"source": "Robert Lippok",
-			"target": "Lucas Gutierrez",
-			"value": 10
+			"source": "Lucas Gutierrez",
+			"target": "Christopher Bauder",
+			"value": 5
 		},
 		{
-			"source": "Robert Lippok",
-			"target": "Lucas Gutierrez",
-			"value": 20
-		},
-		{
-			"source": "Robert Lippok",
-			"target": "Lucas Gutierrez",
-			"value": 25
-		},
-		{
-			"source": "Robert Lippok",
-			"target": "Barbara Morgenstern",
-			"value": 10
-		},
-		{
-			"source": "Robert Lippok",
-			"target": "Barbara Morgenstern",
-			"value": 20
-		},
-		{
-			"source": "Robert Lippok",
-			"target": "Barbara Morgenstern",
-			"value": 25
-		},
-		{
-			"source": "Robert Lippok",
-			"target": "Barbara Morgenstern",
-			"value": 30
-		},
-		{
-			"source": "Pedro Lopes",
+			"source": "Lucas Gutierrez",
 			"target": "Robert Henke",
 			"value": 5
 		},
 		{
-			"source": "Pedro Lopes",
-			"target": "Christian Loclair",
-			"value": 5
+			"source": "Lucas Gutierrez",
+			"target": "Robert Henke",
+			"value": 10
 		},
 		{
-			"source": "Pedro Lopes",
+			"source": "Lucas Gutierrez",
+			"target": "Robert Lippok",
+			"value": 10
+		},
+		{
+			"source": "Lucas Gutierrez",
+			"target": "Robert Lippok",
+			"value": 20
+		},
+		{
+			"source": "Lucas Gutierrez",
+			"target": "Robert Lippok",
+			"value": 25
+		},
+		{
+			"source": "Lucas Gutierrez",
 			"target": "Sean Derrick Cooper Marquardt",
 			"value": 5
 		},
+		{
+			"source": "Lucas Gutierrez",
+			"target": "Sean Derrick Cooper Marquardt",
+			"value": 10
+		},
+		{
+			"source": "Lucas Gutierrez",
+			"target": "Barbara Morgenstern",
+			"value": 5
+		},
+		{
+			"source": "Lucas Gutierrez",
+			"target": "Gonzalo Reyes Araos",
+			"value": 5
+		},
+		{
+			"source": "Lucas Gutierrez",
+			"target": "Gonzalo Reyes Araos",
+			"value": 10
+		},
+
+{
+			"source": "Robert Henke",
+			"target": "Christopher Bauder",
+			"value": 10
+		},
+		{
+			"source": "Robert Henke",
+			"target": "Christopher Bauder",
+			"value": 25
+		},
+		{
+			"source": "Robert Henke",
+			"target": "Christopher Bauder",
+			"value": 30
+		},
+
 		{
 			"source": "Sibylle Jazra",
 			"target": "Jofroi Amaral",
@@ -2503,21 +2523,8 @@
 			"target": "Michaela Zimmer",
 			"value": 30
 		},
-		{
-			"source": "Robert Henke",
-			"target": "Christopher Bauder",
-			"value": 10
-		},
-		{
-			"source": "Robert Henke",
-			"target": "Christopher Bauder",
-			"value": 25
-		},
-		{
-			"source": "Robert Henke",
-			"target": "Christopher Bauder",
-			"value": 30
-		},
+		
+		
 		{
 			"source": "Anne Duk Hee Jordan",
 			"target": "Shira Wachsmann",
@@ -3771,6 +3778,62 @@
 		{
 			"source": "Stephan Lieb",
 			"target": "T.Raumschmiere",
+			"value": 5
+		},
+
+
+
+
+
+
+		{
+			"source": "Robert Lippok",
+			"target": "Lucas Gutierrez",
+			"value": 10
+		},
+		{
+			"source": "Robert Lippok",
+			"target": "Lucas Gutierrez",
+			"value": 20
+		},
+		{
+			"source": "Robert Lippok",
+			"target": "Lucas Gutierrez",
+			"value": 25
+		},
+		{
+			"source": "Robert Lippok",
+			"target": "Barbara Morgenstern",
+			"value": 10
+		},
+		{
+			"source": "Robert Lippok",
+			"target": "Barbara Morgenstern",
+			"value": 20
+		},
+		{
+			"source": "Robert Lippok",
+			"target": "Barbara Morgenstern",
+			"value": 25
+		},
+		{
+			"source": "Robert Lippok",
+			"target": "Barbara Morgenstern",
+			"value": 30
+		},
+		{
+			"source": "Pedro Lopes",
+			"target": "Robert Henke",
+			"value": 5
+		},
+		{
+			"source": "Pedro Lopes",
+			"target": "Christian Loclair",
+			"value": 5
+		},
+		{
+			"source": "Pedro Lopes",
+			"target": "Sean Derrick Cooper Marquardt",
 			"value": 5
 		},
 
