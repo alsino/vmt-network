@@ -1413,6 +1413,44 @@
 
 
 		{
+			"source": "Stefano Bosis",
+			"target": "Alex Flemming",
+			"value": 30
+		},
+		{
+			"source": "Stefano Bosis",
+			"target": "Peter Kröning",
+			"value": 5
+		},
+		{
+			"source": "Stefano Bosis",
+			"target": "Michel Lamoller",
+			"value": 15
+		},
+		{
+			"source": "Stefano Bosis",
+			"target": "Jeewi Lee",
+			"value": 5
+		},
+		{
+			"source": "Stefano Bosis",
+			"target": "Bjørn Melhus",
+			"value": 5
+		},
+		{
+			"source": "Stefano Bosis",
+			"target": "Gonzalo Reyes Araos",
+			"value": 5
+		},
+		{
+			"source": "Stefano Bosis",
+			"target": "Erik Schmidt",
+			"value": 5
+		},
+
+
+
+		{
 			"source": "Bram Braam",
 			"target": "Axel Anklam",
 			"value": 10
@@ -4845,11 +4883,216 @@
 			"target": "Jens Hausmann",
 			"value": 5
 		},
-
-
-
-
-
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Michelle Jezierski",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Michelle Jezierski",
+			"value": 10
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Malte Kebbel",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Katia Kelm",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Klaus Killisch",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Klaus Killisch",
+			"value": 10
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Klaus Killisch",
+			"value": 20
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Klaus Killisch",
+			"value": 25
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Klaus Killisch",
+			"value": 30
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Franziska Klotz",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Franziska Klotz",
+			"value": 10
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Astrid Köppe",
+			"value": 10
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Astrid Köppe",
+			"value": 20
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Astrid Köppe",
+			"value": 25
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Astrid Köppe",
+			"value": 30
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Caroline Kryzecki",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Alex Lebus",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Jeewi Lee",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Van Bo Le-Mentzel",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Friedrich Liechtenstein",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Bjørn Melhus",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Sebastian Meschenmoser",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Ekaterina Mitichkina",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Jan Muche",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Jan Muche",
+			"value": 10
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Ostberlin Androgyn",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Manfred Peckl",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Manfred Peckl",
+			"value": 10
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Manfred Peckl",
+			"value": 20
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Max Prosa",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Stefan Roigk",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Erik Schmidt",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Tracey Snelling",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Miriam Vlaming",
+			"value": 10
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Miriam Vlaming",
+			"value": 20
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Miriam Vlaming",
+			"value": 30
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Wiebke Maria Wachmann",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Wiebke Maria Wachmann",
+			"value": 10
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Peter Welz",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Trak Wendisch",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Hansa Wißkirchen",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Hansa Wißkirchen",
+			"value": 20
+		},
 
 
 
