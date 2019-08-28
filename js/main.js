@@ -4,6 +4,7 @@
 // Node size based on # links: https://stackoverflow.com/questions/38173304/d3-javascript-network-how-to-parametrize-node-size-with-the-number-of-links
 // Understanding force layout: http://jsdatav.is/visuals.html?id=11550728
 // No label overlap: http://bl.ocks.org/MoritzStefaner/1377729
+// Link distance variable: https://stackoverflow.com/questions/14937385/how-to-vary-distance-between-d3-nodes-in-force-layout
 
 
 // ToDos
