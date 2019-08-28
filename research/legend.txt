@@ -29,6 +29,7 @@
 
 !! Important !!
 // C / 10: We’ve exhibited together / We’ve been on stage together
+// D / 15: We’ve been together in a residency / program
 // F / 25: We’ve collaborated on a project / art piece 
 
 

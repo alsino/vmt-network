@@ -30,16 +30,40 @@ let color = d3.scaleOrdinal(d3.schemeCategory20);
 //     .force("charge", d3.forceManyBody())
 //     .force("center", d3.forceCenter(width / 2, height / 2));
 
-const forceX = d3.forceX(width / 2).strength(0.015)
-const forceY = d3.forceY(height / 2).strength(0.015)
 
-let simulation = d3.forceSimulation()
-    .force("link", d3.forceLink().id(d => d.name).distance(100))
-    .force("charge", d3.forceManyBody().strength(-80))
-    .force("x", d3.forceX().strength(0.115))
-    .force("y", d3.forceY().strength(0.115));
-    // .force("x", d3.forceX())
-    // .force("y", d3.forceY());
+function distance(link) {
+  // return 1 / Math.min(count(link.source), count(link.target));
+  return -100;
+}
+
+function strength(link) {
+  // return 1 / Math.min(count(link.source), count(link.target));
+  return -200;
+}
+
+let attractForce = d3.forceManyBody().strength(20).distanceMax(500)
+                     .distanceMin(100);
+let repelForce = d3.forceManyBody().strength(-200).distanceMax(500)
+                   .distanceMin(100);
+
+// var simulation = d3.forceSimulation().alphaDecay(0.03)
+//                  .force("link", d3.forceLink().id(d => d.name)) // between nodes
+//                  .force("charge",d3.forceManyBody().distanceMax(300))  // global force
+//                 //  .force("x", d3.forceX().strength(0.115))
+//                 //  .force("y", d3.forceY().strength(0.115));
+//                  .force("attractForce",attractForce)
+//                  .force("repelForce",repelForce);
+                  
+let simulation = d3.forceSimulation().alphaDecay(0.03)
+    .force("charge", d3.forceManyBody().strength(-200))
+    .force("link", d3.forceLink().id(d => d.name))
+    .force("x", d3.forceX().strength(0.215))
+    .force("y", d3.forceY().strength(0.215))
+    .force("attractForce",attractForce)
+    .force("repelForce",repelForce);
+
+
+
 
 // DATEN IN JSONLINT GECHECKT?
 // HIER DIE DATEN ÄNDERN -> DATUM AUSTAUSCHEN
@@ -95,6 +119,8 @@ d3.json("./data/artists_280819.json", function(error, graph) {
     //   return d.linkCount ? (d.linkCount * 20) : 10; //<-- some function to determine radius
     //   })
     .style("fill", "black")
+    // .style("stroke", "black")
+    // .style("fill", d => color(d.discipline))
     // Color links on hover
     .on("mouseover", d => highlightLinks(d))
     .on("mouseout", resetLinks())
@@ -166,22 +192,22 @@ d3.json("./data/artists_280819.json", function(error, graph) {
   //         .on("end", dragended));
 
   // Labels
-  // let lables = node.append("text")
-  //     .text(function(d) {
-  //       return d.name;
-  //     })
-  //     .style("font-size", (d) => {
-  //       // console.log(d);
-  //       // return d.linkCount * 20;
-  //     })
-  //     .attr('x', 6)
-  //     .attr('y', 3)
-  //     .on("mouseover", d => highlightLinks(d))
-  //     .on("mouseout", resetLinks())
-  //     .call(d3.drag()
-  //         .on("start", dragstarted)
-  //         .on("drag", dragged)
-  //         .on("end", dragended));
+  let lables = node.append("text")
+      .text(function(d) {
+        return d.name;
+      })
+      .style("font-size", (d) => {
+        // console.log(d);
+        // return d.linkCount * 20;
+      })
+      .attr('x', 6)
+      .attr('y', 3)
+      .on("mouseover", d => highlightLinks(d))
+      .on("mouseout", resetLinks())
+      .call(d3.drag()
+          .on("start", dragstarted)
+          .on("drag", dragged)
+          .on("end", dragended));
 
   node.append("title")
       .text(function(d) { return d.name; });
