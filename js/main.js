@@ -8,6 +8,7 @@
 
 // ToDos
 // Label overlap problem lösen: http://bl.ocks.org/MoritzStefaner/1377729
+// Art der Verbindung visualisieren
 // machine learning foto erkennung
 // Organische leichte Bewegung
 // Bezier connections
@@ -28,11 +29,16 @@ let color = d3.scaleOrdinal(d3.schemeCategory20);
 //     .force("charge", d3.forceManyBody())
 //     .force("center", d3.forceCenter(width / 2, height / 2));
 
+const forceX = d3.forceX(width / 2).strength(0.015)
+const forceY = d3.forceY(height / 2).strength(0.015)
+
 let simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(d => d.name).distance(100))
     .force("charge", d3.forceManyBody().strength(-80))
-    .force("x", d3.forceX())
-    .force("y", d3.forceY());
+    .force("x", d3.forceX().strength(0.115))
+    .force("y", d3.forceY().strength(0.115));
+    // .force("x", d3.forceX())
+    // .force("y", d3.forceY());
 
 // DATEN IN JSONLINT GECHECKT?
 // HIER DIE DATEN ÄNDERN -> DATUM AUSTAUSCHEN
@@ -45,10 +51,15 @@ d3.json("./data/artists_280819.json", function(error, graph) {
       .attr("class", "links")
       .selectAll("line")
       .data(graph.links)
-      .enter().append("line")
+      .enter()
+      .append("line")
       .attr("stroke-width", function(d) { return Math.sqrt(d.value) * 0.1; })
-      .attr("stroke-linecap", "round");
+      .attr("stroke-linecap", "round")
+      .style("stroke", d => linkColor(d));
+      // .style("stroke-opacity", d => linkColor(d));
       // .style("stroke-dasharray", function(d) { return d.value === 5 ? ("3, 3") : ("0, 0") } );
+
+      
 
       // Find number of links
       graph.links.forEach(function(link){
@@ -154,22 +165,22 @@ d3.json("./data/artists_280819.json", function(error, graph) {
   //         .on("end", dragended));
 
   // Labels
-  let lables = node.append("text")
-      .text(function(d) {
-        return d.name;
-      })
-      .style("font-size", (d) => {
-        // console.log(d);
-        // return d.linkCount * 20;
-      })
-      .attr('x', 6)
-      .attr('y', 3)
-      .on("mouseover", d => highlightLinks(d))
-      .on("mouseout", resetLinks())
-      .call(d3.drag()
-          .on("start", dragstarted)
-          .on("drag", dragged)
-          .on("end", dragended));
+  // let lables = node.append("text")
+  //     .text(function(d) {
+  //       return d.name;
+  //     })
+  //     .style("font-size", (d) => {
+  //       // console.log(d);
+  //       // return d.linkCount * 20;
+  //     })
+  //     .attr('x', 6)
+  //     .attr('y', 3)
+  //     .on("mouseover", d => highlightLinks(d))
+  //     .on("mouseout", resetLinks())
+  //     .call(d3.drag()
+  //         .on("start", dragstarted)
+  //         .on("drag", dragged)
+  //         .on("end", dragended));
 
   node.append("title")
       .text(function(d) { return d.name; });
@@ -194,23 +205,47 @@ d3.json("./data/artists_280819.json", function(error, graph) {
         })
   }
 
+  function linkColor(d) {
+          switch(d.value) {
+            case 5:
+              return "rgba(0,0,255,0.02)";
+              break;
+            case 10:
+              // return "rgba(0,0,255,0.1)";
+              // return "rgba(146, 146,239,0.3)"
+              return "rgba(255, 165,104,0.5)"
+              break;
+            case 15:
+              return "rgba(0,0,255,0.02)";
+              break;
+            case 20:
+              return "rgba(0,0,255,0.02)";
+              break;
+            case 25:
+              return "rgba(0,0,255,0.5)"; //change
+              break;
+            case 30:
+              return "rgba(0,0,255,0.02)";
+              break;
+            default:
+              return "rgba(0,0,255,0.02)";
+          }        
+  }
+
   function highlightLinks(d) {
     link
       .transition()
       .duration(50)
-      .style("stroke", function(l){
+      .style("stroke-opacity", function(l){
         if (d === l.source || d === l.target) {
-          return "#0000ff";
-        } else {
-          return "rgba(177, 177, 177, 0.1)";
-        } 
+
+        }
         })
-      .style("stroke-opacity", 1);
   }
   
   function resetLinks() {
-    link.style("stroke","rgba(177, 177, 177, 1)");
-    link.style("stroke-opacity", 0.6);
+    // link.style("stroke","#0000ff");
+    // link.style("stroke-opacity", 0.6);
   }
 
 });

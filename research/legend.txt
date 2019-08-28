@@ -27,3 +27,8 @@
 // G / 30: We know each other / We are friends 
 
 
+!! Important !!
+// C / 10: We’ve exhibited together / We’ve been on stage together
+// F / 25: We’ve collaborated on a project / art piece 
+
+
