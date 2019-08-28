@@ -9,6 +9,7 @@
 
 // ToDos
 // Label overlap problem lösen: http://bl.ocks.org/MoritzStefaner/1377729
+// Labels on hover farbe raus
 // Art der Verbindung visualisieren
 // machine learning foto erkennung
 // Organische leichte Bewegung
