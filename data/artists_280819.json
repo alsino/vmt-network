@@ -1417,6 +1417,37 @@
 			"target": "Alex Flemming",
 			"value": 30
 		},
+		{
+			"source": "Stefano Bosis",
+			"target": "Peter Kröning",
+			"value": 5
+		},
+		{
+			"source": "Stefano Bosis",
+			"target": "Michel Lamoller",
+			"value": 15
+		},
+		{
+			"source": "Stefano Bosis",
+			"target": "Jeewi Lee",
+			"value": 5
+		},
+		{
+			"source": "Stefano Bosis",
+			"target": "Bjørn Melhus",
+			"value": 5
+		},
+		{
+			"source": "Stefano Bosis",
+			"target": "Gonzalo Reyes Araos",
+			"value": 5
+		},
+		{
+			"source": "Stefano Bosis",
+			"target": "Erik Schmidt",
+			"value": 5
+		},
+
 
 
 		{
