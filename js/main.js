@@ -78,9 +78,10 @@ d3.json("./data/artists_280819.json", function(error, graph) {
       .data(graph.links)
       .enter()
       .append("line")
-      .attr("stroke-width", function(d) { return Math.sqrt(d.value) * 0.1; })
+      // .attr("stroke-width", function(d) { return Math.sqrt(d.value) * 0.1; })
       .attr("stroke-linecap", "round")
-      .style("stroke", d => linkColor(d));
+      // .style("stroke", d => linkColor(d));
+      .style("stroke", d => linkColorDefault(d));
       // .style("stroke-opacity", d => linkColor(d));
       // .style("stroke-dasharray", function(d) { return d.value === 5 ? ("3, 3") : ("0, 0") } );
 
@@ -123,7 +124,7 @@ d3.json("./data/artists_280819.json", function(error, graph) {
     // .style("fill", d => color(d.discipline))
     // Color links on hover
     .on("mouseover", d => highlightLinks(d))
-    .on("mouseout", resetLinks())
+    .on("mouseout", d => resetLinks(d))
     .call(d3.drag()
         .on("start", dragstarted)
         .on("drag", dragged)
@@ -203,7 +204,7 @@ d3.json("./data/artists_280819.json", function(error, graph) {
       .attr('x', 6)
       .attr('y', 3)
       .on("mouseover", d => highlightLinks(d))
-      .on("mouseout", resetLinks())
+      .on("mouseout", d => resetLinks(d))
       .call(d3.drag()
           .on("start", dragstarted)
           .on("drag", dragged)
@@ -232,47 +233,177 @@ d3.json("./data/artists_280819.json", function(error, graph) {
         })
   }
 
+
+  function linkColorDefault(d) {
+    switch(d.value) {
+      case 5:
+        return "rgba(0,0,255,0)";
+        break;
+      case 10:
+        return "rgba(224, 224, 224,1)"
+        break;
+      case 15:
+        return "rgba(224, 224, 224,1)";
+        break;
+      case 20:
+        return "rgba(0,0,255,0)";
+        break;
+      case 25:
+        return "rgba(224, 224, 224,1)"; //change
+        break;
+      case 30:
+        return "rgba(0,0,255,0)";
+        break;
+      default:
+        return "rgba(0,0,255,0)";
+    }        
+}
+
+
   function linkColor(d) {
           switch(d.value) {
             case 5:
-              return "rgba(0,0,255,0.02)";
+              return "rgba(0,0,255,0)";
               break;
             case 10:
-              // return "rgba(0,0,255,0.1)";
-              // return "rgba(146, 146,239,0.3)"
               return "rgba(255, 165,104,0.5)"
               break;
             case 15:
               return "rgba(0,0,255,0.02)";
               break;
             case 20:
-              return "rgba(0,0,255,0.02)";
+              return "rgba(0,0,255,0)";
               break;
             case 25:
               return "rgba(0,0,255,0.5)"; //change
               break;
             case 30:
-              return "rgba(0,0,255,0.02)";
+              return "rgba(0,0,255,0)";
               break;
             default:
-              return "rgba(0,0,255,0.02)";
+              return "rgba(0,0,255,0)";
           }        
   }
 
   function highlightLinks(d) {
     link
-      .transition()
-      .duration(50)
-      .style("stroke-opacity", function(l){
+      .style("stroke", function(l){
         if (d === l.source || d === l.target) {
 
+          switch(l.value) {
+            case 5:
+              return "rgba(0,0,255,0)";
+              break;
+            case 10:
+              return "rgba(255, 165,104,1)"
+              break;
+            case 15:
+              return "rgba(0,0,255,1)";
+              break;
+            case 20:
+              return "rgba(0,0,255,0)";
+              break;
+            case 25:
+              return "rgba(0,0,255,1)"; //change
+              break;
+            case 30:
+              return "rgba(0,0,255,0)";
+              break;
+            default:
+              return "rgba(0,0,255,0)";
+          }
+        } else {
+          switch(l.value) {
+            case 5:
+              return "rgba(0,0,255,0)";
+              break;
+            case 10:
+              return "rgba(224, 224, 224,1)"
+              break;
+            case 15:
+              return "rgba(224, 224, 224,1)";
+              break;
+            case 20:
+              return "rgba(0,0,255,0)";
+              break;
+            case 25:
+              return "rgba(224, 224, 224,1)"; //change
+              break;
+            case 30:
+              return "rgba(0,0,255,0)";
+              break;
+            default:
+              return "rgba(0,0,255,0)";
+          }
+
+          // return "rgba(224, 224, 224,1)"
         }
         })
   }
   
-  function resetLinks() {
-    // link.style("stroke","#0000ff");
-    // link.style("stroke-opacity", 0.6);
+  function resetLinks(d) {
+
+    console.log("out!");
+
+    link
+      .style("stroke", function(l){
+        switch(l.value) {
+          case 5:
+            return "rgba(0,0,255,0)";
+            break;
+          case 10:
+            return "rgba(224, 224, 224,1)"
+            break;
+          case 15:
+            return "rgba(224, 224, 224,1)";
+            break;
+          case 20:
+            return "rgba(0,0,255,0)";
+            break;
+          case 25:
+            return "rgba(224, 224, 224,1)"; //change
+            break;
+          case 30:
+            return "rgba(0,0,255,0)";
+            break;
+          default:
+            return "rgba(0,0,255,0)";
+        }        
+      })
+
+    // link
+    // .style("stroke", "rgba(224, 224, 224,1)");
+
+    // link
+    //   .style("stroke", function(l){
+
+    //       switch(l.value) {
+    //         case 5:
+    //           return "rgba(0,0,255,0.02)";
+    //           break;
+    //         case 10:
+    //           // return "rgba(0,0,255,0.1)";
+    //           // return "rgba(146, 146,239,0.3)"
+    //           return "rgba(255, 165,104,1)"
+    //           break;
+    //         case 15:
+    //           return "rgba(0,0,255,0.02)";
+    //           break;
+    //         case 20:
+    //           return "rgba(0,0,255,0.02)";
+    //           break;
+    //         case 25:
+    //           return "rgba(0,0,255,1)"; //change
+    //           break;
+    //         case 30:
+    //           return "rgba(0,0,255,0.02)";
+    //           break;
+    //         default:
+    //           return "rgba(0,0,255,0.02)";
+        
+    //     } 
+
+        // })
   }
 
 });
