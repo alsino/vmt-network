@@ -175,7 +175,7 @@
 			"birthCountry": "China"
 		},
 		{
-			"name": "Velten Doering",
+			"name": "Dirty Doering",
 			"discipline": 7,
 			"gender": "male",
 			"birthYear": 1978,
@@ -1593,7 +1593,7 @@
 		},
 		{
 			"source": "Fritz Bornstück",
-			"target": "Velten Doering",
+			"target": "Dirty Doering",
 			"value": 5
 		},
 		{
@@ -2055,6 +2055,28 @@
 			"source": "Bram Braam",
 			"target": "Michaela Zimmer",
 			"value": 5
+		},
+
+
+		{
+			"source": "Dirty Doering",
+			"target": "Pilocka Krach",
+			"value": 10
+		},
+		{
+			"source": "Dirty Doering",
+			"target": "Pilocka Krach",
+			"value": 15
+		},
+		{
+			"source": "Dirty Doering",
+			"target": "Pilocka Krach",
+			"value": 30
+		},
+		{
+			"source": "Dirty Doering",
+			"target": "T.Raumschmiere",
+			"value": 30
 		},
 
 
@@ -4150,7 +4172,7 @@
 		},
 		{
 			"source": "Stephan Lieb",
-			"target": "Velten Doering",
+			"target": "Dirty Doering",
 			"value": 5
 		},
 		{
