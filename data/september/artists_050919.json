@@ -6304,6 +6304,44 @@
 
 
 		{
+			"source": "Kitty Solaris",
+			"target": "Fehmi Baumbach",
+			"value": 5
+		},
+		{
+			"source": "Kitty Solaris",
+			"target": "Bernd Begemann",
+			"value": 5
+		},
+		{
+			"source": "Kitty Solaris",
+			"target": "Toni Kater",
+			"value": 25
+		},
+		{
+			"source": "Kitty Solaris",
+			"target": "Friedrich Liechtenstein",
+			"value": 5
+		},
+		{
+			"source": "Kitty Solaris",
+			"target": "Robert Lippok",
+			"value": 5
+		},
+		{
+			"source": "Kitty Solaris",
+			"target": "Sean Derrick Cooper Marquardt",
+			"value": 5
+		},
+		{
+			"source": "Kitty Solaris",
+			"target": "Barbara Morgenstern",
+			"value": 5
+		},
+
+
+
+		{
 			"source": "Frank Spilker",
 			"target": "Fehmi Baumbach",
 			"value": 10
