@@ -102,6 +102,14 @@
 			"birthCountry": "Poland"
 		},
 		{
+			"name": "Amélie Blendl",
+			"discipline": 6,
+			"gender": "female",
+			"birthYear": 1982,
+			"birthTown": "Regensburg",
+			"birthCountry": "Germany"
+		},
+		{
 			"name": "Alex Bodea",
 			"discipline": 3,
 			"gender": "female",
@@ -4266,6 +4274,126 @@
 			"target": "Sinta Werner",
 			"value": 30
 		},
+
+
+
+		{
+			"source": "Alex Lebus",
+			"target": "Sebastian Bieniek",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Amélie Blendl",
+			"value": 10
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Isabelle Borges",
+			"value": 10
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Fritz Bornstück",
+			"value": 10
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Bram Braam",
+			"value": 10
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Sven Drühl",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Moritz Frei",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Jay Gard",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Philip Grözinger",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Philip Grözinger",
+			"value": 10
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Stefanie Gutheil",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Jens Hausmann",
+			"value": 10
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Robert Henke",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Anne Duk Hee Jordan",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Jan Muche",
+			"value": 10
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Manfred Peckl",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Manfred Peckl",
+			"value": 10
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Kitty Solaris",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Viron Erol Vert",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Miriam Vlaming",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Shira Wachsmann",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Michaela Zimmer",
+			"value": 10
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Michaela Zimmer",
+			"value": 20
+		},
+
+
 		{
 			"source": "Jeewi Lee",
 			"target": "Christian Achenbach",
