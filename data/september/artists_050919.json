@@ -3904,6 +3904,99 @@
 
 
 
+		{
+			"source": "Astrid Köppe",
+			"target": "Bram Braam",
+			"value": 5
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Sven Drühl",
+			"value": 20
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Sven Drühl",
+			"value": 30
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Wolfgang Flad",
+			"value": 10
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Wolfgang Flad",
+			"value": 20
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Wolfgang Flad",
+			"value": 30
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Peter Freitag",
+			"value": 10
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Oliver Gröne",
+			"value": 5
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Sibylle Jazra",
+			"value": 5
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Sibylle Jazra",
+			"value": 10
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Klaus Killisch",
+			"value": 5
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Klaus Killisch",
+			"value": 10
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Caroline Kryzecki",
+			"value": 5
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Manfred Peckl",
+			"value": 5
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Susanne Schirdewahn",
+			"value": 5
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Susanne Schirdewahn",
+			"value": 20
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Sinta Werner",
+			"value": 5
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Michaela Zimmer",
+			"value": 5
+		},
+
+
+
     {
       "source": "Caroline Kryzecki",
       "target": "Christian Achenbach",
