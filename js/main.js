@@ -26,6 +26,7 @@ svg
     
 let color = d3.scaleOrdinal(d3.schemeCategory20);
 
+// Simulation .-> Einzelne fliegen fraus
 // let simulation = d3.forceSimulation()
 //     .force("link", d3.forceLink().id(function(d) { return d.name; }).distance(100)) // distance is length of links
 //     .force("charge", d3.forceManyBody())
@@ -46,6 +47,16 @@ let attractForce = d3.forceManyBody().strength(20).distanceMax(500)
                      .distanceMin(100);
 let repelForce = d3.forceManyBody().strength(-200).distanceMax(500)
                    .distanceMin(100);
+             
+// Simulation -> Einzelne an den Rand
+let simulation = d3.forceSimulation().alphaDecay(0.03)
+    .force("charge", d3.forceManyBody().strength(-200))
+    .force("link", d3.forceLink().id(d => d.name))
+    .force("x", d3.forceX().strength(0.215))
+    .force("y", d3.forceY().strength(0.215))
+    .force("attractForce",attractForce)
+    .force("repelForce",repelForce);
+
 
 // var simulation = d3.forceSimulation().alphaDecay(0.03)
 //                  .force("link", d3.forceLink().id(d => d.name)) // between nodes
@@ -54,14 +65,6 @@ let repelForce = d3.forceManyBody().strength(-200).distanceMax(500)
 //                 //  .force("y", d3.forceY().strength(0.115));
 //                  .force("attractForce",attractForce)
 //                  .force("repelForce",repelForce);
-                  
-let simulation = d3.forceSimulation().alphaDecay(0.03)
-    .force("charge", d3.forceManyBody().strength(-200))
-    .force("link", d3.forceLink().id(d => d.name))
-    .force("x", d3.forceX().strength(0.215))
-    .force("y", d3.forceY().strength(0.215))
-    .force("attractForce",attractForce)
-    .force("repelForce",repelForce);
 
 
 
@@ -120,16 +123,41 @@ d3.json("./data/artists_290819.json", function(error, graph) {
     // .attr("r", function(d){
     //   return d.linkCount ? (d.linkCount * 20) : 10; //<-- some function to determine radius
     //   })
-    .style("fill", "black")
+    // .style("fill", "black")
     // .style("stroke", "black")
     // .style("fill", d => color(d.discipline))
     // Color links on hover
-    .on("mouseover", d => highlightLinks(d))
+    .on("mouseover",fade(0.1))
     .on("mouseout", d => resetLinks(d))
     .call(d3.drag()
         .on("start", dragstarted)
         .on("drag", dragged)
         .on("end", dragended));
+
+
+
+    // Check highlight example here: https://bl.ocks.org/almsuarez/4333a12d2531d6c1f6f22b74f2c57102
+    const linkedByIndex = {};
+    graph.links.forEach(d => {
+      linkedByIndex[`${d.source.index},${d.target.index}`] = 1;
+    });
+  
+    function isConnected(a, b) {
+      return linkedByIndex[`${a.index},${b.index}`] || linkedByIndex[`${b.index},${a.index}`] || a.index === b.index;
+    }
+
+    function fade(opacity) {
+      return d => {
+        node.style('stroke-opacity', function (o) {
+          const thisOpacity = isConnected(d, o) ? 1 : opacity;
+          this.setAttribute('fill-opacity', thisOpacity);
+          return thisOpacity;
+        });
+  
+        link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity));
+  
+      };
+    }
 
 
   // // Diamonds
@@ -222,17 +250,18 @@ d3.json("./data/artists_290819.json", function(error, graph) {
       .links(graph.links);
 
   function ticked() {
-    link
-        .attr("x1", function(d) { return d.source.x; })
+    link.attr("x1", function(d) { return d.source.x; })
         .attr("y1", function(d) { return d.source.y; })
         .attr("x2", function(d) { return d.target.x; })
         .attr("y2", function(d) { return d.target.y; });
 
-    node
-        .attr("transform", function(d) {
-          return "translate(" + d.x + "," + d.y + ")";
-        })
+  node
+    .attr("transform", function(d) {
+    return "translate(" + d.x + "," + d.y + ")";
+    })    
   }
+
+
 
 
   function linkColorDefault(d) {
@@ -289,7 +318,11 @@ d3.json("./data/artists_290819.json", function(error, graph) {
   function highlightLinks(d) {
     link
       .style("stroke", function(l){
+
         if (d === l.source || d === l.target) {
+
+          // console.log(d === l.source || d === l.target);
+          // node.style("fill", "red");
 
           switch(l.value) {
             case 5:
@@ -337,9 +370,15 @@ d3.json("./data/artists_290819.json", function(error, graph) {
               return "rgba(0,0,255,0)";
           }
 
-          // return "rgba(224, 224, 224,1)"
         }
         })
+     
+
+
+
+
+        // console.log(link);
+        // d3.select(link).raise();
   }
   
   function resetLinks(d) {

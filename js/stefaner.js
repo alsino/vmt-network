@@ -1,18 +1,22 @@
-var w = 960,
-  h = 500;
+// var w = 960,
+//     h = 500;
 
-var labelDistance = 0;
+var labelDistance = 100;
 
-var vis = d3.select("body").append("svg:svg").attr("width", w).attr("height", h);
+// var vis = d3.select("body").append("svg:svg").attr("width", w).attr("height", h);
+
+let vis = d3.select("svg"),
+    width = +vis.attr("width"),
+    height = +vis.attr("height");
 
 var nodes = [];
 var labelAnchors = [];
 var labelAnchorLinks = [];
 var links = [];
 
-for (var i = 0; i < 30; i++) {
+for (var i = 0; i < 120; i++) {
   var node = {
-    label: "node " + i
+    label: "Agnieszka Korejba " + i
   };
   nodes.push(node);
   labelAnchors.push({
@@ -40,7 +44,7 @@ for (var i = 0; i < nodes.length; i++) {
 };
 
 var force = d3.layout.force()
-            .size([w, h])
+            .size([width, height])
             .nodes(nodes)
             .links(links)
             .gravity(1)
@@ -48,7 +52,7 @@ var force = d3.layout.force()
             .charge(-3000)
             .linkStrength(function (x) {
                  return x.weight * 10
-              });
+              });          
 
 force.start();
 
@@ -59,7 +63,7 @@ var force2 = d3.layout.force()
               .linkDistance(0)
               .linkStrength(8)
               .charge(-100)
-              .size([w, h]);
+              .size([width, height]);
 
 force2.start();
 
