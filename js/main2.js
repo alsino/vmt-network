@@ -80,6 +80,9 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
     .attr('class', 'links')
     // .style("stroke", "rgba(224, 224, 224,1)")
     .style("stroke", "rgba(0, 5, 255, 0.1)")
+    // .style("stroke", (d) => {d.value == 10 ? "red" : "green"  })
+    // .style('stroke', o => (o.value == 10 ? "#F76906" : "#1CDE7E"));
+    // .style('stroke', o => (o.value == 10 ? "rgba(247,105,6,0.2)" : "rgba(28,222,126,0.2)"));
   	// // .on('mouseover.tooltip', function(d) {
     // //   	tooltip.transition()
     // //     	.duration(300)
@@ -280,8 +283,10 @@ function openArtistPage(){
         return thisOpacity;
       });
 
+    
       if (opacity != 1) {
         link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity / 2));
+        // link.style('stroke', o => (o.value == 10 ? "#F76906" : "#1CDE7E"));
       } else {
         link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity));
       }
