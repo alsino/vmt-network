@@ -2339,6 +2339,41 @@
 			"target": "Michaela Zimmer",
 			"value": 5
 		},
+
+
+		{
+			"source": "Francesco Fillini",
+			"target": "Sebastian Bieniek",
+			"value": 5
+		},
+		{
+			"source": "Francesco Fillini",
+			"target": "Bram Braam",
+			"value": 5
+		},
+		{
+			"source": "Francesco Fillini",
+			"target": "Jenny Brosinski",
+			"value": 5
+		},
+		{
+			"source": "Francesco Fillini",
+			"target": "Lukas Glinkowski",
+			"value": 5
+		},
+		{
+			"source": "Francesco Fillini",
+			"target": "Daniel Grüttner",
+			"value": 5
+		},
+		{
+			"source": "Francesco Fillini",
+			"target": "Michaela Zimmer",
+			"value": 5
+		},
+
+
+
 		{
 			"source": "Moritz Frei",
 			"target": "Christian Achenbach",
@@ -3702,6 +3737,7 @@
 			"target": "Shira Wachsmann",
 			"value": 30
 		},
+
 		{
 			"source": "Carolin Kastner",
 			"target": "Bram Braam",
