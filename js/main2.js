@@ -1,4 +1,4 @@
-var color = d3.scaleOrdinal(d3.schemeSet3);
+let color = d3.scaleOrdinal(d3.schemeSet3);
 color(0);
   color(1);
   color(2);
@@ -21,8 +21,7 @@ svg
 .attr("viewBox", [-width / 2, -height / 2, width, height]);
 
 
-
-var tooltip = d3.select("body")
+let tooltip = d3.select("body")
 	.append("div")
 	.attr("class", "tooltip")
 	.style("opacity", 0);
@@ -102,7 +101,23 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
     .call(d3.drag()
     	.on("start", dragstarted)
       .on("drag", dragged)
-      .on("end", dragended));;
+      .on("end", dragended));
+
+  
+
+  function tooltipContent(d){
+    // return `Name: ${d.name} <br> 
+    // Disziplin: ${d.discipline} <br> 
+    // Gender: ${d.gender} <br> 
+    // Birth Year: ${d.birthYear} <br> 
+    // Birth Country: ${d.birthCountry} <br> 
+    // Birth Town: ${d.birthTown} <br>
+    // <img src="./assets/img/mask.png">
+    // `
+
+    return `<img src="./assets/img/mask.png">`
+    
+  }
 
   node.append('circle')
     .attr('r', R)
@@ -111,8 +126,8 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
     .on('mouseover.tooltip', function(d) {
       	tooltip.transition()
         	.duration(300)
-        	.style("opacity", .8);
-      	tooltip.html("Name:" + d.name + "<p/>Disziplin:" + d.discipline)
+        	.style("opacity", 1);
+      	tooltip.html(tooltipContent(d))
         	.style("left", (d3.event.pageX) + "px")
         	.style("top", (d3.event.pageY + 10) + "px");
     	})
@@ -130,7 +145,7 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
     .on('dblclick',releasenode)
     
 
-    // Labels
+  // Labels
   let lables = node.append("text")
   .text(function(d) {
     return d.name;
@@ -147,12 +162,6 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
       .on("start", dragstarted)
       .on("drag", dragged)
       .on("end", dragended));
-    
-	
-  // node.append('text')
-  //   .attr('x', 0)
-  //   .attr('dy', '.35em')
-  //   .text(d => d.name);
 
   function ticked() {
     link
@@ -207,32 +216,6 @@ function releasenode(d) {
 
     };
   }
-  var sequentialScale = d3.scaleOrdinal(d3.schemeSet3)
+  let sequentialScale = d3.scaleOrdinal(d3.schemeSet3)
   .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
-
-
-  // simulation
-  //     .nodes(graph.nodes)
-  //     .on("tick", ticked);
-
-  // simulation.force("link")
-  //     .links(graph.links);
-
-
-// svg.append("g")
-//   .attr("class", "legendSequential")
-//   .attr("transform", "translate("+(width-140)+","+(height-300)+")");
-
-// var legendSequential = d3.legendColor()
-//     .shapeWidth(30)
-//     .cells(11)
-//     .orient("vertical")
-// 		.title("Group number by color:")
-// 		.titleWidth(100)
-//     .scale(sequentialScale) 
-
-// svg.select(".legendSequential")
-//   .call(legendSequential); 
-
-  
 })
