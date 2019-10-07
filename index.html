@@ -48,28 +48,18 @@
     }
 
 
-     .links line {
-      stroke: rgb(177, 177, 177); 
-      /* stroke: rgb(85, 85, 85); */
-      stroke-opacity: 1;
+    .links line {
       stroke-width: 1;
       stroke-dasharray: 5;
       pointer-events: all;
     } 
 
-    .nodes circle {
+    .nodes path {
+      stroke-width: 2px;
       stroke: white;
-      stroke-width: 3px;
       cursor: pointer;
     }
 
-    .nodes rect {
-      cursor: pointer;
-    }
-
-    .nodes .triangle{
-      cursor: pointer;
-    }
 
     svg text {
       font-family: "Roboto Mono";
@@ -87,6 +77,23 @@
       font-size: 0.85rem;
     }
 
+  .bold {
+    font-weight: 900;
+  }
+
+  div.tooltip {
+    position: absolute;
+    background-color: transparent;
+    font-family: "Roboto Mono";
+    font-size: 10px;
+    max-width: 200px;
+    height: auto;
+    padding: 10px 20px;
+    line-height: 1.5;
+    /* box-shadow: 3px 3px 10px rgba(0, 0, 0, .5); */
+    pointer-events: none;
+  }
+
     
   </style>
 
@@ -100,7 +107,7 @@
           <br><br>
           The visualization was developed as a collaboration between <a href="https://stephanieneumann.com/" target="_blank">Stephanie Neumann</a> and <a href="http://alsino.io/" target="_blank">Alsino Skowronnek</a> in Berlin, 2019.
       </aside>
-      <svg width="800" height="600"></svg>
+      <svg width="800" height="800"></svg>
   </div>
 </body>
 <script src="js/main2.js"></script>

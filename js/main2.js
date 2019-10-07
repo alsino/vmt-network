@@ -1,4 +1,16 @@
-var color = d3.scaleOrdinal(d3.schemeSet3);
+// ToDos:
+// 1. Fotos für alle Künstler
+// 2. Links für alle Künstler
+// 3. Links einfärben nach Art der Verbindung
+// 4. Legende einfügen Symbole
+// 5. Texte und Infos rein
+
+// Helpful Links
+// - Symbole: https://bl.ocks.org/d3indepth/bae221df69af953fb06351e1391e89a0
+// - Forces: https://bl.ocks.org/steveharoz/8c3e2524079a8c440df60c1ab72b5d03
+
+
+let color = d3.scaleOrdinal(d3.schemeSet3);
 color(0);
   color(1);
   color(2);
@@ -12,6 +24,8 @@ color(0);
   color(10);
 
 
+let counter = 0;
+
 
 let svg = d3.select("svg"),
     width = +svg.attr("width"),
@@ -21,8 +35,7 @@ svg
 .attr("viewBox", [-width / 2, -height / 2, width, height]);
 
 
-
-var tooltip = d3.select("body")
+let tooltip = d3.select("body")
 	.append("div")
 	.attr("class", "tooltip")
 	.style("opacity", 0);
@@ -45,13 +58,15 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
                        .distanceMin(100);
   let repelForce = d3.forceManyBody().strength(-200).distanceMax(500)
                      .distanceMin(100);
+
+ 
                
   // Simulation -> Einzelne an den Rand
   let simulation = d3.forceSimulation().alphaDecay(0.03)
       .force("charge", d3.forceManyBody().strength(-200))
       .force("link", d3.forceLink().id(d => d.name))
       .force("x", d3.forceX().strength(0.315))
-      .force("y", d3.forceY().strength(0.415))
+      .force("y", d3.forceY().strength(0.315))
       .force("attractForce",attractForce)
       .force("repelForce",repelForce);
 
@@ -63,37 +78,38 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
   simulation.force("link")
       .links(graph.links);
 
-  const R = 5;
-
- 
   let link = svg.selectAll('line')
     .data(graph.links)
     .enter().append('line');
 
   link  
     .attr('class', 'links')
-    .style("stroke", "rgba(224, 224, 224,1)")
-  	// .on('mouseover.tooltip', function(d) {
-    //   	tooltip.transition()
-    //     	.duration(300)
-    //     	.style("opacity", .8);
-    //   	tooltip.html("Source:"+ d.source.name + 
-    //                  "<p/>Target:" + d.target.name +
-    //                 "<p/>Strength:"  + d.value)
-    //     	.style("left", (d3.event.pageX) + "px")
-    //     	.style("top", (d3.event.pageY + 10) + "px");
-    // 	})
-    // 	.on("mouseout.tooltip", function() {
-	  //     tooltip.transition()
-	  //       .duration(100)
-	  //       .style("opacity", 0);
-	  //   })
-  		.on('mouseout.fade', fade(1))
-	    .on("mousemove", function() {
-	      tooltip.style("left", (d3.event.pageX) + "px")
-	        .style("top", (d3.event.pageY + 10) + "px");
-	    });
-;
+    // .style("stroke", "rgba(224, 224, 224,1)")
+    .style("stroke", "rgba(0, 5, 255, 0.1)")
+    // .style("stroke", (d) => {d.value == 10 ? "red" : "green"  })
+    // .style('stroke', o => (o.value == 10 ? "#F76906" : "#1CDE7E"));
+    // .style('stroke', o => (o.value == 10 ? "rgba(247,105,6,0.2)" : "rgba(28,222,126,0.2)"));
+  	// // .on('mouseover.tooltip', function(d) {
+    // //   	tooltip.transition()
+    // //     	.duration(300)
+    // //     	.style("opacity", .8);
+    // //   	tooltip.html("Source:"+ d.source.name + 
+    // //                  "<p/>Target:" + d.target.name +
+    // //                 "<p/>Strength:"  + d.value)
+    // //     	.style("left", (d3.event.pageX) + "px")
+    // //     	.style("top", (d3.event.pageY + 10) + "px");
+    // // 	})
+    // // 	.on("mouseout.tooltip", function() {
+	  // //     tooltip.transition()
+	  // //       .duration(100)
+	  // //       .style("opacity", 0);
+	  // //   })
+  	// 	.on('mouseout.fade', fade(1))
+	  //   .on("mousemove", function() {
+	  //     tooltip.style("left", (d3.event.pageX) + "px")
+	  //       .style("top", (d3.event.pageY + 10) + "px");
+	  //   });
+
 
   let node = svg.selectAll('.node')
     .data(graph.nodes)
@@ -102,17 +118,64 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
     .call(d3.drag()
     	.on("start", dragstarted)
       .on("drag", dragged)
-      .on("end", dragended));;
+      .on("end", dragended));
 
-  node.append('circle')
-    .attr('r', R)
-    // .attr("fill", function(d) { return color(d.discipline);}) 	
-    .attr("fill", "black") 
-    .on('mouseover.tooltip', function(d) {
+  
+
+  function tooltipContent(d){
+    // All information
+    return `Name: ${d.name} <br> 
+    Disziplin: ${d.discipline} <br> 
+    Gender: ${d.gender} <br> 
+    Birth Year: ${d.birthYear} <br> 
+    Birth Country: ${d.birthCountry} <br> 
+    Birth Town: ${d.birthTown} <br>
+    <img src="./assets/img/mask.png">
+    `
+
+    // Just image
+    // return `<img src="./assets/img/mask.png">`
+  }
+
+  let symbolSize = 70;
+  let symbolRadius = 7;
+
+  let symbolGenerator = d3.symbol()
+	.size(symbolSize);
+
+    // TODO: REDUCE NUMBER OF CATEGORIES - We only have 7 different Symbols
+  let symbolTypes = [
+    {"discipline": 1, "name": "installation", "symbol": 'symbolCircle'},
+    {"discipline": 2, "name": "performance","symbol": 'symbolCross'},
+    {"discipline": 3, "name": "painting / drawing / graphic / illustration","symbol": 'symbolDiamond'},
+    {"discipline": 4, "name": "photography","symbol": 'symbolSquare'},
+    {"discipline": 5, "name": "collage","symbol": 'symbolStar'},
+    {"discipline": 6, "name": "sculpture","symbol": 'symbolTriangle'},
+    {"discipline": 7, "name": "music / sound","symbol": 'symbolWye'},
+
+    {"discipline": 8, "name": "music / sound","symbol": 'symbolCircle'},
+    {"discipline": 9, "name": "music / sound","symbol": 'symbolCircle'},
+    {"discipline": 10, "name": "music / sound","symbol": 'symbolCircle'},
+  ]
+
+
+  node
+    .append('path')
+    .attr('r', symbolRadius)
+    .attr('d', function(d) {
+      if (d.discipline && d.discipline < 11 ) {
+        symbolGenerator
+          .type(d3[symbolTypes[d.discipline - 1].symbol]);
+        return symbolGenerator();
+      }     
+    })
+    // .style("fill", function(d) { return color(d.discipline);}) 
+    // .style("fill", "black")
+       .on('mouseover.tooltip', function(d) {
       	tooltip.transition()
         	.duration(300)
-        	.style("opacity", .8);
-      	tooltip.html("Name:" + d.name + "<p/>Disziplin:" + d.discipline)
+        	.style("opacity", 1);
+      	tooltip.html(tooltipContent(d))
         	.style("left", (d3.event.pageX) + "px")
         	.style("top", (d3.event.pageY + 10) + "px");
     	})
@@ -128,31 +191,50 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
 	        .style("top", (d3.event.pageY + 10) + "px");
 	    })
     .on('dblclick',releasenode)
-    
+    .on('click', openArtistPage)
 
-    // Labels
-  let lables = node.append("text")
-  .text(function(d) {
-    return d.name;
-  })
-  .style("font-size", (d) => {
-    // console.log(d);
-    // return d.linkCount * 20;
-  })
-  .attr('x', 6)
-  .attr('y', 3)
-  // .on("mouseover", d => highlightLinks(d))
-  // .on("mouseout", d => resetLinks(d))
-  .call(d3.drag()
-      .on("start", dragstarted)
-      .on("drag", dragged)
-      .on("end", dragended));
     
-	
-  // node.append('text')
-  //   .attr('x', 0)
-  //   .attr('dy', '.35em')
-  //   .text(d => d.name);
+  // Labels
+  let lables = node.append("text")
+    .text(function(d) {
+      return d.name;
+    })
+    .attr('x', 6)
+    .attr('y', 3)
+    .on('mouseover.tooltip', function(d) {
+      tooltip.transition()
+        .duration(300)
+        .style("opacity", 1);
+      tooltip.html(tooltipContent(d))
+        .style("left", (d3.event.pageX) + "px")
+        .style("top", (d3.event.pageY + 10) + "px");
+    })
+  .on('mouseover.fade', fade(0.1))
+  .on("mouseout.tooltip", function() {
+      tooltip.transition()
+        .duration(100)
+        .style("opacity", 0);
+    })
+  .on('mouseout.fade', fade(1))
+    .on("mousemove", function() {
+      tooltip.style("left", (d3.event.pageX) + "px")
+        .style("top", (d3.event.pageY + 10) + "px");
+    })
+  .on('dblclick',releasenode)
+  .on('click', openArtistPage)
+
+  // .style("font-size", (d) => {
+  //   // console.log(d);
+  //   // return d.linkCount * 20;
+  // })
+  // .attr('x', 6)
+  // .attr('y', 3)
+  // // .on("mouseover", d => highlightLinks(d))
+  // // .on("mouseout", d => resetLinks(d))
+  // .call(d3.drag()
+  //     .on("start", dragstarted)
+  //     .on("drag", dragged)
+  //     .on("end", dragended));
 
   function ticked() {
     link
@@ -185,6 +267,10 @@ function releasenode(d) {
     d.fx = null;
     d.fy = null;
 }
+
+function openArtistPage(){
+  window.open('https://visitmytent.com/?p=10430','_blank')
+}
   
   const linkedByIndex = {};
   graph.links.forEach(d => {
@@ -203,36 +289,26 @@ function releasenode(d) {
         return thisOpacity;
       });
 
-      link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity));
+    
+      if (opacity != 1) {
+        link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity / 2));
+        // link.style('stroke', o => (o.value == 10 ? "#F76906" : "#1CDE7E"));
+      } else {
+        link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity));
+      }
+
+      // link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity / 2));
+      // link.style('stroke', o => (o.source === d || o.target === d ? `rgba(0, 5, 255, 1)` : `rgba(0, 5, 255, ${opacity})`));
+
+      // link.style("stroke", function(l){
+      //   if (d === l.source || d === l.target) {
+
+      //   }
+      // }
+
 
     };
   }
-  var sequentialScale = d3.scaleOrdinal(d3.schemeSet3)
+  let sequentialScale = d3.scaleOrdinal(d3.schemeSet3)
   .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
-
-
-  // simulation
-  //     .nodes(graph.nodes)
-  //     .on("tick", ticked);
-
-  // simulation.force("link")
-  //     .links(graph.links);
-
-
-// svg.append("g")
-//   .attr("class", "legendSequential")
-//   .attr("transform", "translate("+(width-140)+","+(height-300)+")");
-
-// var legendSequential = d3.legendColor()
-//     .shapeWidth(30)
-//     .cells(11)
-//     .orient("vertical")
-// 		.title("Group number by color:")
-// 		.titleWidth(100)
-//     .scale(sequentialScale) 
-
-// svg.select(".legendSequential")
-//   .call(legendSequential); 
-
-  
 })
