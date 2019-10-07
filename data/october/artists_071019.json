@@ -2737,6 +2737,99 @@
 
 
 		{
+			"source": "Jay Gard",
+			"target": "Jofroi Amaral",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Amélie Blendl",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Isabelle Borges",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Fritz Bornstück",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Carla Chan",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Sven Drühl",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Ornella Fieres",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Moritz Frei",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Lukas Glinkowski",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Philip Grözinger",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Jens Hausmann",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Michelle Jezierski",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Caroline Kryzecki",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Jeewi Lee",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Jan Muche",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Nik Nowak",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Manfred Peckl",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Hansa Wißkirchen",
+			"value": 10
+		},
+
+
+
+		{
 			"source": "Hannah Goldstein",
 			"target": "Bram Braam",
 			"value": 5
@@ -5351,6 +5444,11 @@
 			"source": "Barbara Morgenstern",
 			"target": "Robert Lippok",
 			"value": 30
+		},
+		{
+			"source": "Barbara Morgenstern",
+			"target": "Frank Spilker",
+			"value": 5
 		},
 		{
 			"source": "Barbara Morgenstern",
