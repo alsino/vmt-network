@@ -24,7 +24,7 @@ svg
 .attr("viewBox", [-width / 2, -height / 2, width, height]);
 
     
-let color = d3.scaleOrdinal(d3.schemeCategory20);
+// let color = d3.scaleOrdinal(d3.schemeCategory20);
 
 // Simulation .-> Einzelne fliegen fraus
 // let simulation = d3.forceSimulation()
@@ -74,7 +74,7 @@ let simulation = d3.forceSimulation().alphaDecay(0.03)
 d3.json("./data/october/artists_071019.json", function(error, graph) {
   if (error) throw error;
 
-  console.log(graph);
+  // console.log(graph);
 
   let link = svg.append("g")
       .attr("class", "links")
@@ -128,7 +128,8 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
     // .style("fill", d => color(d.discipline))
     // Color links on hover
     .on("mouseover",fade(0.1))
-    .on("mouseout", d => resetLinks(d))
+    .on("mouseout", fade(1))
+    // .on("mouseout", d => resetLinks(d))
     .call(d3.drag()
         .on("start", dragstarted)
         .on("drag", dragged)
@@ -137,27 +138,51 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
 
 
     // Check highlight example here: https://bl.ocks.org/almsuarez/4333a12d2531d6c1f6f22b74f2c57102
-    const linkedByIndex = {};
-    graph.links.forEach(d => {
-      linkedByIndex[`${d.source.index},${d.target.index}`] = 1;
-    });
-  
-    function isConnected(a, b) {
-      return linkedByIndex[`${a.index},${b.index}`] || linkedByIndex[`${b.index},${a.index}`] || a.index === b.index;
-    }
+    // const linkedByIndex = {};
+    // graph.links.forEach(d => {
+    //   linkedByIndex[`${d.source.index},${d.target.index}`] = 1;
+    // });
 
-    function fade(opacity) {
-      return d => {
-        node.style('stroke-opacity', function (o) {
-          const thisOpacity = isConnected(d, o) ? 1 : opacity;
-          this.setAttribute('fill-opacity', thisOpacity);
-          return thisOpacity;
-        });
   
-        link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity));
+    // function isConnected(a, b) {
+    //   return linkedByIndex[`${a.index},${b.index}`] || linkedByIndex[`${b.index},${a.index}`] || a.index === b.index;
+    // }
+
+    // function fade(opacity) {
+    //   return d => {
+    //     node.style('stroke-opacity', function (o) {
+    //       const thisOpacity = isConnected(d, o) ? 1 : opacity;
+    //       this.setAttribute('fill-opacity', thisOpacity);
+    //       // console.log(isConnected(d,o));
+    //       return thisOpacity;
+    //     });
+        
+    //     link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity));
   
-      };
-    }
+    //   };
+    // }
+
+    const linkedByIndex = {};
+  graph.links.forEach(d => {
+    linkedByIndex[`${d.source.index},${d.target.index}`] = 1;
+  });
+
+  function isConnected(a, b) {
+    return linkedByIndex[`${a.index},${b.index}`] || linkedByIndex[`${b.index},${a.index}`] || a.index === b.index;
+  }
+
+  function fade(opacity) {
+    return d => {
+      node.style('stroke-opacity', function (o) {
+        const thisOpacity = isConnected(d, o) ? 1 : opacity;
+        this.setAttribute('fill-opacity', thisOpacity);
+        return thisOpacity;
+      });
+
+      link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity));
+      link.attr('marker-end', o => (opacity === 1 || o.source === d || o.target === d ? 'url(#end-arrow)' : 'url(#end-arrow-fade)'));
+    };
+  }
 
 
   // // Diamonds
@@ -232,8 +257,8 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
       })
       .attr('x', 6)
       .attr('y', 3)
-      .on("mouseover", d => highlightLinks(d))
-      .on("mouseout", d => resetLinks(d))
+      // .on("mouseover", d => highlightLinks(d))
+      // .on("mouseout", d => resetLinks(d))
       .call(d3.drag()
           .on("start", dragstarted)
           .on("drag", dragged)
@@ -383,7 +408,7 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
   
   function resetLinks(d) {
 
-    console.log("out!");
+    // console.log("out!");
 
     link
       .style("stroke", function(l){

@@ -11,7 +11,8 @@
   <script type="text/javascript" src="js/vendors/d3.2.6.0/d3.geom.js"></script> -->
   
   <script src="js/vendors/d3.v4.min.js"></script>
-  <script src="js/vendors/labeler.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.min.js"></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 
 
   <link href="https://fonts.googleapis.com/css?family=Amiri|Work+Sans|Roboto+Mono&display=swap" rel="stylesheet">
@@ -46,14 +47,20 @@
       margin: 3% 5%;
     }
 
-    .links line {
+    .link {
+	  stroke: red;
+    stroke-width: 1px;
+    pointer-events: all;
+	}
+
+    /* .links line {
       /* stroke: rgb(177, 177, 177); */
       /* stroke: rgb(85, 85, 85); */
       /* stroke-opacity: 1; */
       stroke-width: 1;
       /* stroke: grey; */
       /* stroke-dasharray: 5; */
-    }
+    } */
 
     .nodes circle {
       stroke: white;
@@ -101,7 +108,7 @@
       <svg width="800" height="600"></svg>
   </div>
 </body>
-<script src="js/main.js"></script>
+<script src="js/main2.js"></script>
 <!-- <script src="js/stefaner.js"></script> -->
 
 </html>
