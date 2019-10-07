@@ -10,6 +10,18 @@ color(0);
   color(8);
   color(9);
   color(10);
+
+
+
+let svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+svg
+.attr("viewBox", [-width / 2, -height / 2, width, height]);
+
+
+
   
   
 
@@ -21,26 +33,53 @@ var tooltip = d3.select("body")
   
 d3.json("./data/october/artists_071019.json", function(error, graph) {
   if (error) throw error;
- 	const svg = d3.select('svg'),
-        width = +svg.attr('width'),
-  			height = +svg.attr('height');
+ 	// const svg = d3.select('svg'),
+  //       width = +svg.attr('width'),
+  // 			height = +svg.attr('height');
     
+  // const simulation = d3.forceSimulation()
+  //   .nodes(graph.nodes)
+  //   .force('link', d3.forceLink().id(d => d.name))
+  //   .force('charge', d3.forceManyBody())
+  //   .force('center', d3.forceCenter(width / 2, height / 2))
+  //   .on('tick', ticked);
 
+  // simulation.force('link')
+  //   .links(graph.links);
+
+  function distance(link) {
+    // return 1 / Math.min(count(link.source), count(link.target));
+    return -100;
+  }
   
-//  const width = 960;
-//   const height = 700;
+  function strength(link) {
+    // return 1 / Math.min(count(link.source), count(link.target));
+    return -200;
+  }
+  
+  let attractForce = d3.forceManyBody().strength(20).distanceMax(500)
+                       .distanceMin(100);
+  let repelForce = d3.forceManyBody().strength(-200).distanceMax(500)
+                     .distanceMin(100);
+               
+  // Simulation -> Einzelne an den Rand
+  let simulation = d3.forceSimulation().alphaDecay(0.03)
+      .force("charge", d3.forceManyBody().strength(-200))
+      .force("link", d3.forceLink().id(d => d.name))
+      .force("x", d3.forceX().strength(0.215))
+      .force("y", d3.forceY().strength(0.215))
+      .force("attractForce",attractForce)
+      .force("repelForce",repelForce);
 
-  const simulation = d3.forceSimulation()
-    .nodes(graph.nodes)
-    .force('link', d3.forceLink().id(d => d.name))
-    .force('charge', d3.forceManyBody())
-    .force('center', d3.forceCenter(width / 2, height / 2))
-    .on('tick', ticked);
 
-  simulation.force('link')
-    .links(graph.links);
+      simulation
+      .nodes(graph.nodes)
+      .on("tick", ticked);
 
-  const R = 6;
+  simulation.force("link")
+      .links(graph.links);
+
+  const R = 5;
 
  
   let link = svg.selectAll('line')
@@ -48,22 +87,22 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
     .enter().append('line');
 
   link  
-    .attr('class', 'link')
-  	.on('mouseover.tooltip', function(d) {
-      	tooltip.transition()
-        	.duration(300)
-        	.style("opacity", .8);
-      	tooltip.html("Source:"+ d.source.name + 
-                     "<p/>Target:" + d.target.name +
-                    "<p/>Strength:"  + d.value)
-        	.style("left", (d3.event.pageX) + "px")
-        	.style("top", (d3.event.pageY + 10) + "px");
-    	})
-    	.on("mouseout.tooltip", function() {
-	      tooltip.transition()
-	        .duration(100)
-	        .style("opacity", 0);
-	    })
+    .attr('class', 'links')
+  	// .on('mouseover.tooltip', function(d) {
+    //   	tooltip.transition()
+    //     	.duration(300)
+    //     	.style("opacity", .8);
+    //   	tooltip.html("Source:"+ d.source.name + 
+    //                  "<p/>Target:" + d.target.name +
+    //                 "<p/>Strength:"  + d.value)
+    //     	.style("left", (d3.event.pageX) + "px")
+    //     	.style("top", (d3.event.pageY + 10) + "px");
+    // 	})
+    // 	.on("mouseout.tooltip", function() {
+	  //     tooltip.transition()
+	  //       .duration(100)
+	  //       .style("opacity", 0);
+	  //   })
   		.on('mouseout.fade', fade(1))
 	    .on("mousemove", function() {
 	      tooltip.style("left", (d3.event.pageX) + "px")
@@ -102,13 +141,32 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
 	      tooltip.style("left", (d3.event.pageX) + "px")
 	        .style("top", (d3.event.pageY + 10) + "px");
 	    })
-  	.on('dblclick',releasenode)
+    .on('dblclick',releasenode)
+    
+
+    // Labels
+  let lables = node.append("text")
+  .text(function(d) {
+    return d.name;
+  })
+  .style("font-size", (d) => {
+    // console.log(d);
+    // return d.linkCount * 20;
+  })
+  .attr('x', 6)
+  .attr('y', 3)
+  // .on("mouseover", d => highlightLinks(d))
+  // .on("mouseout", d => resetLinks(d))
+  .call(d3.drag()
+      .on("start", dragstarted)
+      .on("drag", dragged)
+      .on("end", dragended));
     
 	
-  node.append('text')
-    .attr('x', 0)
-    .attr('dy', '.35em')
-    .text(d => d.name);
+  // node.append('text')
+  //   .attr('x', 0)
+  //   .attr('dy', '.35em')
+  //   .text(d => d.name);
 
   function ticked() {
     link
@@ -165,6 +223,14 @@ function releasenode(d) {
   }
   var sequentialScale = d3.scaleOrdinal(d3.schemeSet3)
   .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+
+
+  // simulation
+  //     .nodes(graph.nodes)
+  //     .on("tick", ticked);
+
+  // simulation.force("link")
+  //     .links(graph.links);
 
 
 // svg.append("g")
