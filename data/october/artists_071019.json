@@ -3449,7 +3449,86 @@
 			"value": 10
 		},
 
-{
+
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Fritz Bornstück",
+			"value": 10
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Fritz Bornstück",
+			"value": 20
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Fritz Bornstück",
+			"value": 30
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Fritz Bornstück",
+			"value": 30
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Daniel Grüttner",
+			"value": 10
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Daniel Grüttner",
+			"value": 20
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Daniel Grüttner",
+			"value": 30
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Stefanie Gutheil",
+			"value": 5
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Stefanie Gutheil",
+			"value": 10
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Stefanie Gutheil",
+			"value": 10
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Malte Kebbel",
+			"value": 10
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Malte Kebbel",
+			"value": 30
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Kevin Kopacka",
+			"value": 5
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Jeewi Lee",
+			"value": 5
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Sebastian Meschenmoser",
+			"value": 5
+		},
+
+
+
+		{
 			"source": "Robert Henke",
 			"target": "Christopher Bauder",
 			"value": 10
