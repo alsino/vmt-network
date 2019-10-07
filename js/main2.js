@@ -50,7 +50,7 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
       .force("charge", d3.forceManyBody().strength(-200))
       .force("link", d3.forceLink().id(d => d.name))
       .force("x", d3.forceX().strength(0.315))
-      .force("y", d3.forceY().strength(0.415))
+      .force("y", d3.forceY().strength(0.315))
       .force("attractForce",attractForce)
       .force("repelForce",repelForce);
 
