@@ -280,7 +280,13 @@ function openArtistPage(){
         return thisOpacity;
       });
 
-      link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity / 2));
+      if (opacity != 1) {
+        link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity / 2));
+      } else {
+        link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity));
+      }
+
+      // link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity / 2));
       // link.style('stroke', o => (o.source === d || o.target === d ? `rgba(0, 5, 255, 1)` : `rgba(0, 5, 255, ${opacity})`));
 
       // link.style("stroke", function(l){
