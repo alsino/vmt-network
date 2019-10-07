@@ -106,7 +106,8 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
 
   node.append('circle')
     .attr('r', R)
-  	.attr("fill", function(d) { return color(d.discipline);}) 	
+    // .attr("fill", function(d) { return color(d.discipline);}) 	
+    .attr("fill", "black") 
     .on('mouseover.tooltip', function(d) {
       	tooltip.transition()
         	.duration(300)
