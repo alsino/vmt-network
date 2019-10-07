@@ -3,9 +3,11 @@
 // 2. Links für alle Künstler
 // 3. Links einfärben nach Art der Verbindung
 // 4. Legende einfügen Symbole
+// 5. Texte und Infos rein
 
 // Helpful Links
 // - Symbole: https://bl.ocks.org/d3indepth/bae221df69af953fb06351e1391e89a0
+// - Forces: https://bl.ocks.org/steveharoz/8c3e2524079a8c440df60c1ab72b5d03
 
 
 let color = d3.scaleOrdinal(d3.schemeSet3);
@@ -20,6 +22,9 @@ color(0);
   color(8);
   color(9);
   color(10);
+
+
+let counter = 0;
 
 
 let svg = d3.select("svg"),
@@ -53,6 +58,8 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
                        .distanceMin(100);
   let repelForce = d3.forceManyBody().strength(-200).distanceMax(500)
                      .distanceMin(100);
+
+ 
                
   // Simulation -> Einzelne an den Rand
   let simulation = d3.forceSimulation().alphaDecay(0.03)
@@ -70,7 +77,6 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
 
   simulation.force("link")
       .links(graph.links);
-
 
   let link = svg.selectAll('line')
     .data(graph.links)
@@ -118,17 +124,17 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
 
   function tooltipContent(d){
     // All information
-    // return `Name: ${d.name} <br> 
-    // Disziplin: ${d.discipline} <br> 
-    // Gender: ${d.gender} <br> 
-    // Birth Year: ${d.birthYear} <br> 
-    // Birth Country: ${d.birthCountry} <br> 
-    // Birth Town: ${d.birthTown} <br>
-    // <img src="./assets/img/mask.png">
-    // `
+    return `Name: ${d.name} <br> 
+    Disziplin: ${d.discipline} <br> 
+    Gender: ${d.gender} <br> 
+    Birth Year: ${d.birthYear} <br> 
+    Birth Country: ${d.birthCountry} <br> 
+    Birth Town: ${d.birthTown} <br>
+    <img src="./assets/img/mask.png">
+    `
 
     // Just image
-    return `<img src="./assets/img/mask.png">`
+    // return `<img src="./assets/img/mask.png">`
   }
 
   let symbolSize = 70;
