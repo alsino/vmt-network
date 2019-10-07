@@ -3,17 +3,15 @@
 
 // discipline
 
-// 1 - installation
-// 2 - performance
-// 3 - painting / drawing / graphic / illustration
+// 1 - installation / performance (former 2)
+// 3 - painting / drawing / graphic / illustration 
 // 4 - photography
 // 5 - collage
 // 6 - sculpture
 // 7 - music / sound
 // 8 - writing
 // 9 - film
-//10 - conceptual art / mixed media
-//11 - generative art
+//10 - conceptual art / mixed media / generative art (former 11)
 
 
 // connections
