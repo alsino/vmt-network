@@ -22,9 +22,6 @@ svg
 
 
 
-  
-  
-
 var tooltip = d3.select("body")
 	.append("div")
 	.attr("class", "tooltip")
@@ -33,19 +30,6 @@ var tooltip = d3.select("body")
   
 d3.json("./data/october/artists_071019.json", function(error, graph) {
   if (error) throw error;
- 	// const svg = d3.select('svg'),
-  //       width = +svg.attr('width'),
-  // 			height = +svg.attr('height');
-    
-  // const simulation = d3.forceSimulation()
-  //   .nodes(graph.nodes)
-  //   .force('link', d3.forceLink().id(d => d.name))
-  //   .force('charge', d3.forceManyBody())
-  //   .force('center', d3.forceCenter(width / 2, height / 2))
-  //   .on('tick', ticked);
-
-  // simulation.force('link')
-  //   .links(graph.links);
 
   function distance(link) {
     // return 1 / Math.min(count(link.source), count(link.target));
@@ -72,7 +56,7 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
       .force("repelForce",repelForce);
 
 
-      simulation
+  simulation
       .nodes(graph.nodes)
       .on("tick", ticked);
 
@@ -88,6 +72,7 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
 
   link  
     .attr('class', 'links')
+    .style("stroke", "rgba(224, 224, 224,1)")
   	// .on('mouseover.tooltip', function(d) {
     //   	tooltip.transition()
     //     	.duration(300)
@@ -113,7 +98,7 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
   let node = svg.selectAll('.node')
     .data(graph.nodes)
     .enter().append('g')
-    .attr('class', 'node')
+    .attr('class', 'nodes')
     .call(d3.drag()
     	.on("start", dragstarted)
       .on("drag", dragged)
@@ -121,12 +106,12 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
 
   node.append('circle')
     .attr('r', R)
-  	.attr("fill", function(d) { return color(d.group);}) 	
+  	.attr("fill", function(d) { return color(d.discipline);}) 	
     .on('mouseover.tooltip', function(d) {
       	tooltip.transition()
         	.duration(300)
         	.style("opacity", .8);
-      	tooltip.html("Name:" + d.name + "<p/>group:" + d.group)
+      	tooltip.html("Name:" + d.name + "<p/>group:" + d.discipline)
         	.style("left", (d3.event.pageX) + "px")
         	.style("top", (d3.event.pageY + 10) + "px");
     	})
