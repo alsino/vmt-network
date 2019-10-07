@@ -5309,6 +5309,11 @@
 		},
 		{
 			"source": "Barbara Morgenstern",
+			"target": "Robert Henke",
+			"value": 5
+		},
+		{
+			"source": "Barbara Morgenstern",
 			"target": "Toni Kater",
 			"value": 10
 		},
