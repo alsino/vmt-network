@@ -106,6 +106,7 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
   
 
   function tooltipContent(d){
+    // All information
     // return `Name: ${d.name} <br> 
     // Disziplin: ${d.discipline} <br> 
     // Gender: ${d.gender} <br> 
@@ -115,15 +116,44 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
     // <img src="./assets/img/mask.png">
     // `
 
+    // Just image
     return `<img src="./assets/img/mask.png">`
-    
   }
 
-  node.append('circle')
+  let symbolSize = 50;
+
+  let symbolGenerator = d3.symbol()
+	.size(symbolSize);
+
+  let symbolTypes = [
+    {"discipline": 1, "name": "installation", "symbol": 'symbolCircle'},
+    {"discipline": 2, "name": "performance","symbol": 'symbolCross'},
+    {"discipline": 3, "name": "painting / drawing / graphic / illustration","symbol": 'symbolDiamond'},
+    {"discipline": 4, "name": "photography","symbol": 'symbolSquare'},
+    {"discipline": 5, "name": "collage","symbol": 'symbolStar'},
+    {"discipline": 6, "name": "sculpture","symbol": 'symbolTriangle'},
+    {"discipline": 7, "name": "music / sound","symbol": 'symbolWye'},
+    {"discipline": 8, "name": "music / sound","symbol": 'symbolCircle'},
+    {"discipline": 9, "name": "music / sound","symbol": 'symbolCircle'},
+    {"discipline": 10, "name": "music / sound","symbol": 'symbolCircle'},
+  ]
+   
+   
+  node
+    .append('path')
     .attr('r', R)
-    // .attr("fill", function(d) { return color(d.discipline);}) 	
-    .attr("fill", "black") 
-    .on('mouseover.tooltip', function(d) {
+    .attr('d', function(d) {
+      if (d.discipline && d.discipline < 11 ) {
+        symbolGenerator
+          .type(d3[symbolTypes[d.discipline - 1].symbol]);
+        return symbolGenerator();
+      }     
+    })
+    // .style("fill", function(d) { return color(d.discipline);}) 
+    // .style("stroke", "black")
+    // .style("fill", "none")
+    // .style("fill", "black")
+       .on('mouseover.tooltip', function(d) {
       	tooltip.transition()
         	.duration(300)
         	.style("opacity", 1);
@@ -211,7 +241,6 @@ function releasenode(d) {
         this.setAttribute('fill-opacity', thisOpacity);
         return thisOpacity;
       });
-
       link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity));
 
     };
