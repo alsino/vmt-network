@@ -50,8 +50,8 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
   let simulation = d3.forceSimulation().alphaDecay(0.03)
       .force("charge", d3.forceManyBody().strength(-200))
       .force("link", d3.forceLink().id(d => d.name))
-      .force("x", d3.forceX().strength(0.215))
-      .force("y", d3.forceY().strength(0.215))
+      .force("x", d3.forceX().strength(0.315))
+      .force("y", d3.forceY().strength(0.415))
       .force("attractForce",attractForce)
       .force("repelForce",repelForce);
 
@@ -111,7 +111,7 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
       	tooltip.transition()
         	.duration(300)
         	.style("opacity", .8);
-      	tooltip.html("Name:" + d.name + "<p/>group:" + d.discipline)
+      	tooltip.html("Name:" + d.name + "<p/>Disziplin:" + d.discipline)
         	.style("left", (d3.event.pageX) + "px")
         	.style("top", (d3.event.pageY + 10) + "px");
     	})
