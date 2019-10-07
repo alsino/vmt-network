@@ -1,8 +1,11 @@
 // ToDos:
-// 1. Fotos alle Künstler
-// 2. Links zu allen Künstlern
-// Art der Verbindungen durch Farbe visualisieren
+// 1. Fotos für alle Künstler
+// 2. Links für alle Künstler
+// 3. Links einfärben nach Art der Verbindung
 // 4. Legende einfügen Symbole
+
+// Helpful Links
+// - Symbole: https://bl.ocks.org/d3indepth/bae221df69af953fb06351e1391e89a0
 
 
 let color = d3.scaleOrdinal(d3.schemeSet3);
@@ -75,7 +78,8 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
 
   link  
     .attr('class', 'links')
-    .style("stroke", "rgba(224, 224, 224,1)")
+    // .style("stroke", "rgba(224, 224, 224,1)")
+    .style("stroke", "rgba(0, 5, 255, 0.1)")
   	// // .on('mouseover.tooltip', function(d) {
     // //   	tooltip.transition()
     // //     	.duration(300)
@@ -157,8 +161,6 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
       }     
     })
     // .style("fill", function(d) { return color(d.discipline);}) 
-    // .style("stroke", "black")
-    // .style("fill", "none")
     // .style("fill", "black")
        .on('mouseover.tooltip', function(d) {
       	tooltip.transition()
@@ -277,7 +279,16 @@ function openArtistPage(){
         this.setAttribute('fill-opacity', thisOpacity);
         return thisOpacity;
       });
-      link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity));
+
+      link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity / 2));
+      // link.style('stroke', o => (o.source === d || o.target === d ? `rgba(0, 5, 255, 1)` : `rgba(0, 5, 255, ${opacity})`));
+
+      // link.style("stroke", function(l){
+      //   if (d === l.source || d === l.target) {
+
+      //   }
+      // }
+
 
     };
   }
