@@ -1,3 +1,10 @@
+// ToDos:
+// 1. Fotos alle Künstler
+// 2. Links zu allen Künstlern
+// Art der Verbindungen durch Farbe visualisieren
+// 4. Legende einfügen Symbole
+
+
 let color = d3.scaleOrdinal(d3.schemeSet3);
 color(0);
   color(1);
@@ -10,7 +17,6 @@ color(0);
   color(8);
   color(9);
   color(10);
-
 
 
 let svg = d3.select("svg"),
@@ -62,9 +68,7 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
   simulation.force("link")
       .links(graph.links);
 
-  const R = 5;
 
- 
   let link = svg.selectAll('line')
     .data(graph.links)
     .enter().append('line');
@@ -72,27 +76,27 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
   link  
     .attr('class', 'links')
     .style("stroke", "rgba(224, 224, 224,1)")
-  	// .on('mouseover.tooltip', function(d) {
-    //   	tooltip.transition()
-    //     	.duration(300)
-    //     	.style("opacity", .8);
-    //   	tooltip.html("Source:"+ d.source.name + 
-    //                  "<p/>Target:" + d.target.name +
-    //                 "<p/>Strength:"  + d.value)
-    //     	.style("left", (d3.event.pageX) + "px")
-    //     	.style("top", (d3.event.pageY + 10) + "px");
-    // 	})
-    // 	.on("mouseout.tooltip", function() {
-	  //     tooltip.transition()
-	  //       .duration(100)
-	  //       .style("opacity", 0);
-	  //   })
-  		.on('mouseout.fade', fade(1))
-	    .on("mousemove", function() {
-	      tooltip.style("left", (d3.event.pageX) + "px")
-	        .style("top", (d3.event.pageY + 10) + "px");
-	    });
-;
+  	// // .on('mouseover.tooltip', function(d) {
+    // //   	tooltip.transition()
+    // //     	.duration(300)
+    // //     	.style("opacity", .8);
+    // //   	tooltip.html("Source:"+ d.source.name + 
+    // //                  "<p/>Target:" + d.target.name +
+    // //                 "<p/>Strength:"  + d.value)
+    // //     	.style("left", (d3.event.pageX) + "px")
+    // //     	.style("top", (d3.event.pageY + 10) + "px");
+    // // 	})
+    // // 	.on("mouseout.tooltip", function() {
+	  // //     tooltip.transition()
+	  // //       .duration(100)
+	  // //       .style("opacity", 0);
+	  // //   })
+  	// 	.on('mouseout.fade', fade(1))
+	  //   .on("mousemove", function() {
+	  //     tooltip.style("left", (d3.event.pageX) + "px")
+	  //       .style("top", (d3.event.pageY + 10) + "px");
+	  //   });
+
 
   let node = svg.selectAll('.node')
     .data(graph.nodes)
@@ -120,11 +124,13 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
     return `<img src="./assets/img/mask.png">`
   }
 
-  let symbolSize = 50;
+  let symbolSize = 70;
+  let symbolRadius = 7;
 
   let symbolGenerator = d3.symbol()
 	.size(symbolSize);
 
+    // TODO: REDUCE NUMBER OF CATEGORIES - We only have 7 different Symbols
   let symbolTypes = [
     {"discipline": 1, "name": "installation", "symbol": 'symbolCircle'},
     {"discipline": 2, "name": "performance","symbol": 'symbolCross'},
@@ -133,15 +139,16 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
     {"discipline": 5, "name": "collage","symbol": 'symbolStar'},
     {"discipline": 6, "name": "sculpture","symbol": 'symbolTriangle'},
     {"discipline": 7, "name": "music / sound","symbol": 'symbolWye'},
+
     {"discipline": 8, "name": "music / sound","symbol": 'symbolCircle'},
     {"discipline": 9, "name": "music / sound","symbol": 'symbolCircle'},
     {"discipline": 10, "name": "music / sound","symbol": 'symbolCircle'},
   ]
-   
-   
+
+
   node
     .append('path')
-    .attr('r', R)
+    .attr('r', symbolRadius)
     .attr('d', function(d) {
       if (d.discipline && d.discipline < 11 ) {
         symbolGenerator
@@ -173,25 +180,50 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
 	        .style("top", (d3.event.pageY + 10) + "px");
 	    })
     .on('dblclick',releasenode)
-    
+    .on('click', openArtistPage)
 
+    
   // Labels
   let lables = node.append("text")
-  .text(function(d) {
-    return d.name;
-  })
-  .style("font-size", (d) => {
-    // console.log(d);
-    // return d.linkCount * 20;
-  })
-  .attr('x', 6)
-  .attr('y', 3)
-  // .on("mouseover", d => highlightLinks(d))
-  // .on("mouseout", d => resetLinks(d))
-  .call(d3.drag()
-      .on("start", dragstarted)
-      .on("drag", dragged)
-      .on("end", dragended));
+    .text(function(d) {
+      return d.name;
+    })
+    .attr('x', 6)
+    .attr('y', 3)
+    .on('mouseover.tooltip', function(d) {
+      tooltip.transition()
+        .duration(300)
+        .style("opacity", 1);
+      tooltip.html(tooltipContent(d))
+        .style("left", (d3.event.pageX) + "px")
+        .style("top", (d3.event.pageY + 10) + "px");
+    })
+  .on('mouseover.fade', fade(0.1))
+  .on("mouseout.tooltip", function() {
+      tooltip.transition()
+        .duration(100)
+        .style("opacity", 0);
+    })
+  .on('mouseout.fade', fade(1))
+    .on("mousemove", function() {
+      tooltip.style("left", (d3.event.pageX) + "px")
+        .style("top", (d3.event.pageY + 10) + "px");
+    })
+  .on('dblclick',releasenode)
+  .on('click', openArtistPage)
+
+  // .style("font-size", (d) => {
+  //   // console.log(d);
+  //   // return d.linkCount * 20;
+  // })
+  // .attr('x', 6)
+  // .attr('y', 3)
+  // // .on("mouseover", d => highlightLinks(d))
+  // // .on("mouseout", d => resetLinks(d))
+  // .call(d3.drag()
+  //     .on("start", dragstarted)
+  //     .on("drag", dragged)
+  //     .on("end", dragended));
 
   function ticked() {
     link
@@ -223,6 +255,10 @@ function dragended(d) {
 function releasenode(d) {
     d.fx = null;
     d.fy = null;
+}
+
+function openArtistPage(){
+  window.open('https://visitmytent.com/?p=10430','_blank')
 }
   
   const linkedByIndex = {};
