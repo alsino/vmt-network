@@ -24,8 +24,6 @@ color(0);
   color(10);
 
 
-let counter = 0;
-
 
 let svg = d3.select("svg"),
     width = +svg.attr("width"),
@@ -34,6 +32,19 @@ let svg = d3.select("svg"),
 svg
 .attr("viewBox", [-width / 2, -height / 2, width, height]);
 
+
+let select = d3.select("body")
+      .append("div")
+      .append("select")
+      .attr("class", "selector")
+      .on("change", () => {
+        console.log(select.property("value"));
+      })
+
+let legend = d3.select(".wrapper")
+    .append("div")
+    .attr("class", "legend");
+  
 
 let tooltip = d3.select("body")
 	.append("div")
@@ -143,7 +154,7 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
   let symbolGenerator = d3.symbol()
 	.size(symbolSize);
 
-    // TODO: REDUCE NUMBER OF CATEGORIES - We only have 7 different Symbols
+  // TODO: REDUCE NUMBER OF CATEGORIES - We only have 7 different Symbols
   let symbolTypes = [
     {"discipline": 1, "name": "installation", "symbol": 'symbolCircle'},
     {"discipline": 2, "name": "performance","symbol": 'symbolCross'},
@@ -223,29 +234,53 @@ d3.json("./data/october/artists_071019.json", function(error, graph) {
   .on('dblclick',releasenode)
   .on('click', openArtistPage)
 
-  // .style("font-size", (d) => {
-  //   // console.log(d);
-  //   // return d.linkCount * 20;
-  // })
-  // .attr('x', 6)
-  // .attr('y', 3)
-  // // .on("mouseover", d => highlightLinks(d))
-  // // .on("mouseout", d => resetLinks(d))
-  // .call(d3.drag()
-  //     .on("start", dragstarted)
-  //     .on("drag", dragged)
-  //     .on("end", dragended));
+  // SELECTOR
+  select.selectAll("option")
+      .data(symbolTypes)
+      .enter()
+      .append("option")
+      .text((d)=> d.name)
 
-  function ticked() {
-    link
-      .attr('x1', d => d.source.x)
-      .attr('y1', d => d.source.y)
-      .attr('x2', d => d.target.x)
-      .attr('y2', d => d.target.y);
+  select.property("value", symbolTypes[0].name);
 
-    node
-      .attr('transform', d => `translate(${d.x},${d.y})`);
-  }
+  // LEGEND
+  let legendItem = legend.selectAll("div")
+      .data(symbolTypes)
+      .enter()
+      .append("div")
+      .attr("class", "legendItem")
+      .on("mouseover.legend", (d) => {
+        // console.log(d.name);
+        highlight(d.discipline, 0.1)
+      })
+
+  let legendSymbol = legendItem.append("div")
+    .append("svg")
+    .attr("class", "legendSymbol")
+    .append('path')
+    .attr('d', function(d) {
+      if (d.discipline && d.discipline < 11 ) {
+        symbolGenerator
+          .type(d3[symbolTypes[d.discipline - 1].symbol]);
+        return symbolGenerator();
+      }     
+    }).attr('transform', 'translate(10, 10)');
+
+  let legendDescription = legendItem.append("div").text((d) => d.name)
+
+
+
+
+function ticked() {
+  link
+    .attr('x1', d => d.source.x)
+    .attr('y1', d => d.source.y)
+    .attr('x2', d => d.target.x)
+    .attr('y2', d => d.target.y);
+
+  node
+    .attr('transform', d => `translate(${d.x},${d.y})`);
+}
 
 function dragstarted(d) {
   if (!d3.event.active) simulation.alphaTarget(0.3).restart();
@@ -296,19 +331,28 @@ function openArtistPage(){
       } else {
         link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity));
       }
-
       // link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity / 2));
-      // link.style('stroke', o => (o.source === d || o.target === d ? `rgba(0, 5, 255, 1)` : `rgba(0, 5, 255, ${opacity})`));
-
-      // link.style("stroke", function(l){
-      //   if (d === l.source || d === l.target) {
-
-      //   }
-      // }
-
-
     };
   }
+
+  function highlight(discipline, opacity){
+    // return d => {
+      node.style('stroke-opacity', function (o) {
+        console.log(o)
+        console.log(discipline)
+
+        const thisOpacity = o.discipline == discipline ? 1 : opacity;
+        this.setAttribute('fill-opacity', thisOpacity);
+        return thisOpacity;
+      });
+    // }
+  }
+
+
+
   let sequentialScale = d3.scaleOrdinal(d3.schemeSet3)
   .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+
+
+
 })
