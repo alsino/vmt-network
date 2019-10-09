@@ -32,13 +32,23 @@ svg
   .attr("viewBox", [-width / 2, -height / 2, width, height]);
 
 
-let select = d3.select("body")
-  .append("div")
-  .append("select")
-  .attr("class", "selector")
-  .on("change", () => {
-    console.log(select.property("value"));
-  })
+// SELECTOR
+// let select = d3.select("body")
+//   .append("div")
+//   .append("select")
+//   .attr("class", "selector")
+//   .on("change", () => {
+//     console.log(select.property("value"));
+//   })
+
+//  select.selectAll("option")
+//  .data(symbolTypes)
+//  .enter()
+//  .append("option")
+//  .text((d) => d.name)
+
+// select.property("value", symbolTypes[0].name);
+
 
 let legend = d3.select(".wrapper")
   .append("div")
@@ -230,14 +240,7 @@ d3.json("./data/october/artists_071019.json", function (error, graph) {
     .on('dblclick', releasenode)
     .on('click', openArtistPage)
 
-  // SELECTOR
-  select.selectAll("option")
-    .data(symbolTypes)
-    .enter()
-    .append("option")
-    .text((d) => d.name)
-
-  select.property("value", symbolTypes[0].name);
+ 
 
   // LEGEND
   let legendItem = legend.selectAll("div")
