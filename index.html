@@ -10,6 +10,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.min.js"></script>
   <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 
+
   <link href="https://fonts.googleapis.com/css?family=Amiri|Work+Sans|Roboto+Mono&display=swap" rel="stylesheet">
   
 
@@ -99,6 +100,12 @@
     display: flex;
     align-items: center;
     cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  .legendItem:hover {
+    color: #0000ff;
+    font-weight: 900;
   }
 
   .legendSymbol {
@@ -128,6 +135,7 @@
       <svg width="800" height="800"></svg>
   </div>
 </body>
+<script src="js/settings.js"></script>
 <script src="js/main2.js"></script>
 
 </html>

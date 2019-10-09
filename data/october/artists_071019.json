@@ -6,7 +6,8 @@
 			"birthYear": 1978,
 			"birthTown": "Siegen",
 			"birthCountry": "Germany",
-			"profileID": "3357"
+			"profileID": "3357",
+			"imageUrl" : "christian_achenbach.jpg"
 		},
 		{
 			"name": "Jörg-Uwe Albig",

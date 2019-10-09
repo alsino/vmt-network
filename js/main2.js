@@ -1,13 +1,13 @@
 // ToDos:
+// 0. 7 Kategorien auswählen und kürzen
 // 1. Fotos für alle Künstler
-// 2. Links für alle Künstler
+// 2. URLs für alle Künstler
 // 3. Links einfärben nach Art der Verbindung
 // 4. Texte und Infos rein
 
 // Helpful Links
 // - Symbole: https://bl.ocks.org/d3indepth/bae221df69af953fb06351e1391e89a0
 // - Forces: https://bl.ocks.org/steveharoz/8c3e2524079a8c440df60c1ab72b5d03
-
 
 let color = d3.scaleOrdinal(d3.schemeSet3);
 color(0);
@@ -162,19 +162,6 @@ d3.json("./data/october/artists_071019.json", function (error, graph) {
   let symbolGenerator = d3.symbol()
     .size(symbolSize);
 
-  // TODO: REDUCE NUMBER OF CATEGORIES - We only have 7 different symbols
-  let symbolTypes = [
-    {"discipline": 1,"name": "installation","symbol": 'symbolCircle'},
-    {"discipline": 2,"name": "performance","symbol": 'symbolCross'},
-    {"discipline": 3,"name": "painting / drawing / graphic / illustration","symbol": 'symbolDiamond'},
-    {"discipline": 4,"name": "photography","symbol": 'symbolSquare'},
-    {"discipline": 5,"name": "collage","symbol": 'symbolStar'},
-    {"discipline": 6,"name": "sculpture","symbol": 'symbolTriangle'},
-    {"discipline": 7,"name": "music / sound","symbol": 'symbolWye'},
-    {"discipline": 8,"name": "Discipline 8","symbol": 'symbolCircle'},
-    {"discipline": 9,"name": "Discipline 9","symbol": 'symbolCircle'},
-    {"discipline": 10,"name": "Discipline 10","symbol": 'symbolCircle'},
-  ]
 
   node
     .append('path')
@@ -251,6 +238,9 @@ d3.json("./data/october/artists_071019.json", function (error, graph) {
     .on("mouseover.legend", (d) => {
       highlight(d.discipline, 0.1)
     })
+    .on("mouseout.legend", (d) => {
+      highlight(d.discipline, 1)
+    })
 
   let legendSymbol = legendItem.append("div")
     .append("svg")
@@ -321,7 +311,6 @@ d3.json("./data/october/artists_071019.json", function (error, graph) {
         return thisOpacity;
       });
 
-
       if (opacity != 1) {
         link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity / 2));
         // link.style('stroke', o => (o.value == 10 ? "#F76906" : "#1CDE7E"));
@@ -339,14 +328,7 @@ d3.json("./data/october/artists_071019.json", function (error, graph) {
       this.setAttribute('fill-opacity', thisOpacity);
       return thisOpacity;
     });
-
-
-
-
-
-
   }
-
 
 
   let sequentialScale = d3.scaleOrdinal(d3.schemeSet3)
