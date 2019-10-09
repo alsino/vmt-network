@@ -173,7 +173,7 @@ d3.json("./data/october/artists_071019.json", function (error, graph) {
 
 
   // Labels
-  let lables = node.append("text")
+  let labels = node.append("text")
     .text(function (d) {
       return d.name;
     })
@@ -334,7 +334,6 @@ d3.json("./data/october/artists_071019.json", function (error, graph) {
   }
 
   function filterArtist(artist, opacity) {
-
     let selectedArtist = graph.nodes.filter(function(item){
       return item.name == artist
     })
@@ -352,6 +351,8 @@ d3.json("./data/october/artists_071019.json", function (error, graph) {
     } else {
       link.style('stroke-opacity', o => (o.source === selectedArtist || o.target === selectedArtist ? 1 : opacity));
     }
+
+  
 
 }
 
