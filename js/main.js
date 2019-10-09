@@ -4,7 +4,6 @@
 // 2. URLs für alle Künstler
 // 3. Links einfärben nach Art der Verbindung
 // 4. Texte und Infos rein
-// 5. Artist filter improve !!!
 
 // Helpful Links
 // - Symbole: https://bl.ocks.org/d3indepth/bae221df69af953fb06351e1391e89a0
@@ -47,7 +46,6 @@ let legend = sidebar
     .append("div")
     .attr("class", "legend");
 
-
 let selectorHeading = sidebar
     .append("div")
     .attr("class", "selectorHeading")
@@ -56,6 +54,8 @@ let selectorHeading = sidebar
 // Select setup
 let select = sidebar.append("select")
   .attr("class", "selector");
+
+// select.append("option").text("Select an artist");
   
 let tooltip = d3.select("body")
   .append("div")
@@ -231,19 +231,18 @@ d3.json("./data/october/artists_071019.json", function (error, graph) {
   let legendDescription = legendItem.append("div").text((d) => d.name)
 
 
-  select.selectAll("option")
-  .data(graph.nodes)
-  .enter()
-  .append("option")
-  .text((d) => d.name)
+  let selectOption = select.selectAll("option")
+    .data(graph.nodes)
+    .enter()
+    .append("option")
+    .text((d) => d.name)
+    .attr("value", (d) => d.name)
 
-  select
-    .property("value", graph.nodes[0].name) // Default value in selector
-    .on("change", (d) => {
-        // filterArtist(d);
-        let artistName = select.property("value");
-        filterArtist(artistName, 0.1);
-  })
+    select.on("change", function(){
+      let artistName = select.property("value");
+      filterArtist(artistName, 0.1);
+    })
+
 
 
 
@@ -335,13 +334,24 @@ d3.json("./data/october/artists_071019.json", function (error, graph) {
   }
 
   function filterArtist(artist, opacity) {
+
+    let selectedArtist = graph.nodes.filter(function(item){
+      return item.name == artist
+    })
+    selectedArtist = selectedArtist[0];
+
     node.style('stroke-opacity', function (o) {
-      const thisOpacity = o.name == artist ? 1 : opacity;
+      const thisOpacity = isConnected(selectedArtist, o) ? 1 : opacity;
       this.setAttribute('fill-opacity', thisOpacity);
       return thisOpacity;
     });
 
-
+    if (opacity != 1) {
+      link.style('stroke-opacity', o => (o.source === selectedArtist || o.target === selectedArtist ? 1 : opacity / 2));
+      // link.style('stroke', o => (o.value == 10 ? "#F76906" : "#1CDE7E"));
+    } else {
+      link.style('stroke-opacity', o => (o.source === selectedArtist || o.target === selectedArtist ? 1 : opacity));
+    }
 
 }
 
