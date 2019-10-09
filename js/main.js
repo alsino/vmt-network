@@ -4,6 +4,7 @@
 // 2. URLs für alle Künstler
 // 3. Links einfärben nach Art der Verbindung
 // 4. Texte und Infos rein
+// 5. Artist filter improve !!!
 
 // Helpful Links
 // - Symbole: https://bl.ocks.org/d3indepth/bae221df69af953fb06351e1391e89a0
@@ -31,35 +32,31 @@ let svg = d3.select("svg"),
 svg
   .attr("viewBox", [-width / 2, -height / 2, width, height]);
 
-
-// SELECTOR
-// let select = d3.select("body")
-//   .append("div")
-//   .append("select")
-//   .attr("class", "selector")
-//   .on("change", () => {
-//     console.log(select.property("value"));
-//   })
-
-//  select.selectAll("option")
-//  .data(symbolTypes)
-//  .enter()
-//  .append("option")
-//  .text((d) => d.name)
-
-// select.property("value", symbolTypes[0].name);
-
 let g = svg.append("g")
     .attr("class", "network");
 
 let linkCont = g.append("g").attr("class", "links");
 let nodeCont = g.append("g").attr("class", "nodes");
 
-
-let legend = d3.select(".wrapper")
+// Legend setup
+let sidebar = d3.select(".wrapper")
   .append("div")
-  .attr("class", "legend");
+  .attr("class", "sidebar")
 
+let legend = sidebar
+    .append("div")
+    .attr("class", "legend");
+
+
+let selectorHeading = sidebar
+    .append("div")
+    .attr("class", "selectorHeading")
+    .text("Artists");
+
+// Select setup
+let select = sidebar.append("select")
+  .attr("class", "selector");
+  
 let tooltip = d3.select("body")
   .append("div")
   .attr("class", "tooltip")
@@ -213,10 +210,10 @@ d3.json("./data/october/artists_071019.json", function (error, graph) {
     .append("div")
     .attr("class", "legendItem")
     .on("mouseover.legend", (d) => {
-      highlight(d.discipline, 0.1)
+      filterDisciplines(d.discipline, 0.1)
     })
     .on("mouseout.legend", (d) => {
-      highlight(d.discipline, 1)
+      filterDisciplines(d.discipline, 1)
     })
 
   let legendSymbol = legendItem.append("div")
@@ -234,10 +231,24 @@ d3.json("./data/october/artists_071019.json", function (error, graph) {
   let legendDescription = legendItem.append("div").text((d) => d.name)
 
 
+  select.selectAll("option")
+  .data(graph.nodes)
+  .enter()
+  .append("option")
+  .text((d) => d.name)
+
+  select
+    .property("value", graph.nodes[0].name) // Default value in selector
+    .on("change", (d) => {
+        // filterArtist(d);
+        let artistName = select.property("value");
+        filterArtist(artistName, 0.1);
+  })
 
 
 
-  //add zoom capabilities 
+
+  // Add zoom capabilities 
   let zoom_handler = d3.zoom()
     .on("zoom", zoom_actions);
 
@@ -314,7 +325,7 @@ d3.json("./data/october/artists_071019.json", function (error, graph) {
     };
   }
 
-  function highlight(discipline, opacity) {
+  function filterDisciplines(discipline, opacity) {
     node.style('stroke-opacity', function (o) {
       // console.log(o, discipline)
       const thisOpacity = o.discipline == discipline ? 1 : opacity;
@@ -322,6 +333,18 @@ d3.json("./data/october/artists_071019.json", function (error, graph) {
       return thisOpacity;
     });
   }
+
+  function filterArtist(artist, opacity) {
+    node.style('stroke-opacity', function (o) {
+      const thisOpacity = o.name == artist ? 1 : opacity;
+      this.setAttribute('fill-opacity', thisOpacity);
+      return thisOpacity;
+    });
+
+
+
+}
+
 
 
   let sequentialScale = d3.scaleOrdinal(d3.schemeSet3)
