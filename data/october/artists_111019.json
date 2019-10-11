@@ -9,7 +9,14 @@
 			"profileID": "3357",
 			"imageUrl" : "christian_achenbach.png"
 		},
-
+		{
+			"name": "Jörg-Uwe Albig",
+			"discipline": 8,
+			"gender": "male",
+			"birthYear": 1960,
+			"birthTown": "Bremen",
+			"birthCountry": "Germany"
+		},
 		{
 			"name": "Jofroi Amaral",
 			"discipline": 3,
@@ -51,7 +58,10 @@
 			"gender": "male",
 			"birthYear": 1971,
 			"birthTown": "?",
-			"birthCountry": "?"
+			"birthCountry": "?",
+			"profileID": "2838",
+			"imageUrl" : "frank_arndt.png"
+
 		},
 		{
 			"name": "Aram Bartholl",
@@ -59,7 +69,9 @@
 			"gender": "male",
 			"birthYear": 1972,
 			"birthTown": "Bremen",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "7695",
+			"imageUrl" : "aram_bartholl.png"
 		},
 		{
 			"name": "Christopher Bauder",
@@ -67,7 +79,9 @@
 			"gender": "male",
 			"birthYear": 1973,
 			"birthTown": "Stuttgart",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "2966",
+			"imageUrl" : "christopher_bauder.png"
 		},
 		{
 			"name": "Fehmi Baumbach",
