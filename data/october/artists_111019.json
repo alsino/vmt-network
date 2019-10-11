@@ -479,7 +479,8 @@
 			"gender": "male",
 			"birthYear": 1987,
 			"birthTown": "Graz",
-			"birthCountry": "Austria"
+			"birthCountry": "Austria",
+			"imageUrl" : "kevin_kopacka.png"
 		},
 		{
 			"name": "Astrid Köppe",
