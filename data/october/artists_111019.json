@@ -342,7 +342,10 @@
 			"gender": "male",
 			"birthYear": 1972,
 			"birthTown": "Braunschweig",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "542",
+			"imageUrl" : "philip_groezinger.png"
+
 		},
 		{
 			"name": "Daniel Grüttner",
@@ -489,7 +492,9 @@
 			"gender": "female",
 			"birthYear": 1974,
 			"birthTown": "Köthen/Anhalt",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "170",
+			"imageUrl" : "astrid_koeppe.png"
 		},
 		{
 			"name": "Agnieszka Korejba",
@@ -749,7 +754,9 @@
 			"gender": "male",
 			"birthYear": 1968,
 			"birthTown": "Wels",
-			"birthCountry": "Austria"
+			"birthCountry": "Austria",
+			"profileID": "462",
+			"imageUrl" : "manfred_peckl.png"
 		},
 		{
 			"name": "Laura Põld",
@@ -789,7 +796,9 @@
 			"gender": "male",
 			"birthYear": 1965,
 			"birthTown": "Stuttgart",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "14",
+			"imageUrl" : "pietro_sanguineti.png"
 		},
 		{
 			"name": "Susanne Schirdewahn",
@@ -830,6 +839,7 @@
 			"birthYear": 0,
 			"birthTown": "?",
 			"birthCountry": "?",
+			"profileID": "375",
 			"imageUrl" : "kitty_solaris.png"
 		},
 		{
