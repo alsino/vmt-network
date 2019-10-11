@@ -9,14 +9,7 @@
 			"profileID": "3357",
 			"imageUrl" : "christian_achenbach.png"
 		},
-		{
-			"name": "Jörg-Uwe Albig",
-			"discipline": 8,
-			"gender": "male",
-			"birthYear": 1960,
-			"birthTown": "Bremen",
-			"birthCountry": "Germany"
-		},
+
 		{
 			"name": "Jofroi Amaral",
 			"discipline": 3,
