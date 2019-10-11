@@ -10,14 +10,6 @@
 			"imageUrl" : "christian_achenbach.png"
 		},
 		{
-			"name": "Jörg-Uwe Albig",
-			"discipline": 8,
-			"gender": "male",
-			"birthYear": 1960,
-			"birthTown": "Bremen",
-			"birthCountry": "Germany"
-		},
-		{
 			"name": "Jofroi Amaral",
 			"discipline": 3,
 			"gender": "male",
@@ -29,11 +21,6 @@
 
 		},
 		{
-			"name": "Android Empire",
-			"discipline": 7,
-			"gender": "male"
-		},
-		{
 			"name": "Song-Ming Ang",
 			"discipline": 3,
 			"gender": "male",
@@ -42,15 +29,6 @@
 			"birthCountry": "Singapore",
 			"profileID": "7969",
 			"imageUrl" : "song_ming_ang.png"
-		},
-		{
-			"name": "Axel Anklam",
-			"discipline": 6,
-			"gallery": "Galerie Rothamel",
-			"gender": "male",
-			"birthYear": 1971,
-			"birthTown": "Wriezen",
-			"birthCountry": "GDR"
 		},
 		{
 			"name": "Frank Arndt",
@@ -166,22 +144,6 @@
 			"birthCountry": "Netherlands"
 		},
 		{
-			"name": "Jenny Brosinski",
-			"discipline": 3,
-			"gender": "female",
-			"birthYear": 1984,
-			"birthTown": "Celle",
-			"birthCountry": "Germany"
-		},
-		{
-			"name": "Mimmo Catania",
-			"discipline": 3,
-			"gender": "male",
-			"birthYear": 1955,
-			"birthTown": "Vittoria",
-			"birthCountry": "Italy"
-		},
-		{
 			"name": "Carla Chan",
 			"discipline": 4,
 			"gender": "female",
@@ -229,14 +191,6 @@
 			"birthYear": 1982,
 			"birthTown": "Tallinn",
 			"birthCountry": "Estonia"
-		},
-		{
-			"name": "Otgonbayar Ershuu",
-			"discipline": 3,
-			"gender": "male",
-			"birthYear": 1981,
-			"birthTown": "Ulaanbaatar",
-			"birthCountry": "Mongolia"
 		},
 		{
 			"name": "Ornella Fieres",
@@ -322,14 +276,6 @@
 			"birthCountry": "Poland"
 		},
 		{
-			"name": "Hannah Goldstein",
-			"discipline": 4,
-			"gender": "female",
-			"birthYear": 0,
-			"birthTown": "?",
-			"birthCountry": "Sweden"
-		},
-		{
 			"name": "Oliver Gröne",
 			"discipline": 3,
 			"gender": "male",
@@ -347,7 +293,6 @@
 			"birthCountry": "Germany",
 			"profileID": "542",
 			"imageUrl" : "philip_groezinger.png"
-
 		},
 		{
 			"name": "Daniel Grüttner",
@@ -365,14 +310,6 @@
 			"birthYear": 1980,
 			"birthTown": "Ravensburg",
 			"birthCountry": "Germany"
-		},
-		{
-			"name": "Lucas Gutierrez",
-			"discipline": 11,
-			"gender": "male",
-			"birthYear": 1985,
-			"birthTown": "Belén/Catamarca",
-			"birthCountry": "Argentina"
 		},
 		{
 			"name": "Janes Haid-Schmallenberg",
@@ -523,22 +460,6 @@
 			"birthCountry": "GDR"
 		},
 		{
-			"name": "Peter Kröning",
-			"discipline": 6,
-			"gender": "male",
-			"birthYear": 1971,
-			"birthTown": "Erlangen",
-			"birthCountry": "Germany"
-		},
-		{
-			"name": "Gerd Kroske",
-			"discipline": 9,
-			"gender": "male",
-			"birthYear": 1958,
-			"birthTown": "Dessau",
-			"birthCountry": "GDR"
-		},
-		{
 			"name": "Caroline Kryzecki",
 			"discipline": 3,
 			"gallery": "Sexauer",
@@ -597,22 +518,6 @@
 			"birthCountry": "Laos"
 		},
 		{
-			"name": "Grischa Lichtenberger",
-			"discipline": 7,
-			"gender": "male",
-			"birthYear": 1983,
-			"birthTown": "Bielefeld",
-			"birthCountry": "Germany"
-		},
-		{
-			"name": "Stephan Lieb",
-			"discipline": 7,
-			"gender": "male",
-			"birthYear": 0,
-			"birthTown": "?",
-			"birthCountry": "Germany"
-		},
-		{
 			"name": "Friedrich Liechtenstein",
 			"discipline": 7,
 			"gender": "male",
@@ -627,14 +532,6 @@
 			"birthYear": 1966,
 			"birthTown": "Berlin",
 			"birthCountry": "GDR"
-		},
-		{
-			"name": "Christian Loclair",
-			"discipline": 10,
-			"gender": "male",
-			"birthYear": 0,
-			"birthTown": "",
-			"birthCountry": "Germany"
 		},
 		{
 			"name": "Pedro Lopes",
@@ -663,14 +560,6 @@
 			"birthCountry": "Germany"
 		},
 		{
-			"name": "Bjørn Melhus",
-			"discipline": 9,
-			"gender": "male",
-			"birthYear": 1966,
-			"birthTown": "Kirchheim unter Teck",
-			"birthCountry": "Germany"
-		},
-		{
 			"name": "Sebastian Meschenmoser",
 			"discipline": 3,
 			"gender": "male",
@@ -696,14 +585,6 @@
 			"birthCountry": "Germany"
 		},
 		{
-			"name": "Jan Muche",
-			"discipline": 3,
-			"gender": "male",
-			"birthYear": 1975,
-			"birthTown": "Herford",
-			"birthCountry": "Germany"
-		},
-		{
 			"name": "Johannes Mundinger",
 			"discipline": 3,
 			"gender": "male",
@@ -726,14 +607,6 @@
 			"birthYear": 1978,
 			"birthTown": "Berlin",
 			"birthCountry": "GDR"
-		},
-		{
-			"name": "Rainer Neumeier",
-			"discipline": 3,
-			"gender": "male",
-			"birthYear": 1975,
-			"birthTown": "Cham",
-			"birthCountry": "Germany"
 		},
 		{
 			"name": "Nik Nowak",
@@ -808,14 +681,6 @@
 			"gender": "female",
 			"birthYear": 1970,
 			"birthTown": "Berlin",
-			"birthCountry": "Germany"
-		},
-		{
-			"name": "Erik Schmidt",
-			"discipline": 3,
-			"gender": "male",
-			"birthYear": 1968,
-			"birthTown": "Herford",
 			"birthCountry": "Germany"
 		},
 		{
@@ -924,14 +789,6 @@
 			"birthYear": 1972,
 			"birthTown": "Lauingen",
 			"birthCountry": "Germany"
-		},
-		{
-			"name": "Trak Wendisch",
-			"discipline": 6,
-			"gender": "male",
-			"birthYear": 1958,
-			"birthTown": "Berlin",
-			"birthCountry": "GDR"
 		},
 		{
 			"name": "Sinta Werner",
