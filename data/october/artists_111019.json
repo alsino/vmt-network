@@ -23,7 +23,9 @@
 			"gender": "male",
 			"birthYear": 1977,
 			"birthTown": "Brussels",
-			"birthCountry": "Belgium"
+			"birthCountry": "Belgium",
+			"imageUrl" : "jofroi_amaral.png"
+
 		},
 		{
 			"name": "Android Empire",
@@ -825,7 +827,8 @@
 			"gender": "female",
 			"birthYear": 0,
 			"birthTown": "?",
-			"birthCountry": "?"
+			"birthCountry": "?",
+			"imageUrl" : "kitty_solaris.png"
 		},
 		{
 			"name": "Frank Spilker",
