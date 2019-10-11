@@ -121,7 +121,9 @@
 			"gender": "female",
 			"birthYear": 1982,
 			"birthTown": "Regensburg",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "286",
+			"imageUrl" : "amelie_blendl.png"
 		},
 		{
 			"name": "Alex Bodea",
