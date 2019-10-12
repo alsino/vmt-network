@@ -199,7 +199,7 @@ d3.json("./data/october/artists_111019.json", function (error, graph) {
         .style("top", (d3.event.pageY + 10) + "px");
     })
     .on('dblclick', releasenode)
-    .on('click', openArtistPage)
+    .on('click', (d) => openArtistPage(d.profileID))
 
  
 
@@ -294,7 +294,7 @@ d3.json("./data/october/artists_111019.json", function (error, graph) {
   }
 
   function openArtistPage(artistID) {
-    window.open(`https://visitmytent.com/?p=${graph.nodes[0].profileID}`, '_blank')
+    window.open(`https://visitmytent.com/?p=${artistID}`, '_blank')
   }
 
   const linkedByIndex = {};
