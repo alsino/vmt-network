@@ -4,6 +4,7 @@
 
 //Allgemein
 - ausgewählte Person blau
+- Beschreibung evtl drunter oder drüber um Visualisierung mehr Platz zu geben
 
 
 //Disziplines: 
