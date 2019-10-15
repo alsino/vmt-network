@@ -224,7 +224,9 @@
 			"gender": "male",
 			"birthYear": 1978,
 			"birthTown": "Leipzig",
-			"birthCountry": "GDR"
+			"birthCountry": "GDR",
+			"profileID": "9720",
+			"imageUrl" : "dirty_doering.png"
 		},
 		{
 			"name": "Grigori Dor",
@@ -233,7 +235,9 @@
 			"gender": "male",
 			"birthYear": 1970,
 			"birthTown": "Ulan-Ude",
-			"birthCountry": "USSR"
+			"birthCountry": "USSR",
+			"profileID": "4855",
+			"imageUrl" : "grigori_dor.png"
 		},
 		{
 			"name": "Sven Drühl",
@@ -241,7 +245,9 @@
 			"gender": "male",
 			"birthYear": 1968,
 			"birthTown": "Nassau",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "3294",
+			"imageUrl" : "sven_druehl.png"
 		},
 		{
 			"name": "Craig Dyer",
@@ -249,7 +255,9 @@
 			"gender": "male",
 			"birthYear": 0,
 			"birthTown": "Manchester",
-			"birthCountry": "United Kingdom"
+			"birthCountry": "United Kingdom",
+			"profileID": "5643",
+			"imageUrl" : "craig_dyer.png"
 		},
 		{
 			"name": "Liisi Eelmaa",
@@ -257,7 +265,9 @@
 			"gender": "female",
 			"birthYear": 1982,
 			"birthTown": "Tallinn",
-			"birthCountry": "Estonia"
+			"birthCountry": "Estonia",
+			"profileID": "9557",
+			"imageUrl" : "liisi_eelmaa.png"
 		},
 		{
 			"name": "Otgonbayar Ershuu",
@@ -274,7 +284,9 @@
 			"gender": "female",
 			"birthYear": 1984,
 			"birthTown": "Frankfurt/Main",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "6464",
+			"imageUrl" : "ornella_fieres.png"
 		},
 		{
 			"name": "Francesco Fillini",
@@ -282,7 +294,9 @@
 			"gender": "male",
 			"birthYear": 0,
 			"birthTown": "?",
-			"birthCountry": "Italy"
+			"birthCountry": "Italy",
+			"profileID": "5000",
+			"imageUrl" : "francesco_fillini.png"
 		},
 		{
 			"name": "Wolfgang Flad",
@@ -291,7 +305,9 @@
 			"gender": "male",
 			"birthYear": 1974,
 			"birthTown": "Reutlingen",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "4147",
+			"imageUrl" : "wolfgang_flad.png"
 		},
 		{
 			"name": "Alex Flemming",
@@ -299,7 +315,9 @@
 			"gender": "male",
 			"birthYear": 1954,
 			"birthTown": "São Paulo",
-			"birthCountry": "Brazil"
+			"birthCountry": "Brazil",
+			"profileID": "9215",
+			"imageUrl" : "alex_flemming.png"
 		},
 		{
 			"name": "Moritz Frei",
@@ -307,7 +325,9 @@
 			"gender": "male",
 			"birthYear": 1978,
 			"birthTown": "Frankfurt/Main",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "1853",
+			"imageUrl" : "moritz_frei.png"
 		},
 		{
 			"name": "Peter Freitag",
@@ -315,7 +335,9 @@
 			"gender": "male",
 			"birthYear": 1972,
 			"birthTown": "Ochsenfurt",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "2112",
+			"imageUrl" : "moritz_frei.png"
 		},
 		{
 			"name": "Paul Frick",
