@@ -828,7 +828,9 @@
 			"gender": "male",
 			"birthYear": 1982,
 			"birthTown": "Offenburg",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "3963",
+			"imageUrl" : "johannes_mundinger.png"
 		},
 		{
 			"name": "Christophe Ndabananiye",
@@ -836,7 +838,9 @@
 			"gender": "male",
 			"birthYear": 1977,
 			"birthTown": "Lubumbashi",
-			"birthCountry": "Democratic Republic of Congo"
+			"birthCountry": "Democratic Republic of Congo",
+			"profileID": "4998",
+			"imageUrl" : "christophe_ndabananiye.png"
 		},
 		{
 			"name": "Bärnd Nettmann",
@@ -844,7 +848,9 @@
 			"gender": "male",
 			"birthYear": 1978,
 			"birthTown": "Berlin",
-			"birthCountry": "GDR"
+			"birthCountry": "GDR",
+			"profileID": "5570",
+			"imageUrl" : "baernd_nettmann.png"
 		},
 		{
 			"name": "Rainer Neumeier",
@@ -860,14 +866,18 @@
 			"gender": "male",
 			"birthYear": 1981,
 			"birthTown": "Mainz",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "4051",
+			"imageUrl" : "nik_nowak.png"
 		},
 		{
 			"name": "Ostberlin Androgyn",
 			"discipline": 7,
 			"gender": "mixed",
 			"birthTown": "Berlin",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "7702",
+			"imageUrl" : "ostberlin_androgyn.png"
 		},
 		{
 			"name": "Manfred Peckl",
@@ -885,7 +895,9 @@
 			"gender": "female",
 			"birthYear": 1984,
 			"birthTown": "Tallinn",
-			"birthCountry": "USSR"
+			"birthCountry": "USSR",
+			"profileID": "9561",
+			"imageUrl" : "laura_pold.png"
 		},
 		{
 			"name": "Max Prosa",
@@ -893,7 +905,9 @@
 			"gender": "male",
 			"birthYear": 1989,
 			"birthTown": "Berlin",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "9914",
+			"imageUrl" : "max_prosa.png"
 		},
 		{
 			"name": "Gonzalo Reyes Araos",
@@ -901,7 +915,9 @@
 			"gender": "male",
 			"birthYear": 1980,
 			"birthTown": "Quilpué",
-			"birthCountry": "Chile"
+			"birthCountry": "Chile",
+			"profileID": "3680",
+			"imageUrl" : "gonzalo_reyes_araos.png"
 		},
 		{
 			"name": "Stefan Roigk",
@@ -909,7 +925,9 @@
 			"gender": "male",
 			"birthYear": 1974,
 			"birthTown": "Bückeburg",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "5985",
+			"imageUrl" : "stefan_roigk.png"
 		},
 		{
 			"name": "Pietro Sanguineti",
@@ -927,7 +945,9 @@
 			"gender": "female",
 			"birthYear": 1970,
 			"birthTown": "Berlin",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "1684",
+			"imageUrl" : "susanne_schirdewahn.png"
 		},
 		{
 			"name": "Erik Schmidt",
@@ -943,7 +963,9 @@
 			"gender": "female",
 			"birthYear": 1979,
 			"birthTown": "Mafikeg",
-			"birthCountry": "South Africa"
+			"birthCountry": "South Africa",
+			"profileID": "4994",
+			"imageUrl" : "lerato_shadi.png"
 		},
 		{
 			"name": "Tracey Snelling",
@@ -951,7 +973,9 @@
 			"gender": "female",
 			"birthYear": 1970,
 			"birthTown": "Oakland",
-			"birthCountry": "USA"
+			"birthCountry": "USA",
+			"profileID": "7884",
+			"imageUrl" : "tracey_snelling.png"
 		},
 		{
 			"name": "Kitty Solaris",
@@ -969,7 +993,9 @@
 			"gender": "male",
 			"birthYear": 1966,
 			"birthTown": "Herford",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "8605",
+			"imageUrl" : "frank_spilker.png"
 		},
 		{
 			"name": "T.Raumschmiere",
@@ -977,7 +1003,9 @@
 			"gender": "male",
 			"birthYear": 1975,
 			"birthTown": "Heidelburg",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "6495",
+			"imageUrl" : "t_raumschmiere.png"
 		},
 		{
 			"name": "Tomoyuki Ueno",
@@ -985,7 +1013,9 @@
 			"gender": "male",
 			"birthYear": 1982,
 			"birthTown": "Kobe",
-			"birthCountry": "Japan"
+			"birthCountry": "Japan",
+			"profileID": "8659",
+			"imageUrl" : "tomoyuki_ueno.png"
 		},
 		{
 			"name": "Hans Unstern",
@@ -993,7 +1023,9 @@
 			"gender": "male",
 			"birthYear": 0,
 			"birthTown": "?",
-			"birthCountry": "?"
+			"birthCountry": "?",
+			"profileID": "8785",
+			"imageUrl" : "hans_unstern.png"
 		},
 		{
 			"name": "Viron Erol Vert",
@@ -1002,7 +1034,9 @@
 			"gender": "male",
 			"birthYear": 0,
 			"birthTown": "?",
-			"birthCountry": "?"
+			"birthCountry": "?",
+			"profileID": "4996",
+			"imageUrl" : "viron_erol_vert.png"
 		},
 		{
 			"name": "Miriam Vlaming",
@@ -1010,7 +1044,9 @@
 			"gender": "female",
 			"birthYear": 1971,
 			"birthTown": "Düsseldorf",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "7358",
+			"imageUrl" : "miriam_vlaming.png"
 		},
 		{
 			"name": "Wiebke Maria Wachmann",
@@ -1018,7 +1054,9 @@
 			"gender": "female",
 			"birthYear": 1969,
 			"birthTown": "Berlin",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "5426",
+			"imageUrl" : "wiebke_maria_wachmann.png"
 		},
 		{
 			"name": "Shira Wachsmann",
@@ -1026,7 +1064,9 @@
 			"gender": "female",
 			"birthYear": 1984,
 			"birthTown": "Tel Aviv",
-			"birthCountry": "Israel"
+			"birthCountry": "Israel",
+			"profileID": "5967",
+			"imageUrl" : "shira_wachsmann.png"
 		},
 		{
 			"name": "Julius Weiland",
@@ -1034,7 +1074,9 @@
 			"gender": "male",
 			"birthYear": 1971,
 			"birthTown": "Lübeck",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "1781",
+			"imageUrl" : "julius_weiland.png"
 		},
 		{
 			"name": "Peter Welz",
@@ -1042,7 +1084,9 @@
 			"gender": "male",
 			"birthYear": 1972,
 			"birthTown": "Lauingen",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "4414",
+			"imageUrl" : "peter_welz.png"
 		},
 		{
 			"name": "Trak Wendisch",
@@ -1058,7 +1102,9 @@
 			"gender": "female",
 			"birthYear": 1977,
 			"birthTown": "Hattingen",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "3406",
+			"imageUrl" : "sinta_werner.png"
 		},
 		{
 			"name": "Hansa Wißkirchen",
@@ -1074,7 +1120,9 @@
 			"gender": "male",
 			"birthYear": 1970,
 			"birthTown": "?",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "4424",
+			"imageUrl" : "markus_wueste.png"
 		},
 		{
 			"name": "Michaela Zimmer",
@@ -1083,7 +1131,9 @@
 			"gender": "female",
 			"birthYear": 1964,
 			"birthTown": "Berlin",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "4604",
+			"imageUrl" : "michaela_zimmer.png"
 		}
 	],
 	"links": [{
