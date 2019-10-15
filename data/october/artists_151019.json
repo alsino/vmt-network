@@ -572,6 +572,7 @@
 			"birthYear": 1987,
 			"birthTown": "Graz",
 			"birthCountry": "Austria",
+			"profileID": "81",
 			"imageUrl" : "kevin_kopacka.png"
 		},
 		{
@@ -590,7 +591,9 @@
 			"gender": "female",
 			"birthYear": 1977,
 			"birthTown": "Gdynia",
-			"birthCountry": "Poland"
+			"birthCountry": "Poland",
+			"profileID": "5528",
+			"imageUrl" : "agnieszka_korejba.png"
 		},
 		{
 			"name": "Bettina Köster",
@@ -606,7 +609,9 @@
 			"gender": "female",
 			"birthYear": 0,
 			"birthTown": "Berlin",
-			"birthCountry": "GDR"
+			"birthCountry": "GDR",
+			"profileID": "7210",
+			"imageUrl" : "pilocka_krach.png"
 		},
 		{
 			"name": "Peter Kröning",
@@ -631,7 +636,9 @@
 			"gender": "female",
 			"birthYear": 1979,
 			"birthTown": "Wickede/Ruhr",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "4053",
+			"imageUrl" : "caroline_kryzecki.png"
 		},
 		{
 			"name": "Michel Lamoller",
@@ -639,7 +646,9 @@
 			"gender": "male",
 			"birthYear": 1984,
 			"birthTown": "Black Forest",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "392",
+			"imageUrl" : "michel_lamoller.png"
 		},
 		{
 			"name": "Camille Laurelli",
@@ -647,7 +656,9 @@
 			"gender": "male",
 			"birthYear": 1981,
 			"birthTown": "?",
-			"birthCountry": "France"
+			"birthCountry": "France",
+			"profileID": "9559",
+			"imageUrl" : "camille_laurelli.png"
 		},
 		{
 			"name": "Alanna Lawley",
@@ -655,7 +666,9 @@
 			"gender": "female",
 			"birthYear": 1983,
 			"birthTown": "?",
-			"birthCountry": "United Kingdom"
+			"birthCountry": "United Kingdom",
+			"profileID": "8393",
+			"imageUrl" : "alanna_lawley.png"
 		},
 		{
 			"name": "Alex Lebus",
@@ -663,7 +676,9 @@
 			"gender": "female",
 			"birthYear": 1980,
 			"birthTown": "Magdeburg",
-			"birthCountry": "GDR"
+			"birthCountry": "GDR",
+			"profileID": "1258",
+			"imageUrl" : "alex_lebus.png"
 		},
 		{
 			"name": "Jeewi Lee",
@@ -672,7 +687,9 @@
 			"gender": "female",
 			"birthYear": 1987,
 			"birthTown": "Seoul",
-			"birthCountry": "Korea"
+			"birthCountry": "Korea",
+			"profileID": "4105",
+			"imageUrl" : "jeewi_lee.png"
 		},
 		{
 			"name": "Van Bo Le-Mentzel",
@@ -680,7 +697,9 @@
 			"gender": "male",
 			"birthYear": 1977,
 			"birthTown": "?",
-			"birthCountry": "Laos"
+			"birthCountry": "Laos",
+			"profileID": "4383",
+			"imageUrl" : "van_bo_le_mentzel.png"
 		},
 		{
 			"name": "Grischa Lichtenberger",
@@ -704,7 +723,9 @@
 			"gender": "male",
 			"birthYear": 1956,
 			"birthTown": "Stalinstadt",
-			"birthCountry": "GDR"
+			"birthCountry": "GDR",
+			"profileID": "4844",
+			"imageUrl" : "friedrich_liechtenstein.png"
 		},
 		{
 			"name": "Robert Lippok",
@@ -729,7 +750,9 @@
 			"birthYear": 1986,
 			"birthTown": "",
 			"birthCountry": "Portugal",
-			"studio": "workshop, the place where things get built..."
+			"studio": "workshop, the place where things get built...",
+			"profileID": "5430",
+			"imageUrl" : "pedro_lopes.png"
 		},
 		{
 			"name": "Sean Derrick Cooper Marquardt",
@@ -737,7 +760,9 @@
 			"gender": "male",
 			"birthYear": 0,
 			"birthTown": "Chicago",
-			"birthCountry": "USA"
+			"birthCountry": "USA",
+			"profileID": "5430",
+			"imageUrl" : "sean_derrick_cooper_marquardt.png"
 		},
 		{
 			"name": "Sandra Meisel",
@@ -746,7 +771,9 @@
 			"gender": "female",
 			"birthYear": 1970,
 			"birthTown": "Karlsruhe",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "1593",
+			"imageUrl" : "sandra_meisel.png"
 		},
 		{
 			"name": "Bjørn Melhus",
@@ -763,7 +790,9 @@
 			"birthYear": 1980,
 			"birthTown": "Frankfurt/Main",
 			"birthCountry": "Germany",
-			"studio": "second home"
+			"studio": "second home",
+			"profileID": "5530",
+			"imageUrl" : "sebastian_meschenmoser.png"
 		},
 		{
 			"name": "Ekaterina Mitichkina",
@@ -771,7 +800,9 @@
 			"gender": "female",
 			"birthYear": 1980,
 			"birthTown": "Minsk",
-			"birthCountry": "Belarus"
+			"birthCountry": "Belarus",
+			"profileID": "2687",
+			"imageUrl" : "ekaterina_mitichkina.png"
 		},
 		{
 			"name": "Barbara Morgenstern",
@@ -779,7 +810,9 @@
 			"gender": "female",
 			"birthYear": 1971,
 			"birthTown": "Hagen",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "5002",
+			"imageUrl" : "barbara_morgenstern.png"
 		},
 		{
 			"name": "Jan Muche",
