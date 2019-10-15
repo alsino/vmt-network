@@ -1,10 +1,14 @@
 //notes
 
 
+
+//Allgemein
+- ausgewählte Person blau
+
+
 //Disziplines: 
 - jetzt prinzipiell auch Zuordnung von mehreren möglich (weil nur eins bis jetzt oft sehr problematisch)
 - Auswahl könnte stehen bleiben, evtl auch mehrere gleichzeitig (Auswahl = fett)
-
 
 
 //Artists (Dropdown)
