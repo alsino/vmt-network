@@ -337,7 +337,7 @@
 			"birthTown": "Ochsenfurt",
 			"birthCountry": "Germany",
 			"profileID": "2112",
-			"imageUrl" : "moritz_frei.png"
+			"imageUrl" : "peter_freitag.png"
 		},
 		{
 			"name": "Paul Frick",
@@ -345,7 +345,9 @@
 			"gender": "male",
 			"birthYear": 1979,
 			"birthTown": "Berlin",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "5941",
+			"imageUrl" : "paul_frick.png"
 		},
 		{
 			"name": "Jay Gard",
@@ -354,7 +356,9 @@
 			"gender": "male",
 			"birthYear": 1984,
 			"birthTown": "Halle/Saale",
-			"birthCountry": "GDR"
+			"birthCountry": "GDR",
+			"profileID": "2009",
+			"imageUrl" : "jay_gard.png"
 		},
 		{
 			"name": "Maria Gideon",
@@ -362,7 +366,9 @@
 			"gender": "female",
 			"birthYear": 1977,
 			"birthTown": "Berlin",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "868",
+			"imageUrl" : "maria_gideon.png"
 		},
 		{
 			"name": "Lukas Glinkowski",
@@ -370,7 +376,9 @@
 			"gender": "male",
 			"birthYear": 1984,
 			"birthTown": "Chełmno",
-			"birthCountry": "Poland"
+			"birthCountry": "Poland",
+			"profileID": "1873",
+			"imageUrl" : "lukas_glinkowski.png"
 		},
 		{
 			"name": "Hannah Goldstein",
@@ -386,7 +394,9 @@
 			"gender": "male",
 			"birthYear": 1969,
 			"birthTown": "Lemgo",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "3685",
+			"imageUrl" : "oliver_groene.png"
 		},
 		{
 			"name": "Philip Grözinger",
@@ -398,7 +408,6 @@
 			"birthCountry": "Germany",
 			"profileID": "280",
 			"imageUrl" : "philip_groezinger.png"
-
 		},
 		{
 			"name": "Daniel Grüttner",
@@ -406,7 +415,9 @@
 			"gender": "male",
 			"birthYear": 1979,
 			"birthTown": "Rotenburg a.d. Wümme",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "3703",
+			"imageUrl" : "daniel_gruettner.png"
 		},
 		{
 			"name": "Stefanie Gutheil",
@@ -415,7 +426,9 @@
 			"gender": "female",
 			"birthYear": 1980,
 			"birthTown": "Ravensburg",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "2433",
+			"imageUrl" : "stefanie_gutheil.png"
 		},
 		{
 			"name": "Lucas Gutierrez",
@@ -431,7 +444,9 @@
 			"gender": "male",
 			"birthYear": 1988,
 			"birthTown": "Warstein",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "4381",
+			"imageUrl" : "janes_haid_schmallenberg.png"
 		},
 		{
 			"name": "Jens Hausmann",
@@ -439,7 +454,9 @@
 			"gender": "male",
 			"birthYear": 1964,
 			"birthTown": "Meiningen",
-			"birthCountry": "GDR"
+			"birthCountry": "GDR",
+			"profileID": "1687",
+			"imageUrl" : "jens_hausmann.png"
 		},
 		{
 			"name": "Robert Henke",
@@ -447,7 +464,9 @@
 			"gender": "male",
 			"birthYear": 1969,
 			"birthTown": "Munich",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "7232",
+			"imageUrl" : "robert_henke.png"
 		},
 		{
 			"name": "Gepa Hinrichsen",
@@ -455,7 +474,9 @@
 			"gender": "female",
 			"birthYear": 0,
 			"birthTown": "?",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "1691",
+			"imageUrl" : "gepa_hinrichsen.png"
 		},
 		{
 			"name": "Sibylle Jazra",
