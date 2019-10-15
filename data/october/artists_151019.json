@@ -141,7 +141,7 @@
 			"birthTown": "?",
 			"birthCountry": "Romania",
 			"profileID": "1683",
-			"imageUrl" : "alex _bodea.png"
+			"imageUrl" : "alex_bodea.png"
 		},
 		{
 			"name": "Lothar Böhme",
@@ -150,8 +150,8 @@
 			"birthYear": 1938,
 			"birthTown": "Berlin",
 			"birthCountry": "GDR",
-			"profileID": "1683",
-			"imageUrl" : "alex _bodea.png"
+			"profileID": "9467",
+			"imageUrl" : "lothar_boehme.png"
 		},
 		{
 			"name": "Isabelle Borges",
@@ -159,7 +159,9 @@
 			"gender": "female",
 			"birthYear": 1966,
 			"birthTown": "Salvador",
-			"birthCountry": "Brazil"
+			"birthCountry": "Brazil",
+			"profileID": "1689",
+			"imageUrl" : "isabelle_borges.png"
 		},
 		{
 			"name": "Fritz Bornstück",
@@ -167,7 +169,9 @@
 			"gender": "male",
 			"birthYear": 1982,
 			"birthTown": "Weilburg",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "5195",
+			"imageUrl" : "fritz_bornstueck.png"
 		},
 		{
 			"name": "Stefano Bosis",
@@ -184,7 +188,9 @@
 			"gender": "male",
 			"birthYear": 1980,
 			"birthTown": "Sittard",
-			"birthCountry": "Netherlands"
+			"birthCountry": "Netherlands",
+			"profileID": "1050",
+			"imageUrl" : "bram_braam.png"
 		},
 		{
 			"name": "Jenny Brosinski",
@@ -208,7 +214,9 @@
 			"gender": "female",
 			"birthYear": 1989,
 			"birthTown": "Guangdong",
-			"birthCountry": "China"
+			"birthCountry": "China",
+			"profileID": "4451",
+			"imageUrl" : "carla_chan.png"
 		},
 		{
 			"name": "Dirty Doering",
