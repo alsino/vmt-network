@@ -283,11 +283,9 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
       for (let i = 0; i < symbolTypes.length; i++) {
         let element = symbolTypes[i].selected;
         element = false;
-        console.log(element);
       }
 
       d.selected = true;
-      // console.log(d.selected);
       disciplineSelected = true;
 
       if (disciplineSelected) {
@@ -295,7 +293,6 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
         d3.select(this).classed("legendItem-active", true);
         filterDisciplines(d.discipline, 0.1);
       }
-
       // Toggle buttons
       // console.log(disciplineSelected);
       // if (d.selected) {
@@ -310,17 +307,14 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
 
     })
 
+    // Reset all disciplines on svg click
     d3.select("svg").on("click", function() {
 
       for (let i = 0; i < symbolTypes.length; i++) {
         let element = symbolTypes[i].selected;
         element = false;
-        console.log(element);
       }
-      d3.selectAll(".legendItem").classed("legendItem-active", false);
-
-    resetDisciplines();
-      
+      resetDisciplines();
     });
 
 
@@ -415,20 +409,13 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
 
 
   function fade(opacity) {
-
     return d => {
-      // console.log(this);
-      // label.style('fill', 'red')
 
       node.style('stroke-opacity', function (o) {
         const thisOpacity = isConnected(d, o) ? 1 : opacity;
         this.setAttribute('fill-opacity', thisOpacity);
         return thisOpacity;
       });
-
-      // node.style("fill", "red");
-
-
 
       if (opacity != 1) {
         link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity / 2));
@@ -437,26 +424,26 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
         link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity));
       }
       // link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity / 2));
-
-
-     
-
     };
   }
 
-
-  function resetDisciplines() {
-    node.style('stroke-opacity', function (o) {
-      const thisOpacity = 1
-      this.setAttribute('fill-opacity', thisOpacity);
-      return thisOpacity;
-    });
-  }
 
   function filterDisciplines(discipline, opacity) {
     node.style('stroke-opacity', function (o) {
       // console.log(o, discipline)
       const thisOpacity = o.discipline == discipline ? 1 : opacity;
+      this.setAttribute('fill-opacity', thisOpacity);
+      return thisOpacity;
+    });
+  }
+
+  function resetDisciplines() {
+    disciplineSelected = false;
+    console.log(disciplineSelected);
+    d3.selectAll(".legendItem").classed("legendItem-active", false);
+
+    node.style('stroke-opacity', function (o) {
+      const thisOpacity = 1
       this.setAttribute('fill-opacity', thisOpacity);
       return thisOpacity;
     });
