@@ -111,7 +111,13 @@
 			"birthTown": "Koblenz",
 			"birthCountry": "Germany",
 			"profileID": "967",
-			"imageUrl" : "clemens_behr.jpg"
+			"imageUrl" : "clemens_behr.jpg",
+			"studioLocation": "Berlin",
+			"questions": {
+				"why": "An inner urge and great pleasure in making an idea that is not visible to others almost real and tangible.",
+				"music": "Kool Keith",
+				"workHours" : "14am - 15pm"
+			}
 		},
 		{
 			"name": "Sebastian Bieniek",
