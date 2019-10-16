@@ -111,18 +111,21 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
 
 
   function tooltipContent(d) {
+
+    let discipline;
+
+    for(var i = 0; i < symbolTypes.length; i++) {
+      if(symbolTypes[i].discipline === d.discipline) {
+        discipline = symbolTypes[i].name;
+      }
+    }
+    
     // All information
     return `<div class="tooltip-info">
-    <div>Name: ${d.name}</div>
-    <div>Disziplin: ${d.discipline}</div>
-    <div>Gender: ${d.gender}</div>
-    <div>Birth Year: ${d.birthYear}</div> 
-    <div>Birth Country: ${d.birthCountry}</div>
-    <div>Birth Town: ${d.birthTown}</div></div>
+    <div>${d.name}</div>
+    <div>${discipline}</div>
+    <div>${d.birthYear}, ${d.birthTown}, ${d.birthCountry}</div></div>
     <img class="tooltip-img" src="./assets/img/${d.imageUrl}">`
-
-    // Just image
-    // return `<img src="./assets/img/mask.png">`
   }
 
   const symbolSize = 70;

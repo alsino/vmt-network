@@ -7,7 +7,12 @@
 			"birthTown": "Siegen",
 			"birthCountry": "Germany",
 			"profileID": "3357",
-			"imageUrl" : "christian_achenbach.jpg"
+			"imageUrl" : "christian_achenbach.jpg",
+			"questions": {
+				"why": "mghvdhgfvefghv",
+				"music": "ngcdhjscg",
+				"workHours" : "2dc - dghdgt"
+			}
 		},
 		{
 			"name": "Jörg-Uwe Albig",
