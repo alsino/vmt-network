@@ -113,19 +113,46 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
   function tooltipContent(d) {
 
     let discipline;
+    let questions = d.questions; 
+    let bithYear = d.birthYear;
 
     for(var i = 0; i < symbolTypes.length; i++) {
       if(symbolTypes[i].discipline === d.discipline) {
         discipline = symbolTypes[i].name;
       }
     }
+
+    if(questions) {
+      // All information
+      return `<div class="tooltip-info">
+        <div class="tooltip-info-inner">
+          <div class="tooltip-name">${d.name}</div>
+          <div class="tooltip-discipline">${discipline}</div>
+          <div class="tooltip-birth">Born ${d.birthYear} in ${d.birthTown}, ${d.birthCountry}</div>
+          <div>Studio in ${d.studioLocation}</div>
+          <br>
+          <div>${d.questions.why}</div>
+          <br>
+          <div>Works from ${d.questions.workHours}</div>
+          <div>Listens to ${d.questions.music}</div>
+        </div>
+      </div>
+      <img class="tooltip-img" src="./assets/img/${d.imageUrl}">`
+
+    } else {
+      // All information
+      return `<div class="tooltip-info">
+        <div class="tooltip-info-inner">
+          <div class="tooltip-name">${d.name}</div>
+          <div class="tooltip-discipline">${discipline}</div>
+          <div class="tooltip-birth">Born ${d.birthYear} in ${d.birthTown}, ${d.birthCountry}</div>
+        </div>
+      </div>
+      <img class="tooltip-img" src="./assets/img/${d.imageUrl}">`
+
+    }
+
     
-    // All information
-    return `<div class="tooltip-info">
-    <div>${d.name}</div>
-    <div>${discipline}</div>
-    <div>${d.birthYear}, ${d.birthTown}, ${d.birthCountry}</div></div>
-    <img class="tooltip-img" src="./assets/img/${d.imageUrl}">`
   }
 
   const symbolSize = 70;
