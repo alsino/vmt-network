@@ -16,7 +16,7 @@
 			"birthYear": 1960,
 			"birthTown": "Bremen",
 			"birthCountry": "Germany",
-			"profileID": "0",
+			"profileID": 0,
 			"imageUrl" : "joerg_uwe_albig.jpg"
 		},
 		{
@@ -47,7 +47,7 @@
 			"birthYear": 1971,
 			"birthTown": "Wriezen",
 			"birthCountry": "GDR",
-			"profileID": "0",
+			"profileID": 0,
 			"imageUrl" : "axel_anklam.jpg"
 		},
 		{
@@ -173,7 +173,7 @@
 			"birthYear": 0,
 			"birthTown": "Milano",
 			"birthCountry": "Italy",
-			"profileID": "0",
+			"profileID": 0,
 			"imageUrl" : "stefano_bosis.jpg"
 		},
 		{
@@ -194,7 +194,7 @@
 			"birthYear": 1984,
 			"birthTown": "Celle",
 			"birthCountry": "Germany",
-			"profileID": "0",
+			"profileID": 0,
 			"imageUrl" : "jenny_brosinski.jpg"
 		},
 		{
@@ -204,7 +204,7 @@
 			"birthYear": 1955,
 			"birthTown": "Vittoria",
 			"birthCountry": "Italy",
-			"profileID": "0",
+			"profileID": 0,
 			"imageUrl" : "mimmo_catania.jpg"
 		},
 		{
@@ -378,7 +378,7 @@
 			"birthYear": 0,
 			"birthTown": "?",
 			"birthCountry": "Sweden",
-			"profileID": "0",
+			"profileID": 0,
 			"imageUrl" : "hannah_goldstein.jpg"
 		},
 		{
@@ -430,7 +430,7 @@
 			"birthYear": 1985,
 			"birthTown": "Belén/Catamarca",
 			"birthCountry": "Argentina",
-			"profileID": "0",
+			"profileID": 0,
 			"imageUrl" : "lucas_gutierrez.jpg"
 		},
 		{
@@ -540,7 +540,7 @@
 			"birthYear": 1959,
 			"birthTown": "Wurzen",
 			"birthCountry": "GDR",
-			"profileID": "0",
+			"profileID": 0,
 			"imageUrl" : "klaus_killisch.jpg"
 		},
 		{
@@ -591,7 +591,7 @@
 			"birthYear": 1959,
 			"birthTown": "Herford",
 			"birthCountry": "Germany",
-			"profileID": "0",
+			"profileID": 0,
 			"imageUrl" : "bettina_koester.jpg"
 		},
 		{
@@ -611,7 +611,7 @@
 			"birthYear": 1971,
 			"birthTown": "Erlangen",
 			"birthCountry": "Germany",
-			"profileID": "0",
+			"profileID": 0,
 			"imageUrl" : "peter_kroening.jpg"
 		},
 		{
@@ -693,7 +693,7 @@
 			"birthYear": 1983,
 			"birthTown": "Bielefeld",
 			"birthCountry": "Germany",
-			"profileID": "0",
+			"profileID": 0,
 			"imageUrl" : "grischa_lichtenberger.jpg"
 		},
 		{
@@ -703,7 +703,7 @@
 			"birthYear": 0,
 			"birthTown": "?",
 			"birthCountry": "Germany",
-			"profileID": "0",
+			"profileID": 0,
 			"imageUrl" : "stephan_lieb.jpg"
 		},
 		{
@@ -723,7 +723,7 @@
 			"birthYear": 1966,
 			"birthTown": "Berlin",
 			"birthCountry": "GDR",
-			"profileID": "0",
+			"profileID": 0,
 			"imageUrl" : "robert_lippok.jpg"
 		},
 		{
@@ -765,7 +765,7 @@
 			"birthYear": 1966,
 			"birthTown": "Kirchheim unter Teck",
 			"birthCountry": "Germany",
-			"profileID": "0",
+			"profileID": 0,
 			"imageUrl" : "bjorn_melhus.jpg"
 		},
 		{
@@ -806,7 +806,7 @@
 			"birthYear": 1975,
 			"birthTown": "Herford",
 			"birthCountry": "Germany",
-			"profileID": "0",
+			"profileID": 0,
 			"imageUrl" : "jan_muche.jpg"
 		},
 		{
@@ -846,7 +846,7 @@
 			"birthYear": 1975,
 			"birthTown": "Cham",
 			"birthCountry": "Germany",
-			"profileID": "0",
+			"profileID": 0,
 			"imageUrl" : "rainer_neumeier.jpg"
 		},
 		{
@@ -879,7 +879,7 @@
 			"imageUrl" : "manfred_peckl.jpg",
 			"studioLocation": "Berlin",
 			"questions": {
-				"why": "Because I love it when it is great sunny werathre",
+				"why": "Why not?",
 				"music": "Metallica",
 				"workHours" : "10am - 10pm"
 			}
@@ -951,7 +951,7 @@
 			"birthYear": 1968,
 			"birthTown": "Herford",
 			"birthCountry": "Germany",
-			"profileID": "0",
+			"profileID": 0,
 			"imageUrl" : "erik_schmidt.jpg"
 		},
 		{
@@ -1092,7 +1092,7 @@
 			"birthYear": 1958,
 			"birthTown": "Berlin",
 			"birthCountry": "GDR",
-			"profileID": "0",
+			"profileID": 0,
 			"imageUrl" : "trak_wendisch.jpg"
 		},
 		{
@@ -1112,7 +1112,7 @@
 			"birthYear": 1966,
 			"birthTown": "Düsseldorf",
 			"birthCountry": "Germany",
-			"profileID": "0",
+			"profileID": 0,
 			"imageUrl" : "hansa_wisskirchen.jpg"
 		},
 		{
