@@ -49,16 +49,6 @@
 			"birthCountry": "GDR"
 		},
 		{
-			"name": "Frank Arndt",
-			"discipline": 1,
-			"gender": "male",
-			"birthYear": 1971,
-			"birthTown": "?",
-			"birthCountry": "?",
-			"profileID": "2838",
-			"imageUrl" : "frank_arndt.jpg"
-		},
-		{
 			"name": "Aram Bartholl",
 			"discipline": 5,
 			"gender": "male",
@@ -1359,8 +1349,6 @@
 			"target": "T.Raumschmiere",
 			"value": 5
 		},
-
-
 		{
 			"source": "Isabelle Borges",
 			"target": "Christian Achenbach",
@@ -1375,11 +1363,6 @@
 			"source": "Isabelle Borges",
 			"target": "Axel Anklam",
 			"value": 10
-		},
-		{
-			"source": "Isabelle Borges",
-			"target": "Frank Arndt",
-			"value": 5
 		},
 		{
 			"source": "Isabelle Borges",
