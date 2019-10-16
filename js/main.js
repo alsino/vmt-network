@@ -257,19 +257,43 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
     .on('click', (d) => openArtistPage(d.profileID))
 
  
-
+  let legendItemSelected = false;
+  
   // LEGEND
   let legendItem = legend.selectAll("div")
     .data(symbolTypes)
     .enter()
     .append("div")
     .attr("class", "legendItem")
-    .on("mouseover.legend", (d) => {
-      filterDisciplines(d.discipline, 0.1)
+    // .on("mouseover.legend", (d) => {
+    //   filterDisciplines(d.discipline, 0.1)
+    // })
+    // .on("mouseout.legend", (d) => {
+    //   filterDisciplines(d.discipline, 1)
+    // })
+    // .on("click", (d) => {
+    //   filterDisciplines(d.discipline, 0.1);
+    //   console.log(d);
+    // })
+    .on("click", function(d) {
+      // toggleDiscipline(d);
+      d.selected = !d.selected;
+
+      if (d.selected) {
+        d3.select(this).classed("legendItem-active", true);
+        filterDisciplines(d.discipline, 0.1);
+      } else {
+        d3.select(this).classed("legendItem-active", false);
+        filterDisciplines(d.discipline, 1);
+      }
+      // d.selected ? d3.select(this).classed("legendItem-active", true): d3.select(this).classed("legendItem-active", false);
+      // filterDisciplines(d.discipline, 0.1);
     })
-    .on("mouseout.legend", (d) => {
-      filterDisciplines(d.discipline, 1)
-    })
+
+    // function toggleDiscipline(d){
+    //   d.selected = !d.selected;
+    //   d.selected ? d3.select(this).classed("legendItem-active", true) : d3.select(this).classed("legendItem-active", false);
+    // }
 
   let legendSymbol = legendItem.append("div")
     .append("svg")
