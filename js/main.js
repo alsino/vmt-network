@@ -210,13 +210,9 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
     .on('mouseover.tooltip', function (d) {
       showTooltip(d);
     })
-    .on('mouseover.fade', (d, i, nodes) => {
-      fadeNew(d, i, nodes);
-    })
     .on("mouseout.tooltip", function () {
       hideTooltip();
     })
-    .on('mouseout.fade', fade(1))
     .on("mousemove", function () {
       // tooltip.style("left", (d3.event.pageX) + "px")
       //   .style("top", (d3.event.pageY + 10) + "px");
@@ -234,7 +230,7 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
     .attr('y', 3)
     .on('mouseover.tooltip', (d) => { showTooltip(d);})
     .on('mouseover.fade', (d, i, nodes) => {
-      fadeNew(d, i, nodes);
+      fadeNew(d, i, nodes, 0.1);
     })
     .on("mouseout.tooltip", function () {
       label.style("fill", "black");
@@ -400,22 +396,22 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
   }
 
 
-  function fadeNew(d, i, nodes) {
+  function fadeNew(d, i, nodes, opacity) {
     d3.select(nodes[i]).style("fill", "#0000ff");
 
-    let opacity = 0.1;
+    let op = opacity;
 
     node.style('stroke-opacity', function (o) {
-      const thisOpacity = isConnected(d, o) ? 1 : opacity;
+      const thisOpacity = isConnected(d, o) ? 1 : op;
       this.setAttribute('fill-opacity', thisOpacity);
       return thisOpacity;
     });
 
-    if (opacity != 1) {
-      link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity / 2));
+    if (op != 1) {
+      link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : op / 2));
       // link.style('stroke', o => (o.value == 10 ? "#F76906" : "#1CDE7E"));
     } else {
-      link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity));
+      link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : op));
     }    
   }
 
