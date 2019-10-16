@@ -46,7 +46,9 @@
 			"gender": "male",
 			"birthYear": 1971,
 			"birthTown": "Wriezen",
-			"birthCountry": "GDR"
+			"birthCountry": "GDR",
+			"profileID": "0",
+			"imageUrl" : "axel_anklam.jpg"
 		},
 		{
 			"name": "Aram Bartholl",
@@ -170,7 +172,9 @@
 			"gender": "male",
 			"birthYear": 0,
 			"birthTown": "Milano",
-			"birthCountry": "Italy"
+			"birthCountry": "Italy",
+			"profileID": "0",
+			"imageUrl" : "stefano_bosis.jpg"
 		},
 		{
 			"name": "Bram Braam",
@@ -189,7 +193,9 @@
 			"gender": "female",
 			"birthYear": 1984,
 			"birthTown": "Celle",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "0",
+			"imageUrl" : "jenny_brosinski.jpg"
 		},
 		{
 			"name": "Mimmo Catania",
@@ -197,7 +203,9 @@
 			"gender": "male",
 			"birthYear": 1955,
 			"birthTown": "Vittoria",
-			"birthCountry": "Italy"
+			"birthCountry": "Italy",
+			"profileID": "0",
+			"imageUrl" : "mimmo_catania.jpg"
 		},
 		{
 			"name": "Carla Chan",
@@ -369,7 +377,9 @@
 			"gender": "female",
 			"birthYear": 0,
 			"birthTown": "?",
-			"birthCountry": "Sweden"
+			"birthCountry": "Sweden",
+			"profileID": "0",
+			"imageUrl" : "hannah_goldstein.jpg"
 		},
 		{
 			"name": "Oliver Gröne",
@@ -419,7 +429,9 @@
 			"gender": "male",
 			"birthYear": 1985,
 			"birthTown": "Belén/Catamarca",
-			"birthCountry": "Argentina"
+			"birthCountry": "Argentina",
+			"profileID": "0",
+			"imageUrl" : "lucas_gutierrez.jpg"
 		},
 		{
 			"name": "Janes Haid-Schmallenberg",
@@ -578,7 +590,9 @@
 			"gender": "female",
 			"birthYear": 1959,
 			"birthTown": "Herford",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "0",
+			"imageUrl" : "bettina_koester.jpg"
 		},
 		{
 			"name": "Pilocka Krach",
@@ -596,7 +610,9 @@
 			"gender": "male",
 			"birthYear": 1971,
 			"birthTown": "Erlangen",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "0",
+			"imageUrl" : "peter_kroening.jpg"
 		},
 		{
 			"name": "Caroline Kryzecki",
@@ -676,7 +692,9 @@
 			"gender": "male",
 			"birthYear": 1983,
 			"birthTown": "Bielefeld",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "0",
+			"imageUrl" : "grischa_lichtenberger.jpg"
 		},
 		{
 			"name": "Stephan Lieb",
@@ -684,7 +702,9 @@
 			"gender": "male",
 			"birthYear": 0,
 			"birthTown": "?",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "0",
+			"imageUrl" : "stephan_lieb.jpg"
 		},
 		{
 			"name": "Friedrich Liechtenstein",
@@ -702,7 +722,9 @@
 			"gender": "male",
 			"birthYear": 1966,
 			"birthTown": "Berlin",
-			"birthCountry": "GDR"
+			"birthCountry": "GDR",
+			"profileID": "0",
+			"imageUrl" : "robert_lippok.jpg"
 		},
 		{
 			"name": "Pedro Lopes",
@@ -742,7 +764,9 @@
 			"gender": "male",
 			"birthYear": 1966,
 			"birthTown": "Kirchheim unter Teck",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "0",
+			"imageUrl" : "bjorn_melhus.jpg"
 		},
 		{
 			"name": "Sebastian Meschenmoser",
@@ -821,7 +845,9 @@
 			"gender": "male",
 			"birthYear": 1975,
 			"birthTown": "Cham",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "0",
+			"imageUrl" : "rainer_neumeier.jpg"
 		},
 		{
 			"name": "Nik Nowak",
@@ -924,7 +950,9 @@
 			"gender": "male",
 			"birthYear": 1968,
 			"birthTown": "Herford",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "0",
+			"imageUrl" : "erik_schmidt.jpg"
 		},
 		{
 			"name": "Lerato Shadi",
@@ -1063,7 +1091,9 @@
 			"gender": "male",
 			"birthYear": 1958,
 			"birthTown": "Berlin",
-			"birthCountry": "GDR"
+			"birthCountry": "GDR",
+			"profileID": "0",
+			"imageUrl" : "trak_wendisch.jpg"
 		},
 		{
 			"name": "Sinta Werner",
@@ -1081,7 +1111,9 @@
 			"gender": "male",
 			"birthYear": 1966,
 			"birthTown": "Düsseldorf",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "0",
+			"imageUrl" : "hansa_wisskirchen.jpg"
 		},
 		{
 			"name": "Markus Wüste",
