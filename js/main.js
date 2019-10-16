@@ -63,7 +63,7 @@ let tooltip = d3.select("body")
   .style("opacity", 0);
 
 
-d3.json("./data/october/artists_151019.json", function (error, graph) {
+d3.json("./data/october/artists_161019.json", function (error, graph) {
   if (error) throw error;
 
   function distance(link) {
