@@ -1,36 +1,38 @@
 //notes
 
+// Prio: 
+- Layout ?
+- Fotos und Info
+- Art der Verbindung
+- Disziplinen-Filter statisch
+- Select artist / highlight name
 
 
-//Allgemein
-- ausgewählte Person blau
-- Beschreibung evtl drunter oder drüber um Visualisierung mehr Platz zu geben
+
+// toDos:
+
+- Fotos entscheiden
+- Texte und Infos rein (welche? - Music, color, shoes, etc.) (S und A)
+- Layout (1. beschreibung wo?, 2. infos wo?, 3. filter wo? ) (S und A)
+- Disziplinen -> jetzt prinzipiell auch Zuordnung von mehreren möglich (weil nur eins bis jetzt oft sehr problematisch) (S und A)
+
+- Fotos für alle Künstler (S)
+- URLs für alle Künstler (S)
+
+- Links einfärben nach Art der Verbindung (A)
+- If profileID 0 -> no link (A)
+- Highlight name on hover (A)
+- Artist dropdown -> select artist.. (A)
+- Disziplinen- Auswahl könnte stehen bleiben, evtl auch mehrere gleichzeitig (Auswahl = fett) (A)
 
 
-//Disziplines: 
-- jetzt prinzipiell auch Zuordnung von mehreren möglich (weil nur eins bis jetzt oft sehr problematisch)
-- Auswahl könnte stehen bleiben, evtl auch mehrere gleichzeitig (Auswahl = fett)
+
+---
 
 
-//Artists (Dropdown)
-+ all
+//Nice to have:  //Switch, Slider
 
-//Galleries (Dropdown)
-
-
-//Connections
-- Exhibited together
-- Collaborated on an art piece
-
-
-//Switch, Slider
 - male / female
 - age
 - working time 
-
-
-
-// Info
-- Artist statement?
-- Music
 

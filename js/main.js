@@ -1,10 +1,3 @@
-// ToDos:
-// 0. 7 Kategorien auswählen und kürzen
-// 1. Fotos für alle Künstler
-// 2. URLs für alle Künstler
-// 3. Links einfärben nach Art der Verbindung
-// 4. Texte und Infos rein
-
 // Helpful Links
 // - Symbole: https://bl.ocks.org/d3indepth/bae221df69af953fb06351e1391e89a0
 // - Forces: https://bl.ocks.org/steveharoz/8c3e2524079a8c440df60c1ab72b5d03
@@ -125,7 +118,7 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
     Birth Year: ${d.birthYear} <br> 
     Birth Country: ${d.birthCountry} <br> 
     Birth Town: ${d.birthTown} <br>
-    <img class="tooltip-img" src="./assets/img/${d.imageUrl}">`
+    <img src="./assets/img/${d.imageUrl}">`
 
     // Just image
     // return `<img src="./assets/img/mask.png">`
@@ -173,7 +166,7 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
 
 
   // Labels
-  let labels = node.append("text")
+  let label = node.append("text")
     .text(function (d) {
       return d.name;
     })
@@ -187,7 +180,11 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
         .style("left", (d3.event.pageX) + "px")
         .style("top", (d3.event.pageY + 10) + "px");
     })
-    .on('mouseover.fade', fade(0.1))
+    .on('mouseover.fade', () =>{
+      fade(0.1);
+      // d3.select(this).style('fill', 'red');
+      
+    })
     .on("mouseout.tooltip", function () {
       tooltip.transition()
         .duration(100)
@@ -307,12 +304,17 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
   }
 
   function fade(opacity) {
+
     return d => {
+      // console.log(d);
+      // label.style('fill', 'red')
+
       node.style('stroke-opacity', function (o) {
         const thisOpacity = isConnected(d, o) ? 1 : opacity;
         this.setAttribute('fill-opacity', thisOpacity);
         return thisOpacity;
       });
+
 
       if (opacity != 1) {
         link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity / 2));
@@ -321,6 +323,10 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
         link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity));
       }
       // link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity / 2));
+
+
+     
+
     };
   }
 
