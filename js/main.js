@@ -228,15 +228,17 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
     })
     .attr('x', 6)
     .attr('y', 3)
-    .on('mouseover.tooltip', (d) => { showTooltip(d);})
     .on('mouseover.fade', (d, i, nodes) => {
-      fadeNew(d, i, nodes, 0.1);
+      fade(d, i, nodes, 0.1);
     })
+    .on('mouseout.fade', (d, i, nodes) => {
+      fade(d, i, nodes, 1);
+    })
+    .on('mouseover.tooltip', (d) => { showTooltip(d);})
     .on("mouseout.tooltip", function () {
       label.style("fill", "black");
       hideTooltip();
     })
-    .on('mouseout.fade', fade(1))
     .on("mousemove", function () {
       // tooltip.style("left", (d3.event.pageX) + "px")
       //   .style("top", (d3.event.pageY + 10) + "px");
@@ -302,7 +304,6 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
       }
       resetDisciplines();
       hideTooltip();
-      // fade(1);
     });
 
 
@@ -396,7 +397,7 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
   }
 
 
-  function fadeNew(d, i, nodes, opacity) {
+  function fade(d, i, nodes, opacity) {
     d3.select(nodes[i]).style("fill", "#0000ff");
 
     let op = opacity;
@@ -414,39 +415,6 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
       link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : op));
     }    
   }
-
-
-  function fade(opacity, d) {
-
-    console.log(disciplineSelected);
-
-
-    return d => {
-
-      node.style('stroke-opacity', function (o) {
-        const thisOpacity = isConnected(d, o) ? 1 : opacity;
-        this.setAttribute('fill-opacity', thisOpacity);
-
-
-        // if(disciplineSelected) {
-        //   const canTouch = o.discipline == discipline ? "auto" : "none";
-        //   this.setAttribute('pointer-events', canTouch);
-        // }
-        
-
-        return thisOpacity;
-      });
-
-      if (opacity != 1) {
-        link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity / 2));
-        // link.style('stroke', o => (o.value == 10 ? "#F76906" : "#1CDE7E"));
-      } else {
-        link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity));
-      }
-      // link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity / 2));
-    };
-  }
-
 
   function filterDisciplines(discipline, opacity) {
     node.style('stroke-opacity', function (o) {
