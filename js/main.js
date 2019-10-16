@@ -114,7 +114,6 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
 
     let discipline;
     let questions = d.questions; 
-    let bithYear = d.birthYear;
 
     for(var i = 0; i < symbolTypes.length; i++) {
       if(symbolTypes[i].discipline === d.discipline) {
@@ -122,37 +121,69 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
       }
     }
 
-    if(questions) {
-      // All information
-      return `<div class="tooltip-info">
-        <div class="tooltip-info-inner">
-          <div class="tooltip-name">${d.name}</div>
-          <div class="tooltip-discipline">${discipline}</div>
-          <div class="tooltip-birth">Born ${d.birthYear} in ${d.birthTown}, ${d.birthCountry}</div>
-          <div>Studio in ${d.studioLocation}</div>
-          <br>
-          <div>${d.questions.why}</div>
-          <br>
-          <div>Works from ${d.questions.workHours}</div>
-          <div>Listens to ${d.questions.music}</div>
+    if (d.birthYear != 0) {
+
+      if(questions) {
+        // All information
+        return `<div class="tooltip-info">
+          <div class="tooltip-info-inner">
+            <div class="tooltip-name">${d.name}</div>
+            <div class="tooltip-discipline">${discipline}</div>
+            <div class="tooltip-birth">Born ${d.birthYear} in ${d.birthTown}, ${d.birthCountry}</div>
+            <div>Studio in ${d.studioLocation}</div>
+            <br>
+            <div>${d.questions.why}</div>
+            <br>
+            <div>Works from ${d.questions.workHours}</div>
+            <div>Listens to ${d.questions.music}</div>
+          </div>
         </div>
-      </div>
-      <img class="tooltip-img" src="./assets/img/${d.imageUrl}">`
+        <img class="tooltip-img" src="./assets/img/${d.imageUrl}">`
+  
+      } else {
+        // All information
+        return `<div class="tooltip-info">
+          <div class="tooltip-info-inner">
+            <div class="tooltip-name">${d.name}</div>
+            <div class="tooltip-discipline">${discipline}</div>
+            <div class="tooltip-birth">Born ${d.birthYear} in ${d.birthTown}, ${d.birthCountry}</div>
+          </div>
+        </div>
+        <img class="tooltip-img" src="./assets/img/${d.imageUrl}">`
+  
+      }
 
     } else {
-      // All information
-      return `<div class="tooltip-info">
-        <div class="tooltip-info-inner">
-          <div class="tooltip-name">${d.name}</div>
-          <div class="tooltip-discipline">${discipline}</div>
-          <div class="tooltip-birth">Born ${d.birthYear} in ${d.birthTown}, ${d.birthCountry}</div>
+
+      if(questions) {
+        // All information
+        return `<div class="tooltip-info">
+          <div class="tooltip-info-inner">
+            <div class="tooltip-name">${d.name}</div>
+            <div class="tooltip-discipline">${discipline}</div>
+            <div>Studio in ${d.studioLocation}</div>
+            <br>
+            <div>${d.questions.why}</div>
+            <br>
+            <div>Works from ${d.questions.workHours}</div>
+            <div>Listens to ${d.questions.music}</div>
+          </div>
         </div>
-      </div>
-      <img class="tooltip-img" src="./assets/img/${d.imageUrl}">`
+        <img class="tooltip-img" src="./assets/img/${d.imageUrl}">`
+  
+      } else {
+        // All information
+        return `<div class="tooltip-info">
+          <div class="tooltip-info-inner">
+            <div class="tooltip-name">${d.name}</div>
+            <div class="tooltip-discipline">${discipline}</div>
+          </div>
+        </div>
+        <img class="tooltip-img" src="./assets/img/${d.imageUrl}">`
+  
+      }
 
     }
-
-    
   }
 
   const symbolSize = 70;
