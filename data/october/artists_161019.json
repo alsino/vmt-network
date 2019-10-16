@@ -828,7 +828,9 @@
 			"gender": "male",
 			"birthYear": 1975,
 			"birthTown": "Herford",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "0",
+			"imageUrl" : "jan_muche.jpg"
 		},
 		{
 			"name": "Johannes Mundinger",
