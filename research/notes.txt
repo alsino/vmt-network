@@ -1,0 +1,36 @@
+//notes
+
+
+
+//Allgemein
+- ausgewählte Person blau
+- Beschreibung evtl drunter oder drüber um Visualisierung mehr Platz zu geben
+
+
+//Disziplines: 
+- jetzt prinzipiell auch Zuordnung von mehreren möglich (weil nur eins bis jetzt oft sehr problematisch)
+- Auswahl könnte stehen bleiben, evtl auch mehrere gleichzeitig (Auswahl = fett)
+
+
+//Artists (Dropdown)
++ all
+
+//Galleries (Dropdown)
+
+
+//Connections
+- Exhibited together
+- Collaborated on an art piece
+
+
+//Switch, Slider
+- male / female
+- age
+- working time 
+
+
+
+// Info
+- Artist statement?
+- Music
+

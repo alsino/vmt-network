@@ -1,0 +1,7550 @@
+{
+	"nodes": [{
+			"name": "Christian Achenbach",
+			"discipline": 1,
+			"gender": "male",
+			"birthYear": 1978,
+			"birthTown": "Siegen",
+			"birthCountry": "Germany",
+			"profileID": "3357",
+			"imageUrl" : "christian_achenbach.png"
+		},
+		{
+			"name": "Jörg-Uwe Albig",
+			"discipline": 7,
+			"gender": "male",
+			"birthYear": 1960,
+			"birthTown": "Bremen",
+			"birthCountry": "Germany"
+		},
+		{
+			"name": "Jofroi Amaral",
+			"discipline": 1,
+			"gender": "male",
+			"birthYear": 1977,
+			"birthTown": "Brussels",
+			"birthCountry": "Belgium",
+			"profileID": "2431",
+			"imageUrl" : "jofroi_amaral.png"
+
+		},
+		{
+			"name": "Android Empire",
+			"discipline": 3,
+			"gender": "male"
+		},
+		{
+			"name": "Song-Ming Ang",
+			"discipline": 1,
+			"gender": "male",
+			"birthYear": 1980,
+			"birthTown": "Singapore",
+			"birthCountry": "Singapore",
+			"profileID": "7969",
+			"imageUrl" : "song_ming_ang.png"
+		},
+		{
+			"name": "Axel Anklam",
+			"discipline": 6,
+			"gallery": "Galerie Rothamel",
+			"gender": "male",
+			"birthYear": 1971,
+			"birthTown": "Wriezen",
+			"birthCountry": "GDR"
+		},
+		{
+			"name": "Frank Arndt",
+			"discipline": 1,
+			"gender": "male",
+			"birthYear": 1971,
+			"birthTown": "?",
+			"birthCountry": "?",
+			"profileID": "2838",
+			"imageUrl" : "frank_arndt.png"
+
+		},
+		{
+			"name": "Aram Bartholl",
+			"discipline": 5,
+			"gender": "male",
+			"birthYear": 1972,
+			"birthTown": "Bremen",
+			"birthCountry": "Germany",
+			"profileID": "7695",
+			"imageUrl" : "aram_bartholl.png"
+		},
+		{
+			"name": "Christopher Bauder",
+			"discipline": 2,
+			"gender": "male",
+			"birthYear": 1973,
+			"birthTown": "Stuttgart",
+			"birthCountry": "Germany",
+			"profileID": "2966",
+			"imageUrl" : "christopher_bauder.png"
+		},
+		{
+			"name": "Fehmi Baumbach",
+			"discipline": 1,
+			"gender": "female",
+			"birthYear": 1971,
+			"birthTown": "near Braunschweig",
+			"birthCountry": "Germany",
+			"profileID": "2056",
+			"imageUrl" : "fehmi_baumbach.png"
+		},
+		{
+			"name": "Bernd Begemann",
+			"discipline": 3,
+			"gender": "male",
+			"birthYear": 1962,
+			"birthTown": "Bad Salzuflen",
+			"birthCountry": "Germany",
+			"profileID": "8612",
+			"imageUrl" : "bernd_begemann.png"
+		},
+		{
+			"name": "Clemens Behr",
+			"discipline": 6,
+			"gender": "male",
+			"birthYear": 1985,
+			"birthTown": "Koblenz",
+			"birthCountry": "Germany",
+			"profileID": "967",
+			"imageUrl" : "clemens_behr.png"
+		},
+		{
+			"name": "Sebastian Bieniek",
+			"discipline": 4,
+			"gender": "male",
+			"birthYear": 1975,
+			"birthTown": "Czarnowanz",
+			"birthCountry": "Poland",
+			"profileID": "2689",
+			"imageUrl" : "sebastian_bieniek.png"
+		},
+		{
+			"name": "Amélie Blendl",
+			"discipline": 6,
+			"gender": "female",
+			"birthYear": 1982,
+			"birthTown": "Regensburg",
+			"birthCountry": "Germany",
+			"profileID": "286",
+			"imageUrl" : "amelie_blendl.png"
+		},
+		{
+			"name": "Alex Bodea",
+			"discipline": 1,
+			"gender": "female",
+			"birthYear": 1981,
+			"birthTown": "?",
+			"birthCountry": "Romania",
+			"profileID": "1683",
+			"imageUrl" : "alex_bodea.png"
+		},
+		{
+			"name": "Lothar Böhme",
+			"discipline": 1,
+			"gender": "male",
+			"birthYear": 1938,
+			"birthTown": "Berlin",
+			"birthCountry": "GDR",
+			"profileID": "9467",
+			"imageUrl" : "lothar_boehme.png"
+		},
+		{
+			"name": "Isabelle Borges",
+			"discipline": 1,
+			"gender": "female",
+			"birthYear": 1966,
+			"birthTown": "Salvador",
+			"birthCountry": "Brazil",
+			"profileID": "1689",
+			"imageUrl" : "isabelle_borges.png"
+		},
+		{
+			"name": "Fritz Bornstück",
+			"discipline": 1,
+			"gender": "male",
+			"birthYear": 1982,
+			"birthTown": "Weilburg",
+			"birthCountry": "Germany",
+			"profileID": "5195",
+			"imageUrl" : "fritz_bornstueck.png"
+		},
+		{
+			"name": "Stefano Bosis",
+			"discipline": 1,
+			"gender": "male",
+			"birthYear": 0,
+			"birthTown": "Milano",
+			"birthCountry": "Italy"
+		},
+		{
+			"name": "Bram Braam",
+			"discipline": 6,
+			"gallery": "galerie burster",
+			"gender": "male",
+			"birthYear": 1980,
+			"birthTown": "Sittard",
+			"birthCountry": "Netherlands",
+			"profileID": "1050",
+			"imageUrl" : "bram_braam.png"
+		},
+		{
+			"name": "Jenny Brosinski",
+			"discipline": 1,
+			"gender": "female",
+			"birthYear": 1984,
+			"birthTown": "Celle",
+			"birthCountry": "Germany"
+		},
+		{
+			"name": "Mimmo Catania",
+			"discipline": 1,
+			"gender": "male",
+			"birthYear": 1955,
+			"birthTown": "Vittoria",
+			"birthCountry": "Italy"
+		},
+		{
+			"name": "Carla Chan",
+			"discipline": 4,
+			"gender": "female",
+			"birthYear": 1989,
+			"birthTown": "Guangdong",
+			"birthCountry": "China",
+			"profileID": "4451",
+			"imageUrl" : "carla_chan.png"
+		},
+		{
+			"name": "Dirty Doering",
+			"discipline": 3,
+			"gender": "male",
+			"birthYear": 1978,
+			"birthTown": "Leipzig",
+			"birthCountry": "GDR",
+			"profileID": "9720",
+			"imageUrl" : "dirty_doering.png"
+		},
+		{
+			"name": "Grigori Dor",
+			"discipline": 1,
+			"gallery": "Galerie Rothamel",
+			"gender": "male",
+			"birthYear": 1970,
+			"birthTown": "Ulan-Ude",
+			"birthCountry": "USSR",
+			"profileID": "4855",
+			"imageUrl" : "grigori_dor.png"
+		},
+		{
+			"name": "Sven Drühl",
+			"discipline": 1,
+			"gender": "male",
+			"birthYear": 1968,
+			"birthTown": "Nassau",
+			"birthCountry": "Germany",
+			"profileID": "3294",
+			"imageUrl" : "sven_druehl.png"
+		},
+		{
+			"name": "Craig Dyer",
+			"discipline": 3,
+			"gender": "male",
+			"birthYear": 0,
+			"birthTown": "Manchester",
+			"birthCountry": "United Kingdom",
+			"profileID": "5643",
+			"imageUrl" : "craig_dyer.png"
+		},
+		{
+			"name": "Liisi Eelmaa",
+			"discipline": 1,
+			"gender": "female",
+			"birthYear": 1982,
+			"birthTown": "Tallinn",
+			"birthCountry": "Estonia",
+			"profileID": "9557",
+			"imageUrl" : "liisi_eelmaa.png"
+		},
+		{
+			"name": "Otgonbayar Ershuu",
+			"discipline": 1,
+			"gender": "male",
+			"birthYear": 1981,
+			"birthTown": "Ulaanbaatar",
+			"birthCountry": "Mongolia"
+		},
+		{
+			"name": "Ornella Fieres",
+			"discipline": 4,
+			"gallery": "Sexauer",
+			"gender": "female",
+			"birthYear": 1984,
+			"birthTown": "Frankfurt/Main",
+			"birthCountry": "Germany",
+			"profileID": "6464",
+			"imageUrl" : "ornella_fieres.png"
+		},
+		{
+			"name": "Francesco Fillini",
+			"discipline": 1,
+			"gender": "male",
+			"birthYear": 0,
+			"birthTown": "?",
+			"birthCountry": "Italy",
+			"profileID": "5000",
+			"imageUrl" : "francesco_fillini.png"
+		},
+		{
+			"name": "Wolfgang Flad",
+			"discipline": 6,
+			"gallery": "Galerie Reinhard Hauff",
+			"gender": "male",
+			"birthYear": 1974,
+			"birthTown": "Reutlingen",
+			"birthCountry": "Germany",
+			"profileID": "4147",
+			"imageUrl" : "wolfgang_flad.png"
+		},
+		{
+			"name": "Alex Flemming",
+			"discipline": 1,
+			"gender": "male",
+			"birthYear": 1954,
+			"birthTown": "São Paulo",
+			"birthCountry": "Brazil",
+			"profileID": "9215",
+			"imageUrl" : "alex_flemming.png"
+		},
+		{
+			"name": "Moritz Frei",
+			"discipline": 5,
+			"gender": "male",
+			"birthYear": 1978,
+			"birthTown": "Frankfurt/Main",
+			"birthCountry": "Germany",
+			"profileID": "1853",
+			"imageUrl" : "moritz_frei.png"
+		},
+		{
+			"name": "Peter Freitag",
+			"discipline": 1,
+			"gender": "male",
+			"birthYear": 1972,
+			"birthTown": "Ochsenfurt",
+			"birthCountry": "Germany",
+			"profileID": "2112",
+			"imageUrl" : "peter_freitag.png"
+		},
+		{
+			"name": "Paul Frick",
+			"discipline": 3,
+			"gender": "male",
+			"birthYear": 1979,
+			"birthTown": "Berlin",
+			"birthCountry": "Germany",
+			"profileID": "5941",
+			"imageUrl" : "paul_frick.png"
+		},
+		{
+			"name": "Jay Gard",
+			"discipline": 5,
+			"gallery": "Sexauer",
+			"gender": "male",
+			"birthYear": 1984,
+			"birthTown": "Halle/Saale",
+			"birthCountry": "GDR",
+			"profileID": "2009",
+			"imageUrl" : "jay_gard.png"
+		},
+		{
+			"name": "Maria Gideon",
+			"discipline": 6,
+			"gender": "female",
+			"birthYear": 1977,
+			"birthTown": "Berlin",
+			"birthCountry": "Germany",
+			"profileID": "868",
+			"imageUrl" : "maria_gideon.png"
+		},
+		{
+			"name": "Lukas Glinkowski",
+			"discipline": 5,
+			"gender": "male",
+			"birthYear": 1984,
+			"birthTown": "Chełmno",
+			"birthCountry": "Poland",
+			"profileID": "1873",
+			"imageUrl" : "lukas_glinkowski.png"
+		},
+		{
+			"name": "Hannah Goldstein",
+			"discipline": 4,
+			"gender": "female",
+			"birthYear": 0,
+			"birthTown": "?",
+			"birthCountry": "Sweden"
+		},
+		{
+			"name": "Oliver Gröne",
+			"discipline": 1,
+			"gender": "male",
+			"birthYear": 1969,
+			"birthTown": "Lemgo",
+			"birthCountry": "Germany",
+			"profileID": "3685",
+			"imageUrl" : "oliver_groene.png"
+		},
+		{
+			"name": "Philip Grözinger",
+			"discipline": 1,
+			"gallery": "Sexauer",
+			"gender": "male",
+			"birthYear": 1972,
+			"birthTown": "Braunschweig",
+			"birthCountry": "Germany",
+			"profileID": "280",
+			"imageUrl" : "philip_groezinger.png"
+		},
+		{
+			"name": "Daniel Grüttner",
+			"discipline": 1,
+			"gender": "male",
+			"birthYear": 1979,
+			"birthTown": "Rotenburg a.d. Wümme",
+			"birthCountry": "Germany",
+			"profileID": "3703",
+			"imageUrl" : "daniel_gruettner.png"
+		},
+		{
+			"name": "Stefanie Gutheil",
+			"discipline": 1,
+			"gallery": "Galerie Kornfeld",
+			"gender": "female",
+			"birthYear": 1980,
+			"birthTown": "Ravensburg",
+			"birthCountry": "Germany",
+			"profileID": "2433",
+			"imageUrl" : "stefanie_gutheil.png"
+		},
+		{
+			"name": "Lucas Gutierrez",
+			"discipline": 5,
+			"gender": "male",
+			"birthYear": 1985,
+			"birthTown": "Belén/Catamarca",
+			"birthCountry": "Argentina"
+		},
+		{
+			"name": "Janes Haid-Schmallenberg",
+			"discipline": 1,
+			"gender": "male",
+			"birthYear": 1988,
+			"birthTown": "Warstein",
+			"birthCountry": "Germany",
+			"profileID": "4381",
+			"imageUrl" : "janes_haid_schmallenberg.png"
+		},
+		{
+			"name": "Jens Hausmann",
+			"discipline": 1,
+			"gender": "male",
+			"birthYear": 1964,
+			"birthTown": "Meiningen",
+			"birthCountry": "GDR",
+			"profileID": "1687",
+			"imageUrl" : "jens_hausmann.png"
+		},
+		{
+			"name": "Robert Henke",
+			"discipline": 3,
+			"gender": "male",
+			"birthYear": 1969,
+			"birthTown": "Munich",
+			"birthCountry": "Germany",
+			"profileID": "7232",
+			"imageUrl" : "robert_henke.png"
+		},
+		{
+			"name": "Gepa Hinrichsen",
+			"discipline": 1,
+			"gender": "female",
+			"birthYear": 0,
+			"birthTown": "?",
+			"birthCountry": "Germany",
+			"profileID": "1691",
+			"imageUrl" : "gepa_hinrichsen.png"
+		},
+		{
+			"name": "Sibylle Jazra",
+			"discipline": 5,
+			"gender": "female",
+			"birthYear": 1973,
+			"birthTown": "Heidelberg",
+			"birthCountry": "Germany",
+			"profileID": "3300",
+			"imageUrl" : "sibylle_jazra.png"
+		},
+		{
+			"name": "Michelle Jezierski",
+			"discipline": 1,
+			"gender": "female",
+			"birthYear": 1981,
+			"birthTown": "Berlin",
+			"birthCountry": "Germany",
+			"profileID": "2691",
+			"imageUrl" : "michelle_jezierski.png"
+		},
+		{
+			"name": "Anne Duk Hee Jordan",
+			"discipline": 5,
+			"gender": "female",
+			"birthYear": 1978,
+			"birthTown": "?",
+			"birthCountry": "South Korea",
+			"profileID": "5428",
+			"imageUrl" : "anne_duk_hee_jordan.png"
+		},
+		{
+			"name": "Carolin Kastner",
+			"discipline": 1,
+			"gender": "female",
+			"birthYear": 1984,
+			"birthTown": "Offenbach/Main",
+			"birthCountry": "Germany",
+			"profileID": "1402",
+			"imageUrl" : "carolin_kastner.png"
+		},
+		{
+			"name": "Toni Kater",
+			"discipline": 3,
+			"gender": "female",
+			"birthYear": 1977,
+			"birthTown": "Blankenburg",
+			"birthCountry": "GDR",
+			"profileID": "2299",
+			"imageUrl" : "toni_kater.png"
+		},
+		{
+			"name": "Malte Kebbel",
+			"discipline": 6,
+			"gender": "male",
+			"birthYear": 1981,
+			"birthTown": "Bremen",
+			"birthCountry": "Germany",
+			"profileID": "2328",
+			"imageUrl" : "malte_kebbel.png"
+		},
+		{
+			"name": "Katia Kelm",
+			"discipline": 1,
+			"gender": "female",
+			"birthYear": 1970,
+			"birthTown": "Burlington/Vermont",
+			"birthCountry": "USA"
+		},
+		{
+			"name": "Klaus Killisch",
+			"discipline": 1,
+			"gender": "male",
+			"birthYear": 1959,
+			"birthTown": "Wurzen",
+			"birthCountry": "GDR"
+		},
+		{
+			"name": "Franziska Klotz",
+			"discipline": 1,
+			"gallery": "Galerie Kornfeld",
+			"gender": "female",
+			"birthYear": 1979,
+			"birthTown": "Dresden",
+			"birthCountry": "GDR",
+			"profileID": "5207",
+			"imageUrl" : "franziska_klotz.png"
+		},
+		{
+			"name": "Kevin Kopacka",
+			"discipline": 1,
+			"gender": "male",
+			"birthYear": 1987,
+			"birthTown": "Graz",
+			"birthCountry": "Austria",
+			"profileID": "81",
+			"imageUrl" : "kevin_kopacka.png"
+		},
+		{
+			"name": "Astrid Köppe",
+			"discipline": 1,
+			"gender": "female",
+			"birthYear": 1974,
+			"birthTown": "Köthen/Anhalt",
+			"birthCountry": "Germany",
+			"profileID": "170",
+			"imageUrl" : "astrid_koeppe.png"
+		},
+		{
+			"name": "Agnieszka Korejba",
+			"discipline": 1,
+			"gender": "female",
+			"birthYear": 1977,
+			"birthTown": "Gdynia",
+			"birthCountry": "Poland",
+			"profileID": "5528",
+			"imageUrl" : "agnieszka_korejba.png"
+		},
+		{
+			"name": "Bettina Köster",
+			"discipline": 3,
+			"gender": "female",
+			"birthYear": 1959,
+			"birthTown": "Herford",
+			"birthCountry": "Germany"
+		},
+		{
+			"name": "Pilocka Krach",
+			"discipline": 3,
+			"gender": "female",
+			"birthYear": 0,
+			"birthTown": "Berlin",
+			"birthCountry": "GDR",
+			"profileID": "7210",
+			"imageUrl" : "pilocka_krach.png"
+		},
+		{
+			"name": "Peter Kröning",
+			"discipline": 6,
+			"gender": "male",
+			"birthYear": 1971,
+			"birthTown": "Erlangen",
+			"birthCountry": "Germany"
+		},
+		{
+			"name": "Gerd Kroske",
+			"discipline": 4,
+			"gender": "male",
+			"birthYear": 1958,
+			"birthTown": "Dessau",
+			"birthCountry": "GDR"
+		},
+		{
+			"name": "Caroline Kryzecki",
+			"discipline": 1,
+			"gallery": "Sexauer",
+			"gender": "female",
+			"birthYear": 1979,
+			"birthTown": "Wickede/Ruhr",
+			"birthCountry": "Germany",
+			"profileID": "4053",
+			"imageUrl" : "caroline_kryzecki.png"
+		},
+		{
+			"name": "Michel Lamoller",
+			"discipline": 4,
+			"gender": "male",
+			"birthYear": 1984,
+			"birthTown": "Black Forest",
+			"birthCountry": "Germany",
+			"profileID": "392",
+			"imageUrl" : "michel_lamoller.png"
+		},
+		{
+			"name": "Camille Laurelli",
+			"discipline": 2,
+			"gender": "male",
+			"birthYear": 1981,
+			"birthTown": "?",
+			"birthCountry": "France",
+			"profileID": "9559",
+			"imageUrl" : "camille_laurelli.png"
+		},
+		{
+			"name": "Alanna Lawley",
+			"discipline": 1,
+			"gender": "female",
+			"birthYear": 1983,
+			"birthTown": "?",
+			"birthCountry": "United Kingdom",
+			"profileID": "8393",
+			"imageUrl" : "alanna_lawley.png"
+		},
+		{
+			"name": "Alex Lebus",
+			"discipline": 2,
+			"gender": "female",
+			"birthYear": 1980,
+			"birthTown": "Magdeburg",
+			"birthCountry": "GDR",
+			"profileID": "1258",
+			"imageUrl" : "alex_lebus.png"
+		},
+		{
+			"name": "Jeewi Lee",
+			"discipline": 5,
+			"gallery": "Sexauer",
+			"gender": "female",
+			"birthYear": 1987,
+			"birthTown": "Seoul",
+			"birthCountry": "Korea",
+			"profileID": "4105",
+			"imageUrl" : "jeewi_lee.png"
+		},
+		{
+			"name": "Van Bo Le-Mentzel",
+			"discipline": 2,
+			"gender": "male",
+			"birthYear": 1977,
+			"birthTown": "?",
+			"birthCountry": "Laos",
+			"profileID": "4383",
+			"imageUrl" : "van_bo_le_mentzel.png"
+		},
+		{
+			"name": "Grischa Lichtenberger",
+			"discipline": 3,
+			"gender": "male",
+			"birthYear": 1983,
+			"birthTown": "Bielefeld",
+			"birthCountry": "Germany"
+		},
+		{
+			"name": "Stephan Lieb",
+			"discipline": 3,
+			"gender": "male",
+			"birthYear": 0,
+			"birthTown": "?",
+			"birthCountry": "Germany"
+		},
+		{
+			"name": "Friedrich Liechtenstein",
+			"discipline": 3,
+			"gender": "male",
+			"birthYear": 1956,
+			"birthTown": "Stalinstadt",
+			"birthCountry": "GDR",
+			"profileID": "4844",
+			"imageUrl" : "friedrich_liechtenstein.png"
+		},
+		{
+			"name": "Robert Lippok",
+			"discipline": 3,
+			"gender": "male",
+			"birthYear": 1966,
+			"birthTown": "Berlin",
+			"birthCountry": "GDR"
+		},
+		{
+			"name": "Christian Loclair",
+			"discipline": 5,
+			"gender": "male",
+			"birthYear": 0,
+			"birthTown": "",
+			"birthCountry": "Germany"
+		},
+		{
+			"name": "Pedro Lopes",
+			"discipline": 2,
+			"gender": "male",
+			"birthYear": 1986,
+			"birthTown": "",
+			"birthCountry": "Portugal",
+			"studio": "workshop, the place where things get built...",
+			"profileID": "5430",
+			"imageUrl" : "pedro_lopes.png"
+		},
+		{
+			"name": "Sean Derrick Cooper Marquardt",
+			"discipline": 3,
+			"gender": "male",
+			"birthYear": 0,
+			"birthTown": "Chicago",
+			"birthCountry": "USA",
+			"profileID": "5430",
+			"imageUrl" : "sean_derrick_cooper_marquardt.png"
+		},
+		{
+			"name": "Sandra Meisel",
+			"discipline": 6,
+			"gallery": "galerie burster",
+			"gender": "female",
+			"birthYear": 1970,
+			"birthTown": "Karlsruhe",
+			"birthCountry": "Germany",
+			"profileID": "1593",
+			"imageUrl" : "sandra_meisel.png"
+		},
+		{
+			"name": "Bjørn Melhus",
+			"discipline": 4,
+			"gender": "male",
+			"birthYear": 1966,
+			"birthTown": "Kirchheim unter Teck",
+			"birthCountry": "Germany"
+		},
+		{
+			"name": "Sebastian Meschenmoser",
+			"discipline": 1,
+			"gender": "male",
+			"birthYear": 1980,
+			"birthTown": "Frankfurt/Main",
+			"birthCountry": "Germany",
+			"studio": "second home",
+			"profileID": "5530",
+			"imageUrl" : "sebastian_meschenmoser.png"
+		},
+		{
+			"name": "Ekaterina Mitichkina",
+			"discipline": 1,
+			"gender": "female",
+			"birthYear": 1980,
+			"birthTown": "Minsk",
+			"birthCountry": "Belarus",
+			"profileID": "2687",
+			"imageUrl" : "ekaterina_mitichkina.png"
+		},
+		{
+			"name": "Barbara Morgenstern",
+			"discipline": 3,
+			"gender": "female",
+			"birthYear": 1971,
+			"birthTown": "Hagen",
+			"birthCountry": "Germany",
+			"profileID": "5002",
+			"imageUrl" : "barbara_morgenstern.png"
+		},
+		{
+			"name": "Jan Muche",
+			"discipline": 1,
+			"gender": "male",
+			"birthYear": 1975,
+			"birthTown": "Herford",
+			"birthCountry": "Germany"
+		},
+		{
+			"name": "Johannes Mundinger",
+			"discipline": 1,
+			"gender": "male",
+			"birthYear": 1982,
+			"birthTown": "Offenburg",
+			"birthCountry": "Germany",
+			"profileID": "3963",
+			"imageUrl" : "johannes_mundinger.png"
+		},
+		{
+			"name": "Christophe Ndabananiye",
+			"discipline": 5,
+			"gender": "male",
+			"birthYear": 1977,
+			"birthTown": "Lubumbashi",
+			"birthCountry": "Democratic Republic of Congo",
+			"profileID": "4998",
+			"imageUrl" : "christophe_ndabananiye.png"
+		},
+		{
+			"name": "Bärnd Nettmann",
+			"discipline": 1,
+			"gender": "male",
+			"birthYear": 1978,
+			"birthTown": "Berlin",
+			"birthCountry": "GDR",
+			"profileID": "5570",
+			"imageUrl" : "baernd_nettmann.png"
+		},
+		{
+			"name": "Rainer Neumeier",
+			"discipline": 1,
+			"gender": "male",
+			"birthYear": 1975,
+			"birthTown": "Cham",
+			"birthCountry": "Germany"
+		},
+		{
+			"name": "Nik Nowak",
+			"discipline": 3,
+			"gender": "male",
+			"birthYear": 1981,
+			"birthTown": "Mainz",
+			"birthCountry": "Germany",
+			"profileID": "4051",
+			"imageUrl" : "nik_nowak.png"
+		},
+		{
+			"name": "Ostberlin Androgyn",
+			"discipline": 3,
+			"gender": "mixed",
+			"birthTown": "Berlin",
+			"birthCountry": "Germany",
+			"profileID": "7702",
+			"imageUrl" : "ostberlin_androgyn.png"
+		},
+		{
+			"name": "Manfred Peckl",
+			"discipline": 6,
+			"gender": "male",
+			"birthYear": 1968,
+			"birthTown": "Wels",
+			"birthCountry": "Austria",
+			"profileID": "462",
+			"imageUrl" : "manfred_peckl.png"
+		},
+		{
+			"name": "Laura Põld",
+			"discipline": 6,
+			"gender": "female",
+			"birthYear": 1984,
+			"birthTown": "Tallinn",
+			"birthCountry": "USSR",
+			"profileID": "9561",
+			"imageUrl" : "laura_pold.png"
+		},
+		{
+			"name": "Max Prosa",
+			"discipline": 3,
+			"gender": "male",
+			"birthYear": 1989,
+			"birthTown": "Berlin",
+			"birthCountry": "Germany",
+			"profileID": "9914",
+			"imageUrl" : "max_prosa.png"
+		},
+		{
+			"name": "Gonzalo Reyes Araos",
+			"discipline": 1,
+			"gender": "male",
+			"birthYear": 1980,
+			"birthTown": "Quilpué",
+			"birthCountry": "Chile",
+			"profileID": "3680",
+			"imageUrl" : "gonzalo_reyes_araos.png"
+		},
+		{
+			"name": "Stefan Roigk",
+			"discipline": 3,
+			"gender": "male",
+			"birthYear": 1974,
+			"birthTown": "Bückeburg",
+			"birthCountry": "Germany",
+			"profileID": "5985",
+			"imageUrl" : "stefan_roigk.png"
+		},
+		{
+			"name": "Pietro Sanguineti",
+			"discipline": 6,
+			"gender": "male",
+			"birthYear": 1965,
+			"birthTown": "Stuttgart",
+			"birthCountry": "Germany",
+			"profileID": "14",
+			"imageUrl" : "pietro_sanguineti.png"
+		},
+		{
+			"name": "Susanne Schirdewahn",
+			"discipline": 1,
+			"gender": "female",
+			"birthYear": 1970,
+			"birthTown": "Berlin",
+			"birthCountry": "Germany",
+			"profileID": "1684",
+			"imageUrl" : "susanne_schirdewahn.png"
+		},
+		{
+			"name": "Erik Schmidt",
+			"discipline": 1,
+			"gender": "male",
+			"birthYear": 1968,
+			"birthTown": "Herford",
+			"birthCountry": "Germany"
+		},
+		{
+			"name": "Lerato Shadi",
+			"discipline": 5,
+			"gender": "female",
+			"birthYear": 1979,
+			"birthTown": "Mafikeg",
+			"birthCountry": "South Africa",
+			"profileID": "4994",
+			"imageUrl" : "lerato_shadi.png"
+		},
+		{
+			"name": "Tracey Snelling",
+			"discipline": 2,
+			"gender": "female",
+			"birthYear": 1970,
+			"birthTown": "Oakland",
+			"birthCountry": "USA",
+			"profileID": "7884",
+			"imageUrl" : "tracey_snelling.png"
+		},
+		{
+			"name": "Kitty Solaris",
+			"discipline": 3,
+			"gender": "female",
+			"birthYear": 0,
+			"birthTown": "?",
+			"birthCountry": "?",
+			"profileID": "375",
+			"imageUrl" : "kitty_solaris.png"
+		},
+		{
+			"name": "Frank Spilker",
+			"discipline": 3,
+			"gender": "male",
+			"birthYear": 1966,
+			"birthTown": "Herford",
+			"birthCountry": "Germany",
+			"profileID": "8605",
+			"imageUrl" : "frank_spilker.png"
+		},
+		{
+			"name": "T.Raumschmiere",
+			"discipline": 3,
+			"gender": "male",
+			"birthYear": 1975,
+			"birthTown": "Heidelburg",
+			"birthCountry": "Germany",
+			"profileID": "6495",
+			"imageUrl" : "t_raumschmiere.png"
+		},
+		{
+			"name": "Tomoyuki Ueno",
+			"discipline": 5,
+			"gender": "male",
+			"birthYear": 1982,
+			"birthTown": "Kobe",
+			"birthCountry": "Japan",
+			"profileID": "8659",
+			"imageUrl" : "tomoyuki_ueno.png"
+		},
+		{
+			"name": "Hans Unstern",
+			"discipline": 3,
+			"gender": "male",
+			"birthYear": 0,
+			"birthTown": "?",
+			"birthCountry": "?",
+			"profileID": "8785",
+			"imageUrl" : "hans_unstern.png"
+		},
+		{
+			"name": "Viron Erol Vert",
+			"discipline": 5,
+			"gallery": "Galerie Reinhard Hauff",
+			"gender": "male",
+			"birthYear": 0,
+			"birthTown": "?",
+			"birthCountry": "?",
+			"profileID": "4996",
+			"imageUrl" : "viron_erol_vert.png"
+		},
+		{
+			"name": "Miriam Vlaming",
+			"discipline": 1,
+			"gender": "female",
+			"birthYear": 1971,
+			"birthTown": "Düsseldorf",
+			"birthCountry": "Germany",
+			"profileID": "7358",
+			"imageUrl" : "miriam_vlaming.png"
+		},
+		{
+			"name": "Wiebke Maria Wachmann",
+			"discipline": 2,
+			"gender": "female",
+			"birthYear": 1969,
+			"birthTown": "Berlin",
+			"birthCountry": "Germany",
+			"profileID": "5426",
+			"imageUrl" : "wiebke_maria_wachmann.png"
+		},
+		{
+			"name": "Shira Wachsmann",
+			"discipline": 2,
+			"gender": "female",
+			"birthYear": 1984,
+			"birthTown": "Tel Aviv",
+			"birthCountry": "Israel",
+			"profileID": "5967",
+			"imageUrl" : "shira_wachsmann.png"
+		},
+		{
+			"name": "Julius Weiland",
+			"discipline": 6,
+			"gender": "male",
+			"birthYear": 1971,
+			"birthTown": "Lübeck",
+			"birthCountry": "Germany",
+			"profileID": "1781",
+			"imageUrl" : "julius_weiland.png"
+		},
+		{
+			"name": "Peter Welz",
+			"discipline": 5,
+			"gender": "male",
+			"birthYear": 1972,
+			"birthTown": "Lauingen",
+			"birthCountry": "Germany",
+			"profileID": "4414",
+			"imageUrl" : "peter_welz.png"
+		},
+		{
+			"name": "Trak Wendisch",
+			"discipline": 6,
+			"gender": "male",
+			"birthYear": 1958,
+			"birthTown": "Berlin",
+			"birthCountry": "GDR"
+		},
+		{
+			"name": "Sinta Werner",
+			"discipline": 2,
+			"gender": "female",
+			"birthYear": 1977,
+			"birthTown": "Hattingen",
+			"birthCountry": "Germany",
+			"profileID": "3406",
+			"imageUrl" : "sinta_werner.png"
+		},
+		{
+			"name": "Hansa Wißkirchen",
+			"discipline": 5,
+			"gender": "male",
+			"birthYear": 1966,
+			"birthTown": "Düsseldorf",
+			"birthCountry": "Germany"
+		},
+		{
+			"name": "Markus Wüste",
+			"discipline": 6,
+			"gender": "male",
+			"birthYear": 1970,
+			"birthTown": "?",
+			"birthCountry": "Germany",
+			"profileID": "4424",
+			"imageUrl" : "markus_wueste.png"
+		},
+		{
+			"name": "Michaela Zimmer",
+			"discipline": 1,
+			"gallery": "FOLD gallery",
+			"gender": "female",
+			"birthYear": 1964,
+			"birthTown": "Berlin",
+			"birthCountry": "Germany",
+			"profileID": "4604",
+			"imageUrl" : "michaela_zimmer.png"
+		}
+	],
+	"links": [{
+			"source": "Christopher Bauder",
+			"target": "Robert Henke",
+			"value": 10
+		},
+		{
+			"source": "Christopher Bauder",
+			"target": "Robert Henke",
+			"value": 25
+		},
+		{
+			"source": "Christopher Bauder",
+			"target": "Robert Henke",
+			"value": 30
+		},
+		{
+			"source": "Fehmi Baumbach",
+			"target": "Bernd Begemann",
+			"value": 30
+		},
+		{
+			"source": "Fehmi Baumbach",
+			"target": "Grigori Dor",
+			"value": 30
+		},
+		{
+			"source": "Fehmi Baumbach",
+			"target": "Maria Gideon",
+			"value": 10
+		},
+		{
+			"source": "Fehmi Baumbach",
+			"target": "Maria Gideon",
+			"value": 30
+		},
+		{
+			"source": "Fehmi Baumbach",
+			"target": "Philip Grözinger",
+			"value": 30
+		},
+		{
+			"source": "Fehmi Baumbach",
+			"target": "Toni Kater",
+			"value": 5
+		},
+		{
+			"source": "Fehmi Baumbach",
+			"target": "Franziska Klotz",
+			"value": 5
+		},
+		{
+			"source": "Fehmi Baumbach",
+			"target": "Astrid Köppe",
+			"value": 5
+		},
+		{
+			"source": "Fehmi Baumbach",
+			"target": "Pilocka Krach",
+			"value": 5
+		},
+		{
+			"source": "Fehmi Baumbach",
+			"target": "Friedrich Liechtenstein",
+			"value": 5
+		},
+		{
+			"source": "Fehmi Baumbach",
+			"target": "Robert Lippok",
+			"value": 5
+		},
+		{
+			"source": "Fehmi Baumbach",
+			"target": "Sean Derrick Cooper Marquardt",
+			"value": 5
+		},
+		{
+			"source": "Fehmi Baumbach",
+			"target": "Bjørn Melhus",
+			"value": 5
+		},
+		{
+			"source": "Fehmi Baumbach",
+			"target": "Barbara Morgenstern",
+			"value": 5
+		},
+		{
+			"source": "Fehmi Baumbach",
+			"target": "Bärnd Nettmann",
+			"value": 10
+		},
+		{
+			"source": "Fehmi Baumbach",
+			"target": "Bärnd Nettmann",
+			"value": 30
+		},
+		{
+			"source": "Fehmi Baumbach",
+			"target": "Kitty Solaris",
+			"value": 5
+		},
+		{
+			"source": "Fehmi Baumbach",
+			"target": "Frank Spilker",
+			"value": 30
+		},
+		{
+			"source": "Fehmi Baumbach",
+			"target": "Hans Unstern",
+			"value": 5
+		},
+
+		{
+			"source": "Clemens Behr",
+			"target": "Axel Anklam",
+			"value": 10
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Bram Braam",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Bram Braam",
+			"value": 10
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Jenny Brosinski",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Wolfgang Flad",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Wolfgang Flad",
+			"value": 10
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Paul Frick",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Paul Frick",
+			"value": 10
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Jay Gard",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Lukas Glinkowski",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Michelle Jezierski",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Jeewi Lee",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Jeewi Lee",
+			"value": 10
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Ekaterina Mitichkina",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Ekaterina Mitichkina",
+			"value": 10
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Jan Muche",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Jan Muche",
+			"value": 10
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Johannes Mundinger",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Johannes Mundinger",
+			"value": 10
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Johannes Mundinger",
+			"value": 25
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Nik Nowak",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Manfred Peckl",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Manfred Peckl",
+			"value": 10
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "Susanne Schirdewahn",
+			"value": 5
+		},
+		{
+			"source": "Clemens Behr",
+			"target": "T.Raumschmiere",
+			"value": 5
+		},
+
+
+		{
+			"source": "Isabelle Borges",
+			"target": "Christian Achenbach",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Song-Ming Ang",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Axel Anklam",
+			"value": 10
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Frank Arndt",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Clemens Behr",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Sebastian Bieniek",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Lothar Böhme",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Fritz Bornstück",
+			"value": 10
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Stefano Bosis",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Bram Braam",
+			"value": 25
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Bram Braam",
+			"value": 30
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Jenny Brosinski",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Carla Chan",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Grigori Dor",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Sven Drühl",
+			"value": 10
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Ornella Fieres",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Francesco Fillini",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Wolfgang Flad",
+			"value": 10
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Wolfgang Flad",
+			"value": 20
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Wolfgang Flad",
+			"value": 25
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Wolfgang Flad",
+			"value": 30
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Alex Flemming",
+			"value": 10
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Alex Flemming",
+			"value": 20
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Alex Flemming",
+			"value": 30
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Moritz Frei",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Peter Freitag",
+			"value": 10
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Peter Freitag",
+			"value": 20
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Peter Freitag",
+			"value": 30
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Jay Gard",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Lukas Glinkowski",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Oliver Gröne",
+			"value": 10
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Oliver Gröne",
+			"value": 25
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Philip Grözinger",
+			"value": 10
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Philip Grözinger",
+			"value": 20
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Philip Grözinger",
+			"value": 25
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Lucas Gutierrez",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Jens Hausmann",
+			"value": 10
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Jens Hausmann",
+			"value": 20
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Jens Hausmann",
+			"value": 30
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Sibylle Jazra",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Michelle Jezierski",
+			"value": 25
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Klaus Killisch",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Franziska Klotz",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Franziska Klotz",
+			"value": 10
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Bettina Köster",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Peter Kröning",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Caroline Kryzecki",
+			"value": 10
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Alex Lebus",
+			"value": 10
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Alex Lebus",
+			"value": 30
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Jeewi Lee",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Stephan Lieb",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Pedro Lopes",
+			"value": 10
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Pedro Lopes",
+			"value": 30
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Sandra Meisel",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Sandra Meisel",
+			"value": 10
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Sebastian Meschenmoser",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Ekaterina Mitichkina",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Jan Muche",
+			"value": 10
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Jan Muche",
+			"value": 20
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Jan Muche",
+			"value": 30
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Nik Nowak",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Manfred Peckl",
+			"value": 10
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Manfred Peckl",
+			"value": 20
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Manfred Peckl",
+			"value": 30
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Gonzalo Reyes Araos",
+			"value": 10
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Pietro Sanguineti",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Kitty Solaris",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Miriam Vlaming",
+			"value": 10
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Julius Weiland",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Peter Welz",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Hansa Wißkirchen",
+			"value": 5
+		},
+		{
+			"source": "Isabelle Borges",
+			"target": "Michaela Zimmer",
+			"value": 5
+		},
+
+
+
+		{
+			"source": "Fritz Bornstück",
+			"target": "Christian Achenbach",
+			"value": 10
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Jofroi Amaral",
+			"value": 10
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Axel Anklam",
+			"value": 30
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Clemens Behr",
+			"value": 5
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Sebastian Bieniek",
+			"value": 5
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Lothar Böhme",
+			"value": 5
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Isabelle Borges",
+			"value": 10
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Bram Braam",
+			"value": 25
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Jenny Brosinski",
+			"value": 5
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Carla Chan",
+			"value": 5
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Dirty Doering",
+			"value": 5
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Grigori Dor",
+			"value": 5
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Sven Drühl",
+			"value": 30
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Ornella Fieres",
+			"value": 5
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Wolfgang Flad",
+			"value": 30
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Alex Flemming",
+			"value": 5
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Moritz Frei",
+			"value": 10
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Jay Gard",
+			"value": 30
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Lukas Glinkowski",
+			"value": 30
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Philip Grözinger",
+			"value": 30
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Daniel Grüttner",
+			"value": 5
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Stefanie Gutheil",
+			"value": 30
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Janes Haid-Schmallenberg",
+			"value": 30
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Jens Hausmann",
+			"value": 5
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Sibylle Jazra",
+			"value": 5
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Michelle Jezierski",
+			"value": 30
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Malte Kebbel",
+			"value": 30
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Katia Kelm",
+			"value": 5
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Franziska Klotz",
+			"value": 30
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Kevin Kopacka",
+			"value": 30
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Bettina Köster",
+			"value": 5
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Caroline Kryzecki",
+			"value": 30
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Alex Lebus",
+			"value": 10
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Jeewi Lee",
+			"value": 10
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Sandra Meisel",
+			"value": 10
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Bjørn Melhus",
+			"value": 10
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Sebastian Meschenmoser",
+			"value": 30
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Jan Muche",
+			"value": 30
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Rainer Neumeier",
+			"value": 20
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Nik Nowak",
+			"value": 5
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Manfred Peckl",
+			"value": 25
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Erik Schmidt",
+			"value": 5
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "T.Raumschmiere",
+			"value": 5
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Viron Erol Vert",
+			"value": 10
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Miriam Vlaming",
+			"value": 10
+		},
+		{
+			"source": "Fritz Bornstück",
+			"target": "Hansa Wißkirchen",
+			"value": 30
+		},
+
+
+		{
+			"source": "Stefano Bosis",
+			"target": "Alex Flemming",
+			"value": 30
+		},
+		{
+			"source": "Stefano Bosis",
+			"target": "Peter Kröning",
+			"value": 5
+		},
+		{
+			"source": "Stefano Bosis",
+			"target": "Michel Lamoller",
+			"value": 15
+		},
+		{
+			"source": "Stefano Bosis",
+			"target": "Jeewi Lee",
+			"value": 5
+		},
+		{
+			"source": "Stefano Bosis",
+			"target": "Bjørn Melhus",
+			"value": 5
+		},
+		{
+			"source": "Stefano Bosis",
+			"target": "Gonzalo Reyes Araos",
+			"value": 5
+		},
+		{
+			"source": "Stefano Bosis",
+			"target": "Erik Schmidt",
+			"value": 5
+		},
+
+
+
+		{
+			"source": "Bram Braam",
+			"target": "Axel Anklam",
+			"value": 10
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Clemens Behr",
+			"value": 5
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Sebastian Bieniek",
+			"value": 5
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Alex Bodea",
+			"value": 10
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Isabelle Borges",
+			"value": 5
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Isabelle Borges",
+			"value": 10
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Isabelle Borges",
+			"value": 20
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Isabelle Borges",
+			"value": 30
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Fritz Bornstück",
+			"value": 10
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Jenny Brosinski",
+			"value": 5
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Carla Chan",
+			"value": 5
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Sven Drühl",
+			"value": 5
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Wolfgang Flad",
+			"value": 10
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Wolfgang Flad",
+			"value": 20
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Wolfgang Flad",
+			"value": 30
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Jay Gard",
+			"value": 5
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Lukas Glinkowski",
+			"value": 10
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Philip Grözinger",
+			"value": 10
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Jens Hausmann",
+			"value": 20
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Jens Hausmann",
+			"value": 25
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Jens Hausmann",
+			"value": 30
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Sibylle Jazra",
+			"value": 10
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Carolin Kastner",
+			"value": 5
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Caroline Kryzecki",
+			"value": 5
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Alanna Lawley",
+			"value": 10
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Alanna Lawley",
+			"value": 20
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Alanna Lawley",
+			"value": 25
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Alanna Lawley",
+			"value": 30
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Jeewi Lee",
+			"value": 5
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Jeewi Lee",
+			"value": 10
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Sandra Meisel",
+			"value": 10
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Sandra Meisel",
+			"value": 20
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Sandra Meisel",
+			"value": 25
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Sandra Meisel",
+			"value": 30
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Sebastian Meschenmoser",
+			"value": 10
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Ekaterina Mitichkina",
+			"value": 10
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Ekaterina Mitichkina",
+			"value": 25
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Ekaterina Mitichkina",
+			"value": 30
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Jan Muche",
+			"value": 10
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Jan Muche",
+			"value": 20
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Jan Muche",
+			"value": 25
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Jan Muche",
+			"value": 30
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Nik Nowak",
+			"value": 5
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Manfred Peckl",
+			"value": 10
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Manfred Peckl",
+			"value": 25
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Manfred Peckl",
+			"value": 30
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Sinta Werner",
+			"value": 20
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Sinta Werner",
+			"value": 25
+		},
+		{
+			"source": "Bram Braam",
+			"target": "Michaela Zimmer",
+			"value": 5
+		},
+
+
+		{
+			"source": "Dirty Doering",
+			"target": "Pilocka Krach",
+			"value": 10
+		},
+		{
+			"source": "Dirty Doering",
+			"target": "Pilocka Krach",
+			"value": 15
+		},
+		{
+			"source": "Dirty Doering",
+			"target": "Pilocka Krach",
+			"value": 30
+		},
+		{
+			"source": "Dirty Doering",
+			"target": "T.Raumschmiere",
+			"value": 30
+		},
+
+
+
+
+    {
+      "source": "Grigori Dor",
+      "target": "Fehmi Baumbach",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Sebastian Bieniek",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Isabelle Borges",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Fritz Bornstück",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Sven Drühl",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Otgonbayar Ershuu",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Wolfgang Flad",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Peter Freitag",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Jay Gard",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Lukas Glinkowski",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Oliver Gröne",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Philip Grözinger",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Jens Hausmann",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Caroline Kryzecki",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Ekaterina Mitichkina",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Jan Muche",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Manfred Peckl",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Susanne Schirdewahn",
+      "value": 5
+    },
+    {
+      "source": "Grigori Dor",
+      "target": "Miriam Vlaming",
+      "value": 5
+    },
+
+
+
+
+		{
+			"source": "Liisi Eelmaa",
+			"target": "Camille Laurelli",
+			"value": 5
+		},
+		{
+			"source": "Liisi Eelmaa",
+			"target": "Laura Põld",
+			"value": 5
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Christian Achenbach",
+			"value": 5
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Jofroi Amaral",
+			"value": 5
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Jofroi Amaral",
+			"value": 10
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Fehmi Baumbach",
+			"value": 5
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Isabelle Borges",
+			"value": 5
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Carla Chan",
+			"value": 10
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Peter Freitag",
+			"value": 10
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Jay Gard",
+			"value": 10
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Jay Gard",
+			"value": 30
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Jay Gard",
+			"value": 10
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Philip Grözinger",
+			"value": 10
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Jens Hausmann",
+			"value": 5
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Michelle Jezierski",
+			"value": 10
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Michelle Jezierski",
+			"value": 20
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Michelle Jezierski",
+			"value": 25
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Michelle Jezierski",
+			"value": 30
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Jeewi Lee",
+			"value": 10
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Jeewi Lee",
+			"value": 25
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Jeewi Lee",
+			"value": 30
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Bjørn Melhus",
+			"value": 5
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Bjørn Melhus",
+			"value": 10
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Barbara Morgenstern",
+			"value": 5
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Jan Muche",
+			"value": 5
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Manfred Peckl",
+			"value": 5
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Susanne Schirdewahn",
+			"value": 5
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Erik Schmidt",
+			"value": 10
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Hansa Wißkirchen",
+			"value": 5
+		},
+		{
+			"source": "Ornella Fieres",
+			"target": "Michaela Zimmer",
+			"value": 5
+		},
+
+
+		{
+			"source": "Francesco Fillini",
+			"target": "Sebastian Bieniek",
+			"value": 5
+		},
+		{
+			"source": "Francesco Fillini",
+			"target": "Bram Braam",
+			"value": 5
+		},
+		{
+			"source": "Francesco Fillini",
+			"target": "Jenny Brosinski",
+			"value": 5
+		},
+		{
+			"source": "Francesco Fillini",
+			"target": "Lukas Glinkowski",
+			"value": 5
+		},
+		{
+			"source": "Francesco Fillini",
+			"target": "Daniel Grüttner",
+			"value": 5
+		},
+		{
+			"source": "Francesco Fillini",
+			"target": "Michaela Zimmer",
+			"value": 5
+		},
+
+
+
+		{
+			"source": "Moritz Frei",
+			"target": "Christian Achenbach",
+			"value": 5
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Christian Achenbach",
+			"value": 20
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Jofroi Amaral",
+			"value": 5
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Fritz Bornstück",
+			"value": 5
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Carla Chan",
+			"value": 5
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Ornella Fieres",
+			"value": 5
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Wolfgang Flad",
+			"value": 5
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Jay Gard",
+			"value": 5
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Jay Gard",
+			"value": 20
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Philip Grözinger",
+			"value": 5
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Michelle Jezierski",
+			"value": 5
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Malte Kebbel",
+			"value": 5
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Klaus Killisch",
+			"value": 5
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Caroline Kryzecki",
+			"value": 5
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Alex Lebus",
+			"value": 5
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Jeewi Lee",
+			"value": 5
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Bjørn Melhus",
+			"value": 5
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Bjørn Melhus",
+			"value": 20
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Bjørn Melhus",
+			"value": 30
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Sebastian Meschenmoser",
+			"value": 5
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Sebastian Meschenmoser",
+			"value": 20
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Sebastian Meschenmoser",
+			"value": 30
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Nik Nowak",
+			"value": 5
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Manfred Peckl",
+			"value": 5
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Pietro Sanguineti",
+			"value": 5
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Miriam Vlaming",
+			"value": 5
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Sinta Werner",
+			"value": 5
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Hansa Wißkirchen",
+			"value": 5
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Hansa Wißkirchen",
+			"value": 20
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Hansa Wißkirchen",
+			"value": 30
+		},
+		{
+			"source": "Moritz Frei",
+			"target": "Michaela Zimmer",
+			"value": 5
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Jofroi Amaral",
+			"value": 5
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Jofroi Amaral",
+			"value": 10
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Jofroi Amaral",
+			"value": 20
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Jofroi Amaral",
+			"value": 5
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Isabelle Borges",
+			"value": 5
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Isabelle Borges",
+			"value": 20
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Bram Braam",
+			"value": 5
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Bram Braam",
+			"value": 10
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Mimmo Catania",
+			"value": 5
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Mimmo Catania",
+			"value": 10
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Ornella Fieres",
+			"value": 5
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Ornella Fieres",
+			"value": 10
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Wolfgang Flad",
+			"value": 5
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Lukas Glinkowski",
+			"value": 5
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Lukas Glinkowski",
+			"value": 10
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Jens Hausmann",
+			"value": 5
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Sibylle Jazra",
+			"value": 5
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Sibylle Jazra",
+			"value": 10
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Michelle Jezierski",
+			"value": 5
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Klaus Killisch",
+			"value": 5
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Klaus Killisch",
+			"value": 10
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Astrid Köppe",
+			"value": 5
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Astrid Köppe",
+			"value": 10
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Caroline Kryzecki",
+			"value": 5
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Ekaterina Mitichkina",
+			"value": 5
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Ekaterina Mitichkina",
+			"value": 10
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Nik Nowak",
+			"value": 5
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Manfred Peckl",
+			"value": 5
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Manfred Peckl",
+			"value": 10
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Pietro Sanguineti",
+			"value": 5
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Pietro Sanguineti",
+			"value": 10
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Erik Schmidt",
+			"value": 10
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Miriam Vlaming",
+			"value": 5
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Wiebke Maria Wachmann",
+			"value": 5
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Hansa Wißkirchen",
+			"value": 5
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Michaela Zimmer",
+			"value": 5
+		},
+		{
+			"source": "Peter Freitag",
+			"target": "Michaela Zimmer",
+			"value": 10
+		},
+
+
+
+
+		{
+			"source": "Paul Frick",
+			"target": "Clemens Behr",
+			"value": 5
+		},
+		{
+			"source": "Paul Frick",
+			"target": "Robert Henke",
+			"value": 5
+		},
+		{
+			"source": "Paul Frick",
+			"target": "Michelle Jezierski",
+			"value": 20
+		},
+		{
+			"source": "Paul Frick",
+			"target": "Michelle Jezierski",
+			"value": 30
+		},
+		{
+			"source": "Paul Frick",
+			"target": "Pilocka Krach",
+			"value": 5
+		},
+		{
+			"source": "Paul Frick",
+			"target": "Friedrich Liechtenstein",
+			"value": 5
+		},
+		{
+			"source": "Paul Frick",
+			"target": "T.Raumschmiere",
+			"value": 10
+		},
+		{
+			"source": "Paul Frick",
+			"target": "T.Raumschmiere",
+			"value": 20
+		},
+		{
+			"source": "Paul Frick",
+			"target": "Hans Unstern",
+			"value": 20
+		},
+		{
+			"source": "Paul Frick",
+			"target": "Hans Unstern",
+			"value": 30
+		},
+
+
+
+		{
+			"source": "Jay Gard",
+			"target": "Jofroi Amaral",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Amélie Blendl",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Isabelle Borges",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Fritz Bornstück",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Carla Chan",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Sven Drühl",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Ornella Fieres",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Moritz Frei",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Lukas Glinkowski",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Philip Grözinger",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Jens Hausmann",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Michelle Jezierski",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Caroline Kryzecki",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Jeewi Lee",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Jan Muche",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Nik Nowak",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Manfred Peckl",
+			"value": 10
+		},
+		{
+			"source": "Jay Gard",
+			"target": "Hansa Wißkirchen",
+			"value": 10
+		},
+
+
+
+		{
+			"source": "Hannah Goldstein",
+			"target": "Bram Braam",
+			"value": 5
+		},
+		{
+			"source": "Hannah Goldstein",
+			"target": "Anne Duk Hee Jordan",
+			"value": 30
+		},
+		{
+			"source": "Hannah Goldstein",
+			"target": "Astrid Köppe",
+			"value": 5
+		},
+		{
+			"source": "Hannah Goldstein",
+			"target": "Astrid Köppe",
+			"value": 5
+		},
+
+
+		{
+			"source": "Philip Grözinger",
+			"target": "Christian Achenbach",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Christian Achenbach",
+			"value": 20
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Christian Achenbach",
+			"value": 25
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Christian Achenbach",
+			"value": 30
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Axel Anklam",
+			"value": 5
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Axel Anklam",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Bernd Begemann",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Bernd Begemann",
+			"value": 20
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Bernd Begemann",
+			"value": 25
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Bernd Begemann",
+			"value": 30
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Isabelle Borges",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Isabelle Borges",
+			"value": 20
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Isabelle Borges",
+			"value": 25
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Isabelle Borges",
+			"value": 30
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Fritz Bornstück",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Fritz Bornstück",
+			"value": 20
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Fritz Bornstück",
+			"value": 25
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Fritz Bornstück",
+			"value": 30
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Bram Braam",
+			"value": 5
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Bram Braam",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Jenny Brosinski",
+			"value": 5
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Jenny Brosinski",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Carla Chan",
+			"value": 5
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Carla Chan",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Sven Drühl",
+			"value": 5
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Sven Drühl",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Ornella Fieres",
+			"value": 5
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Ornella Fieres",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Wolfgang Flad",
+			"value": 5
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Wolfgang Flad",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Alex Flemming",
+			"value": 5
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Alex Flemming",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Moritz Frei",
+			"value": 5
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Moritz Frei",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Jay Gard",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Jay Gard",
+			"value": 20
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Jay Gard",
+			"value": 25
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Jay Gard",
+			"value": 30
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Lukas Glinkowski",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Lukas Glinkowski",
+			"value": 20
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Lukas Glinkowski",
+			"value": 25
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Lukas Glinkowski",
+			"value": 30
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Oliver Gröne",
+			"value": 5
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Oliver Gröne",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Stefanie Gutheil",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Stefanie Gutheil",
+			"value": 20
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Stefanie Gutheil",
+			"value": 25
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Stefanie Gutheil",
+			"value": 30
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Jens Hausmann",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Jens Hausmann",
+			"value": 20
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Jens Hausmann",
+			"value": 25
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Jens Hausmann",
+			"value": 30
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Michelle Jezierski",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Michelle Jezierski",
+			"value": 20
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Michelle Jezierski",
+			"value": 25
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Michelle Jezierski",
+			"value": 30
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Franziska Klotz",
+			"value": 5
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Franziska Klotz",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Peter Kröning",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Peter Kröning",
+			"value": 20
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Peter Kröning",
+			"value": 25
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Peter Kröning",
+			"value": 30
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Caroline Kryzecki",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Caroline Kryzecki",
+			"value": 20
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Caroline Kryzecki",
+			"value": 25
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Caroline Kryzecki",
+			"value": 30
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Jeewi Lee",
+			"value": 5
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Jeewi Lee",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Sandra Meisel",
+			"value": 5
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Sandra Meisel",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Bjørn Melhus",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Bjørn Melhus",
+			"value": 20
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Bjørn Melhus",
+			"value": 25
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Bjørn Melhus",
+			"value": 30
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Sebastian Meschenmoser",
+			"value": 5
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Sebastian Meschenmoser",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Ekaterina Mitichkina",
+			"value": 5
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Ekaterina Mitichkina",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Barbara Morgenstern",
+			"value": 5
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Jan Muche",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Jan Muche",
+			"value": 20
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Jan Muche",
+			"value": 25
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Jan Muche",
+			"value": 30
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Nik Nowak",
+			"value": 5
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Nik Nowak",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Manfred Peckl",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Manfred Peckl",
+			"value": 20
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Manfred Peckl",
+			"value": 25
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Manfred Peckl",
+			"value": 30
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Susanne Schirdewahn",
+			"value": 5
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Erik Schmidt",
+			"value": 5
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Miriam Vlaming",
+			"value": 5
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Wiebke Maria Wachmann",
+			"value": 5
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Julius Weiland",
+			"value": 5
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Peter Welz",
+			"value": 5
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Trak Wendisch",
+			"value": 5
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Sinta Werner",
+			"value": 5
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Hansa Wißkirchen",
+			"value": 10
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Hansa Wißkirchen",
+			"value": 20
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Hansa Wißkirchen",
+			"value": 25
+		},
+		{
+			"source": "Philip Grözinger",
+			"target": "Hansa Wißkirchen",
+			"value": 30
+		},
+
+
+		{
+			"source": "Lucas Gutierrez",
+			"target": "Christopher Bauder",
+			"value": 5
+		},
+		{
+			"source": "Lucas Gutierrez",
+			"target": "Robert Henke",
+			"value": 5
+		},
+		{
+			"source": "Lucas Gutierrez",
+			"target": "Robert Henke",
+			"value": 10
+		},
+		{
+			"source": "Lucas Gutierrez",
+			"target": "Robert Lippok",
+			"value": 10
+		},
+		{
+			"source": "Lucas Gutierrez",
+			"target": "Robert Lippok",
+			"value": 20
+		},
+		{
+			"source": "Lucas Gutierrez",
+			"target": "Robert Lippok",
+			"value": 25
+		},
+		{
+			"source": "Lucas Gutierrez",
+			"target": "Sean Derrick Cooper Marquardt",
+			"value": 5
+		},
+		{
+			"source": "Lucas Gutierrez",
+			"target": "Sean Derrick Cooper Marquardt",
+			"value": 10
+		},
+		{
+			"source": "Lucas Gutierrez",
+			"target": "Barbara Morgenstern",
+			"value": 5
+		},
+		{
+			"source": "Lucas Gutierrez",
+			"target": "Gonzalo Reyes Araos",
+			"value": 5
+		},
+		{
+			"source": "Lucas Gutierrez",
+			"target": "Gonzalo Reyes Araos",
+			"value": 10
+		},
+
+
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Fritz Bornstück",
+			"value": 10
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Fritz Bornstück",
+			"value": 20
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Fritz Bornstück",
+			"value": 30
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Fritz Bornstück",
+			"value": 30
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Daniel Grüttner",
+			"value": 10
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Daniel Grüttner",
+			"value": 20
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Daniel Grüttner",
+			"value": 30
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Stefanie Gutheil",
+			"value": 5
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Stefanie Gutheil",
+			"value": 10
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Stefanie Gutheil",
+			"value": 10
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Malte Kebbel",
+			"value": 10
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Malte Kebbel",
+			"value": 30
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Kevin Kopacka",
+			"value": 5
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Jeewi Lee",
+			"value": 5
+		},
+		{
+			"source": "Janes Haid-Schmallenberg",
+			"target": "Sebastian Meschenmoser",
+			"value": 5
+		},
+
+
+
+		{
+			"source": "Robert Henke",
+			"target": "Christopher Bauder",
+			"value": 10
+		},
+		{
+			"source": "Robert Henke",
+			"target": "Christopher Bauder",
+			"value": 25
+		},
+		{
+			"source": "Robert Henke",
+			"target": "Christopher Bauder",
+			"value": 30
+		},
+
+		{
+			"source": "Sibylle Jazra",
+			"target": "Jofroi Amaral",
+			"value": 10
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Jofroi Amaral",
+			"value": 30
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Axel Anklam",
+			"value": 10
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Sebastian Bieniek",
+			"value": 5
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Bram Braam",
+			"value": 10
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Bram Braam",
+			"value": 30
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Wolfgang Flad",
+			"value": 10
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Peter Freitag",
+			"value": 10
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Peter Freitag",
+			"value": 30
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Jay Gard",
+			"value": 5
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Lukas Glinkowski",
+			"value": 10
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Lukas Glinkowski",
+			"value": 20
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Lukas Glinkowski",
+			"value": 30
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Jens Hausmann",
+			"value": 5
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Klaus Killisch",
+			"value": 5
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Klaus Killisch",
+			"value": 10
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Astrid Köppe",
+			"value": 10
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Astrid Köppe",
+			"value": 30
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Caroline Kryzecki",
+			"value": 10
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Bjørn Melhus",
+			"value": 5
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Bjørn Melhus",
+			"value": 10
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Ekaterina Mitichkina",
+			"value": 5
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Barbara Morgenstern",
+			"value": 5
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Jan Muche",
+			"value": 5
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Jan Muche",
+			"value": 5
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Pietro Sanguineti",
+			"value": 10
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Susanne Schirdewahn",
+			"value": 30
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Michaela Zimmer",
+			"value": 10
+		},
+		{
+			"source": "Sibylle Jazra",
+			"target": "Michaela Zimmer",
+			"value": 30
+		},
+		
+
+		{
+			"source": "Anne Duk Hee Jordan",
+			"target": "Aram Bartholl",
+			"value": 5
+		},
+		{
+			"source": "Anne Duk Hee Jordan",
+			"target": "Aram Bartholl",
+			"value": 10
+		},
+		{
+			"source": "Anne Duk Hee Jordan",
+			"target": "Hannah Goldstein",
+			"value": 5
+		},
+		{
+			"source": "Anne Duk Hee Jordan",
+			"target": "Stefanie Gutheil",
+			"value": 30
+		},
+		{
+			"source": "Anne Duk Hee Jordan",
+			"target": "Alex Lebus",
+			"value": 5
+		},
+		{
+			"source": "Anne Duk Hee Jordan",
+			"target": "Jeewi Lee",
+			"value": 5
+		},
+		{
+			"source": "Anne Duk Hee Jordan",
+			"target": "Jeewi Lee",
+			"value": 10
+		},
+		{
+			"source": "Anne Duk Hee Jordan",
+			"target": "Robert Lippok",
+			"value": 5
+		},
+		{
+			"source": "Anne Duk Hee Jordan",
+			"target": "Robert Lippok",
+			"value": 10
+		},
+		{
+			"source": "Anne Duk Hee Jordan",
+			"target": "Robert Lippok",
+			"value": 25
+		},
+		{
+			"source": "Anne Duk Hee Jordan",
+			"target": "Bjørn Melhus",
+			"value": 5
+		},
+		{
+			"source": "Anne Duk Hee Jordan",
+			"target": "Christophe Ndabananiye",
+			"value": 5
+		},
+		{
+			"source": "Anne Duk Hee Jordan",
+			"target": "Manfred Peckl",
+			"value": 5
+		},
+		{
+			"source": "Anne Duk Hee Jordan",
+			"target": "Lerato Shadi",
+			"value": 5
+		},
+		{
+			"source": "Anne Duk Hee Jordan",
+			"target": "T.Raumschmiere",
+			"value": 30
+		},
+		{
+			"source": "Anne Duk Hee Jordan",
+			"target": "Viron Erol Vert",
+			"value": 10
+		},
+		{
+			"source": "Anne Duk Hee Jordan",
+			"target": "Viron Erol Vert",
+			"value": 15
+		},
+		{
+			"source": "Anne Duk Hee Jordan",
+			"target": "Viron Erol Vert",
+			"value": 20
+		},
+		{
+			"source": "Anne Duk Hee Jordan",
+			"target": "Viron Erol Vert",
+			"value": 25
+		},
+		{
+			"source": "Anne Duk Hee Jordan",
+			"target": "Viron Erol Vert",
+			"value": 30
+		},
+		{
+			"source": "Anne Duk Hee Jordan",
+			"target": "Shira Wachsmann",
+			"value": 10
+		},
+		{
+			"source": "Anne Duk Hee Jordan",
+			"target": "Shira Wachsmann",
+			"value": 15
+		},
+		{
+			"source": "Anne Duk Hee Jordan",
+			"target": "Shira Wachsmann",
+			"value": 20
+		},
+		{
+			"source": "Anne Duk Hee Jordan",
+			"target": "Shira Wachsmann",
+			"value": 25
+		},
+		{
+			"source": "Anne Duk Hee Jordan",
+			"target": "Shira Wachsmann",
+			"value": 30
+		},
+
+		{
+			"source": "Carolin Kastner",
+			"target": "Bram Braam",
+			"value": 10
+		},
+		{
+			"source": "Carolin Kastner",
+			"target": "Ornella Fieres",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Christian Achenbach",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Axel Anklam",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Lothar Böhme",
+			"value": 10
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Lothar Böhme",
+			"value": 20
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Lothar Böhme",
+			"value": 25
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Isabelle Borges",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Isabelle Borges",
+			"value": 10
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Sven Drühl",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Sven Drühl",
+			"value": 10
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Wolfgang Flad",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Alex Flemming",
+			"value": 10
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Alex Flemming",
+			"value": 20
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Moritz Frei",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Moritz Frei",
+			"value": 10
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Peter Freitag",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Peter Freitag",
+			"value": 10
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Jay Gard",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Lukas Glinkowski",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Oliver Gröne",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Oliver Gröne",
+			"value": 10
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Philip Grözinger",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Philip Grözinger",
+			"value": 10
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Philip Grözinger",
+			"value": 10
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Stefanie Gutheil",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Jens Hausmann",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Jens Hausmann",
+			"value": 10
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Robert Henke",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Sibylle Jazra",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Michelle Jezierski",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Toni Kater",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Franziska Klotz",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Astrid Köppe",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Astrid Köppe",
+			"value": 10
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Bettina Köster",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Pilocka Krach",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Gerd Kroske",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Robert Lippok",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Robert Lippok",
+			"value": 10
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Robert Lippok",
+			"value": 25
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Bjørn Melhus",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Jan Muche",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Nik Nowak",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Nik Nowak",
+			"value": 25
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Manfred Peckl",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Manfred Peckl",
+			"value": 10
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Pietro Sanguineti",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Pietro Sanguineti",
+			"value": 10
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Susanne Schirdewahn",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Susanne Schirdewahn",
+			"value": 10
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Erik Schmidt",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Tracey Snelling",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Miriam Vlaming",
+			"value": 5
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Trak Wendisch",
+			"value": 10
+		},
+		{
+			"source": "Klaus Killisch",
+			"target": "Trak Wendisch",
+			"value": 20
+		},
+
+
+		{
+			"source": "Kevin Kopacka",
+			"target": "Clemens Behr",
+			"value": 5
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Fritz Bornstück",
+			"value": 10
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Fritz Bornstück",
+			"value": 30
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Sven Drühl",
+			"value": 5
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Paul Frick",
+			"value": 5
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Jens Hausmann",
+			"value": 5
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Michelle Jezierski",
+			"value": 5
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Michelle Jezierski",
+			"value": 10
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Malte Kebbel",
+			"value": 5
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Malte Kebbel",
+			"value": 10
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Alex Lebus",
+			"value": 5
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Jeewi Lee",
+			"value": 5
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Jeewi Lee",
+			"value": 10
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Bjørn Melhus",
+			"value": 5
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Sebastian Meschenmoser",
+			"value": 10
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Sebastian Meschenmoser",
+			"value": 30
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Jan Muche",
+			"value": 10
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Jan Muche",
+			"value": 30
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Nik Nowak",
+			"value": 5
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Manfred Peckl",
+			"value": 5
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Shira Wachsmann",
+			"value": 5
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Shira Wachsmann",
+			"value": 10
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Sinta Werner",
+			"value": 5
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Hansa Wißkirchen",
+			"value": 5
+		},
+		{
+			"source": "Kevin Kopacka",
+			"target": "Hansa Wißkirchen",
+			"value": 10
+		},
+
+
+
+		{
+			"source": "Astrid Köppe",
+			"target": "Bram Braam",
+			"value": 5
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Sven Drühl",
+			"value": 20
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Sven Drühl",
+			"value": 30
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Wolfgang Flad",
+			"value": 10
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Wolfgang Flad",
+			"value": 20
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Wolfgang Flad",
+			"value": 30
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Peter Freitag",
+			"value": 10
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Oliver Gröne",
+			"value": 5
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Sibylle Jazra",
+			"value": 5
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Sibylle Jazra",
+			"value": 10
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Klaus Killisch",
+			"value": 5
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Klaus Killisch",
+			"value": 10
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Caroline Kryzecki",
+			"value": 5
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Manfred Peckl",
+			"value": 5
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Susanne Schirdewahn",
+			"value": 5
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Susanne Schirdewahn",
+			"value": 20
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Sinta Werner",
+			"value": 5
+		},
+		{
+			"source": "Astrid Köppe",
+			"target": "Michaela Zimmer",
+			"value": 5
+		},
+
+
+
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Christian Achenbach",
+      "value": 10
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Christian Achenbach",
+      "value": 20
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Christian Achenbach",
+      "value": 25
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Jofroi Amaral",
+      "value": 10
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Axel Anklam",
+      "value": 5
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Isabelle Borges",
+      "value": 10
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Isabelle Borges",
+      "value": 30
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Fritz Bornstück",
+      "value": 10
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Fritz Bornstück",
+      "value": 30
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Mimmo Catania",
+      "value": 5
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Carla Chan",
+      "value": 25
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Grigori Dor",
+      "value": 5
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Sven Drühl",
+      "value": 5
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Sven Drühl",
+      "value": 20
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Ornella Fieres",
+      "value": 10
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Ornella Fieres",
+      "value": 30
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Wolfgang Flad",
+      "value": 10
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Wolfgang Flad",
+      "value": 25
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Wolfgang Flad",
+      "value": 30
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Moritz Frei",
+      "value": 5
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Peter Freitag",
+      "value": 5
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Jay Gard",
+      "value": 10
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Jay Gard",
+      "value": 20
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Jay Gard",
+      "value": 25
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Jay Gard",
+      "value": 30
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Lukas Glinkowski",
+      "value": 10
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Philip Grözinger",
+      "value": 10
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Philip Grözinger",
+      "value": 20
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Philip Grözinger",
+      "value": 30
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Daniel Grüttner",
+      "value": 5
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Stefanie Gutheil",
+      "value": 20
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Jens Hausmann",
+      "value": 10
+    },
+     {
+      "source": "Caroline Kryzecki",
+      "target": "Sibylle Jazra",
+      "value": 10
+    },
+     {
+      "source": "Caroline Kryzecki",
+      "target": "Michelle Jezierski",
+      "value": 10
+    },
+     {
+      "source": "Caroline Kryzecki",
+      "target": "Michelle Jezierski",
+      "value": 20
+    },
+     {
+      "source": "Caroline Kryzecki",
+      "target": "Michelle Jezierski",
+      "value": 30
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Malte Kebbel",
+      "value": 5
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Astrid Köppe",
+      "value": 5
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Alex Lebus",
+      "value": 5
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Jeewi Lee",
+      "value": 10
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Pedro Lopes",
+      "value": 5
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Sandra Meisel",
+      "value": 5
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Bjørn Melhus",
+      "value": 5
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Sebastian Meschenmoser",
+      "value": 10
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Sebastian Meschenmoser",
+      "value": 20
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Sebastian Meschenmoser",
+      "value": 25
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Sebastian Meschenmoser",
+      "value": 30
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Sebastian Meschenmoser",
+      "value": 30
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Jan Muche",
+      "value": 10
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Nik Nowak",
+      "value": 5
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Manfred Peckl",
+      "value": 10
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Gonzalo Reyes Araos",
+      "value": 5
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Pietro Sanguineti",
+      "value": 5
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Erik Schmidt",
+      "value": 10
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Erik Schmidt",
+      "value": 25
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Viron Erol Vert",
+      "value": 5
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Miriam Vlaming",
+      "value": 5
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Wiebke Maria Wachmann",
+      "value": 5
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Sinta Werner",
+      "value": 10
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Hansa Wißkirchen",
+      "value": 5
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Michaela Zimmer",
+      "value": 10
+    },
+    {
+      "source": "Caroline Kryzecki",
+      "target": "Michaela Zimmer",
+      "value": 30
+    },
+
+
+
+
+
+		{
+			"source": "Camille Laurelli",
+			"target": "Laura Põld",
+			"value": 5
+		},
+		{
+			"source": "Camille Laurelli",
+			"target": "Liisi Eelmaa",
+			"value": 5
+		},
+		{
+			"source": "Alanna Lawley",
+			"target": "Aram Bartholl",
+			"value": 10
+		},
+		{
+			"source": "Alanna Lawley",
+			"target": "Bram Braam",
+			"value": 10
+		},
+		{
+			"source": "Alanna Lawley",
+			"target": "Bram Braam",
+			"value": 20
+		},
+		{
+			"source": "Alanna Lawley",
+			"target": "Bram Braam",
+			"value": 25
+		},
+		{
+			"source": "Alanna Lawley",
+			"target": "Bram Braam",
+			"value": 30
+		},
+		{
+			"source": "Alanna Lawley",
+			"target": "Jeewi Lee",
+			"value": 20
+		},
+		{
+			"source": "Alanna Lawley",
+			"target": "Jeewi Lee",
+			"value": 30
+		},
+		{
+			"source": "Alanna Lawley",
+			"target": "Sinta Werner",
+			"value": 20
+		},
+		{
+			"source": "Alanna Lawley",
+			"target": "Sinta Werner",
+			"value": 30
+		},
+
+
+
+		{
+			"source": "Alex Lebus",
+			"target": "Sebastian Bieniek",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Amélie Blendl",
+			"value": 10
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Isabelle Borges",
+			"value": 10
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Fritz Bornstück",
+			"value": 10
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Bram Braam",
+			"value": 10
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Sven Drühl",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Moritz Frei",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Jay Gard",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Philip Grözinger",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Philip Grözinger",
+			"value": 10
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Stefanie Gutheil",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Jens Hausmann",
+			"value": 10
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Robert Henke",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Anne Duk Hee Jordan",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Jan Muche",
+			"value": 10
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Manfred Peckl",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Manfred Peckl",
+			"value": 10
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Kitty Solaris",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Viron Erol Vert",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Miriam Vlaming",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Shira Wachsmann",
+			"value": 5
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Michaela Zimmer",
+			"value": 10
+		},
+		{
+			"source": "Alex Lebus",
+			"target": "Michaela Zimmer",
+			"value": 20
+		},
+
+
+		{
+			"source": "Jeewi Lee",
+			"target": "Christian Achenbach",
+			"value": 10
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Christian Achenbach",
+			"value": 20
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Jofroi Amaral",
+			"value": 10
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Axel Anklam",
+			"value": 10
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Axel Anklam",
+			"value": 20
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Axel Anklam",
+			"value": 30
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Clemens Behr",
+			"value": 5
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Clemens Behr",
+			"value": 10
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Sebastian Bieniek",
+			"value": 5
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Fritz Bornstück",
+			"value": 10
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Fritz Bornstück",
+			"value": 30
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Bram Braam",
+			"value": 5
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Bram Braam",
+			"value": 10
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Carla Chan",
+			"value": 5
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Carla Chan",
+			"value": 10
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Sven Drühl",
+			"value": 10
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Sven Drühl",
+			"value": 20
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Sven Drühl",
+			"value": 30
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Ornella Fieres",
+			"value": 10
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Ornella Fieres",
+			"value": 30
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Wolfgang Flad",
+			"value": 5
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Wolfgang Flad",
+			"value": 10
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Moritz Frei",
+			"value": 5
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Moritz Frei",
+			"value": 10
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Jay Gard",
+			"value": 10
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Jay Gard",
+			"value": 30
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Lukas Glinkowski",
+			"value": 10
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Lukas Glinkowski",
+			"value": 30
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Philip Grözinger",
+			"value": 10
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Philip Grözinger",
+			"value": 30
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Michelle Jezierski",
+			"value": 5
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Michelle Jezierski",
+			"value": 10
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Anne Duk Hee Jordan",
+			"value": 10
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Kevin Kopacka",
+			"value": 5
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Kevin Kopacka",
+			"value": 10
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Caroline Kryzecki",
+			"value": 10
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Caroline Kryzecki",
+			"value": 30
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Alanna Lawley",
+			"value": 30
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Bjørn Melhus",
+			"value": 10
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Bjørn Melhus",
+			"value": 20
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Bjørn Melhus",
+			"value": 30
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Sebastian Meschenmoser",
+			"value": 5
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Ekaterina Mitichkina",
+			"value": 5
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Jan Muche",
+			"value": 10
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Jan Muche",
+			"value": 20
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Jan Muche",
+			"value": 30
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Christophe Ndabananiye",
+			"value": 10
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Christophe Ndabananiye",
+			"value": 15
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Christophe Ndabananiye",
+			"value": 20
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Christophe Ndabananiye",
+			"value": 30
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Manfred Peckl",
+			"value": 10
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Manfred Peckl",
+			"value": 30
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Lerato Shadi",
+			"value": 10
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Lerato Shadi",
+			"value": 15
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Lerato Shadi",
+			"value": 20
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Lerato Shadi",
+			"value": 30
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Viron Erol Vert",
+			"value": 10
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Viron Erol Vert",
+			"value": 15
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Viron Erol Vert",
+			"value": 20
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Viron Erol Vert",
+			"value": 30
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Wiebke Maria Wachmann",
+			"value": 5
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Sinta Werner",
+			"value": 5
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Sinta Werner",
+			"value": 10
+		},
+		{
+			"source": "Jeewi Lee",
+			"target": "Michaela Zimmer",
+			"value": 5
+		},
+
+
+
+		{
+			"source": "Grischa Lichtenberger",
+			"target": "Christopher Bauder",
+			"value": 5
+		},
+		{
+			"source": "Grischa Lichtenberger",
+			"target": "Christopher Bauder",
+			"value": 10
+		},
+		{
+			"source": "Grischa Lichtenberger",
+			"target": "Bernd Begemann",
+			"value": 5
+		},
+		{
+			"source": "Grischa Lichtenberger",
+			"target": "Lucas Gutierrez",
+			"value": 5
+		},
+		{
+			"source": "Grischa Lichtenberger",
+			"target": "Robert Henke",
+			"value": 5
+		},
+		{
+			"source": "Grischa Lichtenberger",
+			"target": "Robert Henke",
+			"value": 10
+		},
+		{
+			"source": "Grischa Lichtenberger",
+			"target": "Robert Lippok",
+			"value": 10
+		},
+		{
+			"source": "Grischa Lichtenberger",
+			"target": "Robert Lippok",
+			"value": 15
+		},
+		{
+			"source": "Grischa Lichtenberger",
+			"target": "Robert Lippok",
+			"value": 25
+		},
+		{
+			"source": "Grischa Lichtenberger",
+			"target": "Robert Lippok",
+			"value": 30
+		},
+		{
+			"source": "Grischa Lichtenberger",
+			"target": "Bjørn Melhus",
+			"value": 5
+		},
+		{
+			"source": "Grischa Lichtenberger",
+			"target": "Jan Muche",
+			"value": 5
+		},
+		{
+			"source": "Grischa Lichtenberger",
+			"target": "Jan Muche",
+			"value": 20
+		},
+		{
+			"source": "Grischa Lichtenberger",
+			"target": "Jan Muche",
+			"value": 25
+		},
+		{
+			"source": "Grischa Lichtenberger",
+			"target": "T.Raumschmiere",
+			"value": 5
+		},
+		{
+			"source": "Grischa Lichtenberger",
+			"target": "T.Raumschmiere",
+			"value": 5
+		},
+
+
+		{
+			"source": "Stephan Lieb",
+			"target": "Bernd Begemann",
+			"value": 5
+		},
+		{
+			"source": "Stephan Lieb",
+			"target": "Dirty Doering",
+			"value": 5
+		},
+		{
+			"source": "Stephan Lieb",
+			"target": "Grigori Dor",
+			"value": 5
+		},
+		{
+			"source": "Stephan Lieb",
+			"target": "Grigori Dor",
+			"value": 20
+		},
+		{
+			"source": "Stephan Lieb",
+			"target": "Robert Henke",
+			"value": 5
+		},
+		{
+			"source": "Stephan Lieb",
+			"target": "Toni Kater",
+			"value": 5
+		},
+		{
+			"source": "Stephan Lieb",
+			"target": "Pilocka Krach",
+			"value": 5
+		},
+		{
+			"source": "Stephan Lieb",
+			"target": "Friedrich Liechtenstein",
+			"value": 5
+		},
+		{
+			"source": "Stephan Lieb",
+			"target": "Robert Lippok",
+			"value": 5
+		},
+		{
+			"source": "Stephan Lieb",
+			"target": "Barbara Morgenstern",
+			"value": 5
+		},
+		{
+			"source": "Stephan Lieb",
+			"target": "Manfred Peckl",
+			"value": 5
+		},
+		{
+			"source": "Stephan Lieb",
+			"target": "T.Raumschmiere",
+			"value": 5
+		},
+
+
+
+
+
+
+		{
+			"source": "Robert Lippok",
+			"target": "Lucas Gutierrez",
+			"value": 10
+		},
+		{
+			"source": "Robert Lippok",
+			"target": "Lucas Gutierrez",
+			"value": 20
+		},
+		{
+			"source": "Robert Lippok",
+			"target": "Lucas Gutierrez",
+			"value": 25
+		},
+		{
+			"source": "Robert Lippok",
+			"target": "Barbara Morgenstern",
+			"value": 10
+		},
+		{
+			"source": "Robert Lippok",
+			"target": "Barbara Morgenstern",
+			"value": 20
+		},
+		{
+			"source": "Robert Lippok",
+			"target": "Barbara Morgenstern",
+			"value": 25
+		},
+		{
+			"source": "Robert Lippok",
+			"target": "Barbara Morgenstern",
+			"value": 30
+		},
+		{
+			"source": "Pedro Lopes",
+			"target": "Robert Henke",
+			"value": 5
+		},
+		{
+			"source": "Pedro Lopes",
+			"target": "Christian Loclair",
+			"value": 5
+		},
+		{
+			"source": "Pedro Lopes",
+			"target": "Sean Derrick Cooper Marquardt",
+			"value": 5
+		},
+
+
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Android Empire",
+			"value": 20
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Android Empire",
+			"value": 25
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Android Empire",
+			"value": 30
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Axel Anklam",
+			"value": 10
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Axel Anklam",
+			"value": 25
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Clemens Behr",
+			"value": 5
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Sebastian Bieniek",
+			"value": 5
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Isabelle Borges",
+			"value": 10
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Fritz Bornstück",
+			"value": 5
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Bram Braam",
+			"value": 10
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Bram Braam",
+			"value": 20
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Bram Braam",
+			"value": 30
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Mimmo Catania",
+			"value": 5
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Grigori Dor",
+			"value": 5
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Sven Drühl",
+			"value": 10
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Sven Drühl",
+			"value": 30
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Wolfgang Flad",
+			"value": 5
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Peter Freitag",
+			"value": 15
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Jay Gard",
+			"value": 5
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Philip Grözinger",
+			"value": 20
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Philip Grözinger",
+			"value": 25
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Philip Grözinger",
+			"value": 30
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Stefanie Gutheil",
+			"value": 25
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Jens Hausmann",
+			"value": 10
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Sibylle Jazra",
+			"value": 5
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Astrid Köppe",
+			"value": 5
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Peter Kröning",
+			"value": 10
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Caroline Kryzecki",
+			"value": 5
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Jeewi Lee",
+			"value": 5
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Friedrich Liechtenstein",
+			"value": 5
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Sandra Meisel",
+			"value": 10
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Sandra Meisel",
+			"value": 20
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Sandra Meisel",
+			"value": 25
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Sandra Meisel",
+			"value": 30
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Jan Muche",
+			"value": 10
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Johannes Mundinger",
+			"value": 10
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Johannes Mundinger",
+			"value": 15
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Johannes Mundinger",
+			"value": 20
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Johannes Mundinger",
+			"value": 25
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Johannes Mundinger",
+			"value": 30
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Rainer Neumeier",
+			"value": 5
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Nik Nowak",
+			"value": 5
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Manfred Peckl",
+			"value": 10
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Manfred Peckl",
+			"value": 15
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Manfred Peckl",
+			"value": 20
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Manfred Peckl",
+			"value": 25
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Manfred Peckl",
+			"value": 30
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Pietro Sanguineti",
+			"value": 5
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Susanne Schirdewahn",
+			"value": 5
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Tracey Snelling",
+			"value": 20
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Tracey Snelling",
+			"value": 25
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Tracey Snelling",
+			"value": 30
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Viron Erol Vert",
+			"value": 25
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Miriam Vlaming",
+			"value": 5
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Wiebke Maria Wachmann",
+			"value": 5
+		},
+		{
+			"source": "Ekaterina Mitichkina",
+			"target": "Hansa Wißkirchen",
+			"value": 10
+		},
+
+
+		{
+			"source": "Barbara Morgenstern",
+			"target": "Fehmi Baumbach",
+			"value": 5
+		},
+		{
+			"source": "Barbara Morgenstern",
+			"target": "Bernd Begemann",
+			"value": 5
+		},
+		{
+			"source": "Barbara Morgenstern",
+			"target": "Philip Grözinger",
+			"value": 5
+		},
+		{
+			"source": "Barbara Morgenstern",
+			"target": "Robert Henke",
+			"value": 5
+		},
+		{
+			"source": "Barbara Morgenstern",
+			"target": "Toni Kater",
+			"value": 10
+		},
+		{
+			"source": "Barbara Morgenstern",
+			"target": "Bettina Köster",
+			"value": 10
+		},
+		{
+			"source": "Barbara Morgenstern",
+			"target": "Pilocka Krach",
+			"value": 20
+		},
+		{
+			"source": "Barbara Morgenstern",
+			"target": "Pilocka Krach",
+			"value": 25
+		},
+		{
+			"source": "Barbara Morgenstern",
+			"target": "Robert Lippok",
+			"value": 10
+		},
+		{
+			"source": "Barbara Morgenstern",
+			"target": "Robert Lippok",
+			"value": 20
+		},
+		{
+			"source": "Barbara Morgenstern",
+			"target": "Robert Lippok",
+			"value": 25
+		},
+		{
+			"source": "Barbara Morgenstern",
+			"target": "Robert Lippok",
+			"value": 30
+		},
+		{
+			"source": "Barbara Morgenstern",
+			"target": "Frank Spilker",
+			"value": 5
+		},
+		{
+			"source": "Barbara Morgenstern",
+			"target": "T.Raumschmiere",
+			"value": 10
+		},
+		{
+			"source": "Barbara Morgenstern",
+			"target": "T.Raumschmiere",
+			"value": 20
+		},
+		{
+			"source": "Barbara Morgenstern",
+			"target": "T.Raumschmiere",
+			"value": 25
+		},
+		{
+			"source": "Barbara Morgenstern",
+			"target": "T.Raumschmiere",
+			"value": 30
+		},
+
+
+
+
+		{
+			"source": "Johannes Mundinger",
+			"target": "Christian Achenbach",
+			"value": 5
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Fehmi Baumbach",
+			"value": 5
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Clemens Behr",
+			"value": 10
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Clemens Behr",
+			"value": 20
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Fritz Bornstück",
+			"value": 5
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Jenny Brosinski",
+			"value": 5
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Jenny Brosinski",
+			"value": 10
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Jay Gard",
+			"value": 5
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Philip Grözinger",
+			"value": 5
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Stefanie Gutheil",
+			"value": 5
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Michelle Jezierski",
+			"value": 5
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Anne Duk Hee Jordan",
+			"value": 5
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Sebastian Meschenmoser",
+			"value": 5
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Ekaterina Mitichkina",
+			"value": 5
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Ekaterina Mitichkina",
+			"value": 10
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Ekaterina Mitichkina",
+			"value": 20
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Ekaterina Mitichkina",
+			"value": 25
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Jan Muche",
+			"value": 5
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Jan Muche",
+			"value": 10
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Manfred Peckl",
+			"value": 5
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Manfred Peckl",
+			"value": 10
+		},
+		{
+			"source": "Johannes Mundinger",
+			"target": "Susanne Schirdewahn",
+			"value": 5
+		},
+
+
+
+		{
+			"source": "Bärnd Nettmann",
+			"target": "Fehmi Baumbach",
+			"value": 5
+		},
+		{
+			"source": "Bärnd Nettmann",
+			"target": "Fehmi Baumbach",
+			"value": 10
+		},
+		{
+			"source": "Bärnd Nettmann",
+			"target": "Alex Bodea",
+			"value": 5
+		},
+		{
+			"source": "Bärnd Nettmann",
+			"target": "Maria Gideon",
+			"value": 5
+		},
+		{
+			"source": "Bärnd Nettmann",
+			"target": "Maria Gideon",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Christian Achenbach",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Jofroi Amaral",
+			"value": 5
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Axel Anklam",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Axel Anklam",
+			"value": 30
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Fehmi Baumbach",
+			"value": 5
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Clemens Behr",
+			"value": 5
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Sebastian Bieniek",
+			"value": 5
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Isabelle Borges",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Fritz Bornstück",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Fritz Bornstück",
+			"value": 30
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Bram Braam",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Bram Braam",
+			"value": 30
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Jenny Brosinski",
+			"value": 5
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Mimmo Catania",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Grigori Dor",
+			"value": 5
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Sven Drühl",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Sven Drühl",
+			"value": 30
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Ornella Fieres",
+			"value": 5
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Wolfgang Flad",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Wolfgang Flad",
+			"value": 30
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Moritz Frei",
+			"value": 5
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Peter Freitag",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Jay Gard",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Lukas Glinkowski",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Philip Grözinger",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Philip Grözinger",
+			"value": 30
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Daniel Grüttner",
+			"value": 5
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Stefanie Gutheil",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Jens Hausmann",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Sibylle Jazra",
+			"value": 5
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Michelle Jezierski",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Klaus Killisch",
+			"value": 5
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Franziska Klotz",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Caroline Kryzecki",
+			"value": 5
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Alex Lebus",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Jeewi Lee",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Jeewi Lee",
+			"value": 30
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Sandra Meisel",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Sandra Meisel",
+			"value": 30
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Bjørn Melhus",
+			"value": 5
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Sebastian Meschenmoser",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Sebastian Meschenmoser",
+			"value": 30
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Ekaterina Mitichkina",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Ekaterina Mitichkina",
+			"value": 30
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Jan Muche",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Jan Muche",
+			"value": 30
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Johannes Mundinger",
+			"value": 5
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Rainer Neumeier",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Rainer Neumeier",
+			"value": 30
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Nik Nowak",
+			"value": 5
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Pietro Sanguineti",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Susanne Schirdewahn",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Erik Schmidt",
+			"value": 5
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Tracey Snelling",
+			"value": 5
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Kitty Solaris",
+			"value": 5
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "T.Raumschmiere",
+			"value": 5
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Miriam Vlaming",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Wiebke Maria Wachmann",
+			"value": 5
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Julius Weiland",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Peter Welz",
+			"value": 5
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Sinta Werner",
+			"value": 5
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Hansa Wißkirchen",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Michaela Zimmer",
+			"value": 10
+		},
+		{
+			"source": "Manfred Peckl",
+			"target": "Michaela Zimmer",
+			"value": 30
+		},
+		{
+			"source": "Laura Põld",
+			"target": "Camille Laurelli",
+			"value": 5
+		},
+		{
+			"source": "Laura Põld",
+			"target": "Liisi Eelmaa",
+			"value": 5
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Isabelle Borges",
+			"value": 10
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Fritz Bornstück",
+			"value": 10
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Stefano Bosis",
+			"value": 10
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Alex Flemming",
+			"value": 5
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Peter Freitag",
+			"value": 30
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Jay Gard",
+			"value": 10
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Lukas Glinkowski",
+			"value": 10
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Philip Grözinger",
+			"value": 10
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Lucas Gutierrez",
+			"value": 5
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Lucas Gutierrez",
+			"value": 10
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Michelle Jezierski",
+			"value": 10
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Caroline Kryzecki",
+			"value": 5
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Caroline Kryzecki",
+			"value": 10
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Michel Lamoller",
+			"value": 10
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Michel Lamoller",
+			"value": 30
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Jan Muche",
+			"value": 10
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Pietro Sanguineti",
+			"value": 10
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Julius Weiland",
+			"value": 10
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Michaela Zimmer",
+			"value": 10
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Michaela Zimmer",
+			"value": 20
+		},
+		{
+			"source": "Gonzalo Reyes Araos",
+			"target": "Michaela Zimmer",
+			"value": 30
+		},
+
+
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Christian Achenbach",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Christian Achenbach",
+			"value": 10
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Jörg-Uwe Albig",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Jofroi Amaral",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Axel Anklam",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Fehmi Baumbach",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Fehmi Baumbach",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Clemens Behr",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Sebastian Bieniek",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Isabelle Borges",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Fritz Bornstück",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Bram Braam",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Mimmo Catania",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Mimmo Catania",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Carla Chan",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Grigori Dor",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Sven Drühl",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Otgonbayar Ershuu",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Otgonbayar Ershuu",
+			"value": 10
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Ornella Fieres",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Wolfgang Flad",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Alex Flemming",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Moritz Frei",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Peter Freitag",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Jay Gard",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Lukas Glinkowski",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Oliver Gröne",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Philip Grözinger",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Stefanie Gutheil",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Jens Hausmann",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Michelle Jezierski",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Michelle Jezierski",
+			"value": 10
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Malte Kebbel",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Katia Kelm",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Klaus Killisch",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Klaus Killisch",
+			"value": 10
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Klaus Killisch",
+			"value": 20
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Klaus Killisch",
+			"value": 25
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Klaus Killisch",
+			"value": 30
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Franziska Klotz",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Franziska Klotz",
+			"value": 10
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Astrid Köppe",
+			"value": 10
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Astrid Köppe",
+			"value": 20
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Astrid Köppe",
+			"value": 25
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Astrid Köppe",
+			"value": 30
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Caroline Kryzecki",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Alex Lebus",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Jeewi Lee",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Van Bo Le-Mentzel",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Friedrich Liechtenstein",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Bjørn Melhus",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Sebastian Meschenmoser",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Ekaterina Mitichkina",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Jan Muche",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Jan Muche",
+			"value": 10
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Ostberlin Androgyn",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Manfred Peckl",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Manfred Peckl",
+			"value": 10
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Manfred Peckl",
+			"value": 20
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Max Prosa",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Stefan Roigk",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Erik Schmidt",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Tracey Snelling",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Miriam Vlaming",
+			"value": 10
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Miriam Vlaming",
+			"value": 20
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Miriam Vlaming",
+			"value": 30
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Wiebke Maria Wachmann",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Wiebke Maria Wachmann",
+			"value": 10
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Peter Welz",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Trak Wendisch",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Hansa Wißkirchen",
+			"value": 5
+		},
+		{
+			"source": "Susanne Schirdewahn",
+			"target": "Hansa Wißkirchen",
+			"value": 20
+		},
+
+
+
+		{
+			"source": "Tracey Snelling",
+			"target": "Song-Ming Ang",
+			"value": 10
+		},
+		{
+			"source": "Tracey Snelling",
+			"target": "Song-Ming Ang",
+			"value": 30
+		},
+		{
+			"source": "Tracey Snelling",
+			"target": "Ekaterina Mitichkina",
+			"value": 10
+		},
+		{
+			"source": "Tracey Snelling",
+			"target": "Ekaterina Mitichkina",
+			"value": 25
+		},
+		{
+			"source": "Tracey Snelling",
+			"target": "Ekaterina Mitichkina",
+			"value": 30
+		},
+		{
+			"source": "Tracey Snelling",
+			"target": "Manfred Peckl",
+			"value": 5
+		},
+		{
+			"source": "Tracey Snelling",
+			"target": "Gonzalo Reyes Araos",
+			"value": 30
+		},
+		{
+			"source": "Tracey Snelling",
+			"target": "Susanne Schirdewahn",
+			"value": 5
+		},
+		{
+			"source": "Tracey Snelling",
+			"target": "Tomoyuki Ueno",
+			"value": 15
+		},
+		{
+			"source": "Tracey Snelling",
+			"target": "Tomoyuki Ueno",
+			"value": 20
+		},
+		{
+			"source": "Tracey Snelling",
+			"target": "Tomoyuki Ueno",
+			"value": 25
+		},
+		{
+			"source": "Tracey Snelling",
+			"target": "Tomoyuki Ueno",
+			"value": 30
+		},
+		{
+			"source": "Tracey Snelling",
+			"target": "Peter Welz",
+			"value": 20
+		},
+		{
+			"source": "Tracey Snelling",
+			"target": "Peter Welz",
+			"value": 30
+		},
+
+
+
+		{
+			"source": "Kitty Solaris",
+			"target": "Fehmi Baumbach",
+			"value": 5
+		},
+		{
+			"source": "Kitty Solaris",
+			"target": "Bernd Begemann",
+			"value": 5
+		},
+		{
+			"source": "Kitty Solaris",
+			"target": "Toni Kater",
+			"value": 25
+		},
+		{
+			"source": "Kitty Solaris",
+			"target": "Friedrich Liechtenstein",
+			"value": 5
+		},
+		{
+			"source": "Kitty Solaris",
+			"target": "Robert Lippok",
+			"value": 5
+		},
+		{
+			"source": "Kitty Solaris",
+			"target": "Sean Derrick Cooper Marquardt",
+			"value": 5
+		},
+		{
+			"source": "Kitty Solaris",
+			"target": "Barbara Morgenstern",
+			"value": 5
+		},
+		{
+			"source": "Kitty Solaris",
+			"target": "Barbara Morgenstern",
+			"value": 5
+		},
+		{
+			"source": "Kitty Solaris",
+			"target": "Max Prosa",
+			"value": 5
+		},
+		{
+			"source": "Kitty Solaris",
+			"target": "Frank Spilker",
+			"value": 5
+		},
+		{
+			"source": "Kitty Solaris",
+			"target": "T.Raumschmiere",
+			"value": 5
+		},
+		{
+			"source": "Kitty Solaris",
+			"target": "Hans Unstern",
+			"value": 5
+		},
+
+
+
+		{
+			"source": "Frank Spilker",
+			"target": "Fehmi Baumbach",
+			"value": 10
+		},
+		{
+			"source": "Frank Spilker",
+			"target": "Fehmi Baumbach",
+			"value": 30
+		},
+		{
+			"source": "Frank Spilker",
+			"target": "Bernd Begemann",
+			"value": 10
+		},
+		{
+			"source": "Frank Spilker",
+			"target": "Bernd Begemann",
+			"value": 30
+		},
+		{
+			"source": "Frank Spilker",
+			"target": "Gepa Hinrichsen",
+			"value": 30
+		},
+		{
+			"source": "Frank Spilker",
+			"target": "Barbara Morgenstern",
+			"value": 5
+		},
+
+
+
+
+
+		{
+			"source": "Tomoyuki Ueno",
+			"target": "Song-Ming Ang",
+			"value": 30
+		},
+		{
+			"source": "Tomoyuki Ueno",
+			"target": "Gonzalo Reyes Araos",
+			"value": 5
+		},
+		{
+			"source": "Tomoyuki Ueno",
+			"target": "Tracey Snelling",
+			"value": 15
+		},
+		{
+			"source": "Tomoyuki Ueno",
+			"target": "Tracey Snelling",
+			"value": 30
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Christian Achenbach",
+			"value": 5
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Axel Anklam",
+			"value": 20
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Axel Anklam",
+			"value": 30
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Bram Braam",
+			"value": 5
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Sven Drühl",
+			"value": 10
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Sven Drühl",
+			"value": 20
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Wolfgang Flad",
+			"value": 5
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Moritz Frei",
+			"value": 5
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Moritz Frei",
+			"value": 20
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Peter Freitag",
+			"value": 5
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Philip Grözinger",
+			"value": 5
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Jens Hausmann",
+			"value": 5
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Jens Hausmann",
+			"value": 10
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Sandra Meisel",
+			"value": 5
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Jan Muche",
+			"value": 10
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Jan Muche",
+			"value": 20
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Rainer Neumeier",
+			"value": 10
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Rainer Neumeier",
+			"value": 20
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Manfred Peckl",
+			"value": 10
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Manfred Peckl",
+			"value": 20
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Pietro Sanguineti",
+			"value": 5
+		},
+		{
+			"source": "Julius Weiland",
+			"target": "Erik Schmidt",
+			"value": 5
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Sven Drühl",
+			"value": 30
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Sandra Meisel",
+			"value": 20
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Sandra Meisel",
+			"value": 30
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Bjørn Melhus",
+			"value": 30
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Erik Schmidt",
+			"value": 20
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Erik Schmidt",
+			"value": 30
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Tracey Snelling",
+			"value": 20
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Tracey Snelling",
+			"value": 30
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Viron Erol Vert",
+			"value": 30
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Michaela Zimmer",
+			"value": 10
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Michaela Zimmer",
+			"value": 25
+		},
+		{
+			"source": "Peter Welz",
+			"target": "Michaela Zimmer",
+			"value": 30
+		},
+		{
+			"source": "Markus Wüste",
+			"target": "Sinta Werner",
+			"value": 30
+		},
+		{
+			"source": "Sinta Werner",
+			"target": "Markus Wüste",
+			"value": 30
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Jofroi Amaral",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Axel Anklam",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Axel Anklam",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Aram Bartholl",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Sebastian Bieniek",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Lothar Böhme",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Isabelle Borges",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Isabelle Borges",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Jenny Brosinski",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Sven Drühl",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Sven Drühl",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Ornella Fieres",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Wolfgang Flad",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Wolfgang Flad",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Alex Flemming",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Alex Flemming",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Moritz Frei",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Moritz Frei",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Peter Freitag",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Philip Grözinger",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Philip Grözinger",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Daniel Grüttner",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Daniel Grüttner",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Stefanie Gutheil",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Jens Hausmann",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Sibylle Jazra",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Sibylle Jazra",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Michelle Jezierski",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Franziska Klotz",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Franziska Klotz",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Caroline Kryzecki",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Caroline Kryzecki",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Caroline Kryzecki",
+			"value": 30
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Alex Lebus",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Alex Lebus",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Alex Lebus",
+			"value": 30
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Jeewi Lee",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Jeewi Lee",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Sandra Meisel",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Sandra Meisel",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Bjørn Melhus",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Jan Muche",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Jan Muche",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Rainer Neumeier",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Rainer Neumeier",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Nik Nowak",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Nik Nowak",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Manfred Peckl",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Manfred Peckl",
+			"value": 30
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Gonzalo Reyes Araos",
+			"value": 30
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Stefan Roigk",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Stefan Roigk",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Pietro Sanguineti",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Pietro Sanguineti",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Susanne Schirdewahn",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Erik Schmidt",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Erik Schmidt",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Erik Schmidt",
+			"value": 30
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Miriam Vlaming",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Miriam Vlaming",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Wiebke Maria Wachmann",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Wiebke Maria Wachmann",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Peter Welz",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Peter Welz",
+			"value": 30
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Sinta Werner",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Sinta Werner",
+			"value": 10
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Sinta Werner",
+			"value": 30
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Hansa Wißkirchen",
+			"value": 5
+		},
+		{
+			"source": "Michaela Zimmer",
+			"target": "Hansa Wißkirchen",
+			"value": 10
+		}
+	]
+}
