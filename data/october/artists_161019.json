@@ -7,12 +7,7 @@
 			"birthTown": "Siegen",
 			"birthCountry": "Germany",
 			"profileID": "3357",
-			"imageUrl" : "christian_achenbach.jpg",
-			"questions": {
-				"why": "mghvdhgfvefghv",
-				"music": "ngcdhjscg",
-				"workHours" : "2dc - dghdgt"
-			}
+			"imageUrl" : "christian_achenbach.jpg"
 		},
 		{
 			"name": "Jörg-Uwe Albig",
@@ -990,7 +985,12 @@
 			"birthTown": "?",
 			"birthCountry": "?",
 			"profileID": "375",
-			"imageUrl" : "kitty_solaris.jpg"
+			"imageUrl" : "kitty_solaris.jpg",
+			"questions": {
+				"why": "mghvdhgfvefghv",
+				"music": "ngcdhjscg",
+				"workHours" : "2dc - dghdgt"
+			}
 		},
 		{
 			"name": "Frank Spilker",
