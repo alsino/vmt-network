@@ -208,18 +208,11 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
     // .style("fill", function(d) { return color(d.discipline);}) 
     // .style("fill", "black")
     .on('mouseover.tooltip', function (d) {
-      tooltip.transition()
-        .duration(300)
-        .style("opacity", 1);
-      tooltip.html(tooltipContent(d))
-        // .style("left", (d3.event.pageX) + "px")
-        // .style("top", (d3.event.pageY + 10) + "px");
+      showTooltip(d);
     })
     .on('mouseover.fade', fade(0.1))
     .on("mouseout.tooltip", function () {
-      tooltip.transition()
-        .duration(100)
-        .style("opacity", 0);
+      hideTooltip();
     })
     .on('mouseout.fade', fade(1))
     .on("mousemove", function () {
@@ -238,18 +231,11 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
     .attr('x', 6)
     .attr('y', 3)
     .on('mouseover.tooltip', function (d) {
-      tooltip.transition()
-        .duration(300)
-        .style("opacity", 1);
-      tooltip.html(tooltipContent(d))
-        // .style("left", (d3.event.pageX) + "px")
-        // .style("top", (d3.event.pageY + 10) + "px");
+      showTooltip(d);
     })
     .on('mouseover.fade', fade(0.1))
     .on("mouseout.tooltip", function () {
-      tooltip.transition()
-        .duration(100)
-        .style("opacity", 0);
+      hideTooltip();
     })
     .on('mouseout.fade', fade(1))
     .on("mousemove", function () {
@@ -259,6 +245,7 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
     .on('dblclick', releasenode)
     .on('click', (d) => openArtistPage(d.profileID))
 
+  
  
   let legendItemSelected = false;
   
@@ -315,6 +302,7 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
         element = false;
       }
       resetDisciplines();
+      hideTooltip();
     });
 
 
@@ -466,6 +454,7 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
       return item.name == artist
     })
     selectedArtist = selectedArtist[0];
+    showTooltip(selectedArtist);
 
     node.style('stroke-opacity', function (o) {
       const thisOpacity = isConnected(selectedArtist, o) ? 1 : opacity;
@@ -480,9 +469,24 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
       link.style('stroke-opacity', o => (o.source === selectedArtist || o.target === selectedArtist ? 1 : opacity));
     }
 
-  
 
 }
+
+    function showTooltip(d){
+      tooltip.transition()
+      .duration(300)
+      .style("opacity", 1);
+      tooltip.html(tooltipContent(d))
+      // .style("left", (d3.event.pageX) + "px")
+      // .style("top", (d3.event.pageY + 10) + "px");
+    }
+
+    function hideTooltip(){
+      tooltip.transition()
+          .duration(100)
+          .style("opacity", 0);
+    }
+
 
 
 

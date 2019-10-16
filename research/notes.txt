@@ -1,10 +1,8 @@
 //notes
 
 // Prio: 
-- Layout ?
 - Fotos und Info
 - Art der Verbindung
-- Disziplinen-Filter statisch
 - Select artist / highlight name
 
 
