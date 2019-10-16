@@ -31,11 +31,6 @@
 
 		},
 		{
-			"name": "Android Empire",
-			"discipline": 3,
-			"gender": "male"
-		},
-		{
 			"name": "Song-Ming Ang",
 			"discipline": 1,
 			"gender": "male",
@@ -5539,21 +5534,6 @@
 		},
 
 
-		{
-			"source": "Ekaterina Mitichkina",
-			"target": "Android Empire",
-			"value": 20
-		},
-		{
-			"source": "Ekaterina Mitichkina",
-			"target": "Android Empire",
-			"value": 25
-		},
-		{
-			"source": "Ekaterina Mitichkina",
-			"target": "Android Empire",
-			"value": 30
-		},
 		{
 			"source": "Ekaterina Mitichkina",
 			"target": "Axel Anklam",
