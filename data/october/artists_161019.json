@@ -609,14 +609,6 @@
 			"birthCountry": "Germany"
 		},
 		{
-			"name": "Gerd Kroske",
-			"discipline": 4,
-			"gender": "male",
-			"birthYear": 1958,
-			"birthTown": "Dessau",
-			"birthCountry": "GDR"
-		},
-		{
 			"name": "Caroline Kryzecki",
 			"discipline": 1,
 			"gallery": "Sexauer",
@@ -4173,11 +4165,6 @@
 		{
 			"source": "Klaus Killisch",
 			"target": "Pilocka Krach",
-			"value": 5
-		},
-		{
-			"source": "Klaus Killisch",
-			"target": "Gerd Kroske",
 			"value": 5
 		},
 		{
