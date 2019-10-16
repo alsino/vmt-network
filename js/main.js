@@ -210,7 +210,9 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
     .on('mouseover.tooltip', function (d) {
       showTooltip(d);
     })
-    .on('mouseover.fade', fade(0.1))
+    .on('mouseover.fade', (d, i, nodes) => {
+      fadeNew(d, i, nodes);
+    })
     .on("mouseout.tooltip", function () {
       hideTooltip();
     })
@@ -230,11 +232,12 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
     })
     .attr('x', 6)
     .attr('y', 3)
-    .on('mouseover.tooltip', function (d) {
-      showTooltip(d);
+    .on('mouseover.tooltip', (d) => { showTooltip(d);})
+    .on('mouseover.fade', (d, i, nodes) => {
+      fadeNew(d, i, nodes);
     })
-    .on('mouseover.fade', fade(0.1))
     .on("mouseout.tooltip", function () {
+      label.style("fill", "black");
       hideTooltip();
     })
     .on('mouseout.fade', fade(1))
@@ -303,6 +306,7 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
       }
       resetDisciplines();
       hideTooltip();
+      // fade(1);
     });
 
 
@@ -396,7 +400,27 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
   }
 
 
-  function fade(opacity) {
+  function fadeNew(d, i, nodes) {
+    d3.select(nodes[i]).style("fill", "#0000ff");
+
+    let opacity = 0.1;
+
+    node.style('stroke-opacity', function (o) {
+      const thisOpacity = isConnected(d, o) ? 1 : opacity;
+      this.setAttribute('fill-opacity', thisOpacity);
+      return thisOpacity;
+    });
+
+    if (opacity != 1) {
+      link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity / 2));
+      // link.style('stroke', o => (o.value == 10 ? "#F76906" : "#1CDE7E"));
+    } else {
+      link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : opacity));
+    }    
+  }
+
+
+  function fade(opacity, d) {
 
     console.log(disciplineSelected);
 
