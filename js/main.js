@@ -147,8 +147,8 @@ d3.json("./data/october/artists_151019.json", function (error, graph) {
         .duration(300)
         .style("opacity", 1);
       tooltip.html(tooltipContent(d))
-        .style("left", (d3.event.pageX) + "px")
-        .style("top", (d3.event.pageY + 10) + "px");
+        // .style("left", (d3.event.pageX) + "px")
+        // .style("top", (d3.event.pageY + 10) + "px");
     })
     .on('mouseover.fade', fade(0.1))
     .on("mouseout.tooltip", function () {
@@ -158,8 +158,8 @@ d3.json("./data/october/artists_151019.json", function (error, graph) {
     })
     .on('mouseout.fade', fade(1))
     .on("mousemove", function () {
-      tooltip.style("left", (d3.event.pageX) + "px")
-        .style("top", (d3.event.pageY + 10) + "px");
+      // tooltip.style("left", (d3.event.pageX) + "px")
+      //   .style("top", (d3.event.pageY + 10) + "px");
     })
     .on('dblclick', releasenode)
     .on('click', openArtistPage)
@@ -177,14 +177,10 @@ d3.json("./data/october/artists_151019.json", function (error, graph) {
         .duration(300)
         .style("opacity", 1);
       tooltip.html(tooltipContent(d))
-        .style("left", (d3.event.pageX) + "px")
-        .style("top", (d3.event.pageY + 10) + "px");
+        // .style("left", (d3.event.pageX) + "px")
+        // .style("top", (d3.event.pageY + 10) + "px");
     })
-    .on('mouseover.fade', () =>{
-      fade(0.1);
-      // d3.select(this).style('fill', 'red');
-      
-    })
+    .on('mouseover.fade', fade(0.1))
     .on("mouseout.tooltip", function () {
       tooltip.transition()
         .duration(100)
@@ -192,8 +188,8 @@ d3.json("./data/october/artists_151019.json", function (error, graph) {
     })
     .on('mouseout.fade', fade(1))
     .on("mousemove", function () {
-      tooltip.style("left", (d3.event.pageX) + "px")
-        .style("top", (d3.event.pageY + 10) + "px");
+      // tooltip.style("left", (d3.event.pageX) + "px")
+      //   .style("top", (d3.event.pageY + 10) + "px");
     })
     .on('dblclick', releasenode)
     .on('click', (d) => openArtistPage(d.profileID))
@@ -303,10 +299,11 @@ d3.json("./data/october/artists_151019.json", function (error, graph) {
     return linkedByIndex[`${a.index},${b.index}`] || linkedByIndex[`${b.index},${a.index}`] || a.index === b.index;
   }
 
+
   function fade(opacity) {
 
     return d => {
-      // console.log(d);
+      // console.log(this);
       // label.style('fill', 'red')
 
       node.style('stroke-opacity', function (o) {
@@ -314,6 +311,9 @@ d3.json("./data/october/artists_151019.json", function (error, graph) {
         this.setAttribute('fill-opacity', thisOpacity);
         return thisOpacity;
       });
+
+      // node.style("fill", "red");
+
 
 
       if (opacity != 1) {
