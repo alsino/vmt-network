@@ -125,7 +125,7 @@ d3.json("./data/october/artists_111019.json", function (error, graph) {
     Birth Year: ${d.birthYear} <br> 
     Birth Country: ${d.birthCountry} <br> 
     Birth Town: ${d.birthTown} <br>
-    <img class="tooltip-img" src="./assets/img/${d.imageUrl}">`
+    <img src="./assets/img/${d.imageUrl}">`
 
     // Just image
     // return `<img src="./assets/img/mask.png">`
