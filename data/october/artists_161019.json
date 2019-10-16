@@ -705,14 +705,6 @@
 			"birthCountry": "GDR"
 		},
 		{
-			"name": "Christian Loclair",
-			"discipline": 5,
-			"gender": "male",
-			"birthYear": 0,
-			"birthTown": "",
-			"birthCountry": "Germany"
-		},
-		{
 			"name": "Pedro Lopes",
 			"discipline": 2,
 			"gender": "male",
@@ -5462,11 +5454,6 @@
 		{
 			"source": "Pedro Lopes",
 			"target": "Robert Henke",
-			"value": 5
-		},
-		{
-			"source": "Pedro Lopes",
-			"target": "Christian Loclair",
 			"value": 5
 		},
 		{
