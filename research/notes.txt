@@ -8,6 +8,7 @@
 - Artist dropdown -> Namen blau (A)
 - Disziplinen -> Zuordnung von mehreren (S und A)
 - If profileID 0 -> no link (A)
+- Zuordnung Disziplinen zu Künstler checken (S)
 
 
 
