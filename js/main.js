@@ -409,11 +409,23 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
 
 
   function fade(opacity) {
+
+    console.log(disciplineSelected);
+
+
     return d => {
 
       node.style('stroke-opacity', function (o) {
         const thisOpacity = isConnected(d, o) ? 1 : opacity;
         this.setAttribute('fill-opacity', thisOpacity);
+
+
+        // if(disciplineSelected) {
+        //   const canTouch = o.discipline == discipline ? "auto" : "none";
+        //   this.setAttribute('pointer-events', canTouch);
+        // }
+        
+
         return thisOpacity;
       });
 
