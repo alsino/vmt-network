@@ -16,6 +16,9 @@ color(9);
 color(10);
 
 
+let disciplineSelected = false;
+
+
 
 let svg = d3.select("svg"),
   width = +svg.attr("width"),
@@ -276,24 +279,51 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
     //   console.log(d);
     // })
     .on("click", function(d) {
-      // toggleDiscipline(d);
-      d.selected = !d.selected;
 
-      if (d.selected) {
+      for (let i = 0; i < symbolTypes.length; i++) {
+        let element = symbolTypes[i].selected;
+        element = false;
+        console.log(element);
+      }
+
+      d.selected = true;
+      // console.log(d.selected);
+      disciplineSelected = true;
+
+      if (disciplineSelected) {
+        d3.selectAll(".legendItem").classed("legendItem-active", false);
         d3.select(this).classed("legendItem-active", true);
         filterDisciplines(d.discipline, 0.1);
-      } else {
-        d3.select(this).classed("legendItem-active", false);
-        filterDisciplines(d.discipline, 1);
       }
-      // d.selected ? d3.select(this).classed("legendItem-active", true): d3.select(this).classed("legendItem-active", false);
-      // filterDisciplines(d.discipline, 0.1);
+
+      // Toggle buttons
+      // console.log(disciplineSelected);
+      // if (d.selected) {
+      //   d3.select(this).classed("legendItem-active", true);
+      //   filterDisciplines(d.discipline, 0.1);
+      //   console.log(symbolTypes);
+      // } else {
+      //   d3.select(this).classed("legendItem-active", false);
+      //   filterDisciplines(d.discipline, 1);
+      //   console.log(symbolTypes);
+      // }
+
     })
 
-    // function toggleDiscipline(d){
-    //   d.selected = !d.selected;
-    //   d.selected ? d3.select(this).classed("legendItem-active", true) : d3.select(this).classed("legendItem-active", false);
-    // }
+    d3.select("svg").on("click", function() {
+
+      for (let i = 0; i < symbolTypes.length; i++) {
+        let element = symbolTypes[i].selected;
+        element = false;
+        console.log(element);
+      }
+      d3.selectAll(".legendItem").classed("legendItem-active", false);
+
+    resetDisciplines();
+      
+    });
+
+
 
   let legendSymbol = legendItem.append("div")
     .append("svg")
@@ -412,6 +442,15 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
      
 
     };
+  }
+
+
+  function resetDisciplines() {
+    node.style('stroke-opacity', function (o) {
+      const thisOpacity = 1
+      this.setAttribute('fill-opacity', thisOpacity);
+      return thisOpacity;
+    });
   }
 
   function filterDisciplines(discipline, opacity) {
