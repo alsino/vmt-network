@@ -51,7 +51,7 @@ let selectorHeading = sidebar
 let select = sidebar.append("select")
   .attr("class", "selector");
 
-// select.append("option").text("Select an artist");
+select.append("option").text("Select artist …");
   
 let tooltip = d3.select("body")
   .append("div")
@@ -229,10 +229,10 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
     .attr('x', 6)
     .attr('y', 3)
     .on('mouseover.fade', (d, i, nodes) => {
-      fade(d, i, nodes, 0.1);
+      fade(d, i, nodes, 0.1, "capitalize");
     })
     .on('mouseout.fade', (d, i, nodes) => {
-      fade(d, i, nodes, 1);
+      fade(d, i, nodes, 1, "capitalize");
     })
     .on('mouseover.tooltip', (d) => { showTooltip(d);})
     .on("mouseout.tooltip", function () {
@@ -397,8 +397,9 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
   }
 
 
-  function fade(d, i, nodes, opacity) {
+  function fade(d, i, nodes, opacity, fontStyle) {
     d3.select(nodes[i]).style("fill", "#0000ff");
+    d3.select(nodes[i]).style("text-transform", fontStyle);
 
     let op = opacity;
 
@@ -418,7 +419,6 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
 
   function filterDisciplines(discipline, opacity) {
     node.style('stroke-opacity', function (o) {
-      // console.log(o, discipline)
       const thisOpacity = o.discipline == discipline ? 1 : opacity;
       this.setAttribute('fill-opacity', thisOpacity);
       return thisOpacity;
