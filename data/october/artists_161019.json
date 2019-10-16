@@ -28,7 +28,6 @@
 			"birthCountry": "Belgium",
 			"profileID": "2431",
 			"imageUrl" : "jofroi_amaral.jpg"
-
 		},
 		{
 			"name": "Song-Ming Ang",
@@ -58,7 +57,6 @@
 			"birthCountry": "?",
 			"profileID": "2838",
 			"imageUrl" : "frank_arndt.jpg"
-
 		},
 		{
 			"name": "Aram Bartholl",
@@ -271,14 +269,6 @@
 			"birthCountry": "Estonia",
 			"profileID": "9557",
 			"imageUrl" : "liisi_eelmaa.jpg"
-		},
-		{
-			"name": "Otgonbayar Ershuu",
-			"discipline": 1,
-			"gender": "male",
-			"birthYear": 1981,
-			"birthTown": "Ulaanbaatar",
-			"birthCountry": "Mongolia"
 		},
 		{
 			"name": "Ornella Fieres",
@@ -2314,11 +2304,6 @@
     {
       "source": "Grigori Dor",
       "target": "Sven Drühl",
-      "value": 5
-    },
-    {
-      "source": "Grigori Dor",
-      "target": "Otgonbayar Ershuu",
       "value": 5
     },
     {
@@ -5532,8 +5517,6 @@
 			"target": "Sean Derrick Cooper Marquardt",
 			"value": 5
 		},
-
-
 		{
 			"source": "Ekaterina Mitichkina",
 			"target": "Axel Anklam",
@@ -6549,16 +6532,6 @@
 			"source": "Susanne Schirdewahn",
 			"target": "Sven Drühl",
 			"value": 5
-		},
-		{
-			"source": "Susanne Schirdewahn",
-			"target": "Otgonbayar Ershuu",
-			"value": 5
-		},
-		{
-			"source": "Susanne Schirdewahn",
-			"target": "Otgonbayar Ershuu",
-			"value": 10
 		},
 		{
 			"source": "Susanne Schirdewahn",
