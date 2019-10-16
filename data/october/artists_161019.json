@@ -15,7 +15,9 @@
 			"gender": "male",
 			"birthYear": 1960,
 			"birthTown": "Bremen",
-			"birthCountry": "Germany"
+			"birthCountry": "Germany",
+			"profileID": "0",
+			"imageUrl" : "joerg_uwe_albig.jpg"
 		},
 		{
 			"name": "Jofroi Amaral",
