@@ -887,7 +887,12 @@
 			"birthTown": "Wels",
 			"birthCountry": "Austria",
 			"profileID": "462",
-			"imageUrl" : "manfred_peckl.jpg"
+			"imageUrl" : "manfred_peckl.jpg",
+			"questions": {
+				"why": "mghvdhgfvefghv",
+				"music": "ngcdhjscg",
+				"workHours" : "2dc - dghdgt"
+			}
 		},
 		{
 			"name": "Laura Põld",
@@ -985,12 +990,7 @@
 			"birthTown": "?",
 			"birthCountry": "?",
 			"profileID": "375",
-			"imageUrl" : "kitty_solaris.jpg",
-			"questions": {
-				"why": "mghvdhgfvefghv",
-				"music": "ngcdhjscg",
-				"workHours" : "2dc - dghdgt"
-			}
+			"imageUrl" : "kitty_solaris.jpg"
 		},
 		{
 			"name": "Frank Spilker",
