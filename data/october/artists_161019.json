@@ -532,14 +532,6 @@
 			"imageUrl" : "malte_kebbel.jpg"
 		},
 		{
-			"name": "Katia Kelm",
-			"discipline": 1,
-			"gender": "female",
-			"birthYear": 1970,
-			"birthTown": "Burlington/Vermont",
-			"birthCountry": "USA"
-		},
-		{
 			"name": "Klaus Killisch",
 			"discipline": 1,
 			"gender": "male",
@@ -1874,11 +1866,6 @@
 			"source": "Fritz Bornstück",
 			"target": "Malte Kebbel",
 			"value": 30
-		},
-		{
-			"source": "Fritz Bornstück",
-			"target": "Katia Kelm",
-			"value": 5
 		},
 		{
 			"source": "Fritz Bornstück",
@@ -6601,11 +6588,6 @@
 		{
 			"source": "Susanne Schirdewahn",
 			"target": "Malte Kebbel",
-			"value": 5
-		},
-		{
-			"source": "Susanne Schirdewahn",
-			"target": "Katia Kelm",
 			"value": 5
 		},
 		{
