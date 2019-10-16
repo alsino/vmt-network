@@ -112,13 +112,14 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
 
   function tooltipContent(d) {
     // All information
-    return `Name: ${d.name} <br> 
-    Disziplin: ${d.discipline} <br> 
-    Gender: ${d.gender} <br> 
-    Birth Year: ${d.birthYear} <br> 
-    Birth Country: ${d.birthCountry} <br> 
-    Birth Town: ${d.birthTown} <br>
-    <img src="./assets/img/${d.imageUrl}">`
+    return `<div class="tooltip-info">
+    <div>Name: ${d.name}</div>
+    <div>Disziplin: ${d.discipline}</div>
+    <div>Gender: ${d.gender}</div>
+    <div>Birth Year: ${d.birthYear}</div> 
+    <div>Birth Country: ${d.birthCountry}</div>
+    <div>Birth Town: ${d.birthTown}</div></div>
+    <img class="tooltip-img" src="./assets/img/${d.imageUrl}">`
 
     // Just image
     // return `<img src="./assets/img/mask.png">`
@@ -235,8 +236,6 @@ d3.json("./data/october/artists_161019.json", function (error, graph) {
       let artistName = select.property("value");
       filterArtist(artistName, 0.1);
     })
-
-
 
 
 

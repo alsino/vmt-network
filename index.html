@@ -78,21 +78,29 @@
 
   .tooltip {
     position: absolute;
-    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    bottom: -5px;
     right: 0;
     background-color: transparent;
     font-family: "Roboto Mono";
     font-size: 10px;
-    max-width: 200px;
+    width: 450px;
     height: auto;
-    padding: 10px 20px;
+    padding: 10px 20px 0 20px;
     line-height: 1.5;
     /* box-shadow: 3px 3px 10px rgba(0, 0, 0, .5); */
     pointer-events: none;
   }
 
-  .tooltip img {
-    width: 80%;
+  .tooltip-info {
+    flex: 1;
+    text-align: right;
+  }
+
+  .tooltip-img {
+    flex: 1;
+    width: 45%;
     height: auto;
   }
 
