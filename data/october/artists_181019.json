@@ -725,8 +725,8 @@
 			"imageUrl" : "jeewi_lee.jpg",
 			"studioLocation": "Berlin, Florence",
 			"questions": {
-				"why": " ",
-				"music": " ",
+				"why": "I do what I do, because I never thought of doing something else.",
+				"music": "80´s music",
 				"workHours" : " "
 			}
 		},
@@ -989,7 +989,7 @@
 			"questions": {
 				"why": "What I do are reflections of my daily life and cultural and social situation. I do what I do because I feel engaged to tell what I see and think to the rest of the people.",
 				"music": "techno, minimal and concrete music, diverse artists",
-				"workHours" : "I normally work from 5pm until 5am, yes, I’m a night bird."
+				"workHours" : "from 5pm until 5am, yes, I’m a night bird."
 			}
 		},
 		{
@@ -1245,9 +1245,9 @@
 			"imageUrl" : "michaela_zimmer.jpg",
 			"studioLocation": "Berlin",
 			"questions": {
-				"why": " ",
-				"music": " ",
-				"workHours" : " "
+				"why": "I love it.",
+				"music": "none, except my neighbor listens to some",
+				"workHours" : "early on after running til very late"
 			}
 		}
 	],
