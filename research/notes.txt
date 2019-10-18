@@ -10,6 +10,7 @@
 - If profileID 0 -> no link (A)
 - Zuordnung Disziplinen zu Künstler checken (S)
 - Bilder evtl fixe Groesse, da sie sonst in den Browsern unterschidlich verzerren (A und S)
+- weiße infobox überlagert visualisierung
 
 
 //Nice to have:  
@@ -19,3 +20,5 @@ Switch, Slider
 - age
 - working time 
 
+
+- mobile: elemente untereinander  
