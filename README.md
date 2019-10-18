@@ -8,4 +8,4 @@ See the Prototype here: [Demo](https://alsino.github.io/vmt-network/)
 
 
 
-![alt text](https://raw.githubusercontent.com/alsino/vmt-network/master/assets/img/screen.png)
+![alt text](https://github.com/alsino/vmt-network/blob/master/assets/teaser/teaser.png)
