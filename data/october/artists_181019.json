@@ -647,7 +647,13 @@
 			"birthTown": "Wickede/Ruhr",
 			"birthCountry": "Germany",
 			"profileID": "4053",
-			"imageUrl" : "caroline_kryzecki.jpg"
+			"imageUrl" : "caroline_kryzecki.jpg",
+			"studioLocation": "Berlin",
+			"questions": {
+				"why": "Because I love it and it's the best thing I can imagine to do. The whole world in one profession.",
+				"music": "from Bach to Buzzcocks and from Reich to Bowie",
+				"workHours" : " "
+			}
 		},
 		{
 			"name": "Michel Lamoller",
@@ -759,7 +765,13 @@
 			"birthCountry": "Portugal",
 			"studio": "workshop, the place where things get built...",
 			"profileID": "5430",
-			"imageUrl" : "pedro_lopes.jpg"
+			"imageUrl" : "pedro_lopes.jpg",
+			"studioLocation": "Berlin",
+			"questions": {
+				"why": "To answer questions that constantly make me feeling curious and uncomfortable.",
+				"music": "Cepia for writing (research papers, etc) and Autechre for building (making circuits, etc).",
+				"workHours" : "11 am until 11 pm (when in Berlin, now it has been more like 9 am to 9 pm with many breaks and fun moments in between)."
+			}
 		},
 		{
 			"name": "Sean Derrick Cooper Marquardt",
@@ -804,8 +816,8 @@
 			"imageUrl" : "sebastian_meschenmoser.jpg",
 			"studioLocation": "Berlin",
 			"questions": {
-				"why": "Because there is no better way to give form to your inner dialogue.",
-				"music": "Four Tet",
+				"why": "Because I cannot imagine doing anything else.",
+				"music": "Tom Waits, Leonard Cohen, Portishead",
 				"workHours" : "10 am until 6 pm"
 			}
 		},
