@@ -1,6 +1,6 @@
 # Visitmytent.com - A Network Visualization
 
-A quick sketch for a network visualization for vmt using d3 force-directed network and d3 symbols.
+A quick sketch and work-in-progress for a network visualization for vmt using d3 force-directed network and d3 symbols.
 
 ## About
 Constellations - Exploring Artists’ Networks
