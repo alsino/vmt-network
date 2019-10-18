@@ -632,7 +632,13 @@
 			"birthTown": "Berlin",
 			"birthCountry": "GDR",
 			"profileID": "7210",
-			"imageUrl" : "pilocka_krach.jpg"
+			"imageUrl" : "pilocka_krach.jpg",
+			"studioLocation": "Berlin",
+			"questions": {
+				"why": " ",
+				"music": " ",
+				"workHours" : " "
+			}
 		},
 		{
 			"name": "Peter Kröning",
@@ -699,7 +705,13 @@
 			"birthTown": "Magdeburg",
 			"birthCountry": "GDR",
 			"profileID": "1258",
-			"imageUrl" : "alex_lebus.jpg"
+			"imageUrl" : "alex_lebus.jpg",
+			"studioLocation": "Berlin",
+			"questions": {
+				"why": " ",
+				"music": " ",
+				"workHours" : " "
+			}
 		},
 		{
 			"name": "Jeewi Lee",
@@ -710,7 +722,13 @@
 			"birthTown": "Seoul",
 			"birthCountry": "Korea",
 			"profileID": "4105",
-			"imageUrl" : "jeewi_lee.jpg"
+			"imageUrl" : "jeewi_lee.jpg",
+			"studioLocation": "Berlin, Florence",
+			"questions": {
+				"why": " ",
+				"music": " ",
+				"workHours" : " "
+			}
 		},
 		{
 			"name": "Van Bo Le-Mentzel",
@@ -720,7 +738,13 @@
 			"birthTown": "?",
 			"birthCountry": "Laos",
 			"profileID": "4383",
-			"imageUrl" : "van_bo_le_mentzel.jpg"
+			"imageUrl" : "van_bo_le_mentzel.jpg",
+			"studioLocation": "Wittenberg",
+			"questions": {
+				"why": " ",
+				"music": " ",
+				"workHours" : " "
+			}
 		},
 		{
 			"name": "Grischa Lichtenberger",
@@ -960,7 +984,13 @@
 			"birthTown": "Quilpué",
 			"birthCountry": "Chile",
 			"profileID": "3680",
-			"imageUrl" : "gonzalo_reyes_araos.jpg"
+			"imageUrl" : "gonzalo_reyes_araos.jpg",
+			"studioLocation": "Berlin",
+			"questions": {
+				"why": " ",
+				"music": " ",
+				"workHours" : " "
+			}
 		},
 		{
 			"name": "Stefan Roigk",
@@ -970,7 +1000,13 @@
 			"birthTown": "Bückeburg",
 			"birthCountry": "Germany",
 			"profileID": "5985",
-			"imageUrl" : "stefan_roigk.jpg"
+			"imageUrl" : "stefan_roigk.jpg",
+			"studioLocation": "Berlin",
+			"questions": {
+				"why": " ",
+				"music": " ",
+				"workHours" : " "
+			}
 		},
 		{
 			"name": "Pietro Sanguineti",
@@ -1010,7 +1046,13 @@
 			"birthTown": "Mafikeg",
 			"birthCountry": "South Africa",
 			"profileID": "4994",
-			"imageUrl" : "lerato_shadi.jpg"
+			"imageUrl" : "lerato_shadi.jpg",
+			"studioLocation": "Berlin",
+			"questions": {
+				"why": " ",
+				"music": " ",
+				"workHours" : " "
+			}
 		},
 		{
 			"name": "Tracey Snelling",
@@ -1081,7 +1123,13 @@
 			"birthTown": "?",
 			"birthCountry": "?",
 			"profileID": "4996",
-			"imageUrl" : "viron_erol_vert.jpg"
+			"imageUrl" : "viron_erol_vert.jpg",
+			"studioLocation": "Florence",
+			"questions": {
+				"why": " ",
+				"music": " ",
+				"workHours" : " "
+			}
 		},
 		{
 			"name": "Miriam Vlaming",
@@ -1121,7 +1169,13 @@
 			"birthTown": "Lübeck",
 			"birthCountry": "Germany",
 			"profileID": "1781",
-			"imageUrl" : "julius_weiland.jpg"
+			"imageUrl" : "julius_weiland.jpg",
+			"studioLocation": "Berlin",
+			"questions": {
+				"why": " ",
+				"music": " ",
+				"workHours" : " "
+			}
 		},
 		{
 			"name": "Peter Welz",
@@ -1131,7 +1185,13 @@
 			"birthTown": "Lauingen",
 			"birthCountry": "Germany",
 			"profileID": "4414",
-			"imageUrl" : "peter_welz.jpg"
+			"imageUrl" : "peter_welz.jpg",
+			"studioLocation": "Berlin",
+			"questions": {
+				"why": "  Just like Beckett said: 'Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.'",
+				"music": " ",
+				"workHours" : " "
+			}
 		},
 		{
 			"name": "Trak Wendisch",
@@ -1182,7 +1242,13 @@
 			"birthTown": "Berlin",
 			"birthCountry": "Germany",
 			"profileID": "4604",
-			"imageUrl" : "michaela_zimmer.jpg"
+			"imageUrl" : "michaela_zimmer.jpg",
+			"studioLocation": "Berlin",
+			"questions": {
+				"why": " ",
+				"music": " ",
+				"workHours" : " "
+			}
 		}
 	],
 	"links": [{
