@@ -586,7 +586,13 @@
 			"birthTown": "Graz",
 			"birthCountry": "Austria",
 			"profileID": "81",
-			"imageUrl" : "kevin_kopacka.jpg"
+			"imageUrl" : "kevin_kopacka.jpg",
+			"studioLocation": "Berlin",
+			"questions": {
+				"why": "Because it's the thing I most like doing at this time.",
+				"music": "Binaural frequencies",
+				"workHours" : "Used to be: from 6 pm to 4 am - now it's more from 10 am to 8 pm"
+			}
 		},
 		{
 			"name": "Astrid Köppe",
