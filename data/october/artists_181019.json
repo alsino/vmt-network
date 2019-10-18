@@ -635,7 +635,7 @@
 			"imageUrl" : "pilocka_krach.jpg",
 			"studioLocation": "Berlin",
 			"questions": {
-				"why": " ",
+				"why": "To make me happy.",
 				"music": " ",
 				"workHours" : " "
 			}
@@ -664,7 +664,7 @@
 			"questions": {
 				"why": "Because I love it and it's the best thing I can imagine to do. The whole world in one profession.",
 				"music": "from Bach to Buzzcocks and from Reich to Bowie",
-				"workHours" : " "
+				"workHours" : "morning until evening. But my concentration is best from late afternoon to evening."
 			}
 		},
 		{
@@ -708,8 +708,8 @@
 			"imageUrl" : "alex_lebus.jpg",
 			"studioLocation": "Berlin",
 			"questions": {
-				"why": " ",
-				"music": " ",
+				"why": "Higher force",
+				"music": "audiobooks",
 				"workHours" : " "
 			}
 		},
@@ -727,7 +727,7 @@
 			"questions": {
 				"why": "I do what I do, because I never thought of doing something else.",
 				"music": "80´s music",
-				"workHours" : " "
+				"workHours" : "My working time is completely melted together with my private time that it does not have a clear start and not an end. But one clear fact is: I´m more active at night than in the morning."
 			}
 		},
 		{
@@ -741,9 +741,9 @@
 			"imageUrl" : "van_bo_le_mentzel.jpg",
 			"studioLocation": "Wittenberg",
 			"questions": {
-				"why": " ",
-				"music": " ",
-				"workHours" : " "
+				"why": "Everyone should live where she wants to live independent from her status, religion and passport. My parents couldn’t just go to Germany. They had to risk their lifes.",
+				"music": "EPMD",
+				"workHours" : "10 am until 3 pm"
 			}
 		},
 		{
@@ -949,12 +949,7 @@
 			"birthCountry": "Austria",
 			"profileID": "462",
 			"imageUrl" : "manfred_peckl.jpg",
-			"studioLocation": "Berlin",
-			"questions": {
-				"why": "Why not?",
-				"music": "Metallica",
-				"workHours" : "10am - 10pm"
-			}
+			"studioLocation": "Berlin"
 		},
 		{
 			"name": "Laura Põld",
@@ -1003,9 +998,9 @@
 			"imageUrl" : "stefan_roigk.jpg",
 			"studioLocation": "Berlin",
 			"questions": {
-				"why": " ",
-				"music": " ",
-				"workHours" : " "
+				"why": "Ideas just pop up in my mind and the only way to rid of the pressure they made up in my mind is the make the real.",
+				"music": "Coil, Current 93, Scott Walker, Panda Bear & Animal Collective, John Cage, Iannis Xenakis, Rolf Julius, This Heat.",
+				"workHours" : "9:00 pm to 10:00 am"
 			}
 		},
 		{
@@ -1049,9 +1044,9 @@
 			"imageUrl" : "lerato_shadi.jpg",
 			"studioLocation": "Berlin",
 			"questions": {
-				"why": " ",
-				"music": " ",
-				"workHours" : " "
+				"why": "It’s who I am.",
+				"music": "if I am reading or concentrating its a mixture of jazz, piano, and guitar.",
+				"workHours" : "Work times varies according to what else needs to be done,time now as I write this is 11:45 pm."
 			}
 		},
 		{
@@ -1126,9 +1121,9 @@
 			"imageUrl" : "viron_erol_vert.jpg",
 			"studioLocation": "Florence",
 			"questions": {
-				"why": " ",
-				"music": " ",
-				"workHours" : " "
+				"why": "To survive",
+				"music": "all depends on the mood I know that a work is.",
+				"workHours" : "always"
 			}
 		},
 		{
@@ -1172,9 +1167,9 @@
 			"imageUrl" : "julius_weiland.jpg",
 			"studioLocation": "Berlin",
 			"questions": {
-				"why": " ",
-				"music": " ",
-				"workHours" : " "
+				"why": "The best moment is when I don‘t think too much about it. I always try to develop my work and look for new challenges. This way it keeps me going and it never gets boring.",
+				"music": " jazz, classical, electronics, but often I like to work in silence.",
+				"workHours" : "somewhere between 10:00 and 20:00, everything I touch before gets wrong. And when it‘s getting late my eyes get too tired."
 			}
 		},
 		{
@@ -1188,9 +1183,9 @@
 			"imageUrl" : "peter_welz.jpg",
 			"studioLocation": "Berlin",
 			"questions": {
-				"why": "  Just like Beckett said: 'Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.'",
+				"why": "Just like Beckett said: 'Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.'",
 				"music": "Spotify enables you not to have to listen to a track twice in a life time.",
-				"workHours" : " "
+				"workHours" : "early afternoons till open end"
 			}
 		},
 		{
