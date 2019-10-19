@@ -22,3 +22,4 @@ Switch, Slider
 
 
 - mobile: elemente untereinander  
+- netzwerk baut sich nacheinander chronologisch auf beim laden
