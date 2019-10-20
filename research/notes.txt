@@ -4,13 +4,15 @@
 
 - Fotos für alle Künstler (S)
 - Links einfärben nach Art der Verbindung (A)
+- weiße infobox überlagert visualisierung
+- Achenbach ist aus dem Dropdown verschwunden
 - Infofelder eintragen (S)
 - Artist dropdown -> Namen blau (A)
 - Disziplinen -> Zuordnung von mehreren (S und A)
 - If profileID 0 -> no link (A)
 - Zuordnung Disziplinen zu Künstler checken (S)
 - Bilder evtl fixe Groesse, da sie sonst in den Browsern unterschidlich verzerren (A und S)
-- weiße infobox überlagert visualisierung
+- 
 
 
 //Nice to have:  
