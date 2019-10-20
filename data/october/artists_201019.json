@@ -7,7 +7,8 @@
 			"birthTown": "Siegen",
 			"birthCountry": "Germany",
 			"profileID": "3357",
-			"imageUrl" : "christian_achenbach.jpg"
+			"imageUrl" : "christian_achenbach.jpg",
+			"studioLocation": "Berlin"
 		},
 		{
 			"name": "Jörg-Uwe Albig",
@@ -17,7 +18,8 @@
 			"birthTown": "Bremen",
 			"birthCountry": "Germany",
 			"profileID": 0,
-			"imageUrl" : "joerg_uwe_albig.jpg"
+			"imageUrl" : "joerg_uwe_albig.jpg",
+			"studioLocation": "Berlin"
 		},
 		{
 			"name": "Jofroi Amaral",
@@ -27,7 +29,8 @@
 			"birthTown": "Brussels",
 			"birthCountry": "Belgium",
 			"profileID": "2431",
-			"imageUrl" : "jofroi_amaral.jpg"
+			"imageUrl" : "jofroi_amaral.jpg",
+			"studioLocation": "Berlin"
 		},
 		{
 			"name": "Song-Ming Ang",
@@ -37,7 +40,8 @@
 			"birthTown": "Singapore",
 			"birthCountry": "Singapore",
 			"profileID": "7969",
-			"imageUrl" : "song_ming_ang.jpg"
+			"imageUrl" : "song_ming_ang.jpg",
+			"studioLocation": "Berlin"
 		},
 		{
 			"name": "Axel Anklam",
@@ -48,7 +52,8 @@
 			"birthTown": "Wriezen",
 			"birthCountry": "GDR",
 			"profileID": 0,
-			"imageUrl" : "axel_anklam.jpg"
+			"imageUrl" : "axel_anklam.jpg",
+			"studioLocation": "Bad Freienwalde"
 		},
 		{
 			"name": "Aram Bartholl",
@@ -58,7 +63,8 @@
 			"birthTown": "Bremen",
 			"birthCountry": "Germany",
 			"profileID": "7695",
-			"imageUrl" : "aram_bartholl.jpg"
+			"imageUrl" : "aram_bartholl.jpg",
+			"studioLocation": "Berlin"
 		},
 		{
 			"name": "Christopher Bauder",
@@ -68,7 +74,8 @@
 			"birthTown": "Stuttgart",
 			"birthCountry": "Germany",
 			"profileID": "2966",
-			"imageUrl" : "christopher_bauder.jpg"
+			"imageUrl" : "christopher_bauder.jpg",
+			"studioLocation": "Berlin"
 		},
 		{
 			"name": "Fehmi Baumbach",
@@ -78,7 +85,8 @@
 			"birthTown": "near Braunschweig",
 			"birthCountry": "Germany",
 			"profileID": "2056",
-			"imageUrl" : "fehmi_baumbach.jpg"
+			"imageUrl" : "fehmi_baumbach.jpg",
+			"studioLocation": "Berlin"
 		},
 		{
 			"name": "Bernd Begemann",
@@ -88,7 +96,8 @@
 			"birthTown": "Bad Salzuflen",
 			"birthCountry": "Germany",
 			"profileID": "8612",
-			"imageUrl" : "bernd_begemann.jpg"
+			"imageUrl" : "bernd_begemann.jpg",
+			"studioLocation": "Hamburg"
 		},
 		{
 			"name": "Clemens Behr",
@@ -99,12 +108,7 @@
 			"birthCountry": "Germany",
 			"profileID": "967",
 			"imageUrl" : "clemens_behr.jpg",
-			"studioLocation": "Berlin",
-			"questions": {
-				"why": "An inner urge and great pleasure in making an idea that is not visible to others almost real and tangible.",
-				"music": "Kool Keith",
-				"workHours" : "14am - 15pm"
-			}
+			"studioLocation": "Berlin"
 		},
 		{
 			"name": "Sebastian Bieniek",
@@ -130,7 +134,8 @@
 			"birthTown": "Regensburg",
 			"birthCountry": "Germany",
 			"profileID": "286",
-			"imageUrl" : "amelie_blendl.jpg"
+			"imageUrl" : "amelie_blendl.jpg",
+			"studioLocation": "Berlin"
 		},
 		{
 			"name": "Alex Bodea",
