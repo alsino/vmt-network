@@ -417,17 +417,6 @@
 			"studioLocation": "Berlin"
 		},
 		{
-			"name": "Hannah Goldstein",
-			"discipline": 4,
-			"gender": "female",
-			"birthYear": 0,
-			"birthTown": "?",
-			"birthCountry": "Sweden",
-			"profileID": 0,
-			"imageUrl" : "hannah_goldstein.jpg",
-			"studioLocation": "Berlin"
-		},
-		{
 			"name": "Oliver Gröne",
 			"discipline": 1,
 			"gender": "male",
@@ -3229,29 +3218,6 @@
 		},
 
 
-
-		{
-			"source": "Hannah Goldstein",
-			"target": "Bram Braam",
-			"value": 5
-		},
-		{
-			"source": "Hannah Goldstein",
-			"target": "Anne Duk Hee Jordan",
-			"value": 30
-		},
-		{
-			"source": "Hannah Goldstein",
-			"target": "Astrid Köppe",
-			"value": 5
-		},
-		{
-			"source": "Hannah Goldstein",
-			"target": "Astrid Köppe",
-			"value": 5
-		},
-
-
 		{
 			"source": "Philip Grözinger",
 			"target": "Christian Achenbach",
@@ -4067,11 +4033,7 @@
 			"target": "Aram Bartholl",
 			"value": 10
 		},
-		{
-			"source": "Anne Duk Hee Jordan",
-			"target": "Hannah Goldstein",
-			"value": 5
-		},
+		
 		{
 			"source": "Anne Duk Hee Jordan",
 			"target": "Stefanie Gutheil",
