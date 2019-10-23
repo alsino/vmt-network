@@ -12,7 +12,7 @@
 		},
 		{
 			"name": "Jörg-Uwe Albig",
-			"discipline": 7,
+			"discipline": [7,8,9],
 			"gender": "male",
 			"birthYear": 1960,
 			"birthTown": "Bremen",

@@ -122,7 +122,7 @@ d3.json("./data/october/artists_231019.json", function (error, graph) {
     let questions = d.questions; 
 
     for(var i = 0; i < symbolTypes.length; i++) {
-      if(symbolTypes[i].discipline === d.discipline) {
+      if(symbolTypes[i].discipline === d.discipline[0]) {
         discipline = symbolTypes[i].name;
       }
     }
@@ -202,9 +202,9 @@ d3.json("./data/october/artists_231019.json", function (error, graph) {
     .append('path')
     .attr('r', symbolRadius)
     .attr('d', function (d) {
-      if (d.discipline && d.discipline < 11) {
+      if (d.discipline[0] && d.discipline[0] < 11) {
         symbolGenerator
-          .type(d3[symbolTypes[d.discipline - 1].symbol]);
+          .type(d3[symbolTypes[d.discipline[0] - 1].symbol]);
         return symbolGenerator();
       }
     })
