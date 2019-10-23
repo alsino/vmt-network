@@ -4,7 +4,6 @@
 - If profileID 0 -> no link (A) (führt derzeit noch zu pageID = 0)
 - Fotos für alle Künstler (S)
 - weiße infobox überlagert Visualisierung
-- Legende für Verbindungen
 - Disziplinen -> Zuordnung von mehreren (S und A)
 - Achenbach ist aus dem Dropdown verschwunden
 - Infos bei Künstlern anfragen (Why, Arbeitszeit, Music)
