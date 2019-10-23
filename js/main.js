@@ -59,7 +59,7 @@ let tooltip = d3.select("body")
   .style("opacity", 0);
 
 
-d3.json("./data/october/artists_221019.json", function (error, graph) {
+d3.json("./data/october/artists_231019.json", function (error, graph) {
   if (error) throw error;
 
   function distance(link) {
@@ -389,6 +389,16 @@ d3.json("./data/october/artists_221019.json", function (error, graph) {
   function openArtistPage(artistID) {
     window.open(`https://visitmytent.com/?p=${artistID}`, '_blank')
   }
+
+
+  // let newLinks = linksRaw.filter((item) => {
+  //   return item.value == 10 || item.value == 15 || item.value == 25
+  // })
+
+  // console.log(JSON.stringify(newLinks));
+  
+
+
 
   const linkedByIndex = {};
   graph.links.forEach(d => {
