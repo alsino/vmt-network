@@ -12,7 +12,7 @@
 		},
 		{
 			"name": "Jörg-Uwe Albig",
-			"discipline": [7,8,9],
+			"discipline": [7],
 			"gender": "male",
 			"birthYear": 1960,
 			"birthTown": "Bremen",
@@ -1134,7 +1134,7 @@
 		},
 		{
 			"name": "Frank Spilker",
-			"discipline": 3,
+			"discipline": [3,7],
 			"gender": "male",
 			"birthYear": 1966,
 			"birthTown": "Herford",

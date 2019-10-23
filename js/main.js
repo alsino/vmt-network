@@ -118,14 +118,41 @@ d3.json("./data/october/artists_231019.json", function (error, graph) {
 
   function tooltipContent(d) {
 
-    let discipline;
-    let questions = d.questions; 
+    // let discipline;
+    // for(var i = 0; i < symbolTypes.length; i++) {
+    //   if(symbolTypes[i].discipline === d.discipline[0]) {
+    //     discipline = symbolTypes[i].name;
+    //   }
+    // }
 
-    for(var i = 0; i < symbolTypes.length; i++) {
-      if(symbolTypes[i].discipline === d.discipline[0]) {
-        discipline = symbolTypes[i].name;
-      }
-    }
+    let questions = d.questions; 
+    let disciplines = [];
+    let discipline;
+
+
+    // Get discipline name from settings.js
+    d.discipline.forEach((item) => {
+      for(var i = 0; i < symbolTypes.length; i++) {
+        if(symbolTypes[i].discipline === item) {
+          let disciplineName = symbolTypes[i].name
+          disciplines.push(disciplineName);
+        }
+      } 
+    // let disciplines; 
+    
+    // d.discipline.forEach((item) =>{
+    //   return `<div class='tooltip-discipline'>${item}</div>`
+    })
+
+    console.log(disciplines);
+
+    disciplines.forEach((item) =>{
+      discipline = `<div class='tooltip-discipline'>${item}</div>`
+    })
+
+
+
+    // console.log(d.discipline)
 
     if (d.birthYear != 0) {
 
@@ -134,7 +161,7 @@ d3.json("./data/october/artists_231019.json", function (error, graph) {
         return `<div class="tooltip-info">
           <div class="tooltip-info-inner">
             <div class="tooltip-name">${d.name}</div>
-            <div class="tooltip-discipline">${discipline}</div>
+            <div class="tooltip-disciplines">${disciplines}</div>
             <div class="tooltip-birth">Born ${d.birthYear} in ${d.birthTown}, ${d.birthCountry}</div>
             <div>Studio in ${d.studioLocation}</div>
             <br>
