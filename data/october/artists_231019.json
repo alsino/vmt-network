@@ -1,7 +1,7 @@
 {
 	"nodes": [{
 			"name": "Christian Achenbach",
-			"discipline": [1],
+			"discipline": [1,6],
 			"gender": "male",
 			"birthYear": 1978,
 			"birthTown": "Siegen",
@@ -23,7 +23,7 @@
 		},
 		{
 			"name": "Jofroi Amaral",
-			"discipline": [1],
+			"discipline": [1,2],
 			"gender": "male",
 			"birthYear": 1977,
 			"birthTown": "Brussels",
@@ -34,7 +34,7 @@
 		},
 		{
 			"name": "Song-Ming Ang",
-			"discipline": [1],
+			"discipline": [1,6],
 			"gender": "male",
 			"birthYear": 1980,
 			"birthTown": "Singapore",
