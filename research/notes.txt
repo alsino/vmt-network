@@ -1,18 +1,21 @@
 //notes
 
 //ToDo
-- If profileID 0 -> no link (A) (führt derzeit noch zu pageID = 0)
+- Achenbach ist aus dem Dropdown verschwunden (A)
+- Julius Weiland sieht langgezogen aus (A)
+- Disziplinen-Filter -> Zuordnung von mehreren (A)
+- Legende Links als Filter
+
+
 - Fotos für alle Künstler (S)
 - weiße infobox überlagert Visualisierung
-- Legende für Verbindungen
-- Disziplinen -> Zuordnung von mehreren (S und A)
-- Achenbach ist aus dem Dropdown verschwunden
-- Infos bei Künstlern anfragen (Why, Arbeitszeit, Music)
+- Infos bei Künstlern anfragen (Why, Arbeitszeit, Music) (S)
 - Infofelder eintragen (S)
 - Zuordnung Disziplinen zu Künstler checken (S)
+
 - Bilder evtl fixe Groesse, da sie sonst in den Browsern unterschidlich verzerren (A und S)
-- evtl Bild Querformatlösung für ausgeglichene Darstellung der Portraits
-- Julius Weiland sieht langgezogen aus
+- evtl Bild Querformatlösung für ausgeglichene Darstellung der Portraits (A und S)
+
 
 
 //Nice to have:  

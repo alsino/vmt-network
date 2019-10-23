@@ -278,7 +278,7 @@ d3.json("./data/october/artists_231019.json", function (error, graph) {
         let element = symbolTypes[i].selected;
         element = false;
       }
-      resetDisciplines();
+      // resetDisciplines();
       hideTooltip();
     });
 
@@ -383,7 +383,9 @@ d3.json("./data/october/artists_231019.json", function (error, graph) {
   }
 
   function openArtistPage(artistID) {
-    window.open(`https://visitmytent.com/?p=${artistID}`, '_blank')
+    if(artistID != 0) {
+      window.open(`https://visitmytent.com/?p=${artistID}`, '_blank')
+    }
   }
 
 
