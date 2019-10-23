@@ -100,7 +100,10 @@ d3.json("./data/october/artists_221019.json", function (error, graph) {
 
   link
     .attr('class', 'link')
-    .style("stroke", "rgba(0, 5, 255, 0.1)")
+    // .style("stroke", "rgba(0, 5, 255, 0.1)")
+    .style("stroke", (d, i, nodes) => linkColor(d));
+
+    
 
   let node = nodeCont.selectAll('.node')
     .data(graph.nodes)
@@ -456,9 +459,36 @@ d3.json("./data/october/artists_221019.json", function (error, graph) {
     } else {
       link.style('stroke-opacity', o => (o.source === selectedArtist || o.target === selectedArtist ? 1 : opacity));
     }
-
-
 }
+
+
+  function linkColor(d) {
+    switch(d.value) {
+      case 5:
+        return "rgba(0,0,255,0)";
+        break;
+      case 10:
+        return  "rgba(0, 5, 255, 0.3)"
+        break;
+      case 15:
+        return "rgba(0,255,0,0.3)";
+        break;
+      case 20:
+        return "rgba(0,0,255,0)";
+        break;
+      case 25:
+        return "rgba(255,0,0,0.3)"; //change
+        break;
+      case 30:
+        return "rgba(0,0,0,0)";
+        break;
+      default:
+        return "rgba(0,0,0,0)";
+    }        
+}
+
+
+
 
     function showTooltip(d){
       tooltip.transition()
@@ -480,7 +510,5 @@ d3.json("./data/october/artists_221019.json", function (error, graph) {
 
   let sequentialScale = d3.scaleOrdinal(d3.schemeSet3)
     .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
-
-
 
 })
