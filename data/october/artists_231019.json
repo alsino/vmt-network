@@ -1167,7 +1167,7 @@
 		},
 		{
 			"name": "Hans Unstern",
-			"discipline": [3],
+			"discipline": [3,7],
 			"gender": "male",
 			"birthYear": 0,
 			"birthTown": "?",
@@ -1195,7 +1195,7 @@
 		},
 		{
 			"name": "Miriam Vlaming",
-			"discipline": [1],
+			"discipline": [1,6],
 			"gender": "female",
 			"birthYear": 1971,
 			"birthTown": "Düsseldorf",
@@ -1206,7 +1206,7 @@
 		},
 		{
 			"name": "Wiebke Maria Wachmann",
-			"discipline": [2],
+			"discipline": [2,4,6],
 			"gender": "female",
 			"birthYear": 1969,
 			"birthTown": "Berlin",
@@ -1217,7 +1217,7 @@
 		},
 		{
 			"name": "Shira Wachsmann",
-			"discipline": [2],
+			"discipline": [5,2],
 			"gender": "female",
 			"birthYear": 1984,
 			"birthTown": "Tel Aviv",
