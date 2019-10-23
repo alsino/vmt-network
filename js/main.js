@@ -1,24 +1,4 @@
-// Helpful Links
-// - Symbole: https://bl.ocks.org/d3indepth/bae221df69af953fb06351e1391e89a0
-// - Forces: https://bl.ocks.org/steveharoz/8c3e2524079a8c440df60c1ab72b5d03
-
-let color = d3.scaleOrdinal(d3.schemeSet3);
-color(0);
-color(1);
-color(2);
-color(3);
-color(4);
-color(5);
-color(6);
-color(7);
-color(8);
-color(9);
-color(10);
-
-
 let disciplineSelected = false;
-
-
 
 let svg = d3.select("svg"),
   width = +svg.attr("width"),
@@ -137,10 +117,6 @@ d3.json("./data/october/artists_231019.json", function (error, graph) {
         return discipline += `<div class="tooltip-discipline">${item}</div>`
       })
 
-      // console.log(discipline);
-    
-   
-    // console.log(d.discipline)
 
     if (d.birthYear != 0) {
 
@@ -223,8 +199,6 @@ d3.json("./data/october/artists_231019.json", function (error, graph) {
         return symbolGenerator();
       }
     })
-    // .style("fill", function(d) { return color(d.discipline);}) 
-    // .style("fill", "black")
     .on('mouseover.tooltip', function (d) {
       showTooltip(d);
     })
@@ -274,16 +248,6 @@ d3.json("./data/october/artists_231019.json", function (error, graph) {
     .enter()
     .append("div")
     .attr("class", "legendItem")
-    // .on("mouseover.legend", (d) => {
-    //   filterDisciplines(d.discipline, 0.1)
-    // })
-    // .on("mouseout.legend", (d) => {
-    //   filterDisciplines(d.discipline, 1)
-    // })
-    // .on("click", (d) => {
-    //   filterDisciplines(d.discipline, 0.1);
-    //   console.log(d);
-    // })
     .on("click", function(d) {
 
       for (let i = 0; i < symbolTypes.length; i++) {
@@ -299,18 +263,6 @@ d3.json("./data/october/artists_231019.json", function (error, graph) {
         d3.select(this).classed("legendItem-active", true);
         filterDisciplines(d.discipline, 0.1);
       }
-      // Toggle buttons
-      // console.log(disciplineSelected);
-      // if (d.selected) {
-      //   d3.select(this).classed("legendItem-active", true);
-      //   filterDisciplines(d.discipline, 0.1);
-      //   console.log(symbolTypes);
-      // } else {
-      //   d3.select(this).classed("legendItem-active", false);
-      //   filterDisciplines(d.discipline, 1);
-      //   console.log(symbolTypes);
-      // }
-
     })
 
     // Reset all disciplines on svg click
@@ -406,15 +358,6 @@ d3.json("./data/october/artists_231019.json", function (error, graph) {
   }
 
 
-  // let newLinks = linksRaw.filter((item) => {
-  //   return item.value == 10 || item.value == 15 || item.value == 25
-  // })
-
-  // console.log(JSON.stringify(newLinks));
-  
-
-
-
   const linkedByIndex = {};
   graph.links.forEach(d => {
     linkedByIndex[`${d.source.index},${d.target.index}`] = 1;
@@ -478,9 +421,11 @@ d3.json("./data/october/artists_231019.json", function (error, graph) {
       return thisOpacity;
     });
 
+    
+
     if (opacity != 1) {
       link.style('stroke-opacity', o => (o.source === selectedArtist || o.target === selectedArtist ? 1 : opacity / 2));
-      // link.style('stroke', o => (o.value == 10 ? "#F76906" : "#1CDE7E"));
+      label.style("fill", (l) => ( l === selectedArtist ? "#0000ff" : "black" ));
     } else {
       link.style('stroke-opacity', o => (o.source === selectedArtist || o.target === selectedArtist ? 1 : opacity));
     }
