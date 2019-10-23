@@ -9,7 +9,7 @@ const symbolTypes = [
 ]
 
 const linkTypes = [
-  {"type": "Exhibited together / on stage together", "value": 10, "color": "rgba(0, 5, 255, 0.3)"};
-  {"type": "Together in a residency / program", "value": 15, "color": "rgba(0,255,0,0.3)"};
-  {"type": "Collaborated on a project / art piece ", "value": 25, "color": "rgba(255,0,0,0.3)"};
+  {"type": "Exhibited together / on stage together", "value": 10, "color": "rgba(0, 5, 255, 0.3)"},
+  {"type": "Together in a residency / program", "value": 15, "color": "rgba(0,255,0,0.3)"},
+  {"type": "Collaborated on a project / art piece ", "value": 25, "color": "rgba(255,0,0,0.3)"}
 ]

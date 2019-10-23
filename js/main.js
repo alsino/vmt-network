@@ -18,9 +18,15 @@ let sidebar = d3.select(".wrapper")
   .append("div")
   .attr("class", "sidebar")
 
+// 1. Legend Disciplines
 let legend = sidebar
     .append("div")
     .attr("class", "legend");
+
+// 2. Legend Links
+let legendLinks = sidebar
+    .append("div")
+    .attr("class", "legend-links");
 
 let selectorHeading = sidebar
     .append("div")
@@ -242,7 +248,7 @@ d3.json("./data/october/artists_231019.json", function (error, graph) {
  
   let legendItemSelected = false;
   
-  // LEGEND
+  // Legend Disciplines
   let legendItem = legend.selectAll("div")
     .data(symbolTypes)
     .enter()
@@ -277,7 +283,6 @@ d3.json("./data/october/artists_231019.json", function (error, graph) {
     });
 
 
-
   let legendSymbol = legendItem.append("div")
     .append("svg")
     .attr("class", "legendSymbol")
@@ -293,6 +298,30 @@ d3.json("./data/october/artists_231019.json", function (error, graph) {
   let legendDescription = legendItem.append("div").text((d) => d.name)
 
 
+  // Legend Link Types
+  let linkTypeItem = legendLinks.selectAll("div")
+    .data(linkTypes)
+    .enter()
+    .append("div")
+    .attr("class", "legendItem")
+    // .text((d) => d.type)
+
+    let legendTypeSymbol = linkTypeItem
+      .append("div")
+      .attr("class", "legendTypeItem")
+      .style("background-color", (d) => d.color);
+      
+    let legendTypeDescr = linkTypeItem
+      .append("div")
+      .attr("class", "legendTypeDescr")
+      .text((d) => d.type)
+
+    console.log(linkTypes);
+
+
+
+
+  // Artist Selector
   let selectOption = select.selectAll("option")
     .data(graph.nodes)
     .enter()
