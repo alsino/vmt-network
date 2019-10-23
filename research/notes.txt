@@ -3,7 +3,6 @@
 //ToDo
 
 - Fotos für alle Künstler (S)
-- Links einfärben nach Art der Verbindung (A)
 - weiße infobox überlagert Visualisierung
 - Achenbach ist aus dem Dropdown verschwunden
 - Infos bei Künstlern anfragen (Why, Arbeitszeit, Music)

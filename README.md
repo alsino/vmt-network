@@ -14,6 +14,6 @@ The visualization was developed as a collaboration between [Stephanie Neumann](h
 
 ## Demo
 
-See the live version here: [Prototype](https://alsino.github.io/vmt-network/)
+See the live version here: [Prototype](https://visitmytent.com/?page_id=10188)
 
 
