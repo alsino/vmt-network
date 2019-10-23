@@ -137,10 +137,6 @@ d3.json("./data/october/artists_231019.json", function (error, graph) {
         return discipline += `<div class="tooltip-discipline">${item}</div>`
       })
 
-      // console.log(discipline);
-    
-   
-    // console.log(d.discipline)
 
     if (d.birthYear != 0) {
 
@@ -478,9 +474,11 @@ d3.json("./data/october/artists_231019.json", function (error, graph) {
       return thisOpacity;
     });
 
+    
+
     if (opacity != 1) {
       link.style('stroke-opacity', o => (o.source === selectedArtist || o.target === selectedArtist ? 1 : opacity / 2));
-      // link.style('stroke', o => (o.value == 10 ? "#F76906" : "#1CDE7E"));
+      label.style("fill", (l) => ( l === selectedArtist ? "#0000ff" : "black" ));
     } else {
       link.style('stroke-opacity', o => (o.source === selectedArtist || o.target === selectedArtist ? 1 : opacity));
     }
