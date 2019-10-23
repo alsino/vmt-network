@@ -1167,7 +1167,7 @@
 		},
 		{
 			"name": "Hans Unstern",
-			"discipline": 3,
+			"discipline": [3],
 			"gender": "male",
 			"birthYear": 0,
 			"birthTown": "?",
@@ -1178,7 +1178,7 @@
 		},
 		{
 			"name": "Viron Erol Vert",
-			"discipline": 5,
+			"discipline": [5],
 			"gallery": "Galerie Reinhard Hauff",
 			"gender": "male",
 			"birthYear": 0,
@@ -1195,7 +1195,7 @@
 		},
 		{
 			"name": "Miriam Vlaming",
-			"discipline": 1,
+			"discipline": [1],
 			"gender": "female",
 			"birthYear": 1971,
 			"birthTown": "Düsseldorf",
@@ -1206,7 +1206,7 @@
 		},
 		{
 			"name": "Wiebke Maria Wachmann",
-			"discipline": 2,
+			"discipline": [2],
 			"gender": "female",
 			"birthYear": 1969,
 			"birthTown": "Berlin",
@@ -1217,7 +1217,7 @@
 		},
 		{
 			"name": "Shira Wachsmann",
-			"discipline": 2,
+			"discipline": [2],
 			"gender": "female",
 			"birthYear": 1984,
 			"birthTown": "Tel Aviv",
@@ -1228,7 +1228,7 @@
 		},
 		{
 			"name": "Julius Weiland",
-			"discipline": 6,
+			"discipline": [6,1],
 			"gender": "male",
 			"birthYear": 1971,
 			"birthTown": "Lübeck",
@@ -1244,7 +1244,7 @@
 		},
 		{
 			"name": "Peter Welz",
-			"discipline": 5,
+			"discipline": [5,2],
 			"gender": "male",
 			"birthYear": 1972,
 			"birthTown": "Lauingen",
@@ -1260,7 +1260,7 @@
 		},
 		{
 			"name": "Trak Wendisch",
-			"discipline": 6,
+			"discipline": [6,1],
 			"gender": "male",
 			"birthYear": 1958,
 			"birthTown": "Berlin",
@@ -1271,7 +1271,7 @@
 		},
 		{
 			"name": "Sinta Werner",
-			"discipline": 2,
+			"discipline": [2,4],
 			"gender": "female",
 			"birthYear": 1977,
 			"birthTown": "Hattingen",
@@ -1282,7 +1282,7 @@
 		},
 		{
 			"name": "Hansa Wißkirchen",
-			"discipline": 5,
+			"discipline": [5,1,6],
 			"gender": "male",
 			"birthYear": 1966,
 			"birthTown": "Düsseldorf",
@@ -1293,7 +1293,7 @@
 		},
 		{
 			"name": "Markus Wüste",
-			"discipline": 6,
+			"discipline": [6],
 			"gender": "male",
 			"birthYear": 1970,
 			"birthTown": "?",
@@ -1304,7 +1304,7 @@
 		},
 		{
 			"name": "Michaela Zimmer",
-			"discipline": 1,
+			"discipline": [1],
 			"gallery": "FOLD gallery",
 			"gender": "female",
 			"birthYear": 1964,
