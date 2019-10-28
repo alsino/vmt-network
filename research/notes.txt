@@ -6,15 +6,12 @@
 - Disziplinen-Filter -> Zuordnung von mehreren (A)
 - Legende Links als Filter
 
-
-- Fotos für alle Künstler (S)
 - weiße infobox überlagert Visualisierung
 - Infos bei Künstlern anfragen (Why, Arbeitszeit, Music) (S)
 - Infofelder eintragen (S)
 - Zuordnung Disziplinen zu Künstler checken (S)
 
 - Bilder evtl fixe Groesse, da sie sonst in den Browsern unterschidlich verzerren (A und S)
-- evtl Bild Querformatlösung für ausgeglichene Darstellung der Portraits (A und S)
 
 
 
@@ -27,7 +24,6 @@ Switch, Slider
 
 
 - mobile: elemente untereinander  
-- netzwerk baut sich nacheinander chronologisch auf beim laden
 
 
 //Next
