@@ -1,18 +1,16 @@
-//notes
 
 //ToDo
 - Achenbach ist aus dem Dropdown verschwunden (A)
 - Julius Weiland sieht langgezogen aus (A)
 - Disziplinen-Filter -> Zuordnung von mehreren (A)
 - Legende Links als Filter
-
-- Bilder Feinschliff (S)
 - weiße infobox überlagert Visualisierung
+- mit Klick auf Bild zu Posting?
+
+- Bilder Feinschliff und ggf Kontextinfo freistellen (S)
 - Infos bei Künstlern anfragen (Why, Arbeitszeit, Music) (S)
 - Infofelder eintragen (S)
-- Zuordnung Disziplinen zu Künstler checken (S)
-
-- Bilder evtl fixe Groesse, da sie sonst in den Browsern unterschidlich verzerren (A und S)
+- Zuordnung Disziplinen zu Künstler checken + ergänzen (S)
 
 
 
@@ -23,8 +21,8 @@ Switch, Slider
 - age
 - working time 
 
-
 - mobile: elemente untereinander  
+
 
 
 //Next
