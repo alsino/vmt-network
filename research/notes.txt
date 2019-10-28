@@ -6,6 +6,7 @@
 - Disziplinen-Filter -> Zuordnung von mehreren (A)
 - Legende Links als Filter
 
+- Bilder Feinschliff (S)
 - weiße infobox überlagert Visualisierung
 - Infos bei Künstlern anfragen (Why, Arbeitszeit, Music) (S)
 - Infofelder eintragen (S)
