@@ -1977,7 +1977,63 @@
 		"source": "Philip Grözinger",
 		"target": "Hansa Wißkirchen",
 		"value": 25
-	}, {
+	}, 
+
+	
+	{
+		"source": "Stefanie Gutheil",
+		"target": "Christian Achenbach",
+		"value": 10
+	}, 
+	{
+		"source": "Stefanie Gutheil",
+		"target": "Axel Anklam",
+		"value": 10
+	}, 
+	{
+		"source": "Stefanie Gutheil",
+		"target": "Fritz Bornstück",
+		"value": 10
+	}, 
+	{
+		"source": "Stefanie Gutheil",
+		"target": "Sven Drühl",
+		"value": 10
+	}, 
+	{
+		"source": "Stefanie Gutheil",
+		"target": "Philip Grözinger",
+		"value": 10
+	}, 
+	{
+		"source": "Stefanie Gutheil",
+		"target": "Janes Haid-Schmallenberg",
+		"value": 10
+	}, 
+	{
+		"source": "Stefanie Gutheil",
+		"target": "Michelle Jezierski",
+		"value": 10
+	}, 
+	{
+		"source": "Stefanie Gutheil",
+		"target": "Caroline Kryzecki",
+		"value": 10
+	}, 
+	{
+		"source": "Stefanie Gutheil",
+		"target": "Jan Muche",
+		"value": 10
+	}, 
+	{
+		"source": "Stefanie Gutheil",
+		"target": "Manfred Peckl",
+		"value": 10
+	}, 
+
+
+
+	{
 		"source": "Lucas Gutierrez",
 		"target": "Robert Henke",
 		"value": 10
