@@ -2249,7 +2249,127 @@
 		"source": "Klaus Killisch",
 		"target": "Trak Wendisch",
 		"value": 10
-	}, {
+	}, 
+
+
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Christian Achenbach",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Axel Anklam",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Isabelle Borges",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Fritz Bornstück",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Bram Braam",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Sven Drühl",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Wolfgang Flad",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Oliver Gröne",
+		"value": 10
+	},
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Philip Grözinger",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Daniel Grüttner",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Stefanie Gutheil",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Jens Hausmann",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Michelle Jezierski",
+		"value": 10
+	},
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Klaus Killisch",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Bjørn Melhus",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Jan Muche",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Manfred Peckl",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Susanne Schirdewahn",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Erik Schmidt",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Miriam Vlaming",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Hansa Wißkirchen",
+		"value": 10
+	},
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Markus Wüste",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Michaela Zimmer",
+		"value": 10
+	}, 
+
+
+	{
 		"source": "Kevin Kopacka",
 		"target": "Fritz Bornstück",
 		"value": 10
