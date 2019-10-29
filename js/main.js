@@ -18,28 +18,45 @@ let sidebar = d3.select(".wrapper")
   .append("div")
   .attr("class", "sidebar")
 
+
+
+// Legend setup
+let legendDiscipline = sidebar.append("div").attr("class", "legend-discipline");
+let legendConnections = sidebar.append("div").attr("class", "legend-connections");
+let legendArtists = sidebar.append("div").attr("class", "legend-artists");
+
+
 // 1. Legend Disciplines
-let legend = sidebar
+let headingDisciplines = legendDiscipline
+    .append("div")
+    .attr("class", "legend-heading")
+    .text("Diciplines");
+
+let legend = legendDiscipline
     .append("div")
     .attr("class", "legend");
 
-// 2. Legend Links
-let legendLinks = sidebar
+// 2. Legend Connections
+let headingConnection = legendConnections
+    .append("div")
+    .attr("class", "legend-heading")
+    .text("Type of Connection");
+
+// 3. Legend Links
+let legendLinks = legendConnections
     .append("div")
     .attr("class", "legend-links");
 
-let selectorHeading = sidebar
+let headingArtists = legendArtists
     .append("div")
-    .attr("class", "selectorHeading")
-    .text("Select Artist …");
+    .attr("class", "legend-heading")
+    .text("Select Artist");
 
-// Select setup
-let select = sidebar.append("select")
+// 4. Select setup
+let select = legendArtists.append("select")
   .attr("class", "selector");
 
-  // select.append("option").text("Select artist …")
-
-  
+// 5. Tooltip setup
 let tooltip = sidebar
   .append("div")
   .attr("class", "tooltip")

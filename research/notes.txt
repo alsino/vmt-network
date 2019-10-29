@@ -4,9 +4,8 @@
 - Was machen, wenn viel Text im Tooltip? -> CAROLINE KRYZECKI
 
 - Disziplinen-Filter -> Zuordnung von mehreren (A)
-- Lininen-Legende als Filter
-- weiße infobox überlagert Visualisierung
-- mit Klick auf Bild zu Posting?
+- Lininen-Legende als Filter (A)
+- mit Klick auf Bild zu Posting (Was heißt das?)
 
 - Bilder Feinschliff und ggf Kontextinfo freistellen (S)
 - Infos bei Künstlern anfragen (Why, Arbeitszeit, Music) (S)
@@ -23,8 +22,6 @@ Switch, Slider
 - working time 
 
 - mobile: elemente untereinander  
-
-
 
 //Next
 - Einreichung republica
