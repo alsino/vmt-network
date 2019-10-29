@@ -1,8 +1,10 @@
 
 //ToDo
-- Julius Weiland sieht langgezogen aus (A)
+
+- Was machen, wenn viel Text im Tooltip? -> CAROLINE KRYZECKI
+
 - Disziplinen-Filter -> Zuordnung von mehreren (A)
-- Legende Links als Filter
+- Lininen-Legende als Filter
 - weiße infobox überlagert Visualisierung
 - mit Klick auf Bild zu Posting?
 

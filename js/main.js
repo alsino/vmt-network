@@ -40,7 +40,7 @@ let select = sidebar.append("select")
   // select.append("option").text("Select artist …")
 
   
-let tooltip = d3.select("body")
+let tooltip = sidebar
   .append("div")
   .attr("class", "tooltip")
   .style("opacity", 0);
@@ -478,6 +478,7 @@ d3.json("./data/october/artists_231019.json", function (error, graph) {
       tooltip.transition()
       .duration(300)
       .style("opacity", 1);
+
       tooltip.html(tooltipContent(d))
       // .style("left", (d3.event.pageX) + "px")
       // .style("top", (d3.event.pageY + 10) + "px");

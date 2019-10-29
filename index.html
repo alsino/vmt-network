@@ -68,32 +68,26 @@
     font-weight: 900;
   }
 
+  .sidebar {
+    padding: 0 20px;
+  }
+
   .tooltip {
-    position: absolute;
-    display: flex;
-    justify-content: flex-end;
-    bottom: 15%;
-    right: 0;
     background-color: transparent;
     font-family: "Roboto Mono";
     font-size: 10px;
-    width: 410px;
-    height: auto;
     padding: 10px 20px 0 20px;
     line-height: 1.5;
-    /* box-shadow: 3px 3px 10px rgba(0, 0, 0, .5); */
     pointer-events: none;
+    width: 225px;
   }
 
   .tooltip-info {
-    flex: 1;
-    text-align: right;
+    text-align: left;
     background:#fff;
   }
 
   .tooltip-info-inner {
-    width: 80%;
-    float: right;
   }
 
   .tooltip-name {
@@ -101,11 +95,8 @@
     color: #0000ff;
   }
 
-
-
   .tooltip-img {
-    flex: 1;
-    width: 45%;
+    width: 225px; /*(45%, 50% -> 250px)*/
     height: auto;
   }
 
