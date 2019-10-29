@@ -1,7 +1,7 @@
 
 //ToDo
 
-- Was machen, wenn viel Text im Tooltip? -> CAROLINE KRYZECKI 
+- Was machen, wenn viel Text im Tooltip? -> CAROLINE KRYZECKI (vielleicht nehmen wir generell "listens to.." wieder raus?)
 - Bilder verschwinden bei mir jetzt unter den Infos 
 
 - Disziplinen-Filter -> Zuordnung von mehreren (A)
@@ -18,7 +18,7 @@
 
 //Nice to have:  
 
-- mit Klick auf Bild zu Posting (Was heißt das? >> eventuell die freigestellten Portraits verlinken? gleiche Aktion wie bei klick auf Namen)
+- mit Klick auf Bild zu Posting (Was heißt das? >> eventuell die freigestellten Portraits verlinken; gleiche Aktion wie bei klick auf Namen)
 
 
 Switch, Slider
