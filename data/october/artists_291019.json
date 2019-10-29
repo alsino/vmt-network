@@ -2805,7 +2805,21 @@
 		"source": "Manfred Peckl",
 		"target": "Michaela Zimmer",
 		"value": 10
-	}, {
+	}, 
+
+	{
+		"source": "Laura Põld",
+		"target": "Liisi Eelmaa",
+		"value": 10
+	}, 
+	{
+		"source": "Laura Põld",
+		"target": "Camille Laurelli",
+		"value": 25
+	}, 
+
+
+	{
 		"source": "Gonzalo Reyes Araos",
 		"target": "Isabelle Borges",
 		"value": 10
