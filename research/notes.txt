@@ -1,11 +1,12 @@
 
 //ToDo
 
-- Was machen, wenn viel Text im Tooltip? -> CAROLINE KRYZECKI
+- Was machen, wenn viel Text im Tooltip? -> CAROLINE KRYZECKI 
+- Bilder verschwinden bei mir jetzt unter den Infos 
 
 - Disziplinen-Filter -> Zuordnung von mehreren (A)
 - Lininen-Legende als Filter (A)
-- mit Klick auf Bild zu Posting (Was heißt das?)
+- im Dropdown zu Beginn keine Auswahl oder (vielleicht nur sowas wie drei Punkte)?
 
 - Bilder Feinschliff und ggf Kontextinfo freistellen (S)
 - Infos bei Künstlern anfragen (Why, Arbeitszeit, Music) (S)
@@ -14,7 +15,11 @@
 - Verbindungen ergänzen (S)
 
 
+
 //Nice to have:  
+
+- mit Klick auf Bild zu Posting (Was heißt das? >> eventuell die freigestellten Portraits verlinken? gleiche Aktion wie bei klick auf Namen)
+
 
 Switch, Slider
 - male / female
@@ -22,6 +27,8 @@ Switch, Slider
 - working time 
 
 - mobile: elemente untereinander  
+
+
 
 //Next
 - Einreichung republica
