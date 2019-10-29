@@ -263,7 +263,6 @@ d3.json("./data/october/artists_231019.json", function (error, graph) {
     .on('click', (d) => openArtistPage(d.profileID))
 
   
- 
   let legendItemSelected = false;
   
   // Legend Disciplines
