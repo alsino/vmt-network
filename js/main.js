@@ -31,13 +31,14 @@ let legendLinks = sidebar
 let selectorHeading = sidebar
     .append("div")
     .attr("class", "selectorHeading")
-    .text("Artists");
+    .text("Select Artist …");
 
 // Select setup
 let select = sidebar.append("select")
   .attr("class", "selector");
 
-select.append("option").text("Select artist …");
+  // select.append("option").text("Select artist …")
+
   
 let tooltip = d3.select("body")
   .append("div")
@@ -316,10 +317,7 @@ d3.json("./data/october/artists_231019.json", function (error, graph) {
       .attr("class", "legendTypeDescr")
       .text((d) => d.type)
 
-    console.log(linkTypes);
-
-
-
+    // console.log(linkTypes);
 
   // Artist Selector
   let selectOption = select.selectAll("option")
@@ -328,6 +326,7 @@ d3.json("./data/october/artists_231019.json", function (error, graph) {
     .append("option")
     .text((d) => d.name)
     .attr("value", (d) => d.name)
+    // .property("selected", (d) => d.name == "Jörg-Uwe Albig")
 
     select.on("change", function(){
       let artistName = select.property("value");
@@ -465,31 +464,15 @@ d3.json("./data/october/artists_231019.json", function (error, graph) {
 
   function linkColor(d) {
     switch(d.value) {
-      case 5:
-        return "rgba(0,0,255,0)";
-        break;
-      case 10:
-        return  "rgba(0, 5, 255, 0.3)"
-        break;
-      case 15:
-        return "rgba(0,255,0,0.3)";
-        break;
-      case 20:
-        return "rgba(0,0,255,0)";
-        break;
-      case 25:
-        return "rgba(255,0,0,0.3)"; //change
-        break;
-      case 30:
-        return "rgba(0,0,0,0)";
-        break;
-      default:
-        return "rgba(0,0,0,0)";
+      case 5: return "rgba(0,0,255,0)"; break;
+      case 10: return  "rgba(0, 5, 255, 0.3)"; break;
+      case 15: return "rgba(0,255,0,0.3)"; break;
+      case 20: return "rgba(0,0,255,0)"; break;
+      case 25: return "rgba(255,0,0,0.3)"; break;
+      case 30: return "rgba(0,0,0,0)"; break;
+      default: return "rgba(0,0,0,0)";
     }        
 }
-
-
-
 
     function showTooltip(d){
       tooltip.transition()
@@ -505,8 +488,6 @@ d3.json("./data/october/artists_231019.json", function (error, graph) {
           .duration(100)
           .style("opacity", 0);
     }
-
-
 
 
   let sequentialScale = d3.scaleOrdinal(d3.schemeSet3)

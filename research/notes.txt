@@ -1,6 +1,5 @@
 
 //ToDo
-- Achenbach ist aus dem Dropdown verschwunden (A)
 - Julius Weiland sieht langgezogen aus (A)
 - Disziplinen-Filter -> Zuordnung von mehreren (A)
 - Legende Links als Filter
