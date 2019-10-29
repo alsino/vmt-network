@@ -63,7 +63,7 @@ let tooltip = sidebar
   .style("opacity", 0);
 
 
-d3.json("./data/october/artists_231019.json", function (error, graph) {
+d3.json("./data/october/artists_291019.json", function (error, graph) {
   if (error) throw error;
 
   function distance(link) {
