@@ -760,7 +760,12 @@
 			"birthCountry": "France",
 			"profileID": "9559",
 			"imageUrl" : "camille_laurelli.jpg",
-			"studioLocation": "Tallinn"
+			"studioLocation": "Tallinn",
+			"questions": {
+				"why": "Because someone else can do it also.",
+				"music": "stupeflip.",
+				"workHours" : "from now until now."
+			}
 		},
 		{
 			"name": "Alanna Lawley",
