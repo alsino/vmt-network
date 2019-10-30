@@ -234,7 +234,12 @@
 			"birthCountry": "Germany",
 			"profileID": 0,
 			"imageUrl" : "jenny_brosinski.jpg",
-			"studioLocation": "Berlin"
+			"studioLocation": "Berlin",
+			"questions": {
+				"why": "Because I am what I am.",
+				"music": "I normally do not listen to music while I work.",
+				"workHours" : "9am to 3 pm."
+			}
 		},
 		{
 			"name": "Mimmo Catania",
