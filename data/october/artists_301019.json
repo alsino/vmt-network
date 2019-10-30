@@ -678,7 +678,12 @@
 			"birthCountry": "Poland",
 			"profileID": "5528",
 			"imageUrl" : "agnieszka_korejba.jpg",
-			"studioLocation": "Potsdam"
+			"studioLocation": "Potsdam",
+			"questions": {
+				"why": "Ich mache Kunst und Kunst macht mich. Geht nicht anders.",
+				"music": "Klassik, improvisierte Jazz und meinen Gedanken.",
+				"workHours" : "meistens arbeite ich nach ich meine Hunde ausführe und Frühstück die gebe, bis ich sie wieder ausführen muss und Mittagbrot die gebe. Dann habe ich noch Zeit vor die letzte gassi und Abendbrot. Ich liebe die sehr."
+			}
 		},
 		{
 			"name": "Bettina Köster",
