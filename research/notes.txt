@@ -1,7 +1,7 @@
 
 //ToDo
 
-- Lininen-Legende als Filter (A)
+- Lininen-Legende als Filter fertig (A)
 - Disziplinen-Filter -> Zuordnung von mehreren (A)
 - Layout -> Bilder verschwinden bei mir jetzt unter den Infos (A)
 
