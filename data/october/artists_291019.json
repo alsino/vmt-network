@@ -3095,7 +3095,41 @@
 		"source": "Susanne Schirdewahn",
 		"target": "Wiebke Maria Wachmann",
 		"value": 10
-	}, {
+	}, 
+
+	{
+		"source": "Lerato Shadi",
+		"target": "Jeewi Lee",
+		"value": 10
+	},
+	{
+		"source": "Lerato Shadi",
+		"target": "Jeewi Lee",
+		"value": 15
+	}, 
+	{
+		"source": "Lerato Shadi",
+		"target": "Viron Erol Vert",
+		"value": 10
+	}, 
+	{
+		"source": "Lerato Shadi",
+		"target": "Viron Erol Vert",
+		"value": 15
+	}, 
+	{
+		"source": "Lerato Shadi",
+		"target": "Christophe Ndabananiye",
+		"value": 10
+	}, 
+	{
+		"source": "Lerato Shadi",
+		"target": "Christophe Ndabananiye",
+		"value": 15
+	}, 
+
+
+	{
 		"source": "Tracey Snelling",
 		"target": "Song-Ming Ang",
 		"value": 10
