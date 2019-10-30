@@ -267,7 +267,12 @@
 			"birthCountry": "GDR",
 			"profileID": "9720",
 			"imageUrl" : "dirty_doering.jpg",
-			"studioLocation": "Berlin"
+			"studioLocation": "Berlin",
+			"questions": {
+				"why": "It’s my passion.",
+				"music": "my favourite album is silence.",
+				"workHours" : "noon to late."
+			}
 		},
 		{
 			"name": "Grigori Dor",
@@ -401,7 +406,12 @@
 			"birthCountry": "Germany",
 			"profileID": "5941",
 			"imageUrl" : "paul_frick.jpg",
-			"studioLocation": "Berlin"
+			"studioLocation": "Berlin",
+			"questions": {
+				"why": "I write music pieces.",
+				"music": "I usually have to listen to what I'm working on, so...",
+				"workHours" : "noon until midnight, but shifting all the time."
+			}
 		},
 		{
 			"name": "Jay Gard",
