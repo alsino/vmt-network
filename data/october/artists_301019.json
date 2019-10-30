@@ -206,7 +206,12 @@
 			"birthCountry": "Italy",
 			"profileID": 0,
 			"imageUrl" : "stefano_bosis.jpg",
-			"studioLocation": "Berlin"
+			"studioLocation": "Berlin",
+			"questions": {
+				"why": "Because I want to save the world.",
+				"music": "no music in this time and when I do it I listen to bossa nova or flamenco ",
+				"workHours" : "14pm until 22pm usually"
+			}
 		},
 		{
 			"name": "Bram Braam",
