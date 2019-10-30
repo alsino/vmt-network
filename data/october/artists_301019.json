@@ -95,7 +95,7 @@
 			"studioLocation": "Berlin",
 			"questions": {
 				"why": "Because I do not have time to do something else.",
-				"music": "intelligent music: electronic, noisepunkrock, classic, some jazz, kraut and psychedelic",
+				"music": "intelligent music: electronic, noisepunkrock, classic, some jazz, kraut and psychedelic.",
 				"workHours" : "8.00 am until 10.30 pm or the other way around."
 			}
 		},
@@ -133,7 +133,7 @@
 			"studioLocation": "Berlin",
 			"questions": {
 				"why": "You just do in the way like you just are. There is just what you do, without a necessary reason. Reasons are made retrospective. I don’t have a retrospective point of view.",
-				"music": " ",
+				"music": "-",
 				"workHours" : "I always work. Even when I sleep."
 			}
 		},
@@ -160,8 +160,8 @@
 			"studioLocation": "Berlin",
 			"questions": {
 				"why": "Because I like stories.",
-				"music": "Kool Keith",
-				"workHours" : "11:00 am until 18:30 pm"
+				"music": "Kool Keith.",
+				"workHours" : "11:00 am until 18:30 pm."
 			}
 		},
 		{
@@ -209,8 +209,8 @@
 			"studioLocation": "Berlin",
 			"questions": {
 				"why": "Because I want to save the world.",
-				"music": "no music in this time and when I do it I listen to bossa nova or flamenco ",
-				"workHours" : "14pm until 22pm usually"
+				"music": "no music in this time and when I do it I listen to Bossa Nova or Flamenco.",
+				"workHours" : "14pm until 22pm usually."
 			}
 		},
 		{
@@ -282,8 +282,8 @@
 			"studioLocation": "Berlin",
 			"questions": {
 				"why": "An inner urge and great pleasure in making an idea that is not visible to others almost real and tangible.",
-				"music": "audiobooks and podcasts",
-				"workHours" : "11 am until 8-9 pm"
+				"music": "audiobooks and podcasts.",
+				"workHours" : "11 am until 8-9 pm."
 			}
 		},
 		{
@@ -363,7 +363,12 @@
 			"birthCountry": "Brazil",
 			"profileID": "9215",
 			"imageUrl" : "alex_flemming.jpg",
-			"studioLocation": "Berlin"
+			"studioLocation": "Berlin",
+			"questions": {
+				"why": "Because it is the only thing I know to do.",
+				"music": "Bossa Nova.",
+				"workHours" : "from noon to 8 pm."
+			}
 		},
 		{
 			"name": "Moritz Frei",
@@ -545,8 +550,8 @@
 			"studioLocation": "Berlin",
 			"questions": {
 				"why": "Because there is no better way to give form to your inner dialogue.",
-				"music": "Four Tet",
-				"workHours" : "9 to 5 to 9 to 5 to 9"
+				"music": "Four Tet.",
+				"workHours" : "9 to 5 to 9 to 5 to 9."
 			}
 		},
 		{
@@ -639,8 +644,8 @@
 			"studioLocation": "Berlin",
 			"questions": {
 				"why": "Because it's the thing I most like doing at this time.",
-				"music": "Binaural frequencies",
-				"workHours" : "Used to be: from 6 pm to 4 am - now it's more from 10 am to 8 pm"
+				"music": "Binaural frequencies.",
+				"workHours" : "Used to be: from 6 pm to 4 am - now it's more from 10 am to 8 pm."
 			}
 		},
 		{
@@ -716,7 +721,7 @@
 			"studioLocation": "Berlin",
 			"questions": {
 				"why": "Because I love it and it's the best thing I can imagine to do. The whole world in one profession.",
-				"music": "from Bach to Buzzcocks and from Reich to Bowie",
+				"music": "from Bach to Buzzcocks and from Reich to Bowie.",
 				"workHours" : "morning until evening. But my concentration is best from late afternoon to evening."
 			}
 		},
@@ -764,9 +769,9 @@
 			"imageUrl" : "alex_lebus.jpg",
 			"studioLocation": "Berlin",
 			"questions": {
-				"why": "Higher force",
-				"music": "audiobooks",
-				"workHours" : "from constantly to never"
+				"why": "Higher force.",
+				"music": "audiobooks.",
+				"workHours" : "from constantly to never."
 			}
 		},
 		{
@@ -782,7 +787,7 @@
 			"studioLocation": "Berlin, Florence",
 			"questions": {
 				"why": "I do what I do, because I never thought of doing something else.",
-				"music": "80´s music",
+				"music": "80´s music.",
 				"workHours" : "My working time is completely melted together with my private time that it does not have a clear start and not an end. But one clear fact is: I´m more active at night than in the morning."
 			}
 		},
@@ -798,8 +803,8 @@
 			"studioLocation": "Wittenberg",
 			"questions": {
 				"why": "Everyone should live where she wants to live independent from her status, religion and passport. My parents couldn’t just go to Germany. They had to risk their lifes.",
-				"music": "EPMD",
-				"workHours" : "10 am until 3 pm"
+				"music": "EPMD.",
+				"workHours" : "10 am until 3 pm."
 			}
 		},
 		{
@@ -910,8 +915,8 @@
 			"studioLocation": "Berlin",
 			"questions": {
 				"why": "Because I cannot imagine doing anything else.",
-				"music": "Tom Waits, Leonard Cohen, Portishead",
-				"workHours" : "10 am until 6 pm"
+				"music": "Tom Waits, Leonard Cohen, Portishead.",
+				"workHours" : "10 am until 6 pm."
 			}
 		},
 		{
@@ -1057,7 +1062,7 @@
 			"studioLocation": "Berlin",
 			"questions": {
 				"why": "What I do are reflections of my daily life and cultural and social situation. I do what I do because I feel engaged to tell what I see and think to the rest of the people.",
-				"music": "techno, minimal and concrete music, diverse artists",
+				"music": "techno, minimal and concrete music, diverse artists.",
 				"workHours" : "from 5pm until 5am, yes, I’m a night bird."
 			}
 		},
@@ -1074,7 +1079,7 @@
 			"questions": {
 				"why": "Ideas just pop up in my mind and the only way to rid of the pressure they made up in my mind is the make the real.",
 				"music": "Coil, Current 93, Scott Walker, Panda Bear & Animal Collective, John Cage, Iannis Xenakis, Rolf Julius, This Heat.",
-				"workHours" : "9:00 pm to 10:00 am"
+				"workHours" : "9:00 pm to 10:00 am."
 			}
 		},
 		{
@@ -1204,9 +1209,9 @@
 			"imageUrl" : "viron_erol_vert.jpg",
 			"studioLocation": "Florence",
 			"questions": {
-				"why": "To survive",
+				"why": "To survive.",
 				"music": "all depends on the mood I know that a work is.",
-				"workHours" : "always"
+				"workHours" : "always."
 			}
 		},
 		{
@@ -1271,7 +1276,7 @@
 			"questions": {
 				"why": "Just like Beckett said: 'Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.'",
 				"music": "Spotify enables you not to have to listen to a track twice in a life time.",
-				"workHours" : "early afternoons till open end"
+				"workHours" : "early afternoons till open end."
 			}
 		},
 		{
@@ -1331,8 +1336,8 @@
 			"studioLocation": "Berlin",
 			"questions": {
 				"why": "I love it.",
-				"music": "none, except my neighbor listens to some",
-				"workHours" : "early on after running til very late"
+				"music": "none, except my neighbor listens to some.",
+				"workHours" : "early on after running til very late."
 			}
 		}
 	],
