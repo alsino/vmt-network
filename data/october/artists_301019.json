@@ -76,7 +76,12 @@
 			"birthCountry": "Germany",
 			"profileID": "2966",
 			"imageUrl" : "christopher_bauder.jpg",
-			"studioLocation": "Berlin"
+			"studioLocation": "Berlin",
+			"questions": {
+				"why": "I love to create, I need to create, I am born to create!",
+				"music": "I do not listen to music when I work.",
+				"workHours" : "10am to 7pm and before and after that."
+			}
 		},
 		{
 			"name": "Fehmi Baumbach",
