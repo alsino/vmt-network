@@ -22,9 +22,10 @@
 
 
 Switch, Slider
+- working time (who works now?)
+- Musikgeschmack (z.B. Welcher Künstler hört  EPMD?)
 - male / female
 - age
-- working time 
 
 - mobile: elemente untereinander  
 

@@ -168,6 +168,7 @@ d3.json("./data/october/artists_291019.json", function (error, graph) {
             <div class="tooltip-name">${d.name}</div>
             ${discipline}
             <div class="tooltip-birth">Born ${d.birthYear} in ${d.birthTown}, ${d.birthCountry}</div>
+            <div>Studio in ${d.studioLocation}</div>
           </div>
         </div>
         <img class="tooltip-img" src="./assets/img/${d.imageUrl}">`
@@ -198,6 +199,7 @@ d3.json("./data/october/artists_291019.json", function (error, graph) {
           <div class="tooltip-info-inner">
             <div class="tooltip-name">${d.name}</div>
             ${discipline}
+            <div>Studio in ${d.studioLocation}</div>
           </div>
         </div>
         <img class="tooltip-img" src="./assets/img/${d.imageUrl}">`
