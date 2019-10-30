@@ -324,8 +324,9 @@ d3.json("./data/october/artists_301019.json", function (error, graph) {
     .append("div")
     .attr("class", "legendItem")
     .on("click", (d)=> {
-      console.log(d.value);
-      filterLinks(d.value, 0.1);
+      // console.log(d.value);
+      filterLinks(d, d.value, 0.1);
+      // fade(d, i, nodes, 0.1, "capitalize");
     })
 
     let legendTypeSymbol = linkTypeItem
@@ -447,12 +448,65 @@ d3.json("./data/october/artists_301019.json", function (error, graph) {
     });
   }
 
-  function filterLinks(linkType, opacity) {
-    link.style('stroke-opacity', function (o) {
-      const thisOpacity = o.value == linkType ? 1 : opacity;
+  function filterLinks(d, linkType, opacity) {
+
+  let op = opacity;
+  let selectedLinks;
+  let selectedNodes = [];
+
+   selectedLinks = graph.links.filter(function(o){
+      return o.value == linkType;
+    })
+
+    selectedLinks.forEach((item) => {
+      // Check if node is already in selectedNodes array
+      if(selectedNodes.indexOf(item.source) === -1 || selectedNodes.indexOf(item.target) === -1) {
+        selectedNodes.push(item.source);
+        selectedNodes.push(item.target);
+      }
+    })
+
+  node.remove();
+
+
+  node = nodeCont.selectAll('.node')
+    .data(selectedNodes)
+    .enter().append('g')
+    .attr('class', 'node')
+    .append('path')
+    .attr('r', symbolRadius)
+    .attr('d', function (d) {
+      if (d.discipline[0] && d.discipline[0] < 11) {
+        symbolGenerator
+          .type(d3[symbolTypes[d.discipline[0] - 1].symbol]);
+        return symbolGenerator();
+      }
+    })
+    .on('mouseover.tooltip', function (d) {
+      showTooltip(d);
+    })
+    .on("mouseout.tooltip", function () {
+      hideTooltip();
+    })
+    .on("mousemove", function () {
+      // tooltip.style("left", (d3.event.pageX) + "px")
+      //   .style("top", (d3.event.pageY + 10) + "px");
+    })
+    .on('dblclick', releasenode)
+    .on('click', openArtistPage)
+
+
+
+    link.style('stroke-opacity', function (l) {
+      const thisOpacity = l.value == linkType ? 1 : op;
       this.setAttribute('fill-opacity', thisOpacity);
       return thisOpacity;
     });
+
+
+
+
+   
   }
 
 
