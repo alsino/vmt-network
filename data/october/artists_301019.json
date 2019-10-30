@@ -1116,6 +1116,17 @@
 			"studioLocation": "Berlin"
 		},
 		{
+			"name": "Christian Y. Schmidt",
+			"discipline": [7],
+			"gender": "male",
+			"birthYear": 1956,
+			"birthTown": "Bielefeld",
+			"birthCountry": "Germany",
+			"profileID": "10724",
+			"imageUrl" : "christian_y_schmidt.jpg",
+			"studioLocation": "Berlin"
+		},
+		{
 			"name": "Lerato Shadi",
 			"discipline": [5],
 			"gender": "female",
