@@ -323,7 +323,10 @@ d3.json("./data/october/artists_291019.json", function (error, graph) {
     .enter()
     .append("div")
     .attr("class", "legendItem")
-    // .text((d) => d.type)
+    .on("click", (d)=> {
+      console.log(d.value);
+      filterLinks(d.value, 0.1);
+    })
 
     let legendTypeSymbol = linkTypeItem
       .append("div")
@@ -443,6 +446,15 @@ d3.json("./data/october/artists_291019.json", function (error, graph) {
       return thisOpacity;
     });
   }
+
+  function filterLinks(linkType, opacity) {
+    link.style('stroke-opacity', function (o) {
+      const thisOpacity = o.value == linkType ? 1 : opacity;
+      this.setAttribute('fill-opacity', thisOpacity);
+      return thisOpacity;
+    });
+  }
+
 
   function resetDisciplines() {
     disciplineSelected = false;

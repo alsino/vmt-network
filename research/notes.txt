@@ -1,12 +1,9 @@
 
 //ToDo
 
-- Was machen, wenn viel Text im Tooltip? -> CAROLINE KRYZECKI (vielleicht nehmen wir generell "listens to.." wieder raus?)
-- Bilder verschwinden bei mir jetzt unter den Infos 
-
-- Disziplinen-Filter -> Zuordnung von mehreren (A)
 - Lininen-Legende als Filter (A)
-- im Dropdown zu Beginn keine Auswahl oder (vielleicht nur sowas wie drei Punkte)?
+- Disziplinen-Filter -> Zuordnung von mehreren (A)
+- Layout -> Bilder verschwinden bei mir jetzt unter den Infos (A)
 
 - Bilder Feinschliff und ggf Kontextinfo freistellen (S)
 - Infos bei Künstlern anfragen (Why, Arbeitszeit, Music) (S)
