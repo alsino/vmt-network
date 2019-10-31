@@ -597,6 +597,17 @@
 			"studioLocation": "Berlin"
 		},
 		{
+			"name": "Rajkamal Kahlon",
+			"discipline": [1,5],
+			"gender": "female",
+			"birthYear": 1974,
+			"birthTown": "Auburn, California",
+			"birthCountry": "United States",
+			"profileID": 0,
+			"imageUrl" : "rajkamal_kahlon.jpg",
+			"studioLocation": "Florence"
+		},
+		{
 			"name": "Carolin Kastner",
 			"discipline": [1],
 			"gender": "female",
@@ -960,6 +971,19 @@
 			"imageUrl" : "ekaterina_mitichkina.jpg",
 			"studioLocation": "Berlin"
 		},
+
+		{
+			"name": "Marcela Moraga",
+			"discipline": [5,2],
+			"gender": "female",
+			"birthYear": 1975,
+			"birthTown": "San Fernando",
+			"birthCountry": "Chile ",
+			"profileID": "10430",
+			"imageUrl" : "marcela_moraga.jpg",
+			"studioLocation": "Florence"
+		},
+
 		{
 			"name": "Barbara Morgenstern",
 			"discipline": [3,7],
@@ -1851,7 +1875,15 @@
 		"source": "Jay Gard",
 		"target": "Nik Nowak",
 		"value": 10
-	}, {
+	}, 
+
+	{
+		"source": "Ostberlin Androgyn",
+		"target": "Robert Henke",
+		"value": 15
+	}, 
+
+	{
 		"source": "Jay Gard",
 		"target": "Manfred Peckl",
 		"value": 10
@@ -2235,7 +2267,15 @@
 		"source": "Anne Duk Hee Jordan",
 		"target": "Shira Wachsmann",
 		"value": 25
-	}, {
+	}, 
+
+	{
+		"source": "Rajkamal Kahlon",
+		"target": "Marcela Moraga",
+		"value": 15
+	}, 
+
+	{
 		"source": "Carolin Kastner",
 		"target": "Bram Braam",
 		"value": 10
@@ -2871,7 +2911,22 @@
 		"source": "Ekaterina Mitichkina",
 		"target": "Hansa Wißkirchen",
 		"value": 10
-	}, {
+	}, 
+
+	{
+		"source": "Marcela Moraga",
+		"target": "Rajkamal Kahlon",
+		"value": 10
+	}, 
+	{
+		"source": "Marcela Moraga",
+		"target": "Rajkamal Kahlon",
+		"value": 15
+	}, 
+
+
+
+	{
 		"source": "Barbara Morgenstern",
 		"target": "Toni Kater",
 		"value": 10
