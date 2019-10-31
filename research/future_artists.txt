@@ -14,3 +14,41 @@
 				"workHours" : " "
 			}
 		},
+
+
+		{
+			"name": "Via Lewandowsky",
+			"discipline": [2,5],
+			"gender": "male",
+			"birthYear": 1963,
+			"birthTown": "Dresden",
+			"birthCountry": "GDR",
+			"profileID": 0,
+			"imageUrl" : "via_lewandowsky.jpg",
+			"studioLocation": "Berlin"
+		},
+		
+
+		{
+			"name": "Christian Mio Loclair",
+			"discipline": [2],
+			"gender": "male",
+			"birthYear": 0,
+			"birthTown": "?",
+			"birthCountry": "?",
+			"profileID": 0,
+			"imageUrl" : "christian_mio_loclair.jpg",
+			"studioLocation": "Berlin"
+		},
+
+
+	{
+		"source": "Miriam Vlaming",
+		"target": "Via Lewandowsky",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Christian Mio Loclair",
+		"value": 10
+	}, 

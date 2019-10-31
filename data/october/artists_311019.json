@@ -848,6 +848,8 @@
 				"workHours" : "10 am until 3 pm."
 			}
 		},
+
+
 		{
 			"name": "Grischa Lichtenberger",
 			"discipline": [3,6,1],
@@ -892,6 +894,7 @@
 			"imageUrl" : "robert_lippok.jpg",
 			"studioLocation": "Berlin"
 		},
+		
 		{
 			"name": "Pedro Lopes",
 			"discipline": [2],
@@ -3335,6 +3338,87 @@
 		"value": 15
 	}, 
 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Christian Achenbach",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Axel Anklam",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Fritz Bornstück",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Grigori Dor",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Sven Drühl",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Oliver Gröne",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Philip Grözinger",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Jens Hausmann",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Michelle Jezierski",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Franziska Klotz",
+		"value": 10
+	}, 
+
+	{
+		"source": "Miriam Vlaming",
+		"target": "Sebastian Meschenmoser",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Jan Muche",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Manfred Peckl",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Susanne Schirdewahn",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Tracey Snelling",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Hansa Wißkirchen",
+		"value": 10
+	}, 
 
 	{
 		"source": "Julius Weiland",
