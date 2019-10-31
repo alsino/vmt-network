@@ -1056,7 +1056,12 @@
 			"birthCountry": "Austria",
 			"profileID": "462",
 			"imageUrl" : "manfred_peckl.jpg",
-			"studioLocation": "Berlin"
+			"studioLocation": "Berlin",
+			"questions": {
+				"why": "I believe in art.",
+				"music": "I hear voices.",
+				"workHours" : "8am-12pm."
+			}
 		},
 		{
 			"name": "Laura Põld",
