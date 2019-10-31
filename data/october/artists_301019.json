@@ -918,7 +918,12 @@
 			"birthCountry": "USA",
 			"profileID": "5430",
 			"imageUrl" : "sean_derrick_cooper_marquardt.jpg",
-			"studioLocation": "Berlin"
+			"studioLocation": "Berlin",
+			"questions": {
+				"why": "One morning, after a sudden season of troubles, I ended up sailing under a clear sky.",
+				"music": "It very much depends on the mood and energy of the composition.",
+				"workHours" : "24/7. I am always picking up signals, visual patterns and lines of vibrations which leaves me working almost nonstop."
+			}
 		},
 		{
 			"name": "Sandra Meisel",
@@ -1293,7 +1298,12 @@
 			"birthCountry": "Germany",
 			"profileID": "7358",
 			"imageUrl" : "miriam_vlaming.jpg",
-			"studioLocation": "Berlin"
+			"studioLocation": "Berlin",
+			"questions": {
+				"why": "I do what I do because I need to.",
+				"music": "al kind of music, Agnes Obey or Hörspiele, classic or punk. It depends on the mood I am in.",
+				"workHours" : "always."
+			}
 		},
 		{
 			"name": "Wiebke Maria Wachmann",
