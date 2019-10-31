@@ -195,7 +195,12 @@
 			"birthCountry": "Germany",
 			"profileID": "5195",
 			"imageUrl" : "fritz_bornstueck.jpg",
-			"studioLocation": "Berlin"
+			"studioLocation": "Berlin",
+			"questions": {
+				"why": "I've got nothing else to do.",
+				"music": "right now: Steve Reich. But when I'm painting I pay no attention to music.",
+				"workHours" : "when I wake up till I'm tired."
+			}
 		},
 		{
 			"name": "Stefano Bosis",
