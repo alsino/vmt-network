@@ -19,6 +19,7 @@
 Switch, Slider
 - working time (who works now?)
 - Musikgeschmack (z.B. Welcher Künstler hört  EPMD?)
+- Search 
 - age
 - male / female / transgender
 
