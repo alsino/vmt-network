@@ -1,5 +1,15 @@
 
-
+		{
+			"name": "Kaan Bulak",
+			"discipline": [3],
+			"gender": "male",
+			"birthYear": 0,
+			"birthTown": "?",
+			"birthCountry": "?",
+			"profileID": 0,
+			"imageUrl" : "kaan_bulak.jpg",
+			"studioLocation": "Berlin"
+		},
 
 		{
 			"name": "Via Lewandowsky",
@@ -26,6 +36,18 @@
 			"studioLocation": "Berlin"
 		},
 
+
+	{
+		"source": "Kaan Bulak",
+		"target": "Robert Lippok",
+		"value": 10
+	},
+
+	{
+		"source": "Kaan Bulak",
+		"target": "Robert Lippok",
+		"value": 25
+	},
 
 
 	{
