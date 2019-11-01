@@ -206,7 +206,7 @@
 			"name": "Stefano Bosis",
 			"discipline": [1],
 			"gender": "male",
-			"birthYear": 1980,
+			"birthYear": 0,
 			"birthTown": "Milano",
 			"birthCountry": "Italy",
 			"profileID": 0,

@@ -4,6 +4,8 @@
 - Intro oben links überlagern
 - Infotext wieder neben Freistellerbild (A)
 - Layout (A+S)
+- Show birthtown+country auch wenn birthyear unbekannt
+
 
 - Infos bei Künstlern anfragen (Why, Arbeitszeit, Music) (S)
 - Infos eintragen (S)
@@ -17,11 +19,13 @@
 Switch, Slider
 - working time (who works now?)
 - Musikgeschmack (z.B. Welcher Künstler hört  EPMD?)
-- male / female
 - age
+- male / female / transgender
 
-- mobile: elemente untereinander  
 
+
+//mobile: 
+- elemente untereinander  
 
 
 
