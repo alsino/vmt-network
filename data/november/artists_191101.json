@@ -833,6 +833,23 @@
 			}
 		},
 		{
+			"name": "Annekatrin Lemke",
+			"discipline": [6,1],
+			"gender": "female",
+			"birthYear": 1980,
+			"birthTown": "?",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl" : "annekatrin_lemke.jpg",
+			"studioLocation": "Erfurt",
+			"questions": {
+				"why": " ",
+				"music": " ",
+				"workHours" : " "
+			}
+		},
+
+		{
 			"name": "Van Bo Le-Mentzel",
 			"discipline": [2],
 			"gender": "male",
@@ -2801,7 +2818,35 @@
 		"source": "Jeewi Lee",
 		"target": "Sinta Werner",
 		"value": 10
-	}, {
+	},
+
+	{
+		"source": "Annekatrin Lemke",
+		"target": "Isabelle Borges",
+		"value": 10
+	},
+	{
+		"source": "Annekatrin Lemke",
+		"target": "Bram Braam",
+		"value": 10
+	},
+	{
+		"source": "Annekatrin Lemke",
+		"target": "Moritz Frei",
+		"value": 10
+	},
+	{
+		"source": "Annekatrin Lemke",
+		"target": "Manfred Peckl",
+		"value": 10
+	},
+	{
+		"source": "Annekatrin Lemke",
+		"target": "Pietro Sanguineti",
+		"value": 10
+	},
+
+	 {
 		"source": "Grischa Lichtenberger",
 		"target": "Christopher Bauder",
 		"value": 10

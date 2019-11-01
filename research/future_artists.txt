@@ -1,19 +1,4 @@
-	{
-			"name": "Annekatrin Lemke",
-			"discipline": [6,1],
-			"gender": "female",
-			"birthYear": 1980,
-			"birthTown": "?",
-			"birthCountry": "Germany",
-			"profileID": 0,
-			"imageUrl" : "annekatrin_lemke.jpg",
-			"studioLocation": "Erfurt",
-			"questions": {
-				"why": " ",
-				"music": " ",
-				"workHours" : " "
-			}
-		},
+
 
 
 		{
@@ -27,7 +12,7 @@
 			"imageUrl" : "via_lewandowsky.jpg",
 			"studioLocation": "Berlin"
 		},
-		
+
 
 		{
 			"name": "Christian Mio Loclair",
@@ -42,6 +27,15 @@
 		},
 
 
+
+	{
+		"source": "Annekatrin Lemke",
+		"target": "Cornelia Theimer Gardella",
+		"value": 10
+	},
+
+
+
 	{
 		"source": "Miriam Vlaming",
 		"target": "Via Lewandowsky",
@@ -52,3 +46,6 @@
 		"target": "Christian Mio Loclair",
 		"value": 10
 	}, 
+
+
+
