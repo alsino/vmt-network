@@ -17,17 +17,19 @@
 
 //Nice to have:  
 
-Switch, Slider
+Switch, Slider, Dropdown
 - working time (who works now?)
-- Musikgeschmack (z.B. Welcher Künstler hört  EPMD?)
-- Search 
+- Musikgeschmack (z.B. Welcher Künstler hört  EPMD? bei der Arbeit)
 - age
-- male / female / transgender
+- male / female / trans
+
+- Search 
+- Select one of x artsits (Gesamtanzahl bei Dropdown anzeigen)
 
 
 
-//mobile: 
-- elemente untereinander  
+//Mobile: 
+- Elemente untereinander  
 
 
 
