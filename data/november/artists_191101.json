@@ -1051,7 +1051,12 @@
 			"birthCountry": "Democratic Republic of Congo",
 			"profileID": "4998",
 			"imageUrl" : "christophe_ndabananiye.jpg",
-			"studioLocation": "Florence"
+			"studioLocation": "Florence",
+			"questions": {
+				"why": "To survive...",
+				"music": "the radio.",
+				"workHours" : "no comment."
+			}
 		},
 		{
 			"name": "Bärnd Nettmann",
