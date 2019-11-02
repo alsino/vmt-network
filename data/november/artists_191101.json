@@ -88,7 +88,7 @@
 			"discipline": [1],
 			"gender": "female",
 			"birthYear": 1971,
-			"birthTown": "near Braunschweig",
+			"birthTown": "Braunschweig",
 			"birthCountry": "Germany",
 			"profileID": "2056",
 			"imageUrl" : "fehmi_baumbach.jpg",
@@ -104,7 +104,7 @@
 			"discipline": [3,7],
 			"gender": "male",
 			"birthYear": 1962,
-			"birthTown": "Bad Salzuflen",
+			"birthTown": "?",
 			"birthCountry": "Germany",
 			"profileID": "8612",
 			"imageUrl" : "bernd_begemann.jpg",
@@ -153,14 +153,14 @@
 			"discipline": [1],
 			"gender": "female",
 			"birthYear": 1981,
-			"birthTown": "?",
+			"birthTown": "Cluj",
 			"birthCountry": "Romania",
 			"profileID": "1683",
 			"imageUrl" : "alex_bodea.jpg",
 			"studioLocation": "Berlin",
 			"questions": {
 				"why": "Because I like stories.",
-				"music": "Kool Keith.",
+				"music": "none (I listen to BBC though).",
 				"workHours" : "11:00 am until 18:30 pm."
 			}
 		},
@@ -833,6 +833,23 @@
 			}
 		},
 		{
+			"name": "Annekatrin Lemke",
+			"discipline": [6,1],
+			"gender": "female",
+			"birthYear": 1980,
+			"birthTown": "?",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl" : "annekatrin_lemke.jpg",
+			"studioLocation": "Erfurt",
+			"questions": {
+				"why": " ",
+				"music": " ",
+				"workHours" : " "
+			}
+		},
+
+		{
 			"name": "Van Bo Le-Mentzel",
 			"discipline": [2],
 			"gender": "male",
@@ -848,6 +865,8 @@
 				"workHours" : "10 am until 3 pm."
 			}
 		},
+
+
 		{
 			"name": "Grischa Lichtenberger",
 			"discipline": [3,6,1],
@@ -892,6 +911,7 @@
 			"imageUrl" : "robert_lippok.jpg",
 			"studioLocation": "Berlin"
 		},
+		
 		{
 			"name": "Pedro Lopes",
 			"discipline": [2],
@@ -1031,7 +1051,12 @@
 			"birthCountry": "Democratic Republic of Congo",
 			"profileID": "4998",
 			"imageUrl" : "christophe_ndabananiye.jpg",
-			"studioLocation": "Florence"
+			"studioLocation": "Florence",
+			"questions": {
+				"why": "To survive...",
+				"music": "the radio.",
+				"workHours" : "no comment."
+			}
 		},
 		{
 			"name": "Bärnd Nettmann",
@@ -1223,10 +1248,15 @@
 			"gender": "female",
 			"birthYear": 0,
 			"birthTown": "?",
-			"birthCountry": "?",
+			"birthCountry": "Germany",
 			"profileID": "375",
 			"imageUrl" : "kitty_solaris.jpg",
-			"studioLocation": "Berlin"
+			"studioLocation": "Berlin",
+			"questions": {
+				"why": " I don´t know.",
+				"music": "...I have to listen to my own music. ;)",
+				"workHours" : "19:00pm until 1:00am."
+			}
 		},
 		{
 			"name": "Frank Spilker",
@@ -1302,7 +1332,7 @@
 			"questions": {
 				"why": "I do what I do because I need to.",
 				"music": "al kind of music, Agnes Obey or Hörspiele, classic or punk. It depends on the mood I am in.",
-				"workHours" : "always."
+				"workHours" : "I like to work at night. But usually from morning till afternoon."
 			}
 		},
 		{
@@ -2793,7 +2823,35 @@
 		"source": "Jeewi Lee",
 		"target": "Sinta Werner",
 		"value": 10
-	}, {
+	},
+
+	{
+		"source": "Annekatrin Lemke",
+		"target": "Isabelle Borges",
+		"value": 10
+	},
+	{
+		"source": "Annekatrin Lemke",
+		"target": "Bram Braam",
+		"value": 10
+	},
+	{
+		"source": "Annekatrin Lemke",
+		"target": "Moritz Frei",
+		"value": 10
+	},
+	{
+		"source": "Annekatrin Lemke",
+		"target": "Manfred Peckl",
+		"value": 10
+	},
+	{
+		"source": "Annekatrin Lemke",
+		"target": "Pietro Sanguineti",
+		"value": 10
+	},
+
+	 {
 		"source": "Grischa Lichtenberger",
 		"target": "Christopher Bauder",
 		"value": 10
@@ -3330,6 +3388,87 @@
 		"value": 15
 	}, 
 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Christian Achenbach",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Axel Anklam",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Fritz Bornstück",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Grigori Dor",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Sven Drühl",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Oliver Gröne",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Philip Grözinger",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Jens Hausmann",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Michelle Jezierski",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Franziska Klotz",
+		"value": 10
+	}, 
+
+	{
+		"source": "Miriam Vlaming",
+		"target": "Sebastian Meschenmoser",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Jan Muche",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Manfred Peckl",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Susanne Schirdewahn",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Tracey Snelling",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Hansa Wißkirchen",
+		"value": 10
+	}, 
 
 	{
 		"source": "Julius Weiland",

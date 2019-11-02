@@ -1,0 +1,37 @@
+
+- Connections-Filter weiter (A)
+- Disziplinen-Filter -> Zuordnung von mehreren (A)
+- Intro oben links überlagern
+- Nur "why" ("music" und "works from to" ausblenden)
+- Info evtl wieder neben Freistellerbild 
+- Layout (A+S)
+- Show town+country auch wenn birthyear unbekannt, bzw year + country wenn city unbekannt
+- evtl Disziplin in Infos als Feld im artist-json (dadurch zwar für mich mehr einzutragen, dafür womöglich spezifischere Angaben möglich – Grobzuordnung zu 7 Disziplinen beleibt unabhängig davon erhalten)
+
+- Infos bei Künstlern anfragen (Why, Arbeitszeit, Music) (S)
+- Infos eintragen (S)
+- Zuordnung Disziplinen zu Künstler checken + ergänzen (S)
+- Verbindungen ergänzen (S)
+
+
+
+//Nice to have:  
+
+Switch, Slider, Dropdown
+- working time (who works now?)
+- Musikgeschmack (z.B. Welcher Künstler hört  EPMD? bei der Arbeit)
+- age
+- male / female / trans
+
+- Search 
+- Select one of x artsits (Gesamtanzahl bei Dropdown anzeigen)
+
+
+
+//Mobile: 
+- Elemente untereinander  
+
+
+
+//Next
+- Einreichung republica (Deadline: 15. Dezember 2019)
