@@ -496,7 +496,6 @@ d3.json("./data/october/artists_301019.json", function (error, graph) {
     .on('click', openArtistPage)
 
 
-
     link.style('stroke-opacity', function (l) {
       const thisOpacity = l.value == linkType ? 1 : op;
       this.setAttribute('fill-opacity', thisOpacity);
