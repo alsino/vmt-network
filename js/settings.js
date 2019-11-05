@@ -1,10 +1,10 @@
 const symbolTypes = [
   {"discipline": 1,"name": "Painting / Drawing / Collage","symbol": 'symbolCircle', "selected": false},
-  {"discipline": 2,"name": "Installation / Performance","symbol": 'symbolCross', "selected": false},
+  {"discipline": 2,"name": "Media Art / Performance","symbol": 'symbolCross', "selected": false},
   {"discipline": 3,"name": "Music / Sound", "symbol": 'symbolDiamond', "selected": false},
   {"discipline": 4,"name": "Photography / Film","symbol": 'symbolSquare', "selected": false},
-  {"discipline": 5,"name": "Conceptual Art / Media Art","symbol": 'symbolStar', "selected": false},
-  {"discipline": 6,"name": "Sculpture, Architecture","symbol": 'symbolTriangle', "selected": false},
+  {"discipline": 5,"name": "Conceptual Art / Mixed Media","symbol": 'symbolStar', "selected": false},
+  {"discipline": 6,"name": "Sculpture / Installation / Architecture","symbol": 'symbolTriangle', "selected": false},
   {"discipline": 7,"name": "Writing","symbol": 'symbolWye', "selected": false}
 ]
 
