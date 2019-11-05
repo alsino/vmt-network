@@ -457,14 +457,42 @@ d3.json("./data/november/artists_191105.json", function (error, graph) {
 
     selectedLinks.forEach((item) => {
       // Check if node is already in selectedNodes array
-      if(selectedNodes.indexOf(item.source) === -1 && selectedNodes.indexOf(item.target) === -1) {
+      if(selectedNodes.indexOf(item.source) === -1 || selectedNodes.indexOf(item.target) === -1) {
         selectedNodes.push(item.source);
         selectedNodes.push(item.target);
       }
     })
 
-    update(selectedNodes);
-    console.log(selectedNodes);
+    const result = [];
+    const map = new Map();
+    for (const item of selectedNodes) {
+        if(!map.has(item.name)){
+            map.set(item.name, true);    // set any value to Map
+            result.push({
+                name: item.name,
+                birthCountry: item.birthCountry,
+                birthTown: item.birthTown,
+                birthYear: item.birthYear,
+                discipline: item.discipline,
+                gender: item.gender,
+                imageUrl: item.imageUrl,
+                index: item.index,
+                profileID: item.profileID,
+                studioLocation: item.studioLocation,
+                questions: item.questions,
+                vx: item.vx,
+                vy: item.vy,
+                x: item.x,
+                y: item.y
+            });
+        }
+    }
+
+    
+    // console.log(selectedNodes);
+    // console.log(result);
+    update(result);
+    
 
     link.style('stroke-opacity', function (l) {
       const thisOpacity = l.value == linkType ? 1 : op;
