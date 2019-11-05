@@ -835,7 +835,7 @@
 		},
 		{
 			"name": "Annekatrin Lemke",
-			"discipline": [6,1],
+			"discipline": [1,6],
 			"gender": "female",
 			"birthYear": 1980,
 			"birthTown": "?",
@@ -870,7 +870,7 @@
 
 		{
 			"name": "Grischa Lichtenberger",
-			"discipline": [3,6,1],
+			"discipline": [3,1],
 			"gender": "male",
 			"birthYear": 1983,
 			"birthTown": "Bielefeld",
@@ -892,7 +892,7 @@
 		},
 		{
 			"name": "Friedrich Liechtenstein",
-			"discipline": [3,2],
+			"discipline": [3],
 			"gender": "male",
 			"birthYear": 1956,
 			"birthTown": "Stalinstadt",
@@ -915,7 +915,7 @@
 		
 		{
 			"name": "Pedro Lopes",
-			"discipline": [2],
+			"discipline": [2,3],
 			"gender": "male",
 			"birthYear": 1986,
 			"birthTown": "",
@@ -1083,7 +1083,7 @@
 		},
 		{
 			"name": "Nik Nowak",
-			"discipline": [3,6,2],
+			"discipline": [3,6],
 			"gender": "male",
 			"birthYear": 1981,
 			"birthTown": "Mainz",
@@ -1158,7 +1158,7 @@
 		},
 		{
 			"name": "Stefan Roigk",
-			"discipline": [3,2],
+			"discipline": [3,6],
 			"gender": "male",
 			"birthYear": 1974,
 			"birthTown": "Bückeburg",
@@ -1234,7 +1234,7 @@
 		},
 		{
 			"name": "Tracey Snelling",
-			"discipline": [2],
+			"discipline": [2,6],
 			"gender": "female",
 			"birthYear": 1970,
 			"birthTown": "Oakland",
@@ -1283,7 +1283,7 @@
 		},
 		{
 			"name": "Tomoyuki Ueno",
-			"discipline": [5],
+			"discipline": [5,4],
 			"gender": "male",
 			"birthYear": 1982,
 			"birthTown": "Kobe",
@@ -1338,7 +1338,7 @@
 		},
 		{
 			"name": "Wiebke Maria Wachmann",
-			"discipline": [2,4,6],
+			"discipline": [6,4],
 			"gender": "female",
 			"birthYear": 1969,
 			"birthTown": "Berlin",
@@ -1376,7 +1376,7 @@
 		},
 		{
 			"name": "Peter Welz",
-			"discipline": [5,2],
+			"discipline": [2,5],
 			"gender": "male",
 			"birthYear": 1972,
 			"birthTown": "Lauingen",
@@ -1403,7 +1403,8 @@
 		},
 		{
 			"name": "Sinta Werner",
-			"discipline": [2,4],
+			"discipline": [6,4],
+			"gallery": "Galerie Alexander Levy",
 			"gender": "female",
 			"birthYear": 1977,
 			"birthTown": "Hattingen",
@@ -1414,7 +1415,7 @@
 		},
 		{
 			"name": "Hansa Wißkirchen",
-			"discipline": [5,1,6],
+			"discipline": [5],
 			"gender": "male",
 			"birthYear": 1966,
 			"birthTown": "Düsseldorf",
@@ -1437,7 +1438,7 @@
 		{
 			"name": "Michaela Zimmer",
 			"discipline": [1],
-			"gallery": "FOLD gallery",
+			"gallery": "Galerie Alber",
 			"gender": "female",
 			"birthYear": 1964,
 			"birthTown": "Berlin",
