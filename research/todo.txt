@@ -9,7 +9,6 @@
 
 - Infos bei Künstlern anfragen (Why, Arbeitszeit, Music) (S)
 - Infos eintragen (S)
-- Zuordnung Disziplinen zu Künstler checken + ergänzen (S)
 - Verbindungen ergänzen (S)
 
 
