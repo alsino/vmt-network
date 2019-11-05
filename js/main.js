@@ -62,9 +62,7 @@ let tooltip = sidebar
   .attr("class", "tooltip")
   .style("opacity", 0);
 
-
-d3.json("./data/november/artists_191105.json", function (error, graph) {
-  if (error) throw error;
+  d3.json("./data/november/artists_191105.json").then(function(graph) {
 
   function distance(link) {
     // return 1 / Math.min(count(link.source), count(link.target));
@@ -491,7 +489,7 @@ d3.json("./data/november/artists_191105.json", function (error, graph) {
     
     // console.log(selectedNodes);
     // console.log(result);
-    update(result);
+    
     
 
     link.style('stroke-opacity', function (l) {
@@ -499,26 +497,46 @@ d3.json("./data/november/artists_191105.json", function (error, graph) {
       this.setAttribute('fill-opacity', thisOpacity);
       return thisOpacity;
     });   
+
+    update(result);
   }
 
   function update(data) {
     // https://www.d3indepth.com/enterexit/
 
-  
+    // d3.select('svg')
+    // .selectAll('rect')
+    // .data(data)
+    // .join('rect')
+    // .style('fill', 'red')
+    // .attr('width', d => d.value)
+    // .attr('height', 20)
+    // .attr('y', (d, i) => i*20)
 
+
+    // let u = d3.select('.nodes')
+    // .selectAll('g')
+    // .data(data, d => d)
+    // .join("g")
+    // .attr('class', 'node')
+    
+
+
+    
     let u = d3.select('.nodes')
       .selectAll('g')
       .data(data, function(d) {
+        console.log(d);
         return d;
       });
   
     let node = u.enter()
       .append('g')
       .attr('class', 'node')
-      .call(d3.drag()
-      .on("start", dragstarted)
-      .on("drag", dragged)
-      .on("end", dragended))
+      // .call(d3.drag()
+      // .on("start", dragstarted)
+      // .on("drag", dragged)
+      // .on("end", dragended))
 
     node
       .append('path')
@@ -533,6 +551,8 @@ d3.json("./data/november/artists_191105.json", function (error, graph) {
       .attr('transform', d => `translate(${d.x},${d.y})`)
       .merge(u);
 
+      u.exit().remove();
+
     node
       .append('text')
       .text(function (d) {
@@ -546,6 +566,8 @@ d3.json("./data/november/artists_191105.json", function (error, graph) {
       })
       .on('mouseout.fade', (d, i, nodes) => {
         fade(d, i, nodes, 1);
+        console.log("out");
+        update(data);
       })
       .on('mouseover.tooltip', (d) => { showTooltip(d);})
       .on("mouseout.tooltip", function () {
@@ -557,13 +579,11 @@ d3.json("./data/november/artists_191105.json", function (error, graph) {
       .merge(u);
 
 
-      u.exit().remove();
+      
 
   // simulation
   //   .nodes(data)
   //   .on("tick", ticked);
-
-
 
   }
 
