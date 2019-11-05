@@ -2,7 +2,6 @@
 - Connections-Filter weiter (A)
 - Disziplinen-Filter -> Zuordnung von mehreren (A)
 - Intro oben links überlagern
-- Nur "why" ("music" und "works from to" ausblenden)
 - Info evtl wieder neben Freistellerbild 
 - Layout (A+S)
 - Show town+country auch wenn birthyear unbekannt, bzw year + country wenn city unbekannt

@@ -569,8 +569,4 @@ d3.json("./data/november/artists_191103.json", function (error, graph) {
           .style("opacity", 0);
     }
 
-
-  let sequentialScale = d3.scaleOrdinal(d3.schemeSet3)
-    .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
-
 })
