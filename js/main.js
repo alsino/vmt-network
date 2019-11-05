@@ -110,13 +110,13 @@ d3.json("./data/november/artists_191105.json", function (error, graph) {
   
 
   let node = nodeCont.selectAll('.node')
-    // .data(graph.nodes)
-    // .enter().append('g')
-    // .attr('class', 'node')
-    // .call(d3.drag()
-    //   .on("start", dragstarted)
-    //   .on("drag", dragged)
-    //   .on("end", dragended));
+    .data(graph.nodes)
+    .enter().append('g')
+    .attr('class', 'node')
+    .call(d3.drag()
+      .on("start", dragstarted)
+      .on("drag", dragged)
+      .on("end", dragended));
 
 
   function tooltipContent(d) {
@@ -212,54 +212,54 @@ d3.json("./data/november/artists_191105.json", function (error, graph) {
     
   // update(graph.nodes);
 
-  // node
-  //   .append('path')
-  //   .attr('r', symbolRadius)
-  //   .attr('d', function (d) {
-  //     if (d.discipline[0] && d.discipline[0] < 11) {
-  //       symbolGenerator
-  //         .type(d3[symbolTypes[d.discipline[0] - 1].symbol]);
-  //       return symbolGenerator();
-  //     }
-  //   })
-  //   .on('mouseover.tooltip', function (d) {
-  //     showTooltip(d);
-  //   })
-  //   .on("mouseout.tooltip", function () {
-  //     hideTooltip();
-  //   })
-  //   .on("mousemove", function () {
-  //     // tooltip.style("left", (d3.event.pageX) + "px")
-  //     //   .style("top", (d3.event.pageY + 10) + "px");
-  //   })
-  //   .on('dblclick', releasenode)
-  //   .on('click', openArtistPage)
+  node
+    .append('path')
+    .attr('r', symbolRadius)
+    .attr('d', function (d) {
+      if (d.discipline[0] && d.discipline[0] < 11) {
+        symbolGenerator
+          .type(d3[symbolTypes[d.discipline[0] - 1].symbol]);
+        return symbolGenerator();
+      }
+    })
+    .on('mouseover.tooltip', function (d) {
+      showTooltip(d);
+    })
+    .on("mouseout.tooltip", function () {
+      hideTooltip();
+    })
+    .on("mousemove", function () {
+      // tooltip.style("left", (d3.event.pageX) + "px")
+      //   .style("top", (d3.event.pageY + 10) + "px");
+    })
+    .on('dblclick', releasenode)
+    .on('click', openArtistPage)
 
 
-  // // Labels
-  // let label = node.append("text")
-  //   .text(function (d) {
-  //     return d.name;
-  //   })
-  //   .attr('x', 6)
-  //   .attr('y', 3)
-  //   .on('mouseover.fade', (d, i, nodes) => {
-  //     fade(d, i, nodes, 0.1, "capitalize");
-  //   })
-  //   .on('mouseout.fade', (d, i, nodes) => {
-  //     fade(d, i, nodes, 1, "capitalize");
-  //   })
-  //   .on('mouseover.tooltip', (d) => { showTooltip(d);})
-  //   .on("mouseout.tooltip", function () {
-  //     label.style("fill", "black");
-  //     hideTooltip();
-  //   })
-  //   .on("mousemove", function () {
-  //     // tooltip.style("left", (d3.event.pageX) + "px")
-  //     //   .style("top", (d3.event.pageY + 10) + "px");
-  //   })
-  //   .on('dblclick', releasenode)
-  //   .on('click', (d) => openArtistPage(d.profileID))
+  // Labels
+  let label = node.append("text")
+    .text(function (d) {
+      return d.name;
+    })
+    .attr('x', 6)
+    .attr('y', 3)
+    .on('mouseover.fade', (d, i, nodes) => {
+      fade(d, i, nodes, 0.1, "capitalize");
+    })
+    .on('mouseout.fade', (d, i, nodes) => {
+      fade(d, i, nodes, 1, "capitalize");
+    })
+    .on('mouseover.tooltip', (d) => { showTooltip(d);})
+    .on("mouseout.tooltip", function () {
+      label.style("fill", "black");
+      hideTooltip();
+    })
+    .on("mousemove", function () {
+      // tooltip.style("left", (d3.event.pageX) + "px")
+      //   .style("top", (d3.event.pageY + 10) + "px");
+    })
+    .on('dblclick', releasenode)
+    .on('click', (d) => openArtistPage(d.profileID))
 
   
   let legendItemSelected = false;
@@ -504,6 +504,8 @@ d3.json("./data/november/artists_191105.json", function (error, graph) {
   function update(data) {
     // https://www.d3indepth.com/enterexit/
 
+  
+
     let u = d3.select('.nodes')
       .selectAll('g')
       .data(data, function(d) {
@@ -513,6 +515,10 @@ d3.json("./data/november/artists_191105.json", function (error, graph) {
     let node = u.enter()
       .append('g')
       .attr('class', 'node')
+      .call(d3.drag()
+      .on("start", dragstarted)
+      .on("drag", dragged)
+      .on("end", dragended))
 
     node
       .append('path')
@@ -552,6 +558,13 @@ d3.json("./data/november/artists_191105.json", function (error, graph) {
 
 
       u.exit().remove();
+
+  // simulation
+  //   .nodes(data)
+  //   .on("tick", ticked);
+
+
+
   }
 
 
