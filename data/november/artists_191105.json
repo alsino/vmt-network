@@ -438,7 +438,7 @@
 		},
 		{
 			"name": "Maria Gideon",
-			"discipline": [1,6],
+			"discipline": [1],
 			"gender": "female",
 			"birthYear": 1977,
 			"birthTown": "Berlin",
