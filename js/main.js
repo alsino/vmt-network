@@ -428,7 +428,7 @@ let tooltip = sidebar
     });
 
     if (op != 1) {
-      link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : op / 2));
+      link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : op));
       // link.style('stroke', o => (o.value == 10 ? "#F76906" : "#1CDE7E"));
     } else {
       link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : op));
@@ -503,6 +503,7 @@ let tooltip = sidebar
 
   function update(data) {
     // https://www.d3indepth.com/enterexit/
+    // https://fabiofranchino.com/blog/the-new-d3.js-join-method-is-awesome-for-t/
 
     // d3.select('svg')
     // .selectAll('rect')
@@ -578,8 +579,6 @@ let tooltip = sidebar
       .on('click', (d) => openArtistPage(d.profileID))
       .merge(u);
 
-
-      
 
   // simulation
   //   .nodes(data)
