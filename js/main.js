@@ -107,7 +107,7 @@ d3.json("./data/november/artists_191103.json", function (error, graph) {
     // .style("stroke", "rgba(0, 5, 255, 0.1)")
     .style("stroke", (d, i, nodes) => linkColor(d));
 
-    
+  
 
   let node = nodeCont.selectAll('.node')
     .data(graph.nodes)
@@ -117,7 +117,6 @@ d3.json("./data/november/artists_191103.json", function (error, graph) {
       .on("start", dragstarted)
       .on("drag", dragged)
       .on("end", dragended));
-
 
 
   function tooltipContent(d) {
@@ -210,6 +209,8 @@ d3.json("./data/november/artists_191103.json", function (error, graph) {
   const symbolGenerator = d3.symbol()
     .size(symbolSize);
 
+    
+  
 
   node
     .append('path')
@@ -462,47 +463,47 @@ d3.json("./data/november/artists_191103.json", function (error, graph) {
       }
     })
 
-  node.remove();
-
-
-  node = nodeCont.selectAll('.node')
-    .data(selectedNodes)
-    .enter().append('g')
-    .attr('class', 'node')
-    .append('path')
-    .attr('r', symbolRadius)
-    .attr('d', function (d) {
-      if (d.discipline[0] && d.discipline[0] < 11) {
-        symbolGenerator
-          .type(d3[symbolTypes[d.discipline[0] - 1].symbol]);
-        return symbolGenerator();
-      }
-    })
-    .on('mouseover.tooltip', function (d) {
-      showTooltip(d);
-    })
-    .on("mouseout.tooltip", function () {
-      hideTooltip();
-    })
-    .on("mousemove", function () {
-      // tooltip.style("left", (d3.event.pageX) + "px")
-      //   .style("top", (d3.event.pageY + 10) + "px");
-    })
-    .on('dblclick', releasenode)
-    .on('click', openArtistPage)
-
+    update(selectedNodes);
 
     link.style('stroke-opacity', function (l) {
       const thisOpacity = l.value == linkType ? 1 : op;
       this.setAttribute('fill-opacity', thisOpacity);
       return thisOpacity;
-    });
-
-
-
-
-   
+    });   
   }
+
+  function update(data) {
+    // https://www.d3indepth.com/enterexit/
+    
+    let u = d3.select('.nodes')
+      .selectAll('g')
+      .data(data, function(d) {
+        return d;
+      });
+  
+    u.enter()
+      .append('g')
+      .attr('class', 'node')
+      .append('path')
+      .attr('r', symbolRadius)
+      .attr('d', function (d) {
+        if (d.discipline[0] && d.discipline[0] < 11) {
+          symbolGenerator
+            .type(d3[symbolTypes[d.discipline[0] - 1].symbol]);
+          return symbolGenerator();
+        }
+      })
+      .attr('transform', d => `translate(${d.x},${d.y})`)
+      .merge(u);
+
+
+      u.exit().remove();
+
+  }
+
+
+
+
 
 
   function resetDisciplines() {
