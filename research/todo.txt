@@ -21,10 +21,10 @@ Switch, Slider, Dropdown
 - Musikgeschmack (z.B. Welcher Künstler hört  EPMD? bei der Arbeit)
 - age
 - male / female / trans
+- More category symbols: https://stackoverflow.com/questions/25332120/create-additional-d3-js-symbols
 
 - Search 
 - Select one of x artsits (Gesamtanzahl bei Dropdown anzeigen)
-
 
 
 //Mobile: 
