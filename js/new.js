@@ -63,7 +63,7 @@ let tooltip = sidebar
   .style("opacity", 0);
 
 
-d3.json("./data/november/artists_191103.json", function (error, graph) {
+d3.json("./data/november/artists_191101.json", function (error, graph) {
   if (error) throw error;
 
   function distance(link) {
@@ -110,13 +110,15 @@ d3.json("./data/november/artists_191103.json", function (error, graph) {
     
 
   let node = nodeCont.selectAll('.node')
-    .data(graph.nodes)
-    .enter().append('g')
-    .attr('class', 'node')
-    .call(d3.drag()
-      .on("start", dragstarted)
-      .on("drag", dragged)
-      .on("end", dragended));
+    // .data(graph.nodes)
+    // .enter().append('g')
+    // .attr('class', 'node')
+    // .call(d3.drag()
+    //   .on("start", dragstarted)
+    //   .on("drag", dragged)
+    //   .on("end", dragended));
+
+  updateData(graph.nodes);
 
 
 
@@ -215,54 +217,50 @@ d3.json("./data/november/artists_191103.json", function (error, graph) {
     .size(symbolSize);
 
 
-  node
-    .append('path')
-    .attr('r', symbolRadius)
-    .attr('d', function (d) {
-      if (d.discipline[0] && d.discipline[0] < 11) {
-        symbolGenerator
-          .type(d3[symbolTypes[d.discipline[0] - 1].symbol]);
-        return symbolGenerator();
-      }
-    })
-    .on('mouseover.tooltip', function (d) {
-      showTooltip(d);
-    })
-    .on("mouseout.tooltip", function () {
-      hideTooltip();
-    })
-    .on("mousemove", function () {
-      // tooltip.style("left", (d3.event.pageX) + "px")
-      //   .style("top", (d3.event.pageY + 10) + "px");
-    })
-    .on('dblclick', releasenode)
-    .on('click', openArtistPage)
+  // node
+  //   .append('path')
+  //   .attr('r', symbolRadius)
+  //   .attr('d', function (d) {
+  //     if (d.discipline[0] && d.discipline[0] < 11) {
+  //       symbolGenerator
+  //         .type(d3[symbolTypes[d.discipline[0] - 1].symbol]);
+  //       return symbolGenerator();
+  //     }
+  //   })
+  //   .on('mouseover.tooltip', function (d) {
+  //     showTooltip(d);
+  //   })
+  //   .on("mouseout.tooltip", function () {
+  //     hideTooltip();
+  //   })
+  //   .on("mousemove", function () {
+  //     // tooltip.style("left", (d3.event.pageX) + "px")
+  //     //   .style("top", (d3.event.pageY + 10) + "px");
+  //   })
+  //   .on('dblclick', releasenode)
+  //   .on('click', openArtistPage)
 
 
-  // Labels
-  let label = node.append("text")
-    .text(function (d) {
-      return d.name;
-    })
-    .attr('x', 6)
-    .attr('y', 3)
-    .on('mouseover.fade', (d, i, nodes) => {
-      fade(d, i, nodes, 0.1, "capitalize");
-    })
-    .on('mouseout.fade', (d, i, nodes) => {
-      fade(d, i, nodes, 1, "capitalize");
-    })
-    .on('mouseover.tooltip', (d) => { showTooltip(d);})
-    .on("mouseout.tooltip", function () {
-      label.style("fill", "black");
-      hideTooltip();
-    })
-    .on("mousemove", function () {
-      // tooltip.style("left", (d3.event.pageX) + "px")
-      //   .style("top", (d3.event.pageY + 10) + "px");
-    })
-    .on('dblclick', releasenode)
-    .on('click', (d) => openArtistPage(d.profileID))
+  // // Labels
+  // let label = node.append("text")
+  //   .text(function (d) {
+  //     return d.name;
+  //   })
+  //   .attr('x', 6)
+  //   .attr('y', 3)
+  //   .on('mouseover.fade', (d, i, nodes) => {
+  //     fade(d, i, nodes, 0.1, "capitalize");
+  //   })
+  //   .on('mouseout.fade', (d, i, nodes) => {
+  //     fade(d, i, nodes, 1, "capitalize");
+  //   })
+  //   .on('mouseover.tooltip', (d) => { showTooltip(d);})
+  //   .on("mouseout.tooltip", function () {
+  //     label.style("fill", "black");
+  //     hideTooltip();
+  //   })
+  //   .on('dblclick', releasenode)
+  //   .on('click', (d) => openArtistPage(d.profileID))
 
   
   let legendItemSelected = false;
@@ -325,7 +323,7 @@ d3.json("./data/november/artists_191103.json", function (error, graph) {
     .attr("class", "legendItem")
     .on("click", (d)=> {
       // console.log(d.value);
-      filterLinks(d, d.value, 0.1);
+      filterLinks(d.value, 0.1);
       // fade(d, i, nodes, 0.1, "capitalize");
     })
 
@@ -448,7 +446,7 @@ d3.json("./data/november/artists_191103.json", function (error, graph) {
     });
   }
 
-  function filterLinks(d, linkType, opacity) {
+  function filterLinks(linkType, opacity) {
 
   let op = opacity;
   let selectedLinks;
@@ -466,14 +464,38 @@ d3.json("./data/november/artists_191103.json", function (error, graph) {
       }
     })
 
-  node.remove();
+    console.log(selectedNodes);
+
+    updateData(selectedNodes);
+
+    link.style('stroke-opacity', function (l) {
+      const thisOpacity = l.value == linkType ? 1 : op;
+      this.setAttribute('fill-opacity', thisOpacity);
+      return thisOpacity;
+    });
+
+  }
 
 
-  node = nodeCont.selectAll('.node')
-    .data(selectedNodes)
-    .enter().append('g')
+  function updateData(data){
+    // https://www.d3indepth.com/enterexit/
+
+    const symbolSize = 70;
+    const symbolRadius = 7;
+    const symbolGenerator = d3.symbol()
+    .size(symbolSize);
+    
+    let u = d3.select('.nodes').selectAll("node")
+    // .data(data, function(d) {
+    //   return d
+    // })
+    .data(data)
+  
+    u.enter()
+    .append('g')
     .attr('class', 'node')
     .append('path')
+    .merge(u)
     .attr('r', symbolRadius)
     .attr('d', function (d) {
       if (d.discipline[0] && d.discipline[0] < 11) {
@@ -482,30 +504,28 @@ d3.json("./data/november/artists_191103.json", function (error, graph) {
         return symbolGenerator();
       }
     })
-    .on('mouseover.tooltip', function (d) {
-      showTooltip(d);
+
+    let label = u.append("text")
+    .text(function (d) {
+      return d.name;
     })
+    .attr('x', 6)
+    .attr('y', 3)
+    .on('mouseover.fade', (d, i, nodes) => {
+      fade(d, i, nodes, 0.1, "capitalize");
+    })
+    .on('mouseout.fade', (d, i, nodes) => {
+      fade(d, i, nodes, 1, "capitalize");
+    })
+    .on('mouseover.tooltip', (d) => { showTooltip(d);})
     .on("mouseout.tooltip", function () {
+      label.style("fill", "black");
       hideTooltip();
     })
-    .on("mousemove", function () {
-      // tooltip.style("left", (d3.event.pageX) + "px")
-      //   .style("top", (d3.event.pageY + 10) + "px");
-    })
     .on('dblclick', releasenode)
-    .on('click', openArtistPage)
+    .on('click', (d) => openArtistPage(d.profileID))
 
-
-    link.style('stroke-opacity', function (l) {
-      const thisOpacity = l.value == linkType ? 1 : op;
-      this.setAttribute('fill-opacity', thisOpacity);
-      return thisOpacity;
-    });
-
-
-
-
-   
+    u.exit().remove();
   }
 
 
