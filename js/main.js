@@ -62,9 +62,7 @@ let tooltip = sidebar
   .attr("class", "tooltip")
   .style("opacity", 0);
 
-
-d3.json("./data/november/artists_191105.json", function (error, graph) {
-  if (error) throw error;
+  d3.json("./data/november/artists_191105.json").then(function(graph) {
 
   function distance(link) {
     // return 1 / Math.min(count(link.source), count(link.target));
@@ -110,13 +108,13 @@ d3.json("./data/november/artists_191105.json", function (error, graph) {
   
 
   let node = nodeCont.selectAll('.node')
-    // .data(graph.nodes)
-    // .enter().append('g')
-    // .attr('class', 'node')
-    // .call(d3.drag()
-    //   .on("start", dragstarted)
-    //   .on("drag", dragged)
-    //   .on("end", dragended));
+    .data(graph.nodes)
+    .enter().append('g')
+    .attr('class', 'node')
+    .call(d3.drag()
+      .on("start", dragstarted)
+      .on("drag", dragged)
+      .on("end", dragended));
 
 
   function tooltipContent(d) {
@@ -212,54 +210,54 @@ d3.json("./data/november/artists_191105.json", function (error, graph) {
     
   // update(graph.nodes);
 
-  // node
-  //   .append('path')
-  //   .attr('r', symbolRadius)
-  //   .attr('d', function (d) {
-  //     if (d.discipline[0] && d.discipline[0] < 11) {
-  //       symbolGenerator
-  //         .type(d3[symbolTypes[d.discipline[0] - 1].symbol]);
-  //       return symbolGenerator();
-  //     }
-  //   })
-  //   .on('mouseover.tooltip', function (d) {
-  //     showTooltip(d);
-  //   })
-  //   .on("mouseout.tooltip", function () {
-  //     hideTooltip();
-  //   })
-  //   .on("mousemove", function () {
-  //     // tooltip.style("left", (d3.event.pageX) + "px")
-  //     //   .style("top", (d3.event.pageY + 10) + "px");
-  //   })
-  //   .on('dblclick', releasenode)
-  //   .on('click', openArtistPage)
+  node
+    .append('path')
+    .attr('r', symbolRadius)
+    .attr('d', function (d) {
+      if (d.discipline[0] && d.discipline[0] < 11) {
+        symbolGenerator
+          .type(d3[symbolTypes[d.discipline[0] - 1].symbol]);
+        return symbolGenerator();
+      }
+    })
+    .on('mouseover.tooltip', function (d) {
+      showTooltip(d);
+    })
+    .on("mouseout.tooltip", function () {
+      hideTooltip();
+    })
+    .on("mousemove", function () {
+      // tooltip.style("left", (d3.event.pageX) + "px")
+      //   .style("top", (d3.event.pageY + 10) + "px");
+    })
+    .on('dblclick', releasenode)
+    .on('click', openArtistPage)
 
 
-  // // Labels
-  // let label = node.append("text")
-  //   .text(function (d) {
-  //     return d.name;
-  //   })
-  //   .attr('x', 6)
-  //   .attr('y', 3)
-  //   .on('mouseover.fade', (d, i, nodes) => {
-  //     fade(d, i, nodes, 0.1, "capitalize");
-  //   })
-  //   .on('mouseout.fade', (d, i, nodes) => {
-  //     fade(d, i, nodes, 1, "capitalize");
-  //   })
-  //   .on('mouseover.tooltip', (d) => { showTooltip(d);})
-  //   .on("mouseout.tooltip", function () {
-  //     label.style("fill", "black");
-  //     hideTooltip();
-  //   })
-  //   .on("mousemove", function () {
-  //     // tooltip.style("left", (d3.event.pageX) + "px")
-  //     //   .style("top", (d3.event.pageY + 10) + "px");
-  //   })
-  //   .on('dblclick', releasenode)
-  //   .on('click', (d) => openArtistPage(d.profileID))
+  // Labels
+  let label = node.append("text")
+    .text(function (d) {
+      return d.name;
+    })
+    .attr('x', 6)
+    .attr('y', 3)
+    .on('mouseover.fade', (d, i, nodes) => {
+      fade(d, i, nodes, 0.1, "capitalize");
+    })
+    .on('mouseout.fade', (d, i, nodes) => {
+      fade(d, i, nodes, 1, "capitalize");
+    })
+    .on('mouseover.tooltip', (d) => { showTooltip(d);})
+    .on("mouseout.tooltip", function () {
+      label.style("fill", "black");
+      hideTooltip();
+    })
+    .on("mousemove", function () {
+      // tooltip.style("left", (d3.event.pageX) + "px")
+      //   .style("top", (d3.event.pageY + 10) + "px");
+    })
+    .on('dblclick', releasenode)
+    .on('click', (d) => openArtistPage(d.profileID))
 
   
   let legendItemSelected = false;
@@ -430,7 +428,7 @@ d3.json("./data/november/artists_191105.json", function (error, graph) {
     });
 
     if (op != 1) {
-      link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : op / 2));
+      link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : op));
       // link.style('stroke', o => (o.value == 10 ? "#F76906" : "#1CDE7E"));
     } else {
       link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : op));
@@ -491,7 +489,7 @@ d3.json("./data/november/artists_191105.json", function (error, graph) {
     
     // console.log(selectedNodes);
     // console.log(result);
-    update(result);
+    
     
 
     link.style('stroke-opacity', function (l) {
@@ -499,20 +497,47 @@ d3.json("./data/november/artists_191105.json", function (error, graph) {
       this.setAttribute('fill-opacity', thisOpacity);
       return thisOpacity;
     });   
+
+    update(result);
   }
 
   function update(data) {
     // https://www.d3indepth.com/enterexit/
+    // https://fabiofranchino.com/blog/the-new-d3.js-join-method-is-awesome-for-t/
 
+    // d3.select('svg')
+    // .selectAll('rect')
+    // .data(data)
+    // .join('rect')
+    // .style('fill', 'red')
+    // .attr('width', d => d.value)
+    // .attr('height', 20)
+    // .attr('y', (d, i) => i*20)
+
+
+    // let u = d3.select('.nodes')
+    // .selectAll('g')
+    // .data(data, d => d)
+    // .join("g")
+    // .attr('class', 'node')
+    
+
+
+    
     let u = d3.select('.nodes')
       .selectAll('g')
       .data(data, function(d) {
+        console.log(d);
         return d;
       });
   
     let node = u.enter()
       .append('g')
       .attr('class', 'node')
+      // .call(d3.drag()
+      // .on("start", dragstarted)
+      // .on("drag", dragged)
+      // .on("end", dragended))
 
     node
       .append('path')
@@ -527,6 +552,8 @@ d3.json("./data/november/artists_191105.json", function (error, graph) {
       .attr('transform', d => `translate(${d.x},${d.y})`)
       .merge(u);
 
+      u.exit().remove();
+
     node
       .append('text')
       .text(function (d) {
@@ -540,6 +567,8 @@ d3.json("./data/november/artists_191105.json", function (error, graph) {
       })
       .on('mouseout.fade', (d, i, nodes) => {
         fade(d, i, nodes, 1);
+        console.log("out");
+        update(data);
       })
       .on('mouseover.tooltip', (d) => { showTooltip(d);})
       .on("mouseout.tooltip", function () {
@@ -551,7 +580,10 @@ d3.json("./data/november/artists_191105.json", function (error, graph) {
       .merge(u);
 
 
-      u.exit().remove();
+  // simulation
+  //   .nodes(data)
+  //   .on("tick", ticked);
+
   }
 
 

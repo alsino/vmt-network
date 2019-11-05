@@ -1,5 +1,5 @@
 
-- Connections-Filter weiter (A)
+- Connections-Filter weiter: Das Achenbach-Phänomen (A)
 
 - Disziplinen-Filter -> Zuordnung von mehreren (A)
 - Info evtl wieder neben Freistellerbild 
