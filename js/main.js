@@ -155,8 +155,6 @@ d3.json("./data/november/artists_191103.json", function (error, graph) {
             <br>
             <div>${d.questions.why}</div>
             <br>
-            <div>Works from ${d.questions.workHours}</div>
-            <div>Listens to ${d.questions.music}</div>
           </div>
         </div>
         <img class="tooltip-img" src="./assets/img/${d.imageUrl}">`
@@ -187,8 +185,6 @@ d3.json("./data/november/artists_191103.json", function (error, graph) {
             <br>
             <div>${d.questions.why}</div>
             <br>
-            <div>Works from ${d.questions.workHours}</div>
-            <div>Listens to ${d.questions.music}</div>
           </div>
         </div>
         <img class="tooltip-img" src="./assets/img/${d.imageUrl}">`
