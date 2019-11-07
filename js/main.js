@@ -4,8 +4,10 @@ let svg = d3.select("svg"),
   width = +svg.attr("width"),
   height = +svg.attr("height");
 
+let viewOffesetX = 100;
+
 svg
-  .attr("viewBox", [-width / 2, -height / 2, width, height]);
+  .attr("viewBox", [-width / 2 - viewOffesetX, -height / 2, width, height]);
 
 let g = svg.append("g")
     .attr("class", "network");
