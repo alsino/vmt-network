@@ -3,7 +3,6 @@
 - Disziplinen-Filter -> Zuordnung von mehreren (A)
 
 - Info evtl wieder neben Freistellerbild 
-- Show town+country auch wenn birthyear unbekannt, bzw year + country wenn city unbekannt
 - evtl Disziplin in Infos als Feld im artist-json (dadurch zwar für mich mehr einzutragen, dafür womöglich spezifischere Angaben möglich – Grobzuordnung zu 7 Disziplinen beleibt unabhängig davon erhalten)
 
 - svg Positionierung weiter rechts (A)
