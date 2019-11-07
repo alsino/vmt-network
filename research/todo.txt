@@ -2,10 +2,6 @@
 - Connections-Filter weiter: Das Achenbach-Phänomen (A)
 - Disziplinen-Filter -> Zuordnung von mehreren (A)
 
-- Info evtl wieder neben Freistellerbild 
-- evtl Disziplin in Infos als Feld im artist-json (dadurch zwar für mich mehr einzutragen, dafür womöglich spezifischere Angaben möglich – Grobzuordnung zu 7 Disziplinen beleibt unabhängig davon erhalten)
-
-- svg Positionierung weiter rechts (A)
 - Disziplinen-Filter wie Connections-Filter + evtl artists mehrere Disziplinen (A)
 - Info evtl wieder neben Freistellerbild (A)
 - Info: show town+country auch wenn birthyear unbekannt, bzw year + country wenn city unbekannt
@@ -14,7 +10,6 @@
 - Infos eintragen (S)
 - Verbindungen ergänzen (S)
 - Screenshots an artists senden und gegenchecken lassen (S)
-
 
 Wer hat eigentlich die meisten Verknüpfungen - Peckl? 
 
@@ -27,6 +22,7 @@ Switch, Slider, Dropdown
 - age
 - male / female / trans
 - More category symbols: https://stackoverflow.com/questions/25332120/create-additional-d3-js-symbols
+- evtl Disziplin in Infos als Feld im artist-json (dadurch zwar für mich mehr einzutragen, dafür womöglich spezifischere Angaben möglich – Grobzuordnung zu 7 Disziplinen beleibt unabhängig davon erhalten)
 
 - Search 
 - Select one of x artsits (Gesamtanzahl bei Dropdown anzeigen)
