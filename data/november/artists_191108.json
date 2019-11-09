@@ -535,7 +535,12 @@
 			"birthCountry": "GDR",
 			"profileID": "1687",
 			"imageUrl" : "jens_hausmann.jpg",
-			"studioLocation": "Berlin"
+			"studioLocation": "Berlin",
+			"questions": {
+				"why": "Künstlerische Arbeit, künstlerisches Denken, ist eine zunehmend relevante Art mit der Wirklichkeit umzugehen.",
+				"music": "bewusst nur Musik ohne Gesang – neue Musik, elektronische Musik, J.S. Bach.",
+				"workHours" : " "
+			}
 		},
 		{
 			"name": "Robert Henke",
