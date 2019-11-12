@@ -32,7 +32,7 @@ let legendArtists = sidebar.append("div").attr("class", "legend-artists");
 let headingDisciplines = legendDiscipline
     .append("div")
     .attr("class", "legend-heading")
-    .text("Diciplines");
+    .text("Main Discipline");
 
 let legend = legendDiscipline
     .append("div")
@@ -233,15 +233,17 @@ let tooltip = sidebar
     }
   }
 
-  const symbolSize = 2000;
   const symbolSizeLegend = 70;
   const symbolRadius = 7;
   const symbolGenerator = d3.symbol();
 
-  function getNodeSize(node){
-    let defaultSize = symbolSize;
+  function getNodeSize(node, defaultSize){
     return node == 0 ? Math.sqrt(defaultSize / Math.PI * 1) : Math.sqrt(defaultSize / Math.PI * node);
   }
+
+  let textScale = d3.scaleLinear()
+                  .domain([0, 63])
+                  .range([10, 20]);
 
 
   node
@@ -250,7 +252,7 @@ let tooltip = sidebar
       if (d.discipline[0] && d.discipline[0] < 11) {
         symbolGenerator
           .type(d3[symbolTypes[d.discipline[0] - 1].symbol])
-          .size(getNodeSize(d.linkCount));
+          .size(getNodeSize(d.linkCount, 2000));
         return symbolGenerator();
       }
     })
@@ -269,29 +271,30 @@ let tooltip = sidebar
 
 
   // Labels
-  let label = node.append("text")
-    .text(function (d) {
-      return d.name;
-    })
-    .attr('x', 9)
-    .attr('y', 3)
-    .on('mouseover.fade', (d, i, nodes) => {
-      fade(d, i, nodes, 0.1, "capitalize");
-    })
-    .on('mouseout.fade', (d, i, nodes) => {
-      fade(d, i, nodes, 1, "capitalize");
-    })
-    .on('mouseover.tooltip', (d) => { showTooltip(d);})
-    .on("mouseout.tooltip", function () {
-      label.style("fill", "black");
-      hideTooltip();
-    })
-    .on("mousemove", function () {
-      // tooltip.style("left", (d3.event.pageX) + "px")
-      //   .style("top", (d3.event.pageY + 10) + "px");
-    })
-    .on('dblclick', releasenode)
-    .on('click', (d) => openArtistPage(d.profileID))
+  // let label = node.append("text")
+  //   .text(function (d) {
+  //     return d.name;
+  //   })
+  //   .style("font-size", d =>  textScale(d.linkCount))
+  //   .attr('x', 9)
+  //   .attr('y', 3)
+  //   .on('mouseover.fade', (d, i, nodes) => {
+  //     fade(d, i, nodes, 0.1, "capitalize");
+  //   })
+  //   .on('mouseout.fade', (d, i, nodes) => {
+  //     fade(d, i, nodes, 1, "capitalize");
+  //   })
+  //   .on('mouseover.tooltip', (d) => { showTooltip(d);})
+  //   .on("mouseout.tooltip", function () {
+  //     label.style("fill", "black");
+  //     hideTooltip();
+  //   })
+  //   .on("mousemove", function () {
+  //     // tooltip.style("left", (d3.event.pageX) + "px")
+  //     //   .style("top", (d3.event.pageY + 10) + "px");
+  //   })
+  //   .on('dblclick', releasenode)
+  //   .on('click', (d) => openArtistPage(d.profileID))
 
   
   let legendItemSelected = false;
@@ -478,10 +481,24 @@ let tooltip = sidebar
 
   function filterDisciplines(discipline, opacity) {
     node.style('stroke-opacity', function (o) {
-      const thisOpacity = o.discipline == discipline ? 1 : opacity;
+      // console.log(o.discipline);
+      const thisOpacity = o.discipline[0] == discipline || o.discipline[1] == discipline  ? 1 : opacity;
+      // const thisOpacity = o.discipline == discipline ? 1 : opacity;
       this.setAttribute('fill-opacity', thisOpacity);
+      // this.setAttribute('stroke-width', "0px");
+      // this.setAttribute('stroke', "transparent");
       return thisOpacity;
     });
+
+    // label.style('stroke-opacity', function (o) {
+    //   const thisOpacity = o.discipline[0] == discipline || o.discipline[1] == discipline  ? 1 : opacity;
+    //   this.setAttribute('fill-opacity', thisOpacity);
+    //   return thisOpacity;
+    // });
+
+
+    
+
   }
 
   function filterLinks(d, linkType, opacity) {

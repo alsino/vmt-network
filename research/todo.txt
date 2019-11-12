@@ -1,14 +1,19 @@
 
 Filter:
 -------
-- Connections-Filter weiter: 
-  -- Das Achenbach-Phänomen (A)
-  -- Reset all disciplines
-  -- Interaction with discipline filter
+
+- Hover-Interaktion auf Node, nicht Link
 
 - Discipline-filter: 
-  -- wie Connections-Filter  
-  -- evtl artists mehrere Disziplinen (A)
+  -- Button für All disciplines
+  -- Pro Disziplin Nur Leute mit ihren eigenen Verbindungen (Netzwerk ändert sich) 
+
+- Connections-Filter weiter: 
+  -- Reset all disciplines
+  -- Das Achenbach-Phänomen (A)
+  -- Interaction with discipline filter
+
+
 
 Infos:
 ------
@@ -19,7 +24,6 @@ Infos:
 - Verbindungen ergänzen (S)
 - Screenshots an artists senden und gegenchecken lassen (S)
 
-Wer hat eigentlich die meisten Verknüpfungen -> Siehe Datei: research/ranking-connections.txt
 
 
 //Nice to have:  
