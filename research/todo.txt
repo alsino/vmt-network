@@ -1,14 +1,18 @@
 
 Filter:
 -------
+
+- Hover-Interaktion auf Node, nicht Link
+- Discipline-filter: 
+  -- Button für All disciplines
+  -- Pro Disziplin Nur Leute mit ihren eigenen Verbindungen (Netzwerk ändert sich) 
+
 - Connections-Filter weiter: 
-  -- Das Achenbach-Phänomen (A)
   -- Reset all disciplines
+  -- Das Achenbach-Phänomen (A)
   -- Interaction with discipline filter
 
-- Discipline-filter: 
-  -- wie Connections-Filter  
-  -- evtl artists mehrere Disziplinen (A)
+
 
 Infos:
 ------
@@ -19,10 +23,11 @@ Infos:
 - Verbindungen ergänzen (S)
 - Screenshots an artists senden und gegenchecken lassen (S)
 
-Wer hat eigentlich die meisten Verknüpfungen - Peckl? 
 
 
 //Nice to have:  
+
+- Labels on zoom rein?
 
 Switch, Slider, Dropdown
 - working time (who works now?)

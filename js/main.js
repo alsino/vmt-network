@@ -32,7 +32,7 @@ let legendArtists = sidebar.append("div").attr("class", "legend-artists");
 let headingDisciplines = legendDiscipline
     .append("div")
     .attr("class", "legend-heading")
-    .text("Diciplines");
+    .text("Main Discipline");
 
 let legend = legendDiscipline
     .append("div")
@@ -107,7 +107,33 @@ let tooltip = sidebar
     // .style("stroke", "rgba(0, 5, 255, 0.1)")
     .style("stroke", (d, i, nodes) => linkColor(d));
 
-  
+    
+    // Find number of links
+    graph.links.forEach(function(link){
+
+      // initialize a new property on the node
+      if (!link.source["linkCount"]) link.source["linkCount"] = 0; 
+      if (!link.target["linkCount"]) link.target["linkCount"] = 0;
+
+      // count it up
+      link.source["linkCount"]++;
+      link.target["linkCount"]++;   
+    });
+
+    let mostLinks = graph.nodes.map((item) => {
+      if(!item.linkCount) {item.linkCount = 0;} 
+      return item;
+    })
+
+
+    mostLinks.sort(function(a, b) {
+      return b.linkCount - a.linkCount;
+  });
+
+    // mostLinks.forEach((el) => 
+    //   console.log(el.name + " " + el.linkCount)
+    // )
+
 
   let node = nodeCont.selectAll('.node')
     .data(graph.nodes)
@@ -207,21 +233,26 @@ let tooltip = sidebar
     }
   }
 
-  const symbolSize = 70;
+  const symbolSizeLegend = 70;
   const symbolRadius = 7;
-  const symbolGenerator = d3.symbol()
-    .size(symbolSize);
+  const symbolGenerator = d3.symbol();
 
-    
-  // update(graph.nodes);
+  function getNodeSize(node, defaultSize){
+    return node == 0 ? Math.sqrt(defaultSize / Math.PI * 1) : Math.sqrt(defaultSize / Math.PI * node);
+  }
+
+  let textScale = d3.scaleLinear()
+                  .domain([0, 63])
+                  .range([10, 20]);
+
 
   node
     .append('path')
-    .attr('r', symbolRadius)
     .attr('d', function (d) {
       if (d.discipline[0] && d.discipline[0] < 11) {
         symbolGenerator
-          .type(d3[symbolTypes[d.discipline[0] - 1].symbol]);
+          .type(d3[symbolTypes[d.discipline[0] - 1].symbol])
+          .size(getNodeSize(d.linkCount, 2000));
         return symbolGenerator();
       }
     })
@@ -240,29 +271,30 @@ let tooltip = sidebar
 
 
   // Labels
-  let label = node.append("text")
-    .text(function (d) {
-      return d.name;
-    })
-    .attr('x', 6)
-    .attr('y', 3)
-    .on('mouseover.fade', (d, i, nodes) => {
-      fade(d, i, nodes, 0.1, "capitalize");
-    })
-    .on('mouseout.fade', (d, i, nodes) => {
-      fade(d, i, nodes, 1, "capitalize");
-    })
-    .on('mouseover.tooltip', (d) => { showTooltip(d);})
-    .on("mouseout.tooltip", function () {
-      label.style("fill", "black");
-      hideTooltip();
-    })
-    .on("mousemove", function () {
-      // tooltip.style("left", (d3.event.pageX) + "px")
-      //   .style("top", (d3.event.pageY + 10) + "px");
-    })
-    .on('dblclick', releasenode)
-    .on('click', (d) => openArtistPage(d.profileID))
+  // let label = node.append("text")
+  //   .text(function (d) {
+  //     return d.name;
+  //   })
+  //   .style("font-size", d =>  textScale(d.linkCount))
+  //   .attr('x', 9)
+  //   .attr('y', 3)
+  //   .on('mouseover.fade', (d, i, nodes) => {
+  //     fade(d, i, nodes, 0.1, "capitalize");
+  //   })
+  //   .on('mouseout.fade', (d, i, nodes) => {
+  //     fade(d, i, nodes, 1, "capitalize");
+  //   })
+  //   .on('mouseover.tooltip', (d) => { showTooltip(d);})
+  //   .on("mouseout.tooltip", function () {
+  //     label.style("fill", "black");
+  //     hideTooltip();
+  //   })
+  //   .on("mousemove", function () {
+  //     // tooltip.style("left", (d3.event.pageX) + "px")
+  //     //   .style("top", (d3.event.pageY + 10) + "px");
+  //   })
+  //   .on('dblclick', releasenode)
+  //   .on('click', (d) => openArtistPage(d.profileID))
 
   
   let legendItemSelected = false;
@@ -309,7 +341,8 @@ let tooltip = sidebar
     .attr('d', function (d) {
       if (d.discipline && d.discipline < 11) {
         symbolGenerator
-          .type(d3[symbolTypes[d.discipline - 1].symbol]);
+          .type(d3[symbolTypes[d.discipline - 1].symbol])
+          .size(symbolSizeLegend);
         return symbolGenerator();
       }
     }).attr('transform', 'translate(10, 10)');
@@ -448,10 +481,24 @@ let tooltip = sidebar
 
   function filterDisciplines(discipline, opacity) {
     node.style('stroke-opacity', function (o) {
-      const thisOpacity = o.discipline == discipline ? 1 : opacity;
+      // console.log(o.discipline);
+      const thisOpacity = o.discipline[0] == discipline || o.discipline[1] == discipline  ? 1 : opacity;
+      // const thisOpacity = o.discipline == discipline ? 1 : opacity;
       this.setAttribute('fill-opacity', thisOpacity);
+      // this.setAttribute('stroke-width', "0px");
+      // this.setAttribute('stroke', "transparent");
       return thisOpacity;
     });
+
+    // label.style('stroke-opacity', function (o) {
+    //   const thisOpacity = o.discipline[0] == discipline || o.discipline[1] == discipline  ? 1 : opacity;
+    //   this.setAttribute('fill-opacity', thisOpacity);
+    //   return thisOpacity;
+    // });
+
+
+    
+
   }
 
   function filterLinks(d, linkType, opacity) {
@@ -641,10 +688,10 @@ let tooltip = sidebar
   function linkColor(d) {
     switch(d.value) {
       case 5: return "rgba(0,0,255,0)"; break;
-      case 10: return  "rgba(0, 5, 255, 0.3)"; break;
-      case 15: return "rgba(0,255,0,0.3)"; break;
+      case 10: return  "rgba(0, 5, 255, 0.2)"; break;
+      case 15: return "rgba(0,255,0,0.2)"; break;
       case 20: return "rgba(0,0,255,0)"; break;
-      case 25: return "rgba(255,0,0,0.3)"; break;
+      case 25: return "rgba(255,0,0,0.2)"; break;
       case 30: return "rgba(0,0,0,0)"; break;
       default: return "rgba(0,0,0,0)";
     }        
