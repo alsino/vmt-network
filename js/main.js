@@ -233,21 +233,24 @@ let tooltip = sidebar
     }
   }
 
-  const symbolSize = 70;
+  const symbolSize = 2000;
+  const symbolSizeLegend = 70;
   const symbolRadius = 7;
-  const symbolGenerator = d3.symbol()
-    .size(symbolSize);
+  const symbolGenerator = d3.symbol();
 
-    
-  // update(graph.nodes);
+  function getNodeSize(node){
+    let defaultSize = symbolSize;
+    return node == 0 ? Math.sqrt(defaultSize / Math.PI * 1) : Math.sqrt(defaultSize / Math.PI * node);
+  }
+
 
   node
     .append('path')
-    .attr('r', symbolRadius)
     .attr('d', function (d) {
       if (d.discipline[0] && d.discipline[0] < 11) {
         symbolGenerator
-          .type(d3[symbolTypes[d.discipline[0] - 1].symbol]);
+          .type(d3[symbolTypes[d.discipline[0] - 1].symbol])
+          .size(getNodeSize(d.linkCount));
         return symbolGenerator();
       }
     })
@@ -270,7 +273,7 @@ let tooltip = sidebar
     .text(function (d) {
       return d.name;
     })
-    .attr('x', 6)
+    .attr('x', 9)
     .attr('y', 3)
     .on('mouseover.fade', (d, i, nodes) => {
       fade(d, i, nodes, 0.1, "capitalize");
@@ -335,7 +338,8 @@ let tooltip = sidebar
     .attr('d', function (d) {
       if (d.discipline && d.discipline < 11) {
         symbolGenerator
-          .type(d3[symbolTypes[d.discipline - 1].symbol]);
+          .type(d3[symbolTypes[d.discipline - 1].symbol])
+          .size(symbolSizeLegend);
         return symbolGenerator();
       }
     }).attr('transform', 'translate(10, 10)');
@@ -667,10 +671,10 @@ let tooltip = sidebar
   function linkColor(d) {
     switch(d.value) {
       case 5: return "rgba(0,0,255,0)"; break;
-      case 10: return  "rgba(0, 5, 255, 0.3)"; break;
-      case 15: return "rgba(0,255,0,0.3)"; break;
+      case 10: return  "rgba(0, 5, 255, 0.2)"; break;
+      case 15: return "rgba(0,255,0,0.2)"; break;
       case 20: return "rgba(0,0,255,0)"; break;
-      case 25: return "rgba(255,0,0,0.3)"; break;
+      case 25: return "rgba(255,0,0,0.2)"; break;
       case 30: return "rgba(0,0,0,0)"; break;
       default: return "rgba(0,0,0,0)";
     }        

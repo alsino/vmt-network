@@ -19,7 +19,7 @@ Infos:
 - Verbindungen ergänzen (S)
 - Screenshots an artists senden und gegenchecken lassen (S)
 
-Wer hat eigentlich die meisten Verknüpfungen - Peckl? 
+Wer hat eigentlich die meisten Verknüpfungen -> Siehe Datei: research/ranking-connections.txt
 
 
 //Nice to have:  
