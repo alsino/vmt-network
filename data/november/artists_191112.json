@@ -12,18 +12,12 @@
 			"studioVisit": "Berlin",
 			"studioLocations": [
 				{
-					"name": "Gerichtshöfe",
-					"date_in": 2010,
-					"date_out": 2010,
-					"lat": 52.528138,
-					"lon": 13.422749	
-				},
-				{
-				  "name": "Atelierwohnung",
-					"date_in": 2010,
-					"date_out": 2010,
-					"lat": 52.528138,
-					"lon": 13.422749	
+					"name": " ",
+          "address": "Lehderstraße 34, 13086 Berlin",
+					"date_in": 0,
+					"date_out": 0,
+					"lat": 0,
+					"lon": 0	
 				}
 			]
 		},
@@ -36,7 +30,17 @@
 			"birthCountry": "Germany",
 			"profileID": 0,
 			"imageUrl" : "joerg_uwe_albig.jpg",
-			"studioVisit": "Berlin"
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "Heikonaut",
+          "address": "Sewanstraße 122, 10319 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ]
 		},
 		{
 			"name": "Jofroi Amaral",
@@ -47,7 +51,17 @@
 			"birthCountry": "Belgium",
 			"profileID": "2431",
 			"imageUrl" : "jofroi_amaral.jpg",
-			"studioVisit": "Berlin"
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "Studios ID",
+          "address": "Genslerstraße 13, 13055 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ]
 		},
 		{
 			"name": "Song-Ming Ang",
@@ -58,7 +72,17 @@
 			"birthCountry": "Singapore",
 			"profileID": "7969",
 			"imageUrl" : "song_ming_ang.jpg",
-			"studioVisit": "Berlin"
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Bergholzstraße 8, 12099 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ]
 		},
 		{
 			"name": "Axel Anklam",
@@ -70,7 +94,25 @@
 			"birthCountry": "GDR",
 			"profileID": 0,
 			"imageUrl" : "axel_anklam.jpg",
-			"studioVisit": "Bad Freienwalde"
+			"studioVisit": "Bad Freienwalde",
+      "studioLocations": [
+        {
+          "name": "Atelier Bad Freienwalde",
+          "address": "Wasserstraße 20, 16259 Bad Freienwalde",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        },
+        {
+          "name": "Uferhallen",
+          "address": "Uferstraße 8, 13357 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ]
 		},
 		{
 			"name": "Aram Bartholl",
@@ -81,7 +123,25 @@
 			"birthCountry": "Germany",
 			"profileID": "7695",
 			"imageUrl" : "aram_bartholl.jpg",
-			"studioVisit": "Berlin"
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Christinenstraße 21, 10119 Berlin",
+          "date_in": 0,
+          "date_out": 2019,
+          "lat": 0,
+          "lon": 0  
+        },
+        {
+          "name": " ",
+          "address": "Schlegelstraße 6, 10115 Berlin",
+          "date_in": 2019,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ]
 		},
 		{
 			"name": "Christopher Bauder",
@@ -93,6 +153,16 @@
 			"profileID": "2966",
 			"imageUrl" : "christopher_bauder.jpg",
 			"studioVisit": "Berlin",
+       "studioLocations": [
+        {
+          "name": "WHITEvoid",
+          "address": "Köpenicker Chaussee 4, 10317 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ],
 			"questions": {
 				"why": "I love to create, I need to create, I am born to create!",
 				"music": "I do not listen to music when I work.",
@@ -109,6 +179,16 @@
 			"profileID": "2056",
 			"imageUrl" : "fehmi_baumbach.jpg",
 			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Schillerstraße 96, 10625 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ],
 			"questions": {
 				"why": "Because I do not have time to do something else.",
 				"music": "intelligent music: electronic, noisepunkrock, classic, some jazz, kraut and psychedelic.",
@@ -124,7 +204,17 @@
 			"birthCountry": "Germany",
 			"profileID": "8612",
 			"imageUrl" : "bernd_begemann.jpg",
-			"studioVisit": "Hamburg"
+			"studioVisit": "Hamburg",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Holtwisch 11, 22527 Hamburg",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ]
 		},
 		{
 			"name": "Clemens Behr",
@@ -135,7 +225,17 @@
 			"birthCountry": "Germany",
 			"profileID": "967",
 			"imageUrl" : "clemens_behr.jpg",
-			"studioVisit": "Berlin"
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "Raum Vollreinigung",
+          "address": "Wassertorstraße 65, 10785 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ]
 		},
 		{
 			"name": "Sebastian Bieniek",
@@ -147,6 +247,16 @@
 			"profileID": "2689",
 			"imageUrl" : "sebastian_bieniek.jpg",
 			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Marchlewskistraße 89A, 10243 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ],
 			"questions": {
 				"why": "You just do in the way like you just are. There is just what you do, without a necessary reason. Reasons are made retrospective. I don’t have a retrospective point of view.",
 				"music": "-",
@@ -163,7 +273,17 @@
 			"birthCountry": "Germany",
 			"profileID": "286",
 			"imageUrl" : "amelie_blendl.jpg",
-			"studioVisit": "Berlin"
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Wilhelm-Kabus-Straße 74, 10829 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ]
 		},
 		{
 			"name": "Alex Bodea",
@@ -175,6 +295,16 @@
 			"profileID": "1683",
 			"imageUrl" : "alex_bodea.jpg",
 			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Wilhelm-Kabus-Straße 74, 10829 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ],
 			"questions": {
 				"why": "Because I like stories.",
 				"music": "none (I listen to BBC though).",
@@ -190,7 +320,17 @@
 			"birthCountry": "GDR",
 			"profileID": "9467",
 			"imageUrl" : "lothar_boehme.jpg",
-			"studioVisit": "Berlin"
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Wollankstraße 124, 13187 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ]
 		},
 		{
 			"name": "Isabelle Borges",
