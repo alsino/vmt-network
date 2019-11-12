@@ -298,7 +298,7 @@
       "studioLocations": [
         {
           "name": "",
-          "address": "Wilhelm-Kabus-Straße 74, 10829 Berlin",
+          "address": "Kurfürstenstraße 21-22, 10785 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -341,7 +341,17 @@
 			"birthCountry": "Brazil",
 			"profileID": "1689",
 			"imageUrl" : "isabelle_borges.jpg",
-			"studioVisit": "Berlin"
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Rodenbergstraße 14, 10439 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ]
 		},
 		{
 			"name": "Fritz Bornstück",
@@ -353,6 +363,16 @@
 			"profileID": "5195",
 			"imageUrl" : "fritz_bornstueck.jpg",
 			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "Hobbyraum",
+          "address": "Herrfurthplatz 7, 12049 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ],
 			"questions": {
 				"why": "I've got nothing else to do.",
 				"music": "right now: Steve Reich. But when I'm painting I pay no attention to music.",
@@ -369,6 +389,16 @@
 			"profileID": 0,
 			"imageUrl" : "stefano_bosis.jpg",
 			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Mittenwalder Straße 6, 10961 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ],
 			"questions": {
 				"why": "Because I want to save the world.",
 				"music": "no music in this time and when I do it I listen to Bossa Nova or Flamenco.",
@@ -385,7 +415,17 @@
 			"birthCountry": "Netherlands",
 			"profileID": "1050",
 			"imageUrl" : "bram_braam.jpg",
-			"studioVisit": "Berlin"
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Donaustrasse 83, 12043 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ]
 		},
 		{
 			"name": "Jenny Brosinski",
@@ -397,6 +437,16 @@
 			"profileID": 0,
 			"imageUrl" : "jenny_brosinski.jpg",
 			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Drontheimer Str. 37A, 13359 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ],
 			"questions": {
 				"why": "Because I am what I am.",
 				"music": "I normally do not listen to music while I work.",
@@ -412,7 +462,17 @@
 			"birthCountry": "Italy",
 			"profileID": 0,
 			"imageUrl" : "mimmo_catania.jpg",
-			"studioVisit": "Berlin"
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Große-Leege-Straße 97/98, 13055 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ]
 		},
 		{
 			"name": "Carla Chan",
@@ -423,7 +483,25 @@
 			"birthCountry": "China",
 			"profileID": "4451",
 			"imageUrl" : "carla_chan.jpg",
-			"studioVisit": "Berlin"
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Wilhelm-Kabus-Straße 74",
+          "date_in": 2018,
+          "date_out": 2018,
+          "lat": 0,
+          "lon": 0  
+        }
+        {
+          "name": "",
+          "address": "Böttgerstraße 1, 13357 Berlin",
+          "date_in": 2018,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ]
 		},
 		{
 			"name": "Dirty Doering",
@@ -692,6 +770,16 @@
 			"profileID": "1687",
 			"imageUrl" : "jens_hausmann.jpg",
 			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Rodenbergstraße 14, 10439 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ],
 			"questions": {
 				"why": "Künstlerische Arbeit, künstlerisches Denken, ist eine zunehmend relevante Art mit der Wirklichkeit umzugehen.",
 				"music": "bewusst nur Musik ohne Gesang – neue Musik, elektronische Musik, J.S. Bach.",
