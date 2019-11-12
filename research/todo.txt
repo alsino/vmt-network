@@ -1,11 +1,19 @@
 
-- Connections-Filter weiter: Das Achenbach-Phänomen (A)
-- Disziplinen-Filter -> Zuordnung von mehreren (A)
+Filter:
+-------
+- Connections-Filter weiter: 
+  -- Das Achenbach-Phänomen (A)
+  -- Reset all disciplines
+  -- Interaction with discipline filter
 
-- Disziplinen-Filter wie Connections-Filter + evtl artists mehrere Disziplinen (A)
+- Discipline-filter: 
+  -- wie Connections-Filter  
+  -- evtl artists mehrere Disziplinen (A)
+
+Infos:
+------
 - Info evtl wieder neben Freistellerbild (A)
-- Info: show town+country auch wenn birthyear unbekannt, bzw year + country wenn city unbekannt
-
+- Info: show town+country auch wenn birthyear unbekannt, bzw year + country wenn city unbekannt (A)
 - Infos bei Künstlern anfragen (Why, Arbeitszeit, Music) (S)
 - Infos eintragen (S)
 - Verbindungen ergänzen (S)

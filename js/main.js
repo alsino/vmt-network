@@ -141,9 +141,9 @@ let tooltip = sidebar
       })
 
 
-    if (d.birthYear != 0) {
+    if (d.birthYear != null) {
 
-      if(questions) {
+      if(questions)  {
         // All information
         return `<div class="tooltip-info">
           <div class="tooltip-info-inner">
@@ -157,6 +157,9 @@ let tooltip = sidebar
           </div>
         </div>
         <img class="tooltip-img" src="./assets/img/${d.imageUrl}">`
+
+        // return toolTipInfo[0].content
+        // console.log(toolTipInfo)
   
       } else {
         // All information
@@ -313,17 +316,23 @@ let tooltip = sidebar
 
   let legendDescription = legendItem.append("div").text((d) => d.name)
 
+  let linkTypeselected = false;
 
   // Legend Link Types
   let linkTypeItem = legendLinks.selectAll("div")
     .data(linkTypes)
     .enter()
     .append("div")
-    .attr("class", "legendItem")
-    .on("click", (d)=> {
-      // console.log(d.value);
-      filterLinks(d, d.value, 0.1);
-      // fade(d, i, nodes, 0.1, "capitalize");
+    .attr("class", "legendItemLinks")
+    .on("click", (d, i, nodes)=> {
+
+      linkTypeselected = true;
+
+      if (linkTypeselected) {
+        d3.selectAll(".legendItemLinks").classed("legendItem-active", false);
+        d3.select(nodes[i]).classed("legendItem-active", true);
+        filterLinks(d, d.value, 0.1);
+      }
     })
 
     let legendTypeSymbol = linkTypeItem
