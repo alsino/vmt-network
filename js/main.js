@@ -107,7 +107,33 @@ let tooltip = sidebar
     // .style("stroke", "rgba(0, 5, 255, 0.1)")
     .style("stroke", (d, i, nodes) => linkColor(d));
 
-  
+    
+    // Find number of links
+    graph.links.forEach(function(link){
+
+      // initialize a new property on the node
+      if (!link.source["linkCount"]) link.source["linkCount"] = 0; 
+      if (!link.target["linkCount"]) link.target["linkCount"] = 0;
+
+      // count it up
+      link.source["linkCount"]++;
+      link.target["linkCount"]++;   
+    });
+
+    let mostLinks = graph.nodes.map((item) => {
+      if(!item.linkCount) {item.linkCount = 0;} 
+      return item;
+    })
+
+
+    mostLinks.sort(function(a, b) {
+      return b.linkCount - a.linkCount;
+  });
+
+    // mostLinks.forEach((el) => 
+    //   console.log(el.name + " " + el.linkCount)
+    // )
+
 
   let node = nodeCont.selectAll('.node')
     .data(graph.nodes)
