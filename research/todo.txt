@@ -3,7 +3,6 @@ Filter:
 -------
 
 - Hover-Interaktion auf Node, nicht Link
-
 - Discipline-filter: 
   -- Button für All disciplines
   -- Pro Disziplin Nur Leute mit ihren eigenen Verbindungen (Netzwerk ändert sich) 
@@ -27,6 +26,8 @@ Infos:
 
 
 //Nice to have:  
+
+- Labels on zoom rein?
 
 Switch, Slider, Dropdown
 - working time (who works now?)
