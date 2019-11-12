@@ -513,6 +513,16 @@
 			"profileID": "9720",
 			"imageUrl" : "dirty_doering.jpg",
 			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Am Treptower Park, 12435 Berlin",
+          "date_in": 2019,
+          "date_out": 2019,
+          "lat": 0,
+          "lon": 0  
+        }
+      ],
 			"questions": {
 				"why": "It’s my passion.",
 				"music": "my favourite album is silence.",
@@ -530,6 +540,16 @@
 			"profileID": "4855",
 			"imageUrl" : "grigori_dor.jpg",
 			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Iranische Str. 6, 13347 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ],
 			"questions": {
 				"why": "An inner urge and great pleasure in making an idea that is not visible to others almost real and tangible.",
 				"music": "audiobooks and podcasts.",
@@ -545,7 +565,17 @@
 			"birthCountry": "Germany",
 			"profileID": "3294",
 			"imageUrl" : "sven_druehl.jpg",
-			"studioVisit": "Berlin"
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "Uferhallen",
+          "address": "Uferstraße 11, 13357 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ]
 		},
 		{
 			"name": "Craig Dyer",
@@ -556,7 +586,17 @@
 			"birthCountry": "United Kingdom",
 			"profileID": "5643",
 			"imageUrl" : "craig_dyer.jpg",
-			"studioVisit": "Berlin"
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Kreutzigerstraße 14, 10247 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ]
 		},
 		{
 			"name": "Liisi Eelmaa",
@@ -567,7 +607,17 @@
 			"birthCountry": "Estonia",
 			"profileID": "9557",
 			"imageUrl" : "liisi_eelmaa.jpg",
-			"studioVisit": "Tallinn"
+			"studioVisit": "Tallinn",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "ARS house, Pärnu mnt 154, 11317 Tallinn",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ]
 		},
 		{
 			"name": "Ornella Fieres",
@@ -579,7 +629,17 @@
 			"birthCountry": "Germany",
 			"profileID": "6464",
 			"imageUrl" : "ornella_fieres.jpg",
-			"studioVisit": "Berlin"
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Frankfurter Allee 12, 10247 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ]
 		},
 		{
 			"name": "Francesco Fillini",
@@ -590,7 +650,17 @@
 			"birthCountry": "Italy",
 			"profileID": "5000",
 			"imageUrl" : "francesco_fillini.jpg",
-			"studioVisit": "Pontedera"
+			"studioVisit": "Pontedera",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ]
 		},
 		{
 			"name": "Wolfgang Flad",
@@ -1032,6 +1102,16 @@
 			"profileID": "9559",
 			"imageUrl" : "camille_laurelli.jpg",
 			"studioVisit": "Tallinn",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "ARS house, Pärnu mnt 154, 11317 Tallinn",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ],
 			"questions": {
 				"why": "Because someone else can do it also.",
 				"music": "stupeflip.",
@@ -1381,7 +1461,17 @@
 			"birthCountry": "USSR",
 			"profileID": "9561",
 			"imageUrl" : "laura_pold.jpg",
-			"studioVisit": "Tallinn"
+			"studioVisit": "Tallinn",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "ARS house, Pärnu mnt 154, 11317 Tallinn",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ]
 		},
 		{
 			"name": "Max Prosa",
