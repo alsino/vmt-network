@@ -2533,7 +2533,17 @@
 			"birthCountry": "Germany",
 			"profileID": "3406",
 			"imageUrl" : "sinta_werner.jpg",
-			"studioVisit": "Berlin"
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": " ",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ]
 		},
 		{
 			"name": "Hansa Wißkirchen",
@@ -2544,7 +2554,17 @@
 			"birthCountry": "Germany",
 			"profileID": 0,
 			"imageUrl" : "hansa_wisskirchen.jpg",
-			"studioVisit": "Berlin"
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": " ",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ]
 		},
 		{
 			"name": "Markus Wüste",
@@ -2555,7 +2575,17 @@
 			"birthCountry": "Germany",
 			"profileID": "4424",
 			"imageUrl" : "markus_wueste.jpg",
-			"studioVisit": "Berlin"
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": " ",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ]
 		},
 		{
 			"name": "Michaela Zimmer",
@@ -2568,6 +2598,16 @@
 			"profileID": "4604",
 			"imageUrl" : "michaela_zimmer.jpg",
 			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": " ",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ],
 			"questions": {
 				"why": "I love it.",
 				"music": "none, except my neighbor listens to some.",
