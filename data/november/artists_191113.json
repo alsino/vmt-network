@@ -1246,7 +1246,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Genslerstraße 13, 13055 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1509,7 +1509,15 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Köpenickerstraße 21, 10997 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        },
+        {
+          "name": " ",
+          "address": "Via Senese 68, 50124 Firenze",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1674,7 +1682,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Prof.-Dr.-Helmert-Straße 2-3, 14482 Potsdam",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1770,7 +1778,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Hasenheide 9, 10967 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -2075,7 +2083,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Tegeler Straße 6, 13353 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -2489,7 +2497,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Gerichtstraße 12-13, 13347 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -2601,7 +2609,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Holsteinische Str. 40, 10717 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
