@@ -38,12 +38,21 @@ Switch, Slider, Dropdown
 - evtl Disziplin in Infos als Feld im artist-json (dadurch zwar für mich mehr einzutragen, dafür womöglich spezifischere Angaben möglich – Grobzuordnung zu 7 Disziplinen beleibt unabhängig davon erhalten)
 
 - Search 
-- Select one of x artsits (Gesamtanzahl bei Dropdown anzeigen)
+- x Artsits (Gesamtanzahl bei Dropdown anzeigen)
 
 
 //Mobile: 
 - Elemente untereinander  
 
+
+//Title 
+Orbits and Constellations
+Artistellar
+Tensor
+Constellar
+Woven Starlit (Gewebter Sternenhimmel)
+Orbits and Bytes (hihi)
+Visitmynet
 
 
 //Next
