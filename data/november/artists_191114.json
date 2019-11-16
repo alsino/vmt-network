@@ -1167,7 +1167,12 @@
           "lat": 0,
           "lon": 0  
         }
-      ]
+      ],
+      "questions": {
+        "why": "Because I can't help it.",
+        "music": "I do not hear music at work, except mine :-)",
+        "workHours" : "I have no regular working hours."
+      }
 		},
 		{
 			"name": "Malte Kebbel",
