@@ -1126,7 +1126,7 @@
 			"studioVisit": "Florence",
       "studioLocations": [
         {
-          "name": " ",
+          "name": "Villa Romana",
           "address": "Via Senese 68, 50124 Firenze",
           "date_in": 0,
           "date_out": 0,
@@ -1545,7 +1545,7 @@
           "lon": 0  
         },
         {
-          "name": " ",
+          "name": "Villa Romana",
           "address": "Via Senese 68, 50124 Firenze",
           "date_in": 0,
           "date_out": 0,
@@ -1854,7 +1854,7 @@
 			"studioVisit": "Florence",
       "studioLocations": [
         {
-          "name": " ",
+          "name": "Villa Romana",
           "address": "Via Senese 68, 50124 Firenze",
           "date_in": 0,
           "date_out": 0,
@@ -1944,7 +1944,7 @@
 			"studioVisit": "Florence",
       "studioLocations": [
         {
-          "name": " ",
+          "name": "Villa Romana",
           "address": "Via Senese 68, 50124 Firenze",
           "date_in": 0,
           "date_out": 0,
@@ -2237,7 +2237,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Liselotte-Herrmann-Straße 14, 10407 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -2257,8 +2257,8 @@
 			"studioVisit": "Florence",
       "studioLocations": [
         {
-          "name": " ",
-          "address": " ",
+          "name": "Villa Romana",
+          "address": "Via Senese 68, 50124 Firenze",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -2305,7 +2305,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -2330,8 +2330,8 @@
 			"studioVisit": "Hamburg",
       "studioLocations": [
         {
-          "name": " ",
-          "address": " ",
+          "name": "Die Sterne",
+          "address": "Warnholtzstrasse 4, 22767 Hamburg",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -2352,7 +2352,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Sonnenallee 65, 12045 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -2373,7 +2373,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Kühnemannstraße 51-69, 13409 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -2394,7 +2394,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Sonnenallee 65, 12045 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -2415,7 +2415,7 @@
 			"studioVisit": "Florence",
       "studioLocations": [
         {
-          "name": " ",
+          "name": "Villa Romana",
           "address": "Via Senese 68, 50124 Firenze",
           "date_in": 0,
           "date_out": 0,
@@ -2442,7 +2442,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Spiekermannstraße 31A, 13189 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -2468,7 +2468,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Schwedter Straße 232, 10435 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -2489,7 +2489,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Paul-Lincke-Ufer 30, 10999 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -2570,7 +2570,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Görschstraße 7, 13187 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -2592,7 +2592,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Kamekestraße 11, 13409 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -2613,7 +2613,15 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Waldstraße 58, 13403 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        },
+        {
+          "name": " ",
+          "address": "Torstraße 106, 10119 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -2634,7 +2642,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Pankstraße 13, 13127 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
