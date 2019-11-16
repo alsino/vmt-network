@@ -1195,7 +1195,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Alexandrinenstraße 1-7, 10969 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1216,7 +1216,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Görschstraße 2, 13187 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1238,7 +1238,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Prenzlauer Promenade 149-152, 13189 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1258,7 +1258,7 @@
 			"studioVisit": "Berlin",
       "studioLocations": [
         {
-          "name": " ",
+          "name": "Studios ID",
           "address": "Genslerstraße 13, 13055 Berlin",
           "date_in": 0,
           "date_out": 0,
@@ -1285,7 +1285,15 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Ohlauer Straße 40, 10999 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        },
+        {
+          "name": " ",
+          "address": "Stieffring 7, 13627 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1305,8 +1313,8 @@
 			"studioVisit": "Potsdam",
       "studioLocations": [
         {
-          "name": " ",
-          "address": " ",
+          "name": " Rechenzentrum Potsdam",
+          "address": "Dortustraße 46, 14467 Potsdam",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1332,7 +1340,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Pestalozzistraße 5, 10625 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1387,7 +1395,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Ostendstraße 1-14, 12459 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1409,7 +1417,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Lausitzer Platz 15, 10997 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
