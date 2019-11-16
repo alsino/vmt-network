@@ -1991,8 +1991,8 @@
 			"studioVisit": "Berlin",
       "studioLocations": [
         {
-          "name": " ",
-          "address": " ",
+          "name": "Uferhallen",
+          "address": "Uferstraße 8, 13357 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -2013,7 +2013,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Schleiermacherstraße 31, 10961 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -2033,7 +2033,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Herzbergstraße 100, 10365 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -2053,8 +2053,8 @@
 			"studioVisit": "Berlin",
       "studioLocations": [
         {
-          "name": " ",
-          "address": " ",
+          "name": "Uferhallen",
+          "address": "Uferstraße 8, 13357 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -2101,7 +2101,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Rollbergstraße 1, 12053 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -2174,7 +2174,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Lessingstr 98/100, 13158 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -2194,8 +2194,8 @@
 			"studioVisit": "Berlin",
       "studioLocations": [
         {
-          "name": " ",
-          "address": " ",
+          "name": "Gerichtshöfe",
+          "address": "Gerichtstraße 12-13, 13347 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -2216,7 +2216,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Drontheimer Straße 36a, 13359 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -2283,8 +2283,8 @@
 			"studioVisit": "Berlin",
       "studioLocations": [
         {
-          "name": " ",
-          "address": " ",
+          "name": "Gerichtshöfe",
+          "address": "Gerichtstraße 12-13, 13347 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -2543,7 +2543,7 @@
 			"studioVisit": "Berlin",
       "studioLocations": [
         {
-          "name": " ",
+          "name": "Gerichtshöfe",
           "address": "Gerichtstraße 12-13, 13347 Berlin",
           "date_in": 0,
           "date_out": 0,
