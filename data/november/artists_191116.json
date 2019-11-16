@@ -1443,7 +1443,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Pallasstraße 12, 10781 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1490,7 +1490,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Ohmstraße 6, 10179 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1572,7 +1572,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Erfurt",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1625,7 +1625,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Manteuffelstraße 5, 10997 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1646,7 +1646,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Dolziger Straße 29, 10247 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1667,7 +1667,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Münzstraße 8, 10178 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1688,7 +1688,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Linienstraße 154, 10115 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1737,7 +1737,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Ackerstraße 80, 13355 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1764,7 +1764,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Tegeler Straße 6, 13353 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1785,7 +1785,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Straßburger Straße 58, 10405 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1833,7 +1833,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Pistoriusstraße 142, 13086 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1855,7 +1855,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Via Senese 68, 50124 Firenze",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1882,7 +1882,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Gartenstraße 7, 10115 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1902,8 +1902,8 @@
 			"studioVisit": "Berlin",
       "studioLocations": [
         {
-          "name": " ",
-          "address": " ",
+          "name": "Uferhallen",
+          "address": "Uferstraße 8, 13357 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1920,7 +1920,17 @@
 			"birthCountry": "Germany",
 			"profileID": "3963",
 			"imageUrl" : "johannes_mundinger.jpg",
-			"studioVisit": "Berlin"
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "Urban Spree",
+          "address": "Revaler Straße 99, 10245 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        }
+      ]
 		},
 		{
 			"name": "Christophe Ndabananiye",
@@ -1935,7 +1945,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Via Senese 68, 50124 Firenze",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1961,7 +1971,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Jessnerstraße 47, 10247 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
