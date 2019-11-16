@@ -277,7 +277,7 @@
       "studioLocations": [
         {
           "name": "",
-          "address": "Wilhelm-Kabus-Straße 74, 10829 Berlin",
+          "address": "Wilhelm-Kabus-Straße 74, 10829 Berlin", 
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -877,7 +877,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Wilhelm-Kabus-Straße 74, 10829 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -898,7 +898,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Eulerstraße 16, 13357 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -920,7 +920,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Adalbertstraße 9, 10999 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -941,7 +941,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Schönhauser Allee 140, 10437 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -962,7 +962,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Eulerstraße 1A, 13357 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1009,7 +1009,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Lobeckstraße 30-35, 10969 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1030,7 +1030,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Am Lohmühlenpark 1, 20099 Hamburg",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1077,7 +1077,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Urbanstraße 100, 10967 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1097,8 +1097,16 @@
 			"studioVisit": "Berlin",
       "studioLocations": [
         {
+          "name": "Unicorn Event/Workspace Brunnenviertel",
+          "address": "Brunnenstraße 64, 13355 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 0,
+          "lon": 0  
+        },
+        {
           "name": " ",
-          "address": " ",
+          "address": "Bergstraße 26, 10115 Berlin",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
@@ -1119,7 +1127,7 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Via Senese 68, 50124 Firenze",
           "date_in": 0,
           "date_out": 0,
           "lat": 0,
