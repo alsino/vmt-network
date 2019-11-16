@@ -16,8 +16,8 @@
           "address": "Lehderstraße 34, 13086 Berlin",
 					"date_in": 0,
 					"date_out": 0,
-					"lat": 0,
-					"lon": 0	
+					"lat": 52.550546,
+					"lon": 13.438563	
 				}
 			]
 		},
@@ -37,8 +37,8 @@
           "address": "Sewanstraße 122, 10319 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.496476,
+          "lon": 13.506287  
         }
       ]
 		},
@@ -58,8 +58,8 @@
           "address": "Genslerstraße 13, 13055 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.541630,
+          "lon": 13.499608  
         }
       ]
 		},
@@ -79,8 +79,8 @@
           "address": "Bergholzstraße 8, 12099 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.459064,
+          "lon": 13.419368  
         }
       ]
 		},
@@ -101,16 +101,16 @@
           "address": "Wasserstraße 20, 16259 Bad Freienwalde",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.788314,
+          "lon": 14.035698  
         },
         {
           "name": "Uferhallen",
           "address": "Uferstraße 8, 13357 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.552060,
+          "lon": 13.374382  
         }
       ]
 		},
@@ -130,16 +130,16 @@
           "address": "Christinenstraße 21, 10119 Berlin",
           "date_in": 0,
           "date_out": 2019,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.532644,
+          "lon": 13.410908  
         },
         {
           "name": " ",
           "address": "Schlegelstraße 6, 10115 Berlin",
           "date_in": 2019,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.529901,
+          "lon": 13.386103  
         }
       ]
 		},
@@ -159,8 +159,8 @@
           "address": "Köpenicker Chaussee 4, 10317 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.490907, 
+          "lon": 13.492447 
         }
       ],
 			"questions": {
