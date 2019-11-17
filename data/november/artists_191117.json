@@ -58,8 +58,8 @@
           "address": "Genslerstraße 13, 13055 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 52.541630,
-          "lon": 13.499608  
+          "lat": 52.541492, 
+          "lon": 13.499555
         }
       ]
 		},
@@ -490,7 +490,7 @@
           "address": "Wilhelm-Kabus-Straße 74, 10829 Berlin",
           "date_in": 2018,
           "date_out": 2018,
-          "lat": 52.479112, 
+          "lat": 52.479099, 
           "lon": 13.364809 
         },
         {
@@ -636,8 +636,8 @@
           "address": "Frankfurter Allee 12, 10247 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.515429, 
+          "lon": 13.456432  
         }
       ]
 		},
@@ -657,8 +657,8 @@
           "address": "Pontedera",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 43.662268, 
+          "lon": 10.628927 
         }
       ]
 		},
@@ -679,8 +679,8 @@
           "address": "Reichenberger Straße 36, 10999 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.497515, 
+          "lon": 13.423452 
         }
       ]
 		},
@@ -700,8 +700,8 @@
           "address": "Gaudystraße 3, 10437 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.546979, 
+          "lon": 13.412014 
         }
       ],
 			"questions": {
@@ -726,8 +726,8 @@
           "address": "Wissmannstraße 1, 12049 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.486309, 
+          "lon": 13.423416 
         }
       ]
 		},
@@ -747,8 +747,8 @@
           "address": "Wilhelm-Stolze-Straße 22, 10249 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.522090, 
+          "lon": 13.447457 
         }
       ]
 		},
@@ -768,8 +768,8 @@
           "address": "Sonnenallee 65, 12045 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.484954, 
+          "lon": 13.434833  
         }
       ],
 			"questions": {
@@ -795,8 +795,8 @@
           "address": "Wilhelm-Kabus-Straße 74, 10829 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.479099, 
+          "lon": 13.364809 
         }
       ]
 		},
@@ -816,8 +816,8 @@
           "address": "Hochstädter Straße 11, 13347 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.550421, 
+          "lon": 13.363701 
         }
       ]
 		},
@@ -837,8 +837,8 @@
           "address": "Genslerstraße 13, 13055 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.541492, 
+          "lon": 13.499555
         }
       ]
 		},
@@ -858,8 +858,8 @@
           "address": "Thulestraße 11, 13189 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.555444, 
+          "lon": 13.416804 
         }
       ]
 		},
@@ -880,8 +880,8 @@
           "address": "Wilhelm-Kabus-Straße 74, 10829 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.479099, 
+          "lon": 13.364809 
         }
       ]
 		},
@@ -1262,8 +1262,8 @@
           "address": "Genslerstraße 13, 13055 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.541492, 
+          "lon": 13.499555
         }
       ],
 			"questions": {
@@ -1467,8 +1467,8 @@
           "address": "ARS house, Pärnu mnt 154, 11317 Tallinn",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 59.408800, 
+          "lon": 24.734704  
         }
       ],
 			"questions": {
@@ -2083,8 +2083,8 @@
           "address": "ARS house, Pärnu mnt 154, 11317 Tallinn",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 59.408800, 
+          "lon": 24.734704  
         }
       ]
 		},
