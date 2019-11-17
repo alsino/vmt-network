@@ -271,30 +271,30 @@ let tooltip = sidebar
 
 
   //Labels
-  let label = node.append("text")
-    .text(function (d) {
-      return d.name;
-    })
-    .style("font-size", d =>  textScale(d.linkCount))
-    .attr('x', 9)
-    .attr('y', 3)
-    .on('mouseover.fade', (d, i, nodes) => {
-      fade(d, i, nodes, 0.1, "capitalize");
-    })
-    .on('mouseout.fade', (d, i, nodes) => {
-      fade(d, i, nodes, 1, "capitalize");
-    })
-    .on('mouseover.tooltip', (d) => { showTooltip(d);})
-    .on("mouseout.tooltip", function () {
-      label.style("fill", "black");
-      hideTooltip();
-    })
-    .on("mousemove", function () {
-      // tooltip.style("left", (d3.event.pageX) + "px")
-      //   .style("top", (d3.event.pageY + 10) + "px");
-    })
-    .on('dblclick', releasenode)
-    .on('click', (d) => openArtistPage(d.profileID))
+  // let label = node.append("text")
+  //   .text(function (d) {
+  //     return d.name;
+  //   })
+  //   .style("font-size", d =>  textScale(d.linkCount))
+  //   .attr('x', 9)
+  //   .attr('y', 3)
+  //   .on('mouseover.fade', (d, i, nodes) => {
+  //     fade(d, i, nodes, 0.1, "capitalize");
+  //   })
+  //   .on('mouseout.fade', (d, i, nodes) => {
+  //     fade(d, i, nodes, 1, "capitalize");
+  //   })
+  //   .on('mouseover.tooltip', (d) => { showTooltip(d);})
+  //   .on("mouseout.tooltip", function () {
+  //     label.style("fill", "black");
+  //     hideTooltip();
+  //   })
+  //   .on("mousemove", function () {
+  //     // tooltip.style("left", (d3.event.pageX) + "px")
+  //     //   .style("top", (d3.event.pageY + 10) + "px");
+  //   })
+  //   .on('dblclick', releasenode)
+  //   .on('click', (d) => openArtistPage(d.profileID))
 
   
   let legendItemSelected = false;

@@ -1,3 +1,10 @@
-jonas: es wäre interessant, über das netzwerk die persönlichkeiten der künstler/innen erkunden zu können und dann zu schauen, wie das mit deren werken zusammengeht. >> person und werk
+jonas: 
+- es wäre interessant, über das netzwerk die persönlichkeiten der künstler/innen erkunden zu können und dann zu schauen, wie das mit deren werken zusammengeht. >> person und werk
 
-beate: jeweiliges artist statement wäre interessant, oder unterschiedliche schaffensperioden
+beate: 
+- jeweiliges artist statement wäre interessant, oder unterschiedliche schaffensperioden
+
+schinko: 
+- raster / hexagon dahinterlegen und dann nodes darauf mappen, um weg vom haarnetz zu kommen
+- zoomabhängiges zeigen von infos guter ansatz für unterschiedliche komplexität 
+- evtl "react" nutzen für die filteroptionen
