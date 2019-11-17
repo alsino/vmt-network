@@ -5,6 +5,7 @@ beate:
 - jeweiliges artist statement wäre interessant, oder unterschiedliche schaffensperioden
 
 schinko: 
-- raster / hexagon dahinterlegen und dann nodes darauf mappen, um weg vom haarnetz zu kommen
+- evtl edge-bundling um netzwerk lesbarer zu machen
+- evtl raster / hexagon dahinterlegen und dann nodes darauf mappen, um weg vom haarnetz zu kommen
 - zoomabhängiges zeigen von infos guter ansatz für unterschiedliche komplexität 
 - evtl "react" nutzen für die filteroptionen
