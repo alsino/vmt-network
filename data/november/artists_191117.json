@@ -109,8 +109,8 @@
           "address": "Uferstraße 8, 13357 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 52.552060,
-          "lon": 13.374382  
+          "lat": 52.551871, 
+          "lon": 13.374360 
         }
       ]
 		},
@@ -348,8 +348,8 @@
           "address": "Rodenbergstraße 14, 10439 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 52.550733, 
-          "lon": 13.416939 
+          "lat": 52.550602, 
+          "lon": 13.416961 
         }
       ]
 		},
@@ -443,8 +443,8 @@
           "address": "Drontheimer Straße 37A, 13359 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 52.558622, 
-          "lon": 13.374832 
+          "lat": 52.557898, 
+          "lon": 13.376080 
         }
       ],
 			"questions": {
@@ -768,8 +768,8 @@
           "address": "Sonnenallee 65, 12045 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 52.484954, 
-          "lon": 13.434833  
+          "lat": 52.484830, 
+          "lon": 13.434833 
         }
       ],
 			"questions": {
@@ -901,8 +901,8 @@
           "address": "Eulerstraße 16, 13357 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.553650, 
+          "lon": 13.390724  
         }
       ]
 		},
@@ -923,8 +923,8 @@
           "address": "Adalbertstraße 9, 10999 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.500893, 
+          "lon": 13.419196 
         }
       ]
 		},
@@ -944,8 +944,8 @@
           "address": "Schönhauser Allee 140, 10437 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.542323, 
+          "lon": 13.411824 
         }
       ]
 		},
@@ -965,8 +965,8 @@
           "address": "Eulerstraße 1A, 13357 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.552387, 
+          "lon": 13.389042  
         }
       ]
 		},
@@ -986,8 +986,8 @@
           "address": "Rodenbergstraße 14, 10439 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.550602, 
+          "lon": 13.416961 
         }
       ],
 			"questions": {
@@ -1012,8 +1012,8 @@
           "address": "Lobeckstraße 30-35, 10969 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.503091,
+          "lon": 13.407863
         }
       ]
 		},
@@ -1033,8 +1033,8 @@
           "address": "Am Lohmühlenpark 1, 20099 Hamburg",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 53.557767, 
+          "lon": 10.018037  
         }
       ]
 		},
@@ -1054,8 +1054,8 @@
           "address": "Nalepastraße 18, 12459 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.480116, 
+          "lon": 13.500326 
         }
       ],
 			"questions": {
@@ -1080,8 +1080,8 @@
           "address": "Urbanstraße 100, 10967 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.489926, 
+          "lon": 13.422039 
         }
       ]
 		},
@@ -1101,16 +1101,16 @@
           "address": "Brunnenstraße 64, 13355 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.540532, 
+          "lon": 13.394918  
         },
         {
           "name": " ",
           "address": "Bergstraße 26, 10115 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.531918, 
+          "lon": 13.394455 
         }
       ]
 		},
@@ -1130,8 +1130,8 @@
           "address": "Via Senese 68, 50124 Firenze",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 43.753996, 
+          "lon": 11.239159  
         }
       ]
 		},
@@ -1549,8 +1549,8 @@
           "address": "Via Senese 68, 50124 Firenze",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 43.753996, 
+          "lon": 11.239159  
         }
       ],
 			"questions": {
@@ -1858,8 +1858,8 @@
           "address": "Via Senese 68, 50124 Firenze",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 43.753996, 
+          "lon": 11.239159  
         }
       ],
 			"questions": {
@@ -1885,8 +1885,8 @@
           "address": "Gartenstraße 7, 10115 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.529996, 
+          "lon": 13.392310 
         }
       ]
 		},
@@ -1906,8 +1906,8 @@
           "address": "Uferstraße 8, 13357 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.551871, 
+          "lon": 13.374360 
         }
       ]
 		},
@@ -1927,8 +1927,8 @@
           "address": "Revaler Straße 99, 10245 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.507545, 
+          "lon": 13.451575 
         }
       ]
 		},
@@ -1948,8 +1948,8 @@
           "address": "Via Senese 68, 50124 Firenze",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 43.753996, 
+          "lon": 11.239159  
         }
       ],
 			"questions": {
@@ -1974,8 +1974,8 @@
           "address": "Jessnerstraße 47, 10247 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.509897, 
+          "lon": 13.470735 
         }
       ]
 		},
@@ -1995,8 +1995,8 @@
           "address": "Uferstraße 8, 13357 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.551871, 
+          "lon": 13.374360 
         }
       ]
 		},
@@ -2016,8 +2016,8 @@
           "address": "Schleiermacherstraße 31, 10961 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.492577, 
+          "lon": 13.399034 
         }
       ]
 		},
@@ -2036,8 +2036,8 @@
           "address": "Herzbergstraße 100, 10365 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.526850, 
+          "lon": 13.499157 
         }
       ]
 		},
@@ -2057,8 +2057,8 @@
           "address": "Uferstraße 8, 13357 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.551871, 
+          "lon": 13.374360 
         }
       ],
 			"questions": {
@@ -2104,8 +2104,8 @@
           "address": "Rollbergstraße 1, 12053 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.479445,
+          "lon": 13.436738 
         }
       ]
 		},
@@ -2125,8 +2125,8 @@
           "address": "Tegeler Straße 6, 13353 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.539196, 
+          "lon": 13.360881 
         }
       ],
 			"questions": {
@@ -2151,8 +2151,8 @@
           "address": "Schönfließer Straße 7a, 10439 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.553471, 
+          "lon": 13.408868
         }
       ],
 			"questions": {
@@ -2177,8 +2177,8 @@
           "address": "Lessingstr 98/100, 13158 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.589863, 
+          "lon": 13.357955 
         }
       ]
 		},
@@ -2198,8 +2198,8 @@
           "address": "Gerichtstraße 12-13, 13347 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.543609, 
+          "lon": 13.375432 
         }
       ]
 		},
@@ -2219,8 +2219,8 @@
           "address": "Drontheimer Straße 36a, 13359 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.557898, 
+          "lon": 13.376080 
         }
       ]
 		},
@@ -2240,8 +2240,8 @@
           "address": "Liselotte-Herrmann-Straße 14, 10407 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.530908, 
+          "lon": 13.436841  
         }
       ]
 		},
@@ -2261,8 +2261,8 @@
           "address": "Via Senese 68, 50124 Firenze",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 43.753996, 
+          "lon": 11.239159  
         }
       ],
 			"questions": {
@@ -2287,8 +2287,8 @@
           "address": "Gerichtstraße 12-13, 13347 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.543609, 
+          "lon": 13.375432 
         }
       ]
 		},
@@ -2305,11 +2305,11 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": "Berlin",
+          "address": "Chodowieckistraße 31, 10405 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.537096, 
+          "lon": 13.427277  
         }
       ],
 			"questions": {
@@ -2334,8 +2334,8 @@
           "address": "Warnholtzstrasse 4, 22767 Hamburg",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 53.555009, 
+          "lon": 9.945380 
         }
       ]
 		},
@@ -2355,8 +2355,8 @@
           "address": "Sonnenallee 65, 12045 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.484830, 
+          "lon": 13.434833 
         }
       ]
 		},
@@ -2376,8 +2376,8 @@
           "address": "Kühnemannstraße 51-69, 13409 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.567664, 
+          "lon": 13.384613 
         }
       ]
 		},
@@ -2397,8 +2397,8 @@
           "address": "Sonnenallee 65, 12045 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.484830, 
+          "lon": 13.434833 
         }
       ]
 		},
@@ -2419,8 +2419,8 @@
           "address": "Via Senese 68, 50124 Firenze",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 43.753996, 
+          "lon": 11.239159  
         }
       ],
 			"questions": {
@@ -2445,8 +2445,8 @@
           "address": "Spiekermannstraße 31A, 13189 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.554001, 
+          "lon": 13.428658 
         }
       ],
 			"questions": {
@@ -2471,8 +2471,8 @@
           "address": "Schwedter Straße 232, 10435 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.538151, 
+          "lon": 13.405162 
         }
       ]
 		},
@@ -2492,8 +2492,8 @@
           "address": "Paul-Lincke-Ufer 30, 10999 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.495387, 
+          "lon": 13.426032  
         }
       ]
 		},
@@ -2513,16 +2513,16 @@
           "address": "Platz der Vereinten Nationen 29, 10249 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.524045, 
+          "lon": 13.429032 
         },
         {
           "name": " ",
           "address": "Provinzstraße 42, 13409 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.567997, 
+          "lon": 13.378938  
         }
       ],
 			"questions": {
@@ -2547,8 +2547,8 @@
           "address": "Gerichtstraße 12-13, 13347 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.543609, 
+          "lon": 13.375432 
         }
       ],
 			"questions": {
@@ -2573,8 +2573,8 @@
           "address": "Görschstraße 7, 13187 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.566485, 
+          "lon": 13.399281  
         }
       ]
 		},
@@ -2595,8 +2595,8 @@
           "address": "Kamekestraße 11, 13409 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.568306, 
+          "lon": 13.376099 
         }
       ]
 		},
@@ -2616,16 +2616,16 @@
           "address": "Waldstraße 58, 13403 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.576378, 
+          "lon": 13.315817
         },
         {
           "name": " ",
           "address": "Torstraße 106, 10119 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.529578, 
+          "lon": 13.403429 
         }
       ]
 		},
@@ -2645,8 +2645,8 @@
           "address": "Pankstraße 13, 13127 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.593096, 
+          "lon": 13.438344 
         }
       ]
 		},
@@ -2667,8 +2667,8 @@
           "address": "Holsteinische Str. 40, 10717 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.491123, 
+          "lon": 13.324685 
         }
       ],
 			"questions": {
