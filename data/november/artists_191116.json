@@ -185,8 +185,8 @@
           "address": "Schillerstraße 96, 10625 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.510448, 
+          "lon": 13.311225  
         }
       ],
 			"questions": {
@@ -211,8 +211,8 @@
           "address": "Holtwisch 11, 22527 Hamburg",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 53.603608,
+          "lon": 9.926998  
         }
       ]
 		},
@@ -232,8 +232,8 @@
           "address": "Wassertorstraße 65, 10785 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.499256, 
+          "lon": 13.410479 
         }
       ]
 		},
@@ -253,8 +253,8 @@
           "address": "Marchlewskistraße 89A, 10243 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.510129, 
+          "lon": 13.448081 
         }
       ],
 			"questions": {
@@ -280,8 +280,8 @@
           "address": "Wilhelm-Kabus-Straße 74, 10829 Berlin", 
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.479099, 
+          "lon": 13.364809 
         }
       ]
 		},
@@ -301,8 +301,8 @@
           "address": "Kurfürstenstraße 21-22, 10785 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.499979, 
+          "lon": 13.365048 
         }
       ],
 			"questions": {
@@ -327,8 +327,8 @@
           "address": "Wollankstraße 124, 13187 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.567858, 
+          "lon": 13.398685 
         }
       ]
 		},
@@ -348,8 +348,8 @@
           "address": "Rodenbergstraße 14, 10439 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.550733, 
+          "lon": 13.416939 
         }
       ]
 		},
@@ -369,8 +369,8 @@
           "address": "Herrfurthplatz 7, 12049 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.476893, 
+          "lon": 13.421108 
         }
       ],
 			"questions": {
@@ -395,8 +395,8 @@
           "address": "Mittenwalder Straße 6, 10961 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.494306, 
+          "lon": 13.396617 
         }
       ],
 			"questions": {
@@ -422,8 +422,8 @@
           "address": "Donaustrasse 83, 12043 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.479070, 
+          "lon": 13.441796 
         }
       ]
 		},
@@ -440,11 +440,11 @@
       "studioLocations": [
         {
           "name": "",
-          "address": "Drontheimer Str. 37A, 13359 Berlin",
+          "address": "Drontheimer Straße 37A, 13359 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.558622, 
+          "lon": 13.374832 
         }
       ],
 			"questions": {
@@ -469,8 +469,8 @@
           "address": "Große-Leege-Straße 97/98, 13055 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.544471, 
+          "lon": 13.498622  
         }
       ]
 		},
@@ -487,19 +487,19 @@
       "studioLocations": [
         {
           "name": "",
-          "address": "Wilhelm-Kabus-Straße 74",
+          "address": "Wilhelm-Kabus-Straße 74, 10829 Berlin",
           "date_in": 2018,
           "date_out": 2018,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.479112, 
+          "lon": 13.364809 
         },
         {
           "name": "",
           "address": "Böttgerstraße 1, 13357 Berlin",
           "date_in": 2018,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.550548, 
+          "lon": 13.378961  
         }
       ]
 		},
@@ -519,8 +519,8 @@
           "address": "Am Treptower Park, 12435 Berlin",
           "date_in": 2019,
           "date_out": 2019,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.492402, 
+          "lon": 13.468887 
         }
       ],
 			"questions": {
@@ -543,11 +543,11 @@
       "studioLocations": [
         {
           "name": "",
-          "address": "Iranische Str. 6, 13347 Berlin",
+          "address": "Iranische Straße 6, 13347 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.556002, 
+          "lon": 13.367307 
         }
       ],
 			"questions": {
@@ -572,8 +572,8 @@
           "address": "Uferstraße 11, 13357 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.552118, 
+          "lon": 13.374188 
         }
       ]
 		},
@@ -593,8 +593,8 @@
           "address": "Kreutzigerstraße 14, 10247 Berlin",
           "date_in": 0,
           "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.513187, 
+          "lon": 13.459518  
         }
       ]
 		},
