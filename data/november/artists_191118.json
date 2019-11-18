@@ -1628,8 +1628,8 @@
           "address": "Manteuffelstraße 5, 10997 Berlin",
           "date_in": 0,
           "date_out": "now",
-          "lat": 0,
-          "lon": 0  
+          "lat": 52.505302, 
+          "lon": 13.431019
         }
       ]
 		},
@@ -1648,9 +1648,9 @@
           "name": " ",
           "address": "Dolziger Straße 29, 10247 Berlin",
           "date_in": 0,
-          "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "date_out": "now",
+          "lat": 52.518286, 
+          "lon": 13.470481  
         }
       ]
 		},
@@ -1669,9 +1669,9 @@
           "name": " ",
           "address": "Münzstraße 8, 10178 Berlin",
           "date_in": 0,
-          "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "date_out": 2018,
+          "lat": 52.524397, 
+          "lon": 13.408780  
         }
       ]
 		},
@@ -1690,9 +1690,9 @@
           "name": " ",
           "address": "Linienstraße 154, 10115 Berlin",
           "date_in": 0,
-          "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "date_out": "now",
+          "lat": 52.527532, 
+          "lon": 13.393546 
         }
       ]
 		},
@@ -1713,9 +1713,9 @@
           "name": " ",
           "address": "Prof.-Dr.-Helmert-Straße 2-3, 14482 Potsdam",
           "date_in": 0,
-          "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "date_out": 2018,
+          "lat": 52.394112, 
+          "lon": 13.133472 
         }
       ],
 			"questions": {
@@ -1739,9 +1739,9 @@
           "name": " ",
           "address": "Ackerstraße 80, 13355 Berlin",
           "date_in": 0,
-          "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "date_out": "now",
+          "lat": 52.539466, 
+          "lon": 13.383202 
         }
       ],
 			"questions": {
@@ -1766,9 +1766,9 @@
           "name": " ",
           "address": "Tegeler Straße 6, 13353 Berlin",
           "date_in": 0,
-          "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "date_out": "now",
+          "lat": 52.539189, 
+          "lon": 13.360871 
         }
       ]
 		},
@@ -1787,9 +1787,9 @@
           "name": " ",
           "address": "Straßburger Straße 58, 10405 Berlin",
           "date_in": 0,
-          "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "date_out": "now",
+          "lat": 52.528790, 
+          "lon": 13.412159
         }
       ]
 		},
@@ -1809,9 +1809,9 @@
           "name": " ",
           "address": "Hasenheide 9, 10967 Berlin",
           "date_in": 0,
-          "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "date_out": "now",
+          "lat": 52.487457, 
+          "lon": 13.422371 
         }
       ],
 			"questions": {
@@ -1835,9 +1835,9 @@
           "name": " ",
           "address": "Pistoriusstraße 142, 13086 Berlin",
           "date_in": 0,
-          "date_out": 0,
-          "lat": 0,
-          "lon": 0  
+          "date_out": "now",
+          "lat": 52.550763, 
+          "lon": 13.456285 
         }
       ]
 		},
