@@ -267,7 +267,7 @@ let tooltip = sidebar
       //   .style("top", (d3.event.pageY + 10) + "px");
     })
     .on('dblclick', releasenode)
-    .on('click', openArtistPage)
+    .on('click', (d) => openArtistPage(d.profileID))
 
 
   //Labels
