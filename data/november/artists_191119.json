@@ -575,7 +575,12 @@
           "lat": 52.552118, 
           "lon": 13.374188 
         }
-      ]
+      ],
+      "questions": {
+        "why": "Because I grew up in the 90s!",
+        "music": "Melvins, Napalm Death, and all kind of swing music.",
+        "workHours" : "13.00 to 18.00."
+      }
 		},
 		{
 			"name": "Craig Dyer",
