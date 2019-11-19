@@ -176,7 +176,7 @@ let tooltip = sidebar
             <div class="tooltip-name">${d.name}</div>
             ${discipline}
             <div class="tooltip-birth">Born ${d.birthYear} in ${d.birthTown}, ${d.birthCountry}</div>
-            <div>Studio in ${d.studioLocation}</div>
+            <div>Studio in ${d.studioVisit}</div>
             <br>
             <div>${d.questions.why}</div>
             <br>
@@ -194,7 +194,7 @@ let tooltip = sidebar
             <div class="tooltip-name">${d.name}</div>
             ${discipline}
             <div class="tooltip-birth">Born ${d.birthYear} in ${d.birthTown}, ${d.birthCountry}</div>
-            <div>Studio in ${d.studioLocation}</div>
+            <div>Studio in ${d.studioVisit}</div>
           </div>
         </div>
         <img class="tooltip-img" src="./assets/img/${d.imageUrl}">`
@@ -209,7 +209,7 @@ let tooltip = sidebar
           <div class="tooltip-info-inner">
             <div class="tooltip-name">${d.name}</div>
             ${discipline}
-            <div>Studio in ${d.studioLocation}</div>
+            <div>Studio in ${d.studioVisit}</div>
             <br>
             <div>${d.questions.why}</div>
             <br>
@@ -223,7 +223,7 @@ let tooltip = sidebar
           <div class="tooltip-info-inner">
             <div class="tooltip-name">${d.name}</div>
             ${discipline}
-            <div>Studio in ${d.studioLocation}</div>
+            <div>Studio in ${d.studioVisit}</div>
           </div>
         </div>
         <img class="tooltip-img" src="./assets/img/${d.imageUrl}">`
@@ -541,7 +541,7 @@ let tooltip = sidebar
                 imageUrl: item.imageUrl,
                 index: item.index,
                 profileID: item.profileID,
-                studioLocation: item.studioLocation,
+                studioVisit: item.studioVisit,
                 questions: item.questions,
                 vx: item.vx,
                 vy: item.vy,
