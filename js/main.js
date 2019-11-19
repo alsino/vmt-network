@@ -256,6 +256,9 @@ let tooltip = sidebar
         return symbolGenerator();
       }
     })
+     .on('mouseover.fade', (d, i, nodes) => {
+     fade(d, i, nodes, 0.1, "capitalize");
+     })
     .on('mouseover.tooltip', function (d) {
       showTooltip(d);
     })
