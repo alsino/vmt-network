@@ -262,6 +262,9 @@ let tooltip = sidebar
     .on('mouseover.tooltip', function (d) {
       showTooltip(d);
     })
+     .on('mouseout.fade', (d, i, nodes) => {
+       fade(d, i, nodes, 1, "capitalize");
+     })
     .on("mouseout.tooltip", function () {
       hideTooltip();
     })
