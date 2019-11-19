@@ -266,6 +266,7 @@ let tooltip = sidebar
        fade(d, i, nodes, 1, "capitalize");
      })
     .on("mouseout.tooltip", function () {
+      label.style("fill", "black");
       hideTooltip();
     })
     .on("mousemove", function () {
