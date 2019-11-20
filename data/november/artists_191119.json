@@ -952,7 +952,12 @@
           "lat": 52.542323, 
           "lon": 13.411824 
         }
-      ]
+      ],
+      "questions": {
+        "why": "I feel the need to do what I do.",
+        "music": "super random. From Argentinian radio shows to YouTube videos.",
+        "workHours" : "Usually I work from noon until late."
+      }
 		},
 		{
 			"name": "Janes Haid-Schmallenberg",
