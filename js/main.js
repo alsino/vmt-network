@@ -64,7 +64,7 @@ let tooltip = sidebar
   .attr("class", "tooltip")
   .style("opacity", 0);
 
-  d3.json("./data/november/artists_191119.json").then(function(graph) {
+  d3.json("./data/november/artists_191121.json").then(function(graph) {
 
   function distance(link) {
     // return 1 / Math.min(count(link.source), count(link.target));
