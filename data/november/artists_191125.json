@@ -458,6 +458,8 @@
 				"workHours" : "9am to 3 pm."
 			}
 		},
+
+
 		{
 			"name": "Mimmo Catania",
 			"discipline": [1],
@@ -2358,11 +2360,11 @@
 		},
 
     {
-      "name": "Cornelia-Theimer-Gardella",
+      "name": "Cornelia Theimer Gardella",
       "discipline": [5,4],
       "gender": "female",
       "birthYear": 1972,
-      "birthTown": " Erfurt",
+      "birthTown": "Erfurt",
       "birthCountry": "Germany",
       "profileID": 0,
       "imageUrl" : "cornelia_theimer_gardella.jpg",
@@ -4626,7 +4628,7 @@
 	}, 
 
   {
-    "source": "Cornelia-Theimer-Gardella",
+    "source": "Cornelia Theimer Gardella",
     "target": "Annekatrin Lemke",
     "value": 25
   }, 
