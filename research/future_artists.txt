@@ -1,3 +1,26 @@
+    {
+      "name": "Bernhard Rappold",
+      "discipline": [1,3],
+      "gender": "male",
+      "birthYear": 0,
+      "birthTown": "?",
+      "birthCountry": "?",
+      "profileID": 0,
+      "imageUrl" : "bernhard_rappold.jpg",
+      "studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": " ",
+          "date_in": 2017,
+          "date_out": "now",
+          "lat": 0,
+          "lon": 0 
+        }
+      ]
+    },
+		
+
 
 		{
 			"name": "Kaan Bulak",

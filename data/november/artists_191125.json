@@ -2356,6 +2356,29 @@
         }
       ]
 		},
+
+    {
+      "name": "Cornelia-Theimer-Gardella",
+      "discipline": [5,4],
+      "gender": "female",
+      "birthYear": 1972,
+      "birthTown": " Erfurt",
+      "birthCountry": "Germany",
+      "profileID": 0,
+      "imageUrl" : "cornelia_theimer_gardella.jpg",
+      "studioVisit": "Erfurt",
+      "studioLocations": [
+        {
+          "name": "Wächterhaus 3",
+          "address": "Nordhäuser Straße 84, 99089 Erfurt",
+          "date_in": "May 2018",
+          "date_out": "now",
+          "lat": 50.989148, 
+          "lon": 11.014846
+        }
+      ]
+    },
+
 		{
 			"name": "T.Raumschmiere",
 			"discipline": [3],
@@ -4094,6 +4117,12 @@
 		"target": "Pietro Sanguineti",
 		"value": 10
 	},
+  {
+    "source": "Annekatrin Lemke",
+    "target": "Cornelia Theimer Gardella",
+    "value": 10
+  },
+
 
 	 {
 		"source": "Grischa Lichtenberger",
@@ -4594,7 +4623,16 @@
 		"source": "Frank Spilker",
 		"target": "Bernd Begemann",
 		"value": 10
-	}, {
+	}, 
+
+  {
+    "source": "Cornelia-Theimer-Gardella",
+    "target": "Annekatrin Lemke",
+    "value": 25
+  }, 
+
+
+  {
 		"source": "Tomoyuki Ueno",
 		"target": "Tracey Snelling",
 		"value": 15
