@@ -3,7 +3,7 @@ Filter:
 -------
 
 - Discipline-filter: 
-  -- Button für All disciplines
+  -- Button für All disciplines  
   -- Pro Disziplin Nur Leute mit ihren eigenen Verbindungen (Netzwerk ändert sich) 
 
 - Connections-Filter weiter: 

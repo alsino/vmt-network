@@ -49,22 +49,29 @@ let legendLinks = legendConnections
     .append("div")
     .attr("class", "legend-links");
 
-let headingArtists = legendArtists
-    .append("div")
-    .attr("class", "legend-heading")
-    .text("Select Artist");
+// let headingArtists = legendArtists
+//     .append("div")
+//     .attr("class", "legend-heading")
+//     .text(`Select one of ${n} artists`);
 
-// 4. Select setup
-let select = legendArtists.append("select")
-  .attr("class", "selector");
 
-// 5. Tooltip setup
-let tooltip = sidebar
-  .append("div")
-  .attr("class", "tooltip")
-  .style("opacity", 0);
 
   d3.json("./data/december/artists_191206.json").then(function(graph) {
+
+    let headingArtists = legendArtists
+    .append("div")
+    .attr("class", "legend-heading")
+    .text(`Select one of ${graph.nodes.length} artists`);
+
+    // 4. Select setup
+    let select = legendArtists.append("select")
+      .attr("class", "selector");
+
+    // 5. Tooltip setup
+    let tooltip = sidebar
+      .append("div")
+      .attr("class", "tooltip")
+      .style("opacity", 0);
 
   function distance(link) {
     // return 1 / Math.min(count(link.source), count(link.target));
@@ -670,7 +677,12 @@ let tooltip = sidebar
       return thisOpacity;
     });
 
-    
+   
+    label.style('display', function (o) {
+      visibilityMode = isConnected(selectedArtist, o) ? "block" : "none";
+      return visibilityMode;
+    })
+
 
     if (opacity != 1) {
       link.style('stroke-opacity', o => (o.source === selectedArtist || o.target === selectedArtist ? 1 : opacity / 2));
