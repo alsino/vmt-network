@@ -422,6 +422,8 @@ d3.json("./data/november/artists_191101.json", function (error, graph) {
     d3.select(nodes[i]).style("fill", "#0000ff");
     d3.select(nodes[i]).style("text-transform", fontStyle);
 
+    
+
     let op = opacity;
 
     node.style('stroke-opacity', function (o) {

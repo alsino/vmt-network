@@ -256,22 +256,18 @@ let tooltip = sidebar
         return symbolGenerator();
       }
     })
-     .on('mouseover.fade', (d, i, nodes) => {
-     fade(d, i, nodes, 0.1, "capitalize");
+    .on('mouseover.fade', (d, i, nodes) => {
+      fade(d, i, nodes, 0.1, "0000FF");
      })
     .on('mouseover.tooltip', function (d) {
       showTooltip(d);
     })
      .on('mouseout.fade', (d, i, nodes) => {
-       fade(d, i, nodes, 1, "capitalize");
+       fade(d, i, nodes, 1, "black");
      })
     .on("mouseout.tooltip", function () {
-      node.style("fill", "black");
+      // node.style("fill", "black");
       hideTooltip();
-    })
-    .on("mousemove", function () {
-      // tooltip.style("left", (d3.event.pageX) + "px")
-      //   .style("top", (d3.event.pageY + 10) + "px");
     })
     .on('dblclick', releasenode)
     .on('click', (d) => openArtistPage(d.profileID))
@@ -466,9 +462,9 @@ let tooltip = sidebar
   }
 
 
-  function fade(d, i, nodes, opacity, fontStyle) {
-    d3.select(nodes[i]).style("fill", "#0000ff");
-    d3.select(nodes[i]).style("text-transform", fontStyle);
+  function fade(d, i, nodes, opacity, fillColor) {
+    d3.select(nodes[i]).style("fill", fillColor);
+    // d3.select(nodes[i]).style("text-transform", fontStyle);
 
     let op = opacity;
 
