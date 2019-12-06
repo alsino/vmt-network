@@ -475,8 +475,8 @@
           "address": "Thomasiusstraße 4, 10557 Berlin",
           "date_in": 0,
           "date_out": "now",
-          "lat": 0, 
-          "lon": 0 
+          "lat": 52.523353,
+          "lon": 13.350336  
         }
       ],
       "questions": {
@@ -1726,7 +1726,7 @@
 			"birthYear": 1966,
 			"birthTown": "Berlin",
 			"birthCountry": "GDR",
-			"profileID": 0,
+			"profileID": 9856,
 			"imageUrl" : "robert_lippok.jpg",
 			"studioVisit": "Berlin",
       "studioLocations": [
