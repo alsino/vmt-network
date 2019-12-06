@@ -247,6 +247,21 @@ let tooltip = sidebar
 
 
   node
+  .on('mouseover.fade', (d, i, nodes) => {
+    fade(d, i, nodes, 0.1, "0000FF", "block");
+   })
+   .on('mouseover.tooltip', function (d) {
+    showTooltip(d);
+  })
+   .on('mouseout.fade', (d, i, nodes) => {
+     fade(d, i, nodes, 1, "black", "none");
+   })
+  .on("mouseout.tooltip", function () {
+    // node.style("fill", "black");
+    hideTooltip();
+  })
+  .on('dblclick', releasenode)
+  .on('click', (d) => openArtistPage(d.profileID))
     .append('path')
     .attr('d', function (d) {
       if (d.discipline[0] && d.discipline[0] < 11) {
@@ -256,48 +271,35 @@ let tooltip = sidebar
         return symbolGenerator();
       }
     })
-    .on('mouseover.fade', (d, i, nodes) => {
-      fade(d, i, nodes, 0.1, "0000FF");
-     })
-    .on('mouseover.tooltip', function (d) {
-      showTooltip(d);
-    })
-     .on('mouseout.fade', (d, i, nodes) => {
-       fade(d, i, nodes, 1, "black");
-     })
-    .on("mouseout.tooltip", function () {
-      // node.style("fill", "black");
-      hideTooltip();
-    })
-    .on('dblclick', releasenode)
-    .on('click', (d) => openArtistPage(d.profileID))
+    
 
 
   //Labels
-  // let label = node.append("text")
-  //   .text(function (d) {
-  //     return d.name;
-  //   })
-  //   .style("font-size", d =>  textScale(d.linkCount))
-  //   .attr('x', 9)
-  //   .attr('y', 3)
-  //   .on('mouseover.fade', (d, i, nodes) => {
-  //     fade(d, i, nodes, 0.1, "capitalize");
-  //   })
-  //   .on('mouseout.fade', (d, i, nodes) => {
-  //     fade(d, i, nodes, 1, "capitalize");
-  //   })
-  //   .on('mouseover.tooltip', (d) => { showTooltip(d);})
-  //   .on("mouseout.tooltip", function () {
-  //     label.style("fill", "black");
-  //     hideTooltip();
-  //   })
-  //   .on("mousemove", function () {
-  //     // tooltip.style("left", (d3.event.pageX) + "px")
-  //     //   .style("top", (d3.event.pageY + 10) + "px");
-  //   })
-  //   .on('dblclick', releasenode)
-  //   .on('click', (d) => openArtistPage(d.profileID))
+  let label = node.append("text")
+    .text(function (d) {
+      return d.name;
+    })
+    .style("font-size", 11)
+    .attr('class', "label")
+    .attr('x', 9)
+    .attr('y', 3)
+    // .on('mouseover.fade', (d, i, nodes) => {
+    //   fade(d, i, nodes, 0.1);
+    // })
+    // .on('mouseout.fade', (d, i, nodes) => {
+    //   fade(d, i, nodes, 1);
+    // })
+    // .on('mouseover.tooltip', (d) => { showTooltip(d);})
+    // .on("mouseout.tooltip", function () {
+    //   label.style("fill", "black");
+    //   hideTooltip();
+    // })
+    // .on("mousemove", function () {
+    //   // tooltip.style("left", (d3.event.pageX) + "px")
+    //   //   .style("top", (d3.event.pageY + 10) + "px");
+    // })
+    .on('dblclick', releasenode)
+    .on('click', (d) => openArtistPage(d.profileID))
 
   
   let legendItemSelected = false;
@@ -462,9 +464,11 @@ let tooltip = sidebar
   }
 
 
-  function fade(d, i, nodes, opacity, fillColor) {
-    d3.select(nodes[i]).style("fill", fillColor);
-    // d3.select(nodes[i]).style("text-transform", fontStyle);
+  function fade(d, i, nodes, opacity, fillColor, displayMode) {
+    d3.select(nodes[i]).style("fill", fillColor); // Highlight node on hover
+    d3.select(nodes[i]).select(".label").style("display", displayMode); // Show text on hover
+    // fade(d, i, nodes, 0.1, null, "block");
+    console.log(displayMode);
 
     let op = opacity;
 
@@ -479,7 +483,47 @@ let tooltip = sidebar
       // link.style('stroke', o => (o.value == 10 ? "#F76906" : "#1CDE7E"));
     } else {
       link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : op));
-    }    
+    } 
+    
+
+
+
+
+    // let selectedNode = d3.select(nodes[i]);
+
+    // console.log(selectedNode);
+
+    // selectedNode
+    //   .append("text")
+    //   .text("hello").attr('x', 9).attr('y', 3)
+
+  // Show labels 
+  // let label = node.append("text")
+  //   .text(function (d) {
+  //     return d.name;
+  //   })
+  //   .style("font-size", d =>  textScale(d.linkCount))
+  //   .attr('x', 9)
+  //   .attr('y', 3)
+  //   .on('mouseover.fade', (d, i, nodes) => {
+  //     fade(d, i, nodes, 0.1, "capitalize");
+  //   })
+  //   .on('mouseout.fade', (d, i, nodes) => {
+  //     fade(d, i, nodes, 1, "capitalize");
+  //   })
+  //   .on('mouseover.tooltip', (d) => { showTooltip(d);})
+  //   .on("mouseout.tooltip", function () {
+  //     label.style("fill", "black");
+  //     hideTooltip();
+  //   })
+  //   .on("mousemove", function () {
+  //     // tooltip.style("left", (d3.event.pageX) + "px")
+  //     //   .style("top", (d3.event.pageY + 10) + "px");
+  //   })
+  //   .on('dblclick', releasenode)
+  //   .on('click', (d) => openArtistPage(d.profileID))
+
+
   }
 
   function filterDisciplines(discipline, opacity) {
@@ -582,8 +626,6 @@ let tooltip = sidebar
     // .join("g")
     // .attr('class', 'node')
     
-
-
     
     let u = d3.select('.nodes')
       .selectAll('g')
