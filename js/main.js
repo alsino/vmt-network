@@ -480,7 +480,6 @@ let tooltip = sidebar
     if (isActive){
       label.style('display', function (o) {
         visibilityMode = isConnected(d, o) ? "block" : "none";
-        // console.log(visibilityMode)
         return visibilityMode;
       })
     } else {
@@ -499,24 +498,10 @@ let tooltip = sidebar
 
   function filterDisciplines(discipline, opacity) {
     node.style('stroke-opacity', function (o) {
-      // console.log(o.discipline);
       const thisOpacity = o.discipline[0] == discipline || o.discipline[1] == discipline  ? 1 : opacity;
-      // const thisOpacity = o.discipline == discipline ? 1 : opacity;
       this.setAttribute('fill-opacity', thisOpacity);
-      // this.setAttribute('stroke-width', "0px");
-      // this.setAttribute('stroke', "transparent");
       return thisOpacity;
     });
-
-    // label.style('stroke-opacity', function (o) {
-    //   const thisOpacity = o.discipline[0] == discipline || o.discipline[1] == discipline  ? 1 : opacity;
-    //   this.setAttribute('fill-opacity', thisOpacity);
-    //   return thisOpacity;
-    // });
-
-
-    
-
   }
 
   function filterLinks(d, linkType, opacity) {
