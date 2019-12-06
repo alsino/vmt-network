@@ -7,12 +7,11 @@ Filter:
   -- Pro Disziplin Nur Leute mit ihren eigenen Verbindungen (Netzwerk ändert sich) 
 
 - Connections-Filter weiter: 
-  -- all connectiomns -> labels weg
+  -- all connections -> labels weg (zoomstufe)
   -- andere: labels größer
 
   -- Das Achenbach-Phänomen (A)
   -- Interaction with discipline filter
-
 
 
 Infos:
@@ -23,22 +22,18 @@ Infos:
 - Screenshots an artists senden und gegenchecken lassen (S)
 
 
+//Next
+- Einreichung republica (Deadline: 15. Dezember 2019)
+
 
 //Nice to have:  
 
-- Labels on zoom rein?
 - Search 
-- x Artsits (Gesamtanzahl bei Dropdown anzeigen)
-
-
-Switch, Slider, Dropdown
 - working time (who works now?)
 - Musikgeschmack (z.B. Welcher Künstler hört  EPMD? bei der Arbeit)
 - age
 - male / female / others
 - More category symbols: https://stackoverflow.com/questions/25332120/create-additional-d3-js-symbols
-- evtl Disziplin in Infos als Feld im artist-json (dadurch zwar für mich mehr einzutragen, dafür womöglich spezifischere Angaben möglich – Grobzuordnung zu 7 Disziplinen beleibt unabhängig davon erhalten)
-
 
 
 //Mobile: 
@@ -48,7 +43,3 @@ Switch, Slider, Dropdown
 //Links
 https://bost.ocks.org/mike/fisheye/
 https://github.com/upphiminn/d3.ForceBundle
-
-
-//Next
-- Einreichung republica (Deadline: 15. Dezember 2019)
