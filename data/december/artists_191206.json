@@ -2167,13 +2167,18 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Kurfürstenstraße 21, 10785 Berlin",
           "date_in": 2017,
           "date_out": "now",
-          "lat": 0,
-          "lon": 0 
+          "lat": 52.499790, 
+          "lon": 13.365081
         }
-      ]
+      ],
+      "questions": {
+        "why": " ",
+        "music": " ",
+        "workHours" : " "
+      }
     },
 
 
