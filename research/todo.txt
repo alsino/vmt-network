@@ -9,9 +9,12 @@ Filter:
 - Connections-Filter weiter: 
   -- all connections -> labels weg (zoomstufe)
   -- andere: labels größer
+  -- einzelauswahl 
 
   -- Das Achenbach-Phänomen (A)
   -- Interaction with discipline filter
+
+- Dropdown schöner
 
 
 Infos:
@@ -23,8 +26,10 @@ Infos:
 
 
 //Next
+- Doku
 - Einreichung republica (Deadline: 15. Dezember 2019)
-
+- Futurium
+- http://ieeevis.org/
 
 //Nice to have:  
 
