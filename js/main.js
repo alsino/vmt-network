@@ -283,21 +283,6 @@ let tooltip = sidebar
     .attr('class', "label")
     .attr('x', 9)
     .attr('y', 3)
-    // .on('mouseover.fade', (d, i, nodes) => {
-    //   fade(d, i, nodes, 0.1);
-    // })
-    // .on('mouseout.fade', (d, i, nodes) => {
-    //   fade(d, i, nodes, 1);
-    // })
-    // .on('mouseover.tooltip', (d) => { showTooltip(d);})
-    // .on("mouseout.tooltip", function () {
-    //   label.style("fill", "black");
-    //   hideTooltip();
-    // })
-    // .on("mousemove", function () {
-    //   // tooltip.style("left", (d3.event.pageX) + "px")
-    //   //   .style("top", (d3.event.pageY + 10) + "px");
-    // })
     .on('dblclick', releasenode)
     .on('click', (d) => openArtistPage(d.profileID))
 
@@ -308,9 +293,7 @@ let tooltip = sidebar
   
   // Legend Disciplines
   let legendItem = legend.selectAll("div")
-    .data(symbolTypes, function(d) {
-      return d;
-    })
+    .data(symbolTypes, d => d)
     .enter()
     .append("div")
     .attr("class", "legendItem")
@@ -333,7 +316,6 @@ let tooltip = sidebar
 
     // Reset all disciplines on svg click
     d3.select("svg").on("click", function() {
-
       for (let i = 0; i < symbolTypes.length; i++) {
         let element = symbolTypes[i].selected;
         element = false;
@@ -353,17 +335,13 @@ let tooltip = sidebar
           .type(d3[symbolTypes[d.discipline].symbol])
           .size(symbolSizeLegend);
         return symbolGenerator();
-      } 
-      // else if (d.discipline == 0) {
-      //   symbolGenerator
-      //   .type(d3[symbolTypes[1].symbol])
-      //   .size(symbolSizeLegend);
-      //   return symbolGenerator();
-      // }
-    }).attr('transform', 'translate(10, 10)');
+      }})
+    .attr('transform', 'translate(10, 10)');
 
-  let legendDescription = legendItem.append("div").text((d) => d.name)
-
+  let legendDescription = legendItem
+    .append("div")
+    .text(d => d.name)
+ 
   let linkTypeselected = false;
 
   // Legend Link Types
@@ -374,6 +352,8 @@ let tooltip = sidebar
     .attr("class", "legendItemLinks")
     .on("click", (d, i, nodes)=> {
 
+      
+
       linkTypeselected = true;
 
       if (linkTypeselected) {
@@ -382,6 +362,12 @@ let tooltip = sidebar
         filterLinks(d, d.value, 0.1);
       }
     })
+
+    let firstLegendItem = legendItem.filter(function (d, i) { return i === 0;} )
+        firstLegendItem.classed("legendItem-active", true)
+
+    let firstlinkTypeItem = linkTypeItem.filter(function (d, i) { return i === 0;} )
+        firstlinkTypeItem.classed("legendItem-active", true)
 
     let legendTypeSymbol = linkTypeItem
       .append("div")
@@ -636,7 +622,6 @@ let tooltip = sidebar
       })
       .on('mouseout.fade', (d, i, nodes) => {
         fade(d, i, nodes, 1);
-        console.log("out");
         update(data);
       })
       .on('mouseover.tooltip', (d) => { showTooltip(d);})
