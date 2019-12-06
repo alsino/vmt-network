@@ -7,7 +7,9 @@ Filter:
   -- Pro Disziplin Nur Leute mit ihren eigenen Verbindungen (Netzwerk ändert sich) 
 
 - Connections-Filter weiter: 
-  -- Reset all disciplines
+  -- all connectiomns -> labels weg
+  -- andere: labels größer
+
   -- Das Achenbach-Phänomen (A)
   -- Interaction with discipline filter
 
