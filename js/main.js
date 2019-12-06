@@ -248,13 +248,13 @@ let tooltip = sidebar
 
   node
   .on('mouseover.fade', (d, i, nodes) => {
-    fade(d, i, nodes, 0.1, "0000FF", "block");
+    fade(d, i, nodes, 0.1, "0000FF", true);
    })
    .on('mouseover.tooltip', function (d) {
     showTooltip(d);
   })
    .on('mouseout.fade', (d, i, nodes) => {
-     fade(d, i, nodes, 1, "black", "none");
+     fade(d, i, nodes, 1, "black", false);
    })
   .on("mouseout.tooltip", function () {
     // node.style("fill", "black");
@@ -279,7 +279,7 @@ let tooltip = sidebar
     .text(function (d) {
       return d.name;
     })
-    .style("font-size", 11)
+    .style("font-size", 10)
     .attr('class', "label")
     .attr('x', 9)
     .attr('y', 3)
@@ -464,11 +464,10 @@ let tooltip = sidebar
   }
 
 
-  function fade(d, i, nodes, opacity, fillColor, displayMode) {
+  function fade(d, i, nodes, opacity, fillColor, isActive) {
+
     d3.select(nodes[i]).style("fill", fillColor); // Highlight node on hover
-    d3.select(nodes[i]).select(".label").style("display", displayMode); // Show text on hover
-    // fade(d, i, nodes, 0.1, null, "block");
-    console.log(displayMode);
+    d3.select(nodes[i]).select(".label").style("fill", fillColor); // Highlight node label on hover
 
     let op = opacity;
 
@@ -478,6 +477,17 @@ let tooltip = sidebar
       return thisOpacity;
     });
 
+    if (isActive){
+      label.style('display', function (o) {
+        visibilityMode = isConnected(d, o) ? "block" : "none";
+        // console.log(visibilityMode)
+        return visibilityMode;
+      })
+    } else {
+      label.style('display', "none")
+    }
+
+    
     if (op != 1) {
       link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : op));
       // link.style('stroke', o => (o.value == 10 ? "#F76906" : "#1CDE7E"));
@@ -485,45 +495,6 @@ let tooltip = sidebar
       link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : op));
     } 
     
-
-
-
-
-    // let selectedNode = d3.select(nodes[i]);
-
-    // console.log(selectedNode);
-
-    // selectedNode
-    //   .append("text")
-    //   .text("hello").attr('x', 9).attr('y', 3)
-
-  // Show labels 
-  // let label = node.append("text")
-  //   .text(function (d) {
-  //     return d.name;
-  //   })
-  //   .style("font-size", d =>  textScale(d.linkCount))
-  //   .attr('x', 9)
-  //   .attr('y', 3)
-  //   .on('mouseover.fade', (d, i, nodes) => {
-  //     fade(d, i, nodes, 0.1, "capitalize");
-  //   })
-  //   .on('mouseout.fade', (d, i, nodes) => {
-  //     fade(d, i, nodes, 1, "capitalize");
-  //   })
-  //   .on('mouseover.tooltip', (d) => { showTooltip(d);})
-  //   .on("mouseout.tooltip", function () {
-  //     label.style("fill", "black");
-  //     hideTooltip();
-  //   })
-  //   .on("mousemove", function () {
-  //     // tooltip.style("left", (d3.event.pageX) + "px")
-  //     //   .style("top", (d3.event.pageY + 10) + "px");
-  //   })
-  //   .on('dblclick', releasenode)
-  //   .on('click', (d) => openArtistPage(d.profileID))
-
-
   }
 
   function filterDisciplines(discipline, opacity) {
