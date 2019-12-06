@@ -1,5 +1,5 @@
 const symbolTypes = [
-  {"discipline": 0,"name": "All disciplines","symbol": 'symbolWye', "selected": false},
+  {"discipline": 0,"name": "All Disciplines","symbol": 'symbolCircle', "selected": true},
   {"discipline": 1,"name": "Painting / Drawing / Collage","symbol": 'symbolCircle', "selected": false},
   {"discipline": 2,"name": "Media Art / Performance","symbol": 'symbolCross', "selected": false},
   {"discipline": 3,"name": "Music / Sound", "symbol": 'symbolDiamond', "selected": false},
