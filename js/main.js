@@ -137,9 +137,7 @@ let legendLinks = legendConnections
       return b.linkCount - a.linkCount;
   });
 
-    // mostLinks.forEach((el) => 
-    //   console.log(el.name + " " + el.linkCount)
-    // )
+    // console.log(graph.nodes);
 
 
   let node = nodeCont.selectAll('.node')
@@ -286,7 +284,7 @@ let legendLinks = legendConnections
     .text(function (d) {
       return d.name;
     })
-    .style("font-size", 10)
+    // .style("font-size", 12)
     .attr('class', "label")
     .attr('x', 9)
     .attr('y', 3)
@@ -514,8 +512,13 @@ let legendLinks = legendConnections
   let selectedNodes = [];
 
    selectedLinks = graph.links.filter(function(o){
-      return o.value == linkType;
-    })
+
+    if (linkType == 0) { 
+      return graph.links 
+    } else { 
+      return o.value == linkType;  
+    }
+  })
 
     selectedLinks.forEach((item) => {
       // Check if node is already in selectedNodes array
@@ -539,6 +542,7 @@ let legendLinks = legendConnections
                 gender: item.gender,
                 imageUrl: item.imageUrl,
                 index: item.index,
+                linkCount: item.linkCount,
                 profileID: item.profileID,
                 studioVisit: item.studioVisit,
                 questions: item.questions,
@@ -549,17 +553,23 @@ let legendLinks = legendConnections
             });
         }
     }
-
-    
-    // console.log(selectedNodes);
-    // console.log(result);
-    
     
 
     link.style('stroke-opacity', function (l) {
-      const thisOpacity = l.value == linkType ? 1 : op;
-      this.setAttribute('fill-opacity', thisOpacity);
+
+      let thisOpacity;
+
+      if (linkType == 0) {
+        thisOpacity = 1;
+      } else {
+        thisOpacity = l.value == linkType ? 1 : op;
+      }
+
+      // console.log(linkType);
+
+      
       return thisOpacity;
+    
     });   
 
     update(result);
@@ -589,7 +599,7 @@ let legendLinks = legendConnections
     let u = d3.select('.nodes')
       .selectAll('g')
       .data(data, function(d) {
-        console.log(d);
+        // console.log(d);
         return d;
       });
   
@@ -605,9 +615,11 @@ let legendLinks = legendConnections
       .append('path')
       .attr('r', symbolRadius)
       .attr('d', function (d) {
+        // console.log(d);
         if (d.discipline[0] && d.discipline[0] < 11) {
           symbolGenerator
-            .type(d3[symbolTypes[d.discipline[0]].symbol]);
+            .type(d3[symbolTypes[d.discipline[0]].symbol])
+            .size(getNodeSize(d.linkCount, 2000));
           return symbolGenerator();
         }
       })
@@ -621,7 +633,7 @@ let legendLinks = legendConnections
       .text(function (d) {
         return d.name;
       })
-      .attr('x', 6)
+      .attr('x', 9)
       .attr('y', 3)
       .attr('transform', d => `translate(${d.x},${d.y})`)
       .on('mouseover.fade', (d, i, nodes) => {

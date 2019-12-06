@@ -10,7 +10,7 @@ const symbolTypes = [
 ]
 
 const linkTypes = [
-  {"type": "All connections", "value": null, "color": "rgba(0, 0, 0, 0.3)"  },
+  {"type": "All connections", "value": 0, "color": "rgba(0, 0, 0, 0.3)"  },
   {"type": "Exhibited / on stage together", "value": 10, "color": "rgba(0, 5, 255, 0.3)"},
   {"type": "Collaborated on an art piece ", "value": 25, "color": "rgba(255,0,0,0.3)"},
   {"type": "Together in a residency", "value": 15, "color": "rgba(0,255,0,0.3)"}
