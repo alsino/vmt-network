@@ -410,7 +410,20 @@ let legendLinks = legendConnections
 
   //Zoom functions 
   function zoom_actions(){
+    let zoom = d3.event.transform;
+    let zoomLevel = d3.event.transform.k;
     g.attr("transform", d3.event.transform)
+    console.log(zoomLevel);
+
+    if (zoomLevel > 1.2) {
+      d3.selectAll('.label').style('display', 'block');
+    } else {
+      d3.selectAll('.label').style('display', 'none');
+    }
+
+
+
+
   }
 
   // Utility functions
