@@ -48,3 +48,4 @@ Infos:
 //Links
 https://bost.ocks.org/mike/fisheye/
 https://github.com/upphiminn/d3.ForceBundle
+http://www.scimaps.org/detailMap/index/in_terms_of_geograph_92?lang=ger
