@@ -670,8 +670,13 @@ let tooltip = sidebar
       return thisOpacity;
     });
 
-    
+   
+    label.style('display', function (o) {
+      visibilityMode = isConnected(selectedArtist, o) ? "block" : "none";
+      return visibilityMode;
+    })
 
+    
     if (opacity != 1) {
       link.style('stroke-opacity', o => (o.source === selectedArtist || o.target === selectedArtist ? 1 : opacity / 2));
       label.style("fill", (l) => ( l === selectedArtist ? "#0000ff" : "black" ));
