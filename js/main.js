@@ -29,20 +29,20 @@ let legendArtists = sidebar.append("div").attr("class", "legend-artists");
 
 
 // 1. Legend Disciplines
-let headingDisciplines = legendDiscipline
-    .append("div")
-    .attr("class", "legend-heading")
-    .text("Main Discipline");
+// let headingDisciplines = legendDiscipline
+//     .append("div")
+//     .attr("class", "legend-heading")
+//     .text("Main Discipline");
 
 let legend = legendDiscipline
     .append("div")
     .attr("class", "legend");
 
 // 2. Legend Connections
-let headingConnection = legendConnections
-    .append("div")
-    .attr("class", "legend-heading")
-    .text("Type of Connection");
+// let headingConnection = legendConnections
+//     .append("div")
+//     .attr("class", "legend-heading")
+//     .text("Type of Connection");
 
 // 3. Legend Links
 let legendLinks = legendConnections
@@ -266,7 +266,7 @@ let tooltip = sidebar
     .attr('d', function (d) {
       if (d.discipline[0] && d.discipline[0] < 11) {
         symbolGenerator
-          .type(d3[symbolTypes[d.discipline[0] - 1].symbol])
+          .type(d3[symbolTypes[d.discipline[0]].symbol])
           .size(getNodeSize(d.linkCount, 2000));
         return symbolGenerator();
       }
@@ -303,10 +303,14 @@ let tooltip = sidebar
 
   
   let legendItemSelected = false;
+
+  
   
   // Legend Disciplines
   let legendItem = legend.selectAll("div")
-    .data(symbolTypes)
+    .data(symbolTypes, function(d) {
+      return d;
+    })
     .enter()
     .append("div")
     .attr("class", "legendItem")
@@ -344,12 +348,18 @@ let tooltip = sidebar
     .attr("class", "legendSymbol")
     .append('path')
     .attr('d', function (d) {
-      if (d.discipline && d.discipline < 11) {
+      if (d.discipline) {
         symbolGenerator
-          .type(d3[symbolTypes[d.discipline - 1].symbol])
+          .type(d3[symbolTypes[d.discipline].symbol])
           .size(symbolSizeLegend);
         return symbolGenerator();
-      }
+      } 
+      // else if (d.discipline == 0) {
+      //   symbolGenerator
+      //   .type(d3[symbolTypes[1].symbol])
+      //   .size(symbolSizeLegend);
+      //   return symbolGenerator();
+      // }
     }).attr('transform', 'translate(10, 10)');
 
   let legendDescription = legendItem.append("div").text((d) => d.name)
@@ -604,7 +614,7 @@ let tooltip = sidebar
       .attr('d', function (d) {
         if (d.discipline[0] && d.discipline[0] < 11) {
           symbolGenerator
-            .type(d3[symbolTypes[d.discipline[0] - 1].symbol]);
+            .type(d3[symbolTypes[d.discipline[0]].symbol]);
           return symbolGenerator();
         }
       })
