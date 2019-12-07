@@ -2127,18 +2127,18 @@
       "studioVisit": "Florence",
       "studioLocations": [
         {
-          "name": "Uferhallen",
-          "address": "Uferstraße 8, 13357 Berlin",
+          "name": "Villa Romana",
+          "address": "Via Senese 68, 50124 Florence",
           "date_in": 0,
           "date_out": "now",
-          "lat": 52.551871, 
-          "lon": 13.374360 
+          "lat": 43.753996, 
+          "lon": 11.239159  
         }
       ],
       "questions": {
-        "why": "I believe in art.",
-        "music": "I hear voices.",
-        "workHours" : "8am-12pm."
+        "why": " ",
+        "music": " ",
+        "workHours" : " "
       }
     },
 
@@ -4589,6 +4589,42 @@
 		"target": "Camille Laurelli",
 		"value": 25
 	}, 
+
+  {
+    "source": "Radio Papesse",
+    "target": "Rajkamal Kahlon",
+    "value": 15
+  }, 
+  {
+    "source": "Radio Papesse",
+    "target": "Jeewi Lee",
+    "value": 15
+  }, 
+  {
+    "source": "Radio Papesse",
+    "target": "Marcela Moraga",
+    "value": 15
+  }, 
+  {
+    "source": "Radio Papesse",
+    "target": "Christophe Ndabananiye",
+    "value": 15
+  }, 
+  {
+    "source": "Radio Papesse",
+    "target": "Lerato Shadi",
+    "value": 15
+  }, 
+  {
+    "source": "Radio Papesse",
+    "target": "Viron Erol Vert",
+    "value": 15
+  }, 
+  {
+    "source": "Radio Papesse",
+    "target": "Viron Erol Vert",
+    "value": 25
+  }, 
 
 
 	{
