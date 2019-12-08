@@ -1,0 +1,20 @@
+description short:
+------------------
+Artistellar
+Exploring Artists’ Networks
+
+Artistellar visualizes the relationships between contemporary artists working in various fields, creating an inside view into the networks of selected artists presented on visitmytent.
+
+A visualization by Stephanie Neumann and Alsino Skowronnek – Berlin, 2019.
+
+
+description long:
+-----------------
+Artistellar
+Exploring Artists’ Networks
+
+- constellations, - orbiting, - stars 
+
+Artistellar visualizes the relationships between contemporary artists working in various fields, creating an inside view into the networks of selected artists presented on visitmytent. Do the artists have exhibited together, met in a residency program or even collaborated on a piece of art? Different vectors connect individuals depending on the manner of their relation. The scope of their network influences their representation in the network. Selecting a specific artist points out connected artists as well as the related interview and studio visit. Filter options enable to emphasize different disciplines and types of connections.  
+
+The visualization was developed as a collaboration between Stephanie Neumann and Alsino Skowronnek in Berlin, 2019.
