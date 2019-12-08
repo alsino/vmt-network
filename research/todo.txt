@@ -1,20 +1,18 @@
 
 Filter:
 -------
-
 - Discipline-filter: 
   -- Button für All disciplines  
-  -- Pro Disziplin Nur Leute mit ihren eigenen Verbindungen (Netzwerk ändert sich) 
+  -- Pro Disziplin nur Leute mit ihren eigenen Verbindungen (Netzwerk ändert sich) 
 
 - Connections-Filter weiter: 
   -- all connections -> labels weg (zoomstufe)
   -- andere: labels größer
   -- einzelauswahl 
+  -- All x connections 
 
   -- Das Achenbach-Phänomen (A)
   -- Interaction with discipline filter
-
-- Dropdown schöner
 
 
 Infos:
@@ -22,17 +20,13 @@ Infos:
 - Info evtl wieder neben Freistellerbild (A)
 - Infos bei Künstlern anfragen (Why, Arbeitszeit, Music) (S)
 - Verbindungen ergänzen (S)
-- Screenshots an artists senden und gegenchecken lassen (S)
+- Netzwerk von Artists explorieren lassen für Feedback (S) 
 
 
-//Next
-- Doku
-- Einreichung republica (Deadline: 15. Dezember 2019)
-- Futurium
-- http://ieeevis.org/
-
-//Nice to have:  
-
+Nice to have:  
+-------------
+- Tag/Nacht-Darstellung
+- Dropdown schöner
 - Search 
 - working time (who works now?)
 - Musikgeschmack (z.B. Welcher Künstler hört  EPMD? bei der Arbeit)
@@ -41,11 +35,23 @@ Infos:
 - More category symbols: https://stackoverflow.com/questions/25332120/create-additional-d3-js-symbols
 
 
-//Mobile: 
-- Elemente untereinander  
+Responsive: 
+-------------
+- iPad: On Click Einzelverbindungen, erst danach Link zu Studiovisit
+- Mobile: Elemente untereinander  
 
 
-//Links
+
+Next:
+-----
+- Doku
+- Einreichung republica (Deadline: 15. Dezember 2019)
+- Futurium
+- http://ieeevis.org/
+
+
+Links: 
+------
 https://bost.ocks.org/mike/fisheye/
 https://github.com/upphiminn/d3.ForceBundle
 http://www.scimaps.org/detailMap/index/in_terms_of_geograph_92?lang=ger
