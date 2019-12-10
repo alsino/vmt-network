@@ -415,7 +415,7 @@ let legendLinks = legendConnections
     g.attr("transform", d3.event.transform)
     console.log(zoomLevel);
 
-    if (zoomLevel > 1.2) {
+    if (zoomLevel > 1.1) {
       d3.selectAll('.label').style('display', 'block');
     } else {
       d3.selectAll('.label').style('display', 'none');
