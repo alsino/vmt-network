@@ -1,0 +1,5077 @@
+{
+	"nodes": [
+		{
+			"name": "Christian Achenbach",
+			"discipline": [1,6],
+			"gender": "male",
+			"birthYear": 1978,
+			"birthTown": "Siegen",
+			"birthCountry": "Germany",
+			"profileID": "3357",
+			"imageUrl" : "christian_achenbach.jpg",
+			"studioVisit": "Berlin",
+			"studioLocations": [
+				{
+					"name": " ",
+          "address": "Lehderstraße 34, 13086 Berlin",
+					"date_in": 0,
+					"date_out": "now",
+					"lat": 52.550546,
+					"lon": 13.438563	
+				}
+			]
+		},
+		{
+			"name": "Jörg-Uwe Albig",
+			"discipline": [7],
+			"gender": "male",
+			"birthYear": 1960,
+			"birthTown": "Bremen",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl" : "joerg_uwe_albig.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "Heikonaut",
+          "address": "Sewanstraße 122, 10319 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.496476,
+          "lon": 13.506287  
+        }
+      ],
+      "questions": {
+        "why": "Communication.",
+        "music": "strictly instrumental (jazz, classical, electronics).",
+        "workHours" : "12 am to 5 pm."
+      }
+		},
+		{
+			"name": "Jofroi Amaral",
+			"discipline": [1,5],
+			"gender": "male",
+			"birthYear": 1977,
+			"birthTown": "Brussels",
+			"birthCountry": "Belgium",
+			"profileID": "2431",
+			"imageUrl" : "jofroi_amaral.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "Studios ID",
+          "address": "Genslerstraße 13, 13055 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.541492, 
+          "lon": 13.499555
+        }
+      ]
+		},
+		{
+			"name": "Song-Ming Ang",
+			"discipline": [3,5],
+			"gender": "male",
+			"birthYear": 1980,
+			"birthTown": "Singapore",
+			"birthCountry": "Singapore",
+			"profileID": "7969",
+			"imageUrl" : "song_ming_ang.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Bergholzstraße 8, 12099 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.459064,
+          "lon": 13.419368  
+        }
+      ]
+		},
+		{
+			"name": "Axel Anklam",
+			"discipline": [6,3],
+			"gallery": "Galerie Rothamel",
+			"gender": "male",
+			"birthYear": 1971,
+			"birthTown": "Wriezen",
+			"birthCountry": "GDR",
+			"profileID": 0,
+			"imageUrl" : "axel_anklam.jpg",
+			"studioVisit": "Bad Freienwalde",
+      "studioLocations": [
+        {
+          "name": "Atelier Bad Freienwalde",
+          "address": "Wasserstraße 20, 16259 Bad Freienwalde",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.788314,
+          "lon": 14.035698  
+        },
+        {
+          "name": "Uferhallen",
+          "address": "Uferstraße 8, 13357 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.551871, 
+          "lon": 13.374360 
+        }
+      ]
+		},
+		{
+			"name": "Aram Bartholl",
+			"discipline": [5],
+			"gender": "male",
+			"birthYear": 1972,
+			"birthTown": "Bremen",
+			"birthCountry": "Germany",
+			"profileID": "7695",
+			"imageUrl" : "aram_bartholl.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Christinenstraße 21, 10119 Berlin",
+          "date_in": 0,
+          "date_out": 2019,
+          "lat": 52.532644,
+          "lon": 13.410908  
+        },
+        {
+          "name": " ",
+          "address": "Schlegelstraße 6, 10115 Berlin",
+          "date_in": 2019,
+          "date_out": "now",
+          "lat": 52.529901,
+          "lon": 13.386103  
+        }
+      ]
+		},
+		{
+			"name": "Christopher Bauder",
+			"discipline": [2],
+			"gender": "male",
+			"birthYear": 1973,
+			"birthTown": "Stuttgart",
+			"birthCountry": "Germany",
+			"profileID": "2966",
+			"imageUrl" : "christopher_bauder.jpg",
+			"studioVisit": "Berlin",
+       "studioLocations": [
+        {
+          "name": "WHITEvoid",
+          "address": "Köpenicker Chaussee 4, 10317 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.490907, 
+          "lon": 13.492447 
+        }
+      ],
+			"questions": {
+				"why": "I love to create, I need to create, I am born to create!",
+				"music": "I do not listen to music when I work.",
+				"workHours" : "10am to 7pm and before and after that."
+			}
+		},
+		{
+			"name": "Fehmi Baumbach",
+			"discipline": [1],
+			"gender": "female",
+			"birthYear": 1971,
+			"birthTown": "Braunschweig",
+			"birthCountry": "Germany",
+			"profileID": "2056",
+			"imageUrl" : "fehmi_baumbach.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Schillerstraße 96, 10625 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.510448, 
+          "lon": 13.311225  
+        }
+      ],
+			"questions": {
+				"why": "Because I do not have time to do something else.",
+				"music": "intelligent music: electronic, noisepunkrock, classic, some jazz, kraut and psychedelic.",
+				"workHours" : "8.00 am until 10.30 pm or the other way around."
+			}
+		},
+		{
+			"name": "Bernd Begemann",
+			"discipline": [3,7],
+			"gender": "male",
+			"birthYear": 1962,
+			"birthTown": "?",
+			"birthCountry": "Germany",
+			"profileID": "8612",
+			"imageUrl" : "bernd_begemann.jpg",
+			"studioVisit": "Hamburg",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Holtwisch 11, 22527 Hamburg",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 53.603608,
+          "lon": 9.926998  
+        }
+      ]
+		},
+		{
+			"name": "Clemens Behr",
+			"discipline": [6],
+			"gender": "male",
+			"birthYear": 1985,
+			"birthTown": "Koblenz",
+			"birthCountry": "Germany",
+			"profileID": "967",
+			"imageUrl" : "clemens_behr.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "Raum Vollreinigung",
+          "address": "Wassertorstraße 65, 10785 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.499256, 
+          "lon": 13.410479 
+        }
+      ]
+		},
+		{
+			"name": "Sebastian Bieniek",
+			"discipline": [4,1],
+			"gender": "male",
+			"birthYear": 1975,
+			"birthTown": "Czarnowanz",
+			"birthCountry": "Poland",
+			"profileID": "2689",
+			"imageUrl" : "sebastian_bieniek.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Marchlewskistraße 89A, 10243 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.510129, 
+          "lon": 13.448081 
+        }
+      ],
+			"questions": {
+				"why": "You just do in the way like you just are. There is just what you do, without a necessary reason. Reasons are made retrospective. I don’t have a retrospective point of view.",
+				"music": "-",
+				"workHours" : "I always work. Even when I sleep."
+			}
+		},
+		{
+			"name": "Amélie Blendl",
+			"discipline": [6],
+			"gallery": "Galerie Volker Diehl",
+			"gender": "female",
+			"birthYear": 1982,
+			"birthTown": "Regensburg",
+			"birthCountry": "Germany",
+			"profileID": "286",
+			"imageUrl" : "amelie_blendl.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Wilhelm-Kabus-Straße 74, 10829 Berlin", 
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.479099, 
+          "lon": 13.364809 
+        }
+      ]
+		},
+		{
+			"name": "Alex Bodea",
+			"discipline": [1],
+			"gender": "female",
+			"birthYear": 1981,
+			"birthTown": "Cluj",
+			"birthCountry": "Romania",
+			"profileID": "1683",
+			"imageUrl" : "alex_bodea.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Kurfürstenstraße 21-22, 10785 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.499979, 
+          "lon": 13.365048 
+        }
+      ],
+			"questions": {
+				"why": "Because I like stories.",
+				"music": "none (I listen to BBC though).",
+				"workHours" : "11:00 am until 18:30 pm."
+			}
+		},
+		{
+			"name": "Lothar Böhme",
+			"discipline": [1],
+			"gender": "male",
+			"birthYear": 1938,
+			"birthTown": "Berlin",
+			"birthCountry": "GDR",
+			"profileID": "9467",
+			"imageUrl" : "lothar_boehme.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Wollankstraße 124, 13187 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.567858, 
+          "lon": 13.398685 
+        }
+      ]
+		},
+		{
+			"name": "Isabelle Borges",
+			"discipline": [1,6],
+			"gender": "female",
+			"birthYear": 1966,
+			"birthTown": "Salvador",
+			"birthCountry": "Brazil",
+			"profileID": "1689",
+			"imageUrl" : "isabelle_borges.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Rodenbergstraße 14, 10439 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.550602, 
+          "lon": 13.416961 
+        }
+      ]
+		},
+		{
+			"name": "Fritz Bornstück",
+			"discipline": [1,6],
+			"gender": "male",
+			"birthYear": 1982,
+			"birthTown": "Weilburg",
+			"birthCountry": "Germany",
+			"profileID": "5195",
+			"imageUrl" : "fritz_bornstueck.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "Hobbyraum",
+          "address": "Herrfurthplatz 7, 12049 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.476893, 
+          "lon": 13.421108 
+        }
+      ],
+			"questions": {
+				"why": "I've got nothing else to do.",
+				"music": "right now: Steve Reich. But when I'm painting I pay no attention to music.",
+				"workHours" : "when I wake up till I'm tired."
+			}
+		},
+		{
+			"name": "Stefano Bosis",
+			"discipline": [1],
+			"gender": "male",
+			"birthYear": 0,
+			"birthTown": "Milano",
+			"birthCountry": "Italy",
+			"profileID": 0,
+			"imageUrl" : "stefano_bosis.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Mittenwalder Straße 6, 10961 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.494306, 
+          "lon": 13.396617 
+        }
+      ],
+			"questions": {
+				"why": "Because I want to save the world.",
+				"music": "no music in this time and when I do it I listen to Bossa Nova or Flamenco.",
+				"workHours" : "14pm until 22pm usually."
+			}
+		},
+		{
+			"name": "Bram Braam",
+			"discipline": [6,4],
+			"gallery": "galerie burster",
+			"gender": "male",
+			"birthYear": 1980,
+			"birthTown": "Sittard",
+			"birthCountry": "Netherlands",
+			"profileID": "1050",
+			"imageUrl" : "bram_braam.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Donaustrasse 83, 12043 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 52.479070, 
+          "lon": 13.441796 
+        }
+      ]
+		},
+		{
+			"name": "Jenny Brosinski",
+			"discipline": [1],
+			"gender": "female",
+			"birthYear": 1984,
+			"birthTown": "Celle",
+			"birthCountry": "Germany",
+			"profileID": "9912",
+			"imageUrl" : "jenny_brosinski.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Drontheimer Straße 37A, 13359 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.557898, 
+          "lon": 13.376080 
+        }
+      ],
+			"questions": {
+				"why": "Because I am what I am.",
+				"music": "I normally do not listen to music while I work.",
+				"workHours" : "9am to 3 pm."
+			}
+		},
+
+    {
+      "name": "Kaan Bulak",
+      "discipline": [3],
+      "gender": "male",
+      "birthYear": 0,
+      "birthTown": "?",
+      "birthCountry": "?",
+      "profileID": 0,
+      "imageUrl" : "kaan_bulak.jpg",
+      "studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "Feral Note Salon",
+          "address": "Thomasiusstraße 4, 10557 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.523353,
+          "lon": 13.350336  
+        }
+      ],
+      "questions": {
+        "why": " ",
+        "music": " ",
+        "workHours" : " "
+      }
+    },
+
+
+		{
+			"name": "Mimmo Catania",
+			"discipline": [1],
+			"gender": "male",
+			"birthYear": 1955,
+			"birthTown": "Vittoria",
+			"birthCountry": "Italy",
+			"profileID": 0,
+			"imageUrl" : "mimmo_catania.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Große-Leege-Straße 97/98, 13055 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.544471, 
+          "lon": 13.498622  
+        }
+      ]
+		},
+		{
+			"name": "Carla Chan",
+			"discipline": [2,5],
+			"gender": "female",
+			"birthYear": 1989,
+			"birthTown": "Guangdong",
+			"birthCountry": "China",
+			"profileID": "4451",
+			"imageUrl" : "carla_chan.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Wilhelm-Kabus-Straße 74, 10829 Berlin",
+          "date_in": 2018,
+          "date_out": 2018,
+          "lat": 52.479099, 
+          "lon": 13.364809 
+        },
+        {
+          "name": "",
+          "address": "Böttgerstraße 1, 13357 Berlin",
+          "date_in": 2018,
+          "date_out": "now",
+          "lat": 52.550548, 
+          "lon": 13.378961  
+        }
+      ]
+		},
+		{
+			"name": "Dirty Doering",
+			"discipline": [3],
+			"gender": "male",
+			"birthYear": 1978,
+			"birthTown": "Leipzig",
+			"birthCountry": "GDR",
+			"profileID": "9720",
+			"imageUrl" : "dirty_doering.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Am Treptower Park, 12435 Berlin",
+          "date_in": 2019,
+          "date_out": 2019,
+          "lat": 52.492402, 
+          "lon": 13.468887 
+        }
+      ],
+			"questions": {
+				"why": "It’s my passion.",
+				"music": "my favourite album is silence.",
+				"workHours" : "noon to late."
+			}
+		},
+		{
+			"name": "Grigori Dor",
+			"discipline": [1],
+			"gallery": "Galerie Rothamel",
+			"gender": "male",
+			"birthYear": 1970,
+			"birthTown": "Ulan-Ude",
+			"birthCountry": "USSR",
+			"profileID": "4855",
+			"imageUrl" : "grigori_dor.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Iranische Straße 6, 13347 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.556002, 
+          "lon": 13.367307 
+        }
+      ],
+			"questions": {
+				"why": "An inner urge and great pleasure in making an idea that is not visible to others almost real and tangible.",
+				"music": "audiobooks and podcasts.",
+				"workHours" : "11 am until 8-9 pm."
+			}
+		},
+		{
+			"name": "Sven Drühl",
+			"discipline": [1],
+			"gender": "male",
+			"birthYear": 1968,
+			"birthTown": "Nassau",
+			"birthCountry": "Germany",
+			"profileID": "3294",
+			"imageUrl" : "sven_druehl.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "Uferhallen",
+          "address": "Uferstraße 11, 13357 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.552118, 
+          "lon": 13.374188 
+        }
+      ],
+      "questions": {
+        "why": "Because I grew up in the 90s!",
+        "music": "Melvins, Napalm Death, and all kind of swing music.",
+        "workHours" : "13.00 to 18.00."
+      }
+		},
+		{
+			"name": "Craig Dyer",
+			"discipline": [3,7],
+			"gender": "male",
+			"birthYear": 0,
+			"birthTown": "Manchester",
+			"birthCountry": "United Kingdom",
+			"profileID": "5643",
+			"imageUrl" : "craig_dyer.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Kreutzigerstraße 14, 10247 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.513187, 
+          "lon": 13.459518  
+        }
+      ]
+		},
+		{
+			"name": "Liisi Eelmaa",
+			"discipline": [1,6],
+			"gender": "female",
+			"birthYear": 1982,
+			"birthTown": "Tallinn",
+			"birthCountry": "Estonia",
+			"profileID": "9557",
+			"imageUrl" : "liisi_eelmaa.jpg",
+			"studioVisit": "Tallinn",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "ARS house, Pärnu mnt 154, 11317 Tallinn",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 59.408800, 
+          "lon": 24.734704  
+        }
+      ]
+		},
+		{
+			"name": "Ornella Fieres",
+			"discipline": [5,2,4],
+			"gallery": "Sexauer",
+			"gender": "female",
+			"birthYear": 1984,
+			"birthTown": "Frankfurt/Main",
+			"birthCountry": "Germany",
+			"profileID": "6464",
+			"imageUrl" : "ornella_fieres.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Frankfurter Allee 12, 10247 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.515429, 
+          "lon": 13.456432  
+        }
+      ]
+		},
+		{
+			"name": "Francesco Fillini",
+			"discipline": [1],
+			"gender": "male",
+			"birthYear": 0,
+			"birthTown": "?",
+			"birthCountry": "Italy",
+			"profileID": "5000",
+			"imageUrl" : "francesco_fillini.jpg",
+			"studioVisit": "Pontedera",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Pontedera",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 43.662268, 
+          "lon": 10.628927 
+        }
+      ]
+		},
+		{
+			"name": "Wolfgang Flad",
+			"discipline": [6,1],
+			"gallery": "Galerie Reinhard Hauff",
+			"gender": "male",
+			"birthYear": 1974,
+			"birthTown": "Reutlingen",
+			"birthCountry": "Germany",
+			"profileID": "4147",
+			"imageUrl" : "wolfgang_flad.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Reichenberger Straße 36, 10999 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 52.497515, 
+          "lon": 13.423452 
+        }
+      ]
+		},
+		{
+			"name": "Alex Flemming",
+			"discipline": [1,6],
+			"gender": "male",
+			"birthYear": 1954,
+			"birthTown": "São Paulo",
+			"birthCountry": "Brazil",
+			"profileID": "9215",
+			"imageUrl" : "alex_flemming.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Gaudystraße 3, 10437 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.546979, 
+          "lon": 13.412014 
+        }
+      ],
+			"questions": {
+				"why": "Because it is the only thing I know to do.",
+				"music": "Bossa Nova.",
+				"workHours" : "from noon to 8 pm."
+			}
+		},
+		{
+			"name": "Moritz Frei",
+			"discipline": [4,5],
+			"gender": "male",
+			"birthYear": 1978,
+			"birthTown": "Frankfurt/Main",
+			"birthCountry": "Germany",
+			"profileID": "1853",
+			"imageUrl" : "moritz_frei.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Wissmannstraße 1, 12049 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.486309, 
+          "lon": 13.423416 
+        }
+      ]
+		},
+		{
+			"name": "Peter Freitag",
+			"discipline": [1],
+			"gender": "male",
+			"birthYear": 1972,
+			"birthTown": "Ochsenfurt",
+			"birthCountry": "Germany",
+			"profileID": "2112",
+			"imageUrl" : "peter_freitag.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Wilhelm-Stolze-Straße 22, 10249 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.522090, 
+          "lon": 13.447457 
+        }
+      ]
+		},
+		{
+			"name": "Paul Frick",
+			"discipline": [3,7],
+			"gender": "male",
+			"birthYear": 1979,
+			"birthTown": "Berlin",
+			"birthCountry": "Germany",
+			"profileID": "5941",
+			"imageUrl" : "paul_frick.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Sonnenallee 65, 12045 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.484830, 
+          "lon": 13.434833 
+        }
+      ],
+			"questions": {
+				"why": "I like music.",
+				"music": "I usually have to listen to what I'm working on, so...",
+				"workHours" : "noon until midnight, but shifting all the time."
+			}
+		},
+		{
+			"name": "Jay Gard",
+			"discipline": [5,6],
+			"gallery": "Sexauer",
+			"gender": "male",
+			"birthYear": 1984,
+			"birthTown": "Halle/Saale",
+			"birthCountry": "GDR",
+			"profileID": "2009",
+			"imageUrl" : "jay_gard.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Wilhelm-Kabus-Straße 74, 10829 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.479099, 
+          "lon": 13.364809 
+        }
+      ]
+		},
+		{
+			"name": "Maria Gideon",
+			"discipline": [1],
+			"gender": "female",
+			"birthYear": 1977,
+			"birthTown": "Berlin",
+			"birthCountry": "Germany",
+			"profileID": "868",
+			"imageUrl" : "maria_gideon.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Hochstädter Straße 11, 13347 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.550421, 
+          "lon": 13.363701 
+        }
+      ]
+		},
+		{
+			"name": "Lukas Glinkowski",
+			"discipline": [1,5],
+			"gender": "male",
+			"birthYear": 1984,
+			"birthTown": "Chełmno",
+			"birthCountry": "Poland",
+			"profileID": "1873",
+			"imageUrl" : "lukas_glinkowski.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "Studios ID",
+          "address": "Genslerstraße 13, 13055 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.541492, 
+          "lon": 13.499555
+        }
+      ]
+		},
+		{
+			"name": "Oliver Gröne",
+			"discipline": [1,3],
+			"gender": "male",
+			"birthYear": 1969,
+			"birthTown": "Lemgo",
+			"birthCountry": "Germany",
+			"profileID": "3685",
+			"imageUrl" : "oliver_groene.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Thulestraße 11, 13189 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.555444, 
+          "lon": 13.416804 
+        }
+      ]
+		},
+		{
+			"name": "Philip Grözinger",
+			"discipline": [1],
+			"gallery": "Sexauer",
+			"gender": "male",
+			"birthYear": 1972,
+			"birthTown": "Braunschweig",
+			"birthCountry": "Germany",
+			"profileID": "280",
+			"imageUrl" : "philip_groezinger.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Wilhelm-Kabus-Straße 74, 10829 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.479099, 
+          "lon": 13.364809 
+        }
+      ]
+		},
+		{
+			"name": "Daniel Grüttner",
+			"discipline": [1,6],
+			"gender": "male",
+			"birthYear": 1979,
+			"birthTown": "Rotenburg a.d. Wümme",
+			"birthCountry": "Germany",
+			"profileID": "3703",
+			"imageUrl" : "daniel_gruettner.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Eulerstraße 16, 13357 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.553650, 
+          "lon": 13.390724  
+        }
+      ]
+		},
+		{
+			"name": "Stefanie Gutheil",
+			"discipline": [1],
+			"gallery": " Galerie Russi Klenner",
+			"gender": "female",
+			"birthYear": 1980,
+			"birthTown": "Ravensburg",
+			"birthCountry": "Germany",
+			"profileID": "2433",
+			"imageUrl" : "stefanie_gutheil.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Adalbertstraße 9, 10999 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.500893, 
+          "lon": 13.419196 
+        }
+      ]
+		},
+		{
+			"name": "Lucas Gutierrez",
+			"discipline": [2],
+			"gender": "male",
+			"birthYear": 1985,
+			"birthTown": "Belén/Catamarca",
+			"birthCountry": "Argentina",
+			"profileID": 0,
+			"imageUrl" : "lucas_gutierrez.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Schönhauser Allee 140, 10437 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.542323, 
+          "lon": 13.411824 
+        }
+      ],
+      "questions": {
+        "why": "I feel the need to do what I do.",
+        "music": "super random. From Argentinian radio shows to YouTube videos.",
+        "workHours" : "Usually I work from noon until late."
+      }
+		},
+		{
+			"name": "Janes Haid-Schmallenberg",
+			"discipline": [1,6],
+			"gender": "male",
+			"birthYear": 1988,
+			"birthTown": "Warstein",
+			"birthCountry": "Germany",
+			"profileID": "4381",
+			"imageUrl" : "janes_haid_schmallenberg.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Eulerstraße 1A, 13357 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.552387, 
+          "lon": 13.389042  
+        }
+      ]
+		},
+		{
+			"name": "Jens Hausmann",
+			"discipline": [1],
+			"gender": "male",
+			"birthYear": 1964,
+			"birthTown": "Meiningen",
+			"birthCountry": "GDR",
+			"profileID": "1687",
+			"imageUrl" : "jens_hausmann.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "",
+          "address": "Rodenbergstraße 14, 10439 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.550602, 
+          "lon": 13.416961 
+        }
+      ],
+			"questions": {
+				"why": "Künstlerische Arbeit, künstlerisches Denken, ist eine zunehmend relevante Art mit der Wirklichkeit umzugehen.",
+				"music": "bewusst nur Musik ohne Gesang – neue Musik, elektronische Musik, J.S. Bach.",
+				"workHours" : " "
+			}
+		},
+		{
+			"name": "Robert Henke",
+			"discipline": [3,2],
+			"gender": "male",
+			"birthYear": 1969,
+			"birthTown": "Munich",
+			"birthCountry": "Germany",
+			"profileID": "7232",
+			"imageUrl" : "robert_henke.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Lobeckstraße 30-35, 10969 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.503091,
+          "lon": 13.407863
+        }
+      ]
+		},
+		{
+			"name": "Gepa Hinrichsen",
+			"discipline": [1],
+			"gender": "female",
+			"birthYear": 0,
+			"birthTown": "?",
+			"birthCountry": "Germany",
+			"profileID": "1691",
+			"imageUrl" : "gepa_hinrichsen.jpg",
+			"studioVisit": "Hamburg",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Am Lohmühlenpark 1, 20099 Hamburg",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 53.557767, 
+          "lon": 10.018037  
+        }
+      ]
+		},
+		{
+			"name": "Sibylle Jazra",
+			"discipline": [5],
+			"gender": "female",
+			"birthYear": 1973,
+			"birthTown": "Heidelberg",
+			"birthCountry": "Germany",
+			"profileID": "3300",
+			"imageUrl" : "sibylle_jazra.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "Funkhaus Berlin",
+          "address": "Nalepastraße 18, 12459 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.480116, 
+          "lon": 13.500326 
+        }
+      ],
+			"questions": {
+				"why": "Because there is no better way to give form to your inner dialogue.",
+				"music": "Four Tet.",
+				"workHours" : "9 to 5 to 9 to 5 to 9."
+			}
+		},
+		{
+			"name": "Michelle Jezierski",
+			"discipline": [1],
+			"gender": "female",
+			"birthYear": 1981,
+			"birthTown": "Berlin",
+			"birthCountry": "Germany",
+			"profileID": "2691",
+			"imageUrl" : "michelle_jezierski.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Urbanstraße 100, 10967 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.489926, 
+          "lon": 13.422039 
+        }
+      ]
+		},
+		{
+			"name": "Anne Duk Hee Jordan",
+			"discipline": [5,2],
+			"gender": "female",
+			"birthYear": 1978,
+			"birthTown": "?",
+			"birthCountry": "South Korea",
+			"profileID": "5428",
+			"imageUrl" : "anne_duk_hee_jordan.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "Unicorn Event/Workspace Brunnenviertel",
+          "address": "Brunnenstraße 64, 13355 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 52.540532, 
+          "lon": 13.394918  
+        },
+        {
+          "name": " ",
+          "address": "Bergstraße 26, 10115 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.531918, 
+          "lon": 13.394455 
+        }
+      ]
+		},
+		{
+			"name": "Rajkamal Kahlon",
+			"discipline": [1,5],
+			"gender": "female",
+			"birthYear": 1974,
+			"birthTown": "Auburn, California",
+			"birthCountry": "United States",
+			"profileID": "10434",
+			"imageUrl" : "rajkamal_kahlon.jpg",
+			"studioVisit": "Florence",
+      "studioLocations": [
+        {
+          "name": "Villa Romana",
+          "address": "Via Senese 68, 50124 Florence",
+          "date_in": "01.02.2018",
+          "date_out": "30.11.2018",
+          "lat": 43.753996, 
+          "lon": 11.239159  
+        }
+      ]
+		},
+		{
+			"name": "Carolin Kastner",
+			"discipline": [1],
+			"gender": "female",
+			"birthYear": 1984,
+			"birthTown": "Offenbach/Main",
+			"birthCountry": "Germany",
+			"profileID": "1402",
+			"imageUrl" : "carolin_kastner.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Berliner Straße 2, 13187 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.570235, 
+          "lon": 13.410323  
+        }
+      ]
+		},
+		{
+			"name": "Toni Kater",
+			"discipline": [3,7],
+			"gender": "female",
+			"birthYear": 1977,
+			"birthTown": "Blankenburg",
+			"birthCountry": "GDR",
+			"profileID": "2299",
+			"imageUrl" : "toni_kater.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Bernhard-Lichtenberg-Straße 20, 10407 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.536429, 
+          "lon": 13.435566  
+        }
+      ],
+      "questions": {
+        "why": "Because I can't help it.",
+        "music": "I do not hear music at work, except mine :-)",
+        "workHours" : "I have no regular working hours."
+      }
+		},
+		{
+			"name": "Malte Kebbel",
+			"discipline": [6],
+			"gender": "male",
+			"birthYear": 1981,
+			"birthTown": "Bremen",
+			"birthCountry": "Germany",
+			"profileID": "2328",
+			"imageUrl" : "malte_kebbel.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Alexandrinenstraße 1-7, 10969 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 52.498697, 
+          "lon": 13.400124 
+        }
+      ]
+		},
+		{
+			"name": "Klaus Killisch",
+			"discipline": [1,3],
+			"gender": "male",
+			"birthYear": 1959,
+			"birthTown": "Wurzen",
+			"birthCountry": "GDR",
+			"profileID": "79",
+			"imageUrl" : "klaus_killisch.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Görschstraße 2, 13187 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 52.566984, 
+          "lon": 13.398299 
+        }
+      ]
+		},
+		{
+			"name": "Franziska Klotz",
+			"discipline": [1],
+			"gallery": "Galerie Kornfeld",
+			"gender": "female",
+			"birthYear": 1979,
+			"birthTown": "Dresden",
+			"birthCountry": "GDR",
+			"profileID": "5207",
+			"imageUrl" : "franziska_klotz.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Prenzlauer Promenade 149-152, 13189 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 52.562640, 
+          "lon": 13.426629  
+        }
+      ]
+		},
+		{
+			"name": "Kevin Kopacka",
+			"discipline": [1,4],
+			"gender": "male",
+			"birthYear": 1987,
+			"birthTown": "Graz",
+			"birthCountry": "Austria",
+			"profileID": "81",
+			"imageUrl" : "kevin_kopacka.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "Studios ID",
+          "address": "Genslerstraße 13, 13055 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 52.541492, 
+          "lon": 13.499555
+        }
+      ],
+			"questions": {
+				"why": "Because it's the thing I most like doing at this time.",
+				"music": "Binaural frequencies.",
+				"workHours" : "Used to be: from 6 pm to 4 am - now it's more from 10 am to 8 pm."
+			}
+		},
+		{
+			"name": "Astrid Köppe",
+			"discipline": [1,6],
+			"gender": "female",
+			"birthYear": 1974,
+			"birthTown": "Köthen/Anhalt",
+			"birthCountry": "Germany",
+			"profileID": "170",
+			"imageUrl" : "astrid_koeppe.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Ohlauer Straße 40, 10999 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 52.494678, 
+          "lon": 13.429053 
+        },
+        {
+          "name": " ",
+          "address": "Stieffring 7, 13627 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.545353, 
+          "lon": 13.313796 
+        }
+      ]
+		},
+		{
+			"name": "Agnieszka Korejba",
+			"discipline": [1],
+			"gender": "female",
+			"birthYear": 1977,
+			"birthTown": "Gdynia",
+			"birthCountry": "Poland",
+			"profileID": "5528",
+			"imageUrl" : "agnieszka_korejba.jpg",
+			"studioVisit": "Potsdam",
+      "studioLocations": [
+        {
+          "name": " Rechenzentrum Potsdam",
+          "address": "Dortustraße 46, 14467 Potsdam",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 52.396396, 
+          "lon": 13.053786 
+        }
+      ],
+			"questions": {
+				"why": "Ich mache Kunst und Kunst macht mich. Geht nicht anders.",
+				"music": "Klassik, Jazz und meinen Gedanken.",
+				"workHours" : "meistens arbeite ich nachdem ich meine Hunde ausführe und Frühstück, bis ich sie wieder ausführen muss und Mittagbrot gebe. Dann habe ich noch Zeit vor dem Abendbrot."
+			}
+		},
+		{
+			"name": "Bettina Köster",
+			"discipline": [3,7],
+			"gender": "female",
+			"birthYear": 1959,
+			"birthTown": "Herford",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl" : "bettina_koester.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Pestalozzistraße 5, 10625 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 52.507954, 
+          "lon": 13.319263  
+        }
+      ]
+		},
+		{
+			"name": "Pilocka Krach",
+			"discipline": [3,7],
+			"gender": "female",
+			"birthYear": 0,
+			"birthTown": "Berlin",
+			"birthCountry": "GDR",
+			"profileID": "7210",
+			"imageUrl" : "pilocka_krach.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "Greatest Hits International",
+          "address": "Leipziger Straße 55, 10117 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.511499, 
+          "lon": 13.399317  
+        },
+        {
+          "name": "Holzmarkt 25",
+          "address": "Holzmarktstraße 25, 10243 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 52.511716, 
+          "lon": 13.426081 
+        }
+      ],
+			"questions": {
+				"why": "To make me happy.",
+				"music": " ",
+				"workHours" : " "
+			}
+		},
+		{
+			"name": "Peter Kröning",
+			"discipline": [6],
+			"gender": "male",
+			"birthYear": 1971,
+			"birthTown": "Erlangen",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl" : "peter_kroening.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Ostendstraße 1-14, 12459 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 52.456497, 
+          "lon": 13.529601  
+        }
+      ]
+		},
+		{
+			"name": "Caroline Kryzecki",
+			"discipline": [1],
+			"gallery": "Sexauer",
+			"gender": "female",
+			"birthYear": 1979,
+			"birthTown": "Wickede/Ruhr",
+			"birthCountry": "Germany",
+			"profileID": "4053",
+			"imageUrl" : "caroline_kryzecki.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Lausitzer Platz 15, 10997 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.501038, 
+          "lon": 13.430406 
+        }
+      ],
+			"questions": {
+				"why": "Because I love it and it's the best thing I can imagine to do. The whole world in one profession.",
+				"music": "from Bach to Buzzcocks and from Reich to Bowie.",
+				"workHours" : "morning until evening. But my concentration is best from late afternoon to evening."
+			}
+		},
+		{
+			"name": "Michel Lamoller",
+			"discipline": [4,6],
+			"gender": "male",
+			"birthYear": 1984,
+			"birthTown": "Black Forest",
+			"birthCountry": "Germany",
+			"profileID": "392",
+			"imageUrl" : "michel_lamoller.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Pallasstraße 12, 10781 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.494904, 
+          "lon": 13.357121  
+        }
+      ]
+		},
+		{
+			"name": "Camille Laurelli",
+			"discipline": [2],
+			"gender": "male",
+			"birthYear": 1981,
+			"birthTown": "?",
+			"birthCountry": "France",
+			"profileID": "9559",
+			"imageUrl" : "camille_laurelli.jpg",
+			"studioVisit": "Tallinn",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "ARS house, Pärnu mnt 154, 11317 Tallinn",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 59.408800, 
+          "lon": 24.734704  
+        }
+      ],
+			"questions": {
+				"why": "Because someone else can do it also.",
+				"music": "stupeflip.",
+				"workHours" : "from now until now."
+			}
+		},
+		{
+			"name": "Alanna Lawley",
+			"discipline": [1,6],
+			"gender": "female",
+			"birthYear": 1983,
+			"birthTown": "?",
+			"birthCountry": "United Kingdom",
+			"profileID": "8393",
+			"imageUrl" : "alanna_lawley.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Ohmstraße 6, 10179 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.511948, 
+          "lon": 13.418550  
+        }
+      ]
+		},
+		{
+			"name": "Alex Lebus",
+			"discipline": [6],
+			"gender": "female",
+			"birthYear": 1980,
+			"birthTown": "Magdeburg",
+			"birthCountry": "GDR",
+			"profileID": "1258",
+			"imageUrl" : "alex_lebus.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Wiesenstraße 28, 13357 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.548941, 
+          "lon": 13.371857 
+        }
+      ],
+			"questions": {
+				"why": "Higher force.",
+				"music": "audiobooks.",
+				"workHours" : "from constantly to never."
+			}
+		},
+		{
+			"name": "Jeewi Lee",
+			"discipline": [5],
+			"gallery": "Sexauer",
+			"gender": "female",
+			"birthYear": 1987,
+			"birthTown": "Seoul",
+			"birthCountry": "Korea",
+			"profileID": "4105",
+			"imageUrl" : "jeewi_lee.jpg",
+			"studioVisit": "Berlin, Florence",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Köpenickerstraße 21, 10997 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 52.506483, 
+          "lon": 13.432181  
+        },
+        {
+          "name": "Villa Romana",
+          "address": "Via Senese 68, 50124 Florence",
+          "date_in": "01.02.2018",
+          "date_out": "30.11.2018",
+          "lat": 43.753996, 
+          "lon": 11.239159  
+        }
+      ],
+			"questions": {
+				"why": "I do what I do, because I never thought of doing something else.",
+				"music": "80´s music.",
+				"workHours" : "My working time is completely melted together with my private time that it does not have a clear start and not an end. But one clear fact is: I´m more active at night than in the morning."
+			}
+		},
+		{
+			"name": "Annekatrin Lemke",
+			"discipline": [1,6],
+			"gender": "female",
+			"birthYear": 1980,
+			"birthTown": "?",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl" : "annekatrin_lemke.jpg",
+			"studioVisit": "Erfurt",
+      "studioLocations": [
+        {
+          "name": "Wächterhaus 3",
+          "address": "Nordhäuser Straße 84, 99089 Erfurt",
+          "date_in": "May 2018",
+          "date_out": "now",
+          "lat": 50.989148, 
+          "lon": 11.014846
+        }
+      ],
+			"questions": {
+				"why": " ",
+				"music": " ",
+				"workHours" : " "
+			}
+		},
+
+		{
+			"name": "Van Bo Le-Mentzel",
+			"discipline": [6],
+			"gender": "male",
+			"birthYear": 1977,
+			"birthTown": "?",
+			"birthCountry": "Laos",
+			"profileID": "4383",
+			"imageUrl" : "van_bo_le_mentzel.jpg",
+			"studioVisit": "Wittenberg",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Schlossstraße 1, 06886 Lutherstadt Wittenberg",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 51.866235,
+          "lon": 12.642561  
+        }
+      ],
+			"questions": {
+				"why": "Everyone should live where she wants to live independent from her status, religion and passport. My parents couldn’t just go to Germany. They had to risk their lifes.",
+				"music": "EPMD.",
+				"workHours" : "10 am until 3 pm."
+			}
+		},
+
+
+    {
+      "name": "Via Lewandowsky",
+      "discipline": [2,5],
+      "gender": "male",
+      "birthYear": 1963,
+      "birthTown": "Dresden",
+      "birthCountry": "GDR",
+      "profileID": 0,
+      "imageUrl" : "via_lewandowsky.jpg",
+      "studioLocation": "Berlin"
+    },
+
+
+		{
+			"name": "Grischa Lichtenberger",
+			"discipline": [3,1],
+			"gender": "male",
+			"birthYear": 1983,
+			"birthTown": "Bielefeld",
+			"birthCountry": "Germany",
+			"profileID": "0",
+			"imageUrl" : "grischa_lichtenberger.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Manteuffelstraße 5, 10997 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.505302, 
+          "lon": 13.431019
+        }
+      ]
+		},
+		{
+			"name": "Stephan Lieb",
+			"discipline": [3],
+			"gender": "male",
+			"birthYear": 0,
+			"birthTown": "?",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl" : "stephan_lieb.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Dolziger Straße 29, 10247 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.518286, 
+          "lon": 13.470481  
+        }
+      ]
+		},
+		{
+			"name": "Friedrich Liechtenstein",
+			"discipline": [3],
+			"gender": "male",
+			"birthYear": 1956,
+			"birthTown": "Stalinstadt",
+			"birthCountry": "GDR",
+			"profileID": "4844",
+			"imageUrl" : "friedrich_liechtenstein.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Münzstraße 8, 10178 Berlin",
+          "date_in": 0,
+          "date_out": 2018,
+          "lat": 52.524397, 
+          "lon": 13.408780  
+        }
+      ]
+		},
+		{
+			"name": "Robert Lippok",
+			"discipline": [3,2],
+			"gender": "male",
+			"birthYear": 1966,
+			"birthTown": "Berlin",
+			"birthCountry": "GDR",
+			"profileID": "9856",
+			"imageUrl" : "robert_lippok.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Linienstraße 154, 10115 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.527532, 
+          "lon": 13.393546 
+        }
+      ]
+		},
+    {
+      "name": "Christian Mio Loclair",
+      "discipline": [2],
+      "gender": "male",
+      "birthYear": 0,
+      "birthTown": "?",
+      "birthCountry": "?",
+      "profileID": 0,
+      "imageUrl" : "christian_mio_loclair.jpg",
+      "studioVisit": "Berlin"
+    },
+		{
+			"name": "Pedro Lopes",
+			"discipline": [2,3],
+			"gender": "male",
+			"birthYear": 1986,
+			"birthTown": "Cascais",
+			"birthCountry": "Portugal",
+			"studio": "workshop, the place where things get built...",
+			"profileID": "5430",
+			"imageUrl" : "pedro_lopes.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Prof.-Dr.-Helmert-Straße 2-3, 14482 Potsdam",
+          "date_in": 0,
+          "date_out": 2018,
+          "lat": 52.394112, 
+          "lon": 13.133472 
+        }
+      ],
+			"questions": {
+				"why": "To answer questions that constantly make me feeling curious and uncomfortable.",
+				"music": "Cepia for writing (research papers, etc) and Autechre for building (making circuits, etc).",
+				"workHours" : "11 am until 11 pm (when in Berlin, now it has been more like 9 am to 9 pm with many breaks and fun moments in between)."
+			}
+		},
+		{
+			"name": "Sean Derrick Cooper Marquardt",
+			"discipline": [3],
+			"gender": "male",
+			"birthYear": 0,
+			"birthTown": "Chicago",
+			"birthCountry": "USA",
+			"profileID": "5430",
+			"imageUrl" : "sean_derrick_cooper_marquardt.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Ackerstraße 80, 13355 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.539466, 
+          "lon": 13.383202 
+        }
+      ],
+			"questions": {
+				"why": "One morning, after a sudden season of troubles, I ended up sailing under a clear sky.",
+				"music": "It very much depends on the mood and energy of the composition.",
+				"workHours" : "24/7. I am always picking up signals, visual patterns and lines of vibrations which leaves me working almost nonstop."
+			}
+		},
+		{
+			"name": "Sandra Meisel",
+			"discipline": [6,1],
+			"gallery": "galerie burster",
+			"gender": "female",
+			"birthYear": 1970,
+			"birthTown": "Karlsruhe",
+			"birthCountry": "Germany",
+			"profileID": "1593",
+			"imageUrl" : "sandra_meisel.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Tegeler Straße 6, 13353 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.539189, 
+          "lon": 13.360871 
+        }
+      ]
+		},
+		{
+			"name": "Bjørn Melhus",
+			"discipline": [4],
+			"gender": "male",
+			"birthYear": 1966,
+			"birthTown": "Kirchheim unter Teck",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl" : "bjorn_melhus.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Straßburger Straße 58, 10405 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.528790, 
+          "lon": 13.412159
+        }
+      ]
+		},
+		{
+			"name": "Sebastian Meschenmoser",
+			"discipline": [1,6],
+			"gender": "male",
+			"birthYear": 1980,
+			"birthTown": "Frankfurt/Main",
+			"birthCountry": "Germany",
+			"studio": "second home",
+			"profileID": "5530",
+			"imageUrl" : "sebastian_meschenmoser.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Hasenheide 9, 10967 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.487457, 
+          "lon": 13.422371 
+        }
+      ],
+			"questions": {
+				"why": "Because I cannot imagine doing anything else.",
+				"music": "Tom Waits, Leonard Cohen, Portishead.",
+				"workHours" : "10 am until 6 pm."
+			}
+		},
+		{
+			"name": "Ekaterina Mitichkina",
+			"discipline": [1],
+			"gender": "female",
+			"birthYear": 1980,
+			"birthTown": "Minsk",
+			"birthCountry": "Belarus",
+			"profileID": "2687",
+			"imageUrl" : "ekaterina_mitichkina.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Pistoriusstraße 142, 13086 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.550763, 
+          "lon": 13.456285 
+        }
+      ]
+		},
+
+		{
+			"name": "Marcela Moraga",
+			"discipline": [5],
+			"gender": "female",
+			"birthYear": 1975,
+			"birthTown": "San Fernando",
+			"birthCountry": "Chile ",
+			"profileID": "10430",
+			"imageUrl" : "marcela_moraga.jpg",
+			"studioVisit": "Florence",
+      "studioLocations": [
+        {
+          "name": "Villa Romana",
+          "address": "Via Senese 68, 50124 Florence",
+          "date_in": "01.02.2019",
+          "date_out": "30.11.2019",
+          "lat": 43.753996, 
+          "lon": 11.239159  
+        }
+      ],
+			"questions": {
+				"why": "This allows me to perceive different dimensions of life.",
+				"music": "those recordings of sounds of birds, rivers, forest, etc. sometimes I listen nothing.",
+				"workHours" : "I like to work in the mornings until I get hungry."
+			}
+		},
+
+		{
+			"name": "Barbara Morgenstern",
+			"discipline": [3,7],
+			"gender": "female",
+			"birthYear": 1971,
+			"birthTown": "Hagen",
+			"birthCountry": "Germany",
+			"profileID": "5002",
+			"imageUrl" : "barbara_morgenstern.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Gartenstraße 7, 10115 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.529996, 
+          "lon": 13.392310 
+        }
+      ]
+		},
+		{
+			"name": "Jan Muche",
+			"discipline": [1,6],
+			"gender": "male",
+			"birthYear": 1975,
+			"birthTown": "Herford",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl" : "jan_muche.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "Uferhallen",
+          "address": "Uferstraße 8, 13357 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.551871, 
+          "lon": 13.374360 
+        }
+      ]
+		},
+		{
+			"name": "Johannes Mundinger",
+			"discipline": [1],
+			"gender": "male",
+			"birthYear": 1982,
+			"birthTown": "Offenburg",
+			"birthCountry": "Germany",
+			"profileID": "3963",
+			"imageUrl" : "johannes_mundinger.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "Urban Spree",
+          "address": "Revaler Straße 99, 10245 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.507545, 
+          "lon": 13.451575 
+        }
+      ]
+		},
+		{
+			"name": "Christophe Ndabananiye",
+			"discipline": [5,1],
+			"gender": "male",
+			"birthYear": 1977,
+			"birthTown": "Lubumbashi",
+			"birthCountry": "Democratic Republic of Congo",
+			"profileID": "4998",
+			"imageUrl" : "christophe_ndabananiye.jpg",
+			"studioVisit": "Florence",
+      "studioLocations": [
+        {
+          "name": "Villa Romana",
+          "address": "Via Senese 68, 50124 Florence",
+          "date_in": "01.02.2018",
+          "date_out": "30.11.2018",
+          "lat": 43.753996, 
+          "lon": 11.239159  
+        }
+      ],
+			"questions": {
+				"why": "To survive...",
+				"music": "the radio.",
+				"workHours" : "no comment."
+			}
+		},
+		{
+			"name": "Bärnd Nettmann",
+			"discipline": [1],
+			"gender": "male",
+			"birthYear": 1978,
+			"birthTown": "Berlin",
+			"birthCountry": "GDR",
+			"profileID": "5570",
+			"imageUrl" : "baernd_nettmann.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Jessnerstraße 47, 10247 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.509897, 
+          "lon": 13.470735 
+        }
+      ]
+		},
+		{
+			"name": "Rainer Neumeier",
+			"discipline": [1,6],
+			"gender": "male",
+			"birthYear": 1975,
+			"birthTown": "Cham",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl" : "rainer_neumeier.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "Uferhallen",
+          "address": "Uferstraße 8, 13357 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.551871, 
+          "lon": 13.374360 
+        }
+      ]
+		},
+		{
+			"name": "Nik Nowak",
+			"discipline": [3,6],
+			"gender": "male",
+			"birthYear": 1981,
+			"birthTown": "Mainz",
+			"birthCountry": "Germany",
+			"profileID": "4051",
+			"imageUrl" : "nik_nowak.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Schleiermacherstraße 31, 10961 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 52.492577, 
+          "lon": 13.399034 
+        }
+      ]
+		},
+		{
+			"name": "Ostberlin Androgyn",
+			"discipline": [3,7],
+			"gender": "mixed",
+			"birthTown": "Berlin",
+			"birthCountry": "Germany",
+			"profileID": "7702",
+			"imageUrl" : "ostberlin_androgyn.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Herzbergstraße 100, 10365 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.526850, 
+          "lon": 13.499157 
+        }
+      ]
+		},
+
+    {
+      "name": "Radio Papesse",
+      "discipline": [3],
+      "gender": "female",
+      "birthYear": 0,
+      "birthTown": " ",
+      "birthCountry": " ",
+      "profileID": "10432",
+      "imageUrl" : "radio_papesse.jpg",
+      "studioVisit": "Florence",
+      "studioLocations": [
+        {
+          "name": "Villa Romana",
+          "address": "Via Senese 68, 50124 Florence",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 43.753996, 
+          "lon": 11.239159  
+        }
+      ],
+      "questions": {
+        "why": " ",
+        "music": " ",
+        "workHours" : " "
+      }
+    },
+
+
+		{
+			"name": "Manfred Peckl",
+			"discipline": [1,3],
+			"gender": "male",
+			"birthYear": 1968,
+			"birthTown": "Wels",
+			"birthCountry": "Austria",
+			"profileID": "462",
+			"imageUrl" : "manfred_peckl.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "Uferhallen",
+          "address": "Uferstraße 8, 13357 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.551871, 
+          "lon": 13.374360 
+        }
+      ],
+			"questions": {
+				"why": "I believe in art.",
+				"music": "I hear voices.",
+				"workHours" : "8am-12pm."
+			}
+		},
+		{
+			"name": "Laura Põld",
+			"discipline": [6,1],
+			"gender": "female",
+			"birthYear": 1984,
+			"birthTown": "Tallinn",
+			"birthCountry": "USSR",
+			"profileID": "9561",
+			"imageUrl" : "laura_pold.jpg",
+			"studioVisit": "Tallinn",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "ARS house, Pärnu mnt 154, 11317 Tallinn",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 59.408800, 
+          "lon": 24.734704  
+        }
+      ]
+		},
+		{
+			"name": "Max Prosa",
+			"discipline": [3,7],
+			"gender": "male",
+			"birthYear": 1989,
+			"birthTown": "Berlin",
+			"birthCountry": "Germany",
+			"profileID": "9914",
+			"imageUrl" : "max_prosa.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Rollbergstraße 1, 12053 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.479445,
+          "lon": 13.436738 
+        }
+      ]
+		},
+
+    {
+      "name": "Bernhard Rappold",
+      "discipline": [1,3],
+      "gender": "male",
+      "birthYear": 1979,
+      "birthTown": "Vienna",
+      "birthCountry": "Austria",
+      "profileID": 0,
+      "imageUrl" : "bernhard_rappold.jpg",
+      "studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Kurfürstenstraße 21, 10785 Berlin",
+          "date_in": 2017,
+          "date_out": "now",
+          "lat": 52.499790, 
+          "lon": 13.365081
+        }
+      ],
+      "questions": {
+        "why": " ",
+        "music": " ",
+        "workHours" : " "
+      }
+    },
+
+
+		{
+			"name": "Gonzalo Reyes Araos",
+			"discipline": [1,4],
+			"gender": "male",
+			"birthYear": 1980,
+			"birthTown": "Quilpué",
+			"birthCountry": "Chile",
+			"profileID": "3680",
+			"imageUrl" : "gonzalo_reyes_araos.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Tegeler Straße 6, 13353 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.539196, 
+          "lon": 13.360881 
+        }
+      ],
+			"questions": {
+				"why": "What I do are reflections of my daily life and cultural and social situation. I do what I do because I feel engaged to tell what I see and think to the rest of the people.",
+				"music": "techno, minimal and concrete music, diverse artists.",
+				"workHours" : "from 5pm until 5am, yes, I’m a night bird."
+			}
+		},
+		{
+			"name": "Stefan Roigk",
+			"discipline": [3,6],
+			"gender": "male",
+			"birthYear": 1974,
+			"birthTown": "Bückeburg",
+			"birthCountry": "Germany",
+			"profileID": "5985",
+			"imageUrl" : "stefan_roigk.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Schönfließer Straße 7a, 10439 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.553471, 
+          "lon": 13.408868
+        }
+      ],
+			"questions": {
+				"why": "Ideas just pop up in my mind and the only way to get rid of the pressure they cause in my mind is to make them real.",
+				"music": "Coil, Current 93, Scott Walker, Panda Bear & Animal Collective, John Cage, Iannis Xenakis, Rolf Julius, This Heat.",
+				"workHours" : "9:00 pm to 10:00 am."
+			}
+		},
+		{
+			"name": "Pietro Sanguineti",
+			"discipline": [6],
+			"gender": "male",
+			"birthYear": 1965,
+			"birthTown": "Stuttgart",
+			"birthCountry": "Germany",
+			"profileID": "14",
+			"imageUrl" : "pietro_sanguineti.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Lessingstr 98/100, 13158 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.589863, 
+          "lon": 13.357955 
+        }
+      ]
+		},
+		{
+			"name": "Susanne Schirdewahn",
+			"discipline": [1,6],
+			"gender": "female",
+			"birthYear": 1970,
+			"birthTown": "Berlin",
+			"birthCountry": "Germany",
+			"profileID": "1684",
+			"imageUrl" : "susanne_schirdewahn.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "Gerichtshöfe",
+          "address": "Gerichtstraße 12-13, 13347 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.543609, 
+          "lon": 13.375432 
+        }
+      ]
+		},
+		{
+			"name": "Erik Schmidt",
+			"discipline": [1,4],
+			"gender": "male",
+			"birthYear": 1968,
+			"birthTown": "Herford",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl" : "erik_schmidt.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Drontheimer Straße 36a, 13359 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.557898, 
+          "lon": 13.376080 
+        }
+      ]
+		},
+		{
+			"name": "Christian Y. Schmidt",
+			"discipline": [7],
+			"gender": "male",
+			"birthYear": 1956,
+			"birthTown": "Bielefeld",
+			"birthCountry": "Germany",
+			"profileID": "10724",
+			"imageUrl" : "christian_y_schmidt.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Liselotte-Herrmann-Straße 14, 10407 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.530908, 
+          "lon": 13.436841  
+        }
+      ]
+		},
+		{
+			"name": "Lerato Shadi",
+			"discipline": [5],
+			"gender": "female",
+			"birthYear": 1979,
+			"birthTown": "Mafikeg",
+			"birthCountry": "South Africa",
+			"profileID": "4994",
+			"imageUrl" : "lerato_shadi.jpg",
+			"studioVisit": "Florence",
+      "studioLocations": [
+        {
+          "name": "Villa Romana",
+          "address": "Via Senese 68, 50124 Florence",
+          "date_in": "01.02.2018",
+          "date_out": "30.11.2018",
+          "lat": 43.753996, 
+          "lon": 11.239159  
+        }
+      ],
+			"questions": {
+				"why": "It’s who I am.",
+				"music": "if I am reading or concentrating its a mixture of jazz, piano, and guitar.",
+				"workHours" : "Work times varies according to what else needs to be done,time now as I write this is 11:45 pm."
+			}
+		},
+		{
+			"name": "Tracey Snelling",
+			"discipline": [2,6],
+			"gender": "female",
+			"birthYear": 1970,
+			"birthTown": "Oakland",
+			"birthCountry": "USA",
+			"profileID": "7884",
+			"imageUrl" : "tracey_snelling.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "Gerichtshöfe",
+          "address": "Gerichtstraße 12-13, 13347 Berlin",
+          "date_in": 0,
+          "date_out": 2019,
+          "lat": 52.543609, 
+          "lon": 13.375432 
+        }
+      ]
+		},
+		{
+			"name": "Kitty Solaris",
+			"discipline": [3,7],
+			"gender": "female",
+			"birthYear": 0,
+			"birthTown": "?",
+			"birthCountry": "Germany",
+			"profileID": "375",
+			"imageUrl" : "kitty_solaris.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Chodowieckistraße 31, 10405 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.537096, 
+          "lon": 13.427277  
+        }
+      ],
+			"questions": {
+				"why": " I don´t know.",
+				"music": "...I have to listen to my own music. ;)",
+				"workHours" : "19:00pm until 1:00am."
+			}
+		},
+		{
+			"name": "Frank Spilker",
+			"discipline": [3,7],
+			"gender": "male",
+			"birthYear": 1966,
+			"birthTown": "Herford",
+			"birthCountry": "Germany",
+			"profileID": "8605",
+			"imageUrl" : "frank_spilker.jpg",
+			"studioVisit": "Hamburg",
+      "studioLocations": [
+        {
+          "name": "Die Sterne",
+          "address": "Warnholtzstrasse 4, 22767 Hamburg",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 53.555009, 
+          "lon": 9.945380 
+        }
+      ]
+		},
+
+    {
+      "name": "Cornelia Theimer Gardella",
+      "discipline": [5,4],
+      "gender": "female",
+      "birthYear": 1972,
+      "birthTown": "Erfurt",
+      "birthCountry": "Germany",
+      "profileID": 0,
+      "imageUrl" : "cornelia_theimer_gardella.jpg",
+      "studioVisit": "Erfurt",
+      "studioLocations": [
+        {
+          "name": "Wächterhaus 3",
+          "address": "Nordhäuser Straße 84, 99089 Erfurt",
+          "date_in": "May 2018",
+          "date_out": "now",
+          "lat": 50.989148, 
+          "lon": 11.014846
+        }
+      ]
+    },
+
+		{
+			"name": "T.Raumschmiere",
+			"discipline": [3],
+			"gender": "male",
+			"birthYear": 1975,
+			"birthTown": "Heidelburg",
+			"birthCountry": "Germany",
+			"profileID": "6495",
+			"imageUrl" : "t_raumschmiere.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Sonnenallee 65, 12045 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.484830, 
+          "lon": 13.434833 
+        }
+      ]
+		},
+		{
+			"name": "Tomoyuki Ueno",
+			"discipline": [5,4],
+			"gender": "male",
+			"birthYear": 1982,
+			"birthTown": "Kobe",
+			"birthCountry": "Japan",
+			"profileID": "8659",
+			"imageUrl" : "tomoyuki_ueno.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Kühnemannstraße 51-69, 13409 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.567664, 
+          "lon": 13.384613 
+        }
+      ]
+		},
+		{
+			"name": "Hans Unstern",
+			"discipline": [3,7],
+			"gender": "male",
+			"birthYear": 0,
+			"birthTown": "?",
+			"birthCountry": "?",
+			"profileID": "8785",
+			"imageUrl" : "hans_unstern.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Sonnenallee 65, 12045 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.484830, 
+          "lon": 13.434833 
+        }
+      ]
+		},
+		{
+			"name": "Viron Erol Vert",
+			"discipline": [5],
+			"gallery": "Galerie Reinhard Hauff",
+			"gender": "male",
+			"birthYear": 0,
+			"birthTown": "?",
+			"birthCountry": "?",
+			"profileID": "4996",
+			"imageUrl" : "viron_erol_vert.jpg",
+			"studioVisit": "Florence",
+      "studioLocations": [
+        {
+          "name": "Villa Romana",
+          "address": "Via Senese 68, 50124 Florence",
+          "date_in": "01.02.2018",
+          "date_out": "30.11.2018",
+          "lat": 43.753996, 
+          "lon": 11.239159  
+        }
+      ],
+			"questions": {
+				"why": "To survive.",
+				"music": "all depends on the mood I know that a work is.",
+				"workHours" : "always."
+			}
+		},
+		{
+			"name": "Miriam Vlaming",
+			"discipline": [1,6],
+			"gender": "female",
+			"birthYear": 1971,
+			"birthTown": "Düsseldorf",
+			"birthCountry": "Germany",
+			"profileID": "7358",
+			"imageUrl" : "miriam_vlaming.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Spiekermannstraße 31A, 13189 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.554001, 
+          "lon": 13.428658 
+        }
+      ],
+			"questions": {
+				"why": "I do what I do because I need to.",
+				"music": "al kind of music, Agnes Obey or Hörspiele, classic or punk. It depends on the mood I am in.",
+				"workHours" : "I like to work at night. But usually from morning till afternoon."
+			}
+		},
+		{
+			"name": "Wiebke Maria Wachmann",
+			"discipline": [6,4],
+			"gender": "female",
+			"birthYear": 1969,
+			"birthTown": "Berlin",
+			"birthCountry": "Germany",
+			"profileID": "5426",
+			"imageUrl" : "wiebke_maria_wachmann.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Schwedter Straße 232, 10435 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.538151, 
+          "lon": 13.405162 
+        }
+      ]
+		},
+		{
+			"name": "Shira Wachsmann",
+			"discipline": [5,2],
+			"gender": "female",
+			"birthYear": 1984,
+			"birthTown": "Tel Aviv",
+			"birthCountry": "Israel",
+			"profileID": "5967",
+			"imageUrl" : "shira_wachsmann.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Paul-Lincke-Ufer 30, 10999 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.495387, 
+          "lon": 13.426032  
+        }
+      ]
+		},
+		{
+			"name": "Julius Weiland",
+			"discipline": [6,1],
+			"gender": "male",
+			"birthYear": 1971,
+			"birthTown": "Lübeck",
+			"birthCountry": "Germany",
+			"profileID": "1781",
+			"imageUrl" : "julius_weiland.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Platz der Vereinten Nationen 29, 10249 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.524045, 
+          "lon": 13.429032 
+        },
+        {
+          "name": " ",
+          "address": "Provinzstraße 42, 13409 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 52.567997, 
+          "lon": 13.378938  
+        }
+      ],
+			"questions": {
+				"why": "The best moment is when I don‘t think too much about it. I always try to develop my work and look for new challenges. This way it keeps me going and it never gets boring.",
+				"music": " jazz, classical, electronics, but often I like to work in silence.",
+				"workHours" : "somewhere between 10:00 and 20:00, everything I touch before gets wrong. And when it‘s getting late my eyes get too tired."
+			}
+		},
+		{
+			"name": "Peter Welz",
+			"discipline": [2,5],
+			"gender": "male",
+			"birthYear": 1972,
+			"birthTown": "Lauingen",
+			"birthCountry": "Germany",
+			"profileID": "4414",
+			"imageUrl" : "peter_welz.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "Gerichtshöfe",
+          "address": "Gerichtstraße 12-13, 13347 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.543609, 
+          "lon": 13.375432 
+        }
+      ],
+			"questions": {
+				"why": "Just like Beckett said: 'Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.'",
+				"music": "Spotify enables you not to have to listen to a track twice in a life time.",
+				"workHours" : "early afternoons till open end."
+			}
+		},
+		{
+			"name": "Trak Wendisch",
+			"discipline": [6,1],
+			"gender": "male",
+			"birthYear": 1958,
+			"birthTown": "Berlin",
+			"birthCountry": "GDR",
+			"profileID": "9469",
+			"imageUrl" : "trak_wendisch.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Görschstraße 7, 13187 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.566485, 
+          "lon": 13.399281  
+        }
+      ]
+		},
+		{
+			"name": "Sinta Werner",
+			"discipline": [6,4],
+			"gallery": "Galerie Alexander Levy",
+			"gender": "female",
+			"birthYear": 1977,
+			"birthTown": "Hattingen",
+			"birthCountry": "Germany",
+			"profileID": "3406",
+			"imageUrl" : "sinta_werner.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Kamekestraße 11, 13409 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.568306, 
+          "lon": 13.376099 
+        }
+      ]
+		},
+		{
+			"name": "Hansa Wißkirchen",
+			"discipline": [5],
+			"gender": "male",
+			"birthYear": 1966,
+			"birthTown": "Düsseldorf",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl" : "hansa_wisskirchen.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "Salon Hansa",
+          "address": "Waldstraße 58, 13403 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.576378, 
+          "lon": 13.315817
+        },
+        {
+          "name": "Studio Hansa",
+          "address": "Torstraße 106, 10119 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 52.529578, 
+          "lon": 13.403429 
+        }
+      ]
+		},
+		{
+			"name": "Markus Wüste",
+			"discipline": [6],
+			"gender": "male",
+			"birthYear": 1970,
+			"birthTown": "Bad Kötzting",
+			"birthCountry": "Germany",
+			"profileID": "4424",
+			"imageUrl" : "markus_wueste.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Pankstraße 13, 13127 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.593096, 
+          "lon": 13.438344 
+        }
+      ],
+      "questions": {
+        "why": "Curiosity.",
+        "music": "greek radio.",
+        "workHours" : "morning until evening."
+      }
+		},
+		{
+			"name": "Michaela Zimmer",
+			"discipline": [1],
+			"gallery": "Galerie Alber",
+			"gender": "female",
+			"birthYear": 1964,
+			"birthTown": "Berlin",
+			"birthCountry": "Germany",
+			"profileID": "4604",
+			"imageUrl" : "michaela_zimmer.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Holsteinische Str. 40, 10717 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.491123, 
+          "lon": 13.324685 
+        }
+      ],
+			"questions": {
+				"why": "I love it.",
+				"music": "none, except my neighbor listens to some.",
+				"workHours" : "early on after running til very late."
+			}
+		}
+	],
+	"links": [{
+		"source": "Christopher Bauder",
+		"target": "Robert Henke",
+		"value": 10
+	}, {
+		"source": "Christopher Bauder",
+		"target": "Robert Henke",
+		"value": 25
+	}, {
+		"source": "Fehmi Baumbach",
+		"target": "Maria Gideon",
+		"value": 10
+	}, {
+		"source": "Fehmi Baumbach",
+		"target": "Bärnd Nettmann",
+		"value": 10
+	}, {
+		"source": "Clemens Behr",
+		"target": "Axel Anklam",
+		"value": 10
+	}, {
+		"source": "Clemens Behr",
+		"target": "Bram Braam",
+		"value": 10
+	}, {
+		"source": "Clemens Behr",
+		"target": "Wolfgang Flad",
+		"value": 10
+	}, {
+		"source": "Clemens Behr",
+		"target": "Paul Frick",
+		"value": 10
+	}, {
+		"source": "Clemens Behr",
+		"target": "Jeewi Lee",
+		"value": 10
+	}, {
+		"source": "Clemens Behr",
+		"target": "Ekaterina Mitichkina",
+		"value": 10
+	}, {
+		"source": "Clemens Behr",
+		"target": "Jan Muche",
+		"value": 10
+	}, {
+		"source": "Clemens Behr",
+		"target": "Johannes Mundinger",
+		"value": 10
+	}, {
+		"source": "Clemens Behr",
+		"target": "Johannes Mundinger",
+		"value": 25
+	}, {
+		"source": "Clemens Behr",
+		"target": "Manfred Peckl",
+		"value": 10
+	}, {
+		"source": "Isabelle Borges",
+		"target": "Axel Anklam",
+		"value": 10
+	}, {
+		"source": "Isabelle Borges",
+		"target": "Fritz Bornstück",
+		"value": 10
+	}, {
+		"source": "Isabelle Borges",
+		"target": "Bram Braam",
+		"value": 25
+	}, {
+		"source": "Isabelle Borges",
+		"target": "Sven Drühl",
+		"value": 10
+	}, {
+		"source": "Isabelle Borges",
+		"target": "Wolfgang Flad",
+		"value": 10
+	}, {
+		"source": "Isabelle Borges",
+		"target": "Wolfgang Flad",
+		"value": 25
+	}, {
+		"source": "Isabelle Borges",
+		"target": "Alex Flemming",
+		"value": 10
+	}, {
+		"source": "Isabelle Borges",
+		"target": "Peter Freitag",
+		"value": 10
+	}, {
+		"source": "Isabelle Borges",
+		"target": "Oliver Gröne",
+		"value": 10
+	}, {
+		"source": "Isabelle Borges",
+		"target": "Oliver Gröne",
+		"value": 25
+	}, {
+		"source": "Isabelle Borges",
+		"target": "Philip Grözinger",
+		"value": 10
+	}, {
+		"source": "Isabelle Borges",
+		"target": "Philip Grözinger",
+		"value": 25
+	}, {
+		"source": "Isabelle Borges",
+		"target": "Jens Hausmann",
+		"value": 10
+	}, {
+		"source": "Isabelle Borges",
+		"target": "Michelle Jezierski",
+		"value": 25
+	}, {
+		"source": "Isabelle Borges",
+		"target": "Franziska Klotz",
+		"value": 10
+	}, {
+		"source": "Isabelle Borges",
+		"target": "Caroline Kryzecki",
+		"value": 10
+	}, {
+		"source": "Isabelle Borges",
+		"target": "Alex Lebus",
+		"value": 10
+	}, {
+		"source": "Isabelle Borges",
+		"target": "Pedro Lopes",
+		"value": 10
+	}, {
+		"source": "Isabelle Borges",
+		"target": "Sandra Meisel",
+		"value": 10
+	}, {
+		"source": "Isabelle Borges",
+		"target": "Jan Muche",
+		"value": 10
+	}, {
+		"source": "Isabelle Borges",
+		"target": "Manfred Peckl",
+		"value": 10
+	}, {
+		"source": "Isabelle Borges",
+		"target": "Gonzalo Reyes Araos",
+		"value": 10
+	}, {
+		"source": "Isabelle Borges",
+		"target": "Miriam Vlaming",
+		"value": 10
+	}, {
+		"source": "Fritz Bornstück",
+		"target": "Christian Achenbach",
+		"value": 10
+	}, {
+		"source": "Fritz Bornstück",
+		"target": "Jofroi Amaral",
+		"value": 10
+	}, {
+		"source": "Fritz Bornstück",
+		"target": "Isabelle Borges",
+		"value": 10
+	}, {
+		"source": "Fritz Bornstück",
+		"target": "Bram Braam",
+		"value": 25
+	}, {
+		"source": "Fritz Bornstück",
+		"target": "Moritz Frei",
+		"value": 10
+	}, {
+		"source": "Fritz Bornstück",
+		"target": "Alex Lebus",
+		"value": 10
+	}, {
+		"source": "Fritz Bornstück",
+		"target": "Jeewi Lee",
+		"value": 10
+	}, {
+		"source": "Fritz Bornstück",
+		"target": "Sandra Meisel",
+		"value": 10
+	}, {
+		"source": "Fritz Bornstück",
+		"target": "Bjørn Melhus",
+		"value": 10
+	}, {
+		"source": "Fritz Bornstück",
+		"target": "Manfred Peckl",
+		"value": 25
+	}, {
+		"source": "Fritz Bornstück",
+		"target": "Viron Erol Vert",
+		"value": 10
+	}, {
+		"source": "Fritz Bornstück",
+		"target": "Miriam Vlaming",
+		"value": 10
+	}, {
+		"source": "Stefano Bosis",
+		"target": "Michel Lamoller",
+		"value": 15
+	}, {
+		"source": "Bram Braam",
+		"target": "Axel Anklam",
+		"value": 10
+	}, {
+		"source": "Bram Braam",
+		"target": "Alex Bodea",
+		"value": 10
+	}, {
+		"source": "Bram Braam",
+		"target": "Isabelle Borges",
+		"value": 10
+	}, {
+		"source": "Bram Braam",
+		"target": "Fritz Bornstück",
+		"value": 10
+	}, {
+		"source": "Bram Braam",
+		"target": "Wolfgang Flad",
+		"value": 10
+	}, {
+		"source": "Bram Braam",
+		"target": "Lukas Glinkowski",
+		"value": 10
+	}, {
+		"source": "Bram Braam",
+		"target": "Philip Grözinger",
+		"value": 10
+	}, {
+		"source": "Bram Braam",
+		"target": "Jens Hausmann",
+		"value": 25
+	}, {
+		"source": "Bram Braam",
+		"target": "Sibylle Jazra",
+		"value": 10
+	}, {
+		"source": "Bram Braam",
+		"target": "Alanna Lawley",
+		"value": 10
+	}, {
+		"source": "Bram Braam",
+		"target": "Alanna Lawley",
+		"value": 25
+	}, {
+		"source": "Bram Braam",
+		"target": "Jeewi Lee",
+		"value": 10
+	}, {
+		"source": "Bram Braam",
+		"target": "Sandra Meisel",
+		"value": 10
+	}, {
+		"source": "Bram Braam",
+		"target": "Sandra Meisel",
+		"value": 25
+	}, {
+		"source": "Bram Braam",
+		"target": "Sebastian Meschenmoser",
+		"value": 10
+	}, {
+		"source": "Bram Braam",
+		"target": "Ekaterina Mitichkina",
+		"value": 10
+	}, {
+		"source": "Bram Braam",
+		"target": "Ekaterina Mitichkina",
+		"value": 25
+	}, {
+		"source": "Bram Braam",
+		"target": "Jan Muche",
+		"value": 10
+	}, {
+		"source": "Bram Braam",
+		"target": "Jan Muche",
+		"value": 25
+	}, {
+		"source": "Bram Braam",
+		"target": "Manfred Peckl",
+		"value": 10
+	}, {
+		"source": "Bram Braam",
+		"target": "Manfred Peckl",
+		"value": 25
+	}, {
+		"source": "Bram Braam",
+		"target": "Sinta Werner",
+		"value": 25
+	}, 
+
+  {
+    "source": "Kaan Bulak",
+    "target": "Robert Lippok",
+    "value": 10
+  },
+
+  {
+    "source": "Kaan Bulak",
+    "target": "Robert Lippok",
+    "value": 25
+  },
+
+
+  {
+		"source": "Dirty Doering",
+		"target": "Pilocka Krach",
+		"value": 10
+	}, {
+		"source": "Dirty Doering",
+		"target": "Pilocka Krach",
+		"value": 15
+	}, {
+		"source": "Ornella Fieres",
+		"target": "Jofroi Amaral",
+		"value": 10
+	}, {
+		"source": "Ornella Fieres",
+		"target": "Carla Chan",
+		"value": 10
+	}, {
+		"source": "Ornella Fieres",
+		"target": "Peter Freitag",
+		"value": 10
+	}, {
+		"source": "Ornella Fieres",
+		"target": "Jay Gard",
+		"value": 10
+	}, {
+		"source": "Ornella Fieres",
+		"target": "Jay Gard",
+		"value": 10
+	}, {
+		"source": "Ornella Fieres",
+		"target": "Philip Grözinger",
+		"value": 10
+	}, {
+		"source": "Ornella Fieres",
+		"target": "Michelle Jezierski",
+		"value": 10
+	}, {
+		"source": "Ornella Fieres",
+		"target": "Michelle Jezierski",
+		"value": 25
+	}, {
+		"source": "Ornella Fieres",
+		"target": "Jeewi Lee",
+		"value": 10
+	}, {
+		"source": "Ornella Fieres",
+		"target": "Jeewi Lee",
+		"value": 25
+	}, {
+		"source": "Ornella Fieres",
+		"target": "Bjørn Melhus",
+		"value": 10
+	}, {
+		"source": "Ornella Fieres",
+		"target": "Erik Schmidt",
+		"value": 10
+	}, {
+		"source": "Peter Freitag",
+		"target": "Jofroi Amaral",
+		"value": 10
+	}, {
+		"source": "Peter Freitag",
+		"target": "Bram Braam",
+		"value": 10
+	}, {
+		"source": "Peter Freitag",
+		"target": "Mimmo Catania",
+		"value": 10
+	}, {
+		"source": "Peter Freitag",
+		"target": "Ornella Fieres",
+		"value": 10
+	}, {
+		"source": "Peter Freitag",
+		"target": "Lukas Glinkowski",
+		"value": 10
+	}, {
+		"source": "Peter Freitag",
+		"target": "Sibylle Jazra",
+		"value": 10
+	}, {
+		"source": "Peter Freitag",
+		"target": "Klaus Killisch",
+		"value": 10
+	}, {
+		"source": "Peter Freitag",
+		"target": "Astrid Köppe",
+		"value": 10
+	}, {
+		"source": "Peter Freitag",
+		"target": "Ekaterina Mitichkina",
+		"value": 10
+	}, {
+		"source": "Peter Freitag",
+		"target": "Manfred Peckl",
+		"value": 10
+	}, {
+		"source": "Peter Freitag",
+		"target": "Pietro Sanguineti",
+		"value": 10
+	}, {
+		"source": "Peter Freitag",
+		"target": "Erik Schmidt",
+		"value": 10
+	}, {
+		"source": "Peter Freitag",
+		"target": "Michaela Zimmer",
+		"value": 10
+	}, {
+		"source": "Paul Frick",
+		"target": "T.Raumschmiere",
+		"value": 10
+	}, {
+		"source": "Jay Gard",
+		"target": "Jofroi Amaral",
+		"value": 10
+	}, {
+		"source": "Jay Gard",
+		"target": "Amélie Blendl",
+		"value": 10
+	}, {
+		"source": "Jay Gard",
+		"target": "Isabelle Borges",
+		"value": 10
+	}, {
+		"source": "Jay Gard",
+		"target": "Fritz Bornstück",
+		"value": 10
+	}, {
+		"source": "Jay Gard",
+		"target": "Carla Chan",
+		"value": 10
+	}, {
+		"source": "Jay Gard",
+		"target": "Sven Drühl",
+		"value": 10
+	}, {
+		"source": "Jay Gard",
+		"target": "Ornella Fieres",
+		"value": 10
+	}, {
+		"source": "Jay Gard",
+		"target": "Moritz Frei",
+		"value": 10
+	}, {
+		"source": "Jay Gard",
+		"target": "Lukas Glinkowski",
+		"value": 10
+	}, {
+		"source": "Jay Gard",
+		"target": "Philip Grözinger",
+		"value": 10
+	}, {
+		"source": "Jay Gard",
+		"target": "Jens Hausmann",
+		"value": 10
+	}, {
+		"source": "Jay Gard",
+		"target": "Michelle Jezierski",
+		"value": 10
+	}, {
+		"source": "Jay Gard",
+		"target": "Caroline Kryzecki",
+		"value": 10
+	}, {
+		"source": "Jay Gard",
+		"target": "Jeewi Lee",
+		"value": 10
+	}, {
+		"source": "Jay Gard",
+		"target": "Jan Muche",
+		"value": 10
+	}, {
+		"source": "Jay Gard",
+		"target": "Nik Nowak",
+		"value": 10
+	}, 
+
+	{
+		"source": "Ostberlin Androgyn",
+		"target": "Robert Henke",
+		"value": 15
+	}, 
+
+	{
+		"source": "Jay Gard",
+		"target": "Manfred Peckl",
+		"value": 10
+	}, {
+		"source": "Jay Gard",
+		"target": "Hansa Wißkirchen",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Christian Achenbach",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Christian Achenbach",
+		"value": 25
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Axel Anklam",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Bernd Begemann",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Bernd Begemann",
+		"value": 25
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Isabelle Borges",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Isabelle Borges",
+		"value": 25
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Fritz Bornstück",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Fritz Bornstück",
+		"value": 25
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Bram Braam",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Jenny Brosinski",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Carla Chan",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Sven Drühl",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Ornella Fieres",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Wolfgang Flad",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Alex Flemming",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Moritz Frei",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Jay Gard",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Jay Gard",
+		"value": 25
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Lukas Glinkowski",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Lukas Glinkowski",
+		"value": 25
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Oliver Gröne",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Stefanie Gutheil",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Stefanie Gutheil",
+		"value": 25
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Jens Hausmann",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Jens Hausmann",
+		"value": 25
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Michelle Jezierski",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Michelle Jezierski",
+		"value": 25
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Franziska Klotz",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Peter Kröning",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Peter Kröning",
+		"value": 25
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Caroline Kryzecki",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Caroline Kryzecki",
+		"value": 25
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Jeewi Lee",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Sandra Meisel",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Bjørn Melhus",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Bjørn Melhus",
+		"value": 25
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Sebastian Meschenmoser",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Ekaterina Mitichkina",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Jan Muche",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Jan Muche",
+		"value": 25
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Nik Nowak",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Manfred Peckl",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Manfred Peckl",
+		"value": 25
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Hansa Wißkirchen",
+		"value": 10
+	}, {
+		"source": "Philip Grözinger",
+		"target": "Hansa Wißkirchen",
+		"value": 25
+	}, 
+
+	
+	{
+		"source": "Stefanie Gutheil",
+		"target": "Christian Achenbach",
+		"value": 10
+	}, 
+	{
+		"source": "Stefanie Gutheil",
+		"target": "Axel Anklam",
+		"value": 10
+	}, 
+	{
+		"source": "Stefanie Gutheil",
+		"target": "Fritz Bornstück",
+		"value": 10
+	}, 
+	{
+		"source": "Stefanie Gutheil",
+		"target": "Sven Drühl",
+		"value": 10
+	}, 
+	{
+		"source": "Stefanie Gutheil",
+		"target": "Philip Grözinger",
+		"value": 10
+	}, 
+	{
+		"source": "Stefanie Gutheil",
+		"target": "Janes Haid-Schmallenberg",
+		"value": 10
+	}, 
+	{
+		"source": "Stefanie Gutheil",
+		"target": "Michelle Jezierski",
+		"value": 10
+	}, 
+	{
+		"source": "Stefanie Gutheil",
+		"target": "Caroline Kryzecki",
+		"value": 10
+	}, 
+	{
+		"source": "Stefanie Gutheil",
+		"target": "Jan Muche",
+		"value": 10
+	}, 
+	{
+		"source": "Stefanie Gutheil",
+		"target": "Manfred Peckl",
+		"value": 10
+	}, 
+
+
+
+	{
+		"source": "Lucas Gutierrez",
+		"target": "Robert Henke",
+		"value": 10
+	}, {
+		"source": "Lucas Gutierrez",
+		"target": "Robert Lippok",
+		"value": 10
+	}, {
+		"source": "Lucas Gutierrez",
+		"target": "Robert Lippok",
+		"value": 25
+	}, {
+		"source": "Lucas Gutierrez",
+		"target": "Sean Derrick Cooper Marquardt",
+		"value": 10
+	}, {
+		"source": "Lucas Gutierrez",
+		"target": "Gonzalo Reyes Araos",
+		"value": 10
+	}, {
+		"source": "Janes Haid-Schmallenberg",
+		"target": "Fritz Bornstück",
+		"value": 10
+	}, {
+		"source": "Janes Haid-Schmallenberg",
+		"target": "Daniel Grüttner",
+		"value": 10
+	}, {
+		"source": "Janes Haid-Schmallenberg",
+		"target": "Stefanie Gutheil",
+		"value": 10
+	}, {
+		"source": "Janes Haid-Schmallenberg",
+		"target": "Stefanie Gutheil",
+		"value": 10
+	}, {
+		"source": "Janes Haid-Schmallenberg",
+		"target": "Malte Kebbel",
+		"value": 10
+	}, {
+		"source": "Robert Henke",
+		"target": "Christopher Bauder",
+		"value": 10
+	}, {
+		"source": "Robert Henke",
+		"target": "Christopher Bauder",
+		"value": 25
+	}, {
+		"source": "Sibylle Jazra",
+		"target": "Jofroi Amaral",
+		"value": 10
+	}, {
+		"source": "Sibylle Jazra",
+		"target": "Axel Anklam",
+		"value": 10
+	}, {
+		"source": "Sibylle Jazra",
+		"target": "Bram Braam",
+		"value": 10
+	}, {
+		"source": "Sibylle Jazra",
+		"target": "Wolfgang Flad",
+		"value": 10
+	}, {
+		"source": "Sibylle Jazra",
+		"target": "Peter Freitag",
+		"value": 10
+	}, {
+		"source": "Sibylle Jazra",
+		"target": "Lukas Glinkowski",
+		"value": 10
+	}, {
+		"source": "Sibylle Jazra",
+		"target": "Klaus Killisch",
+		"value": 10
+	}, {
+		"source": "Sibylle Jazra",
+		"target": "Astrid Köppe",
+		"value": 10
+	}, {
+		"source": "Sibylle Jazra",
+		"target": "Caroline Kryzecki",
+		"value": 10
+	}, {
+		"source": "Sibylle Jazra",
+		"target": "Bjørn Melhus",
+		"value": 10
+	}, {
+		"source": "Sibylle Jazra",
+		"target": "Pietro Sanguineti",
+		"value": 10
+	}, {
+		"source": "Sibylle Jazra",
+		"target": "Michaela Zimmer",
+		"value": 10
+	}, {
+		"source": "Anne Duk Hee Jordan",
+		"target": "Aram Bartholl",
+		"value": 10
+	}, {
+		"source": "Anne Duk Hee Jordan",
+		"target": "Jeewi Lee",
+		"value": 10
+	}, {
+		"source": "Anne Duk Hee Jordan",
+		"target": "Robert Lippok",
+		"value": 10
+	}, {
+		"source": "Anne Duk Hee Jordan",
+		"target": "Robert Lippok",
+		"value": 25
+	}, {
+		"source": "Anne Duk Hee Jordan",
+		"target": "Viron Erol Vert",
+		"value": 10
+	}, {
+		"source": "Anne Duk Hee Jordan",
+		"target": "Viron Erol Vert",
+		"value": 15
+	}, {
+		"source": "Anne Duk Hee Jordan",
+		"target": "Viron Erol Vert",
+		"value": 25
+	}, {
+		"source": "Anne Duk Hee Jordan",
+		"target": "Shira Wachsmann",
+		"value": 10
+	}, {
+		"source": "Anne Duk Hee Jordan",
+		"target": "Shira Wachsmann",
+		"value": 15
+	}, {
+		"source": "Anne Duk Hee Jordan",
+		"target": "Shira Wachsmann",
+		"value": 25
+	}, 
+
+	{
+		"source": "Rajkamal Kahlon",
+		"target": "Marcela Moraga",
+		"value": 15
+	}, 
+
+	{
+		"source": "Carolin Kastner",
+		"target": "Bram Braam",
+		"value": 10
+	}, {
+		"source": "Klaus Killisch",
+		"target": "Lothar Böhme",
+		"value": 10
+	}, {
+		"source": "Klaus Killisch",
+		"target": "Lothar Böhme",
+		"value": 25
+	}, {
+		"source": "Klaus Killisch",
+		"target": "Isabelle Borges",
+		"value": 10
+	}, {
+		"source": "Klaus Killisch",
+		"target": "Sven Drühl",
+		"value": 10
+	}, {
+		"source": "Klaus Killisch",
+		"target": "Alex Flemming",
+		"value": 10
+	}, {
+		"source": "Klaus Killisch",
+		"target": "Moritz Frei",
+		"value": 10
+	}, {
+		"source": "Klaus Killisch",
+		"target": "Peter Freitag",
+		"value": 10
+	}, {
+		"source": "Klaus Killisch",
+		"target": "Oliver Gröne",
+		"value": 10
+	}, {
+		"source": "Klaus Killisch",
+		"target": "Philip Grözinger",
+		"value": 10
+	}, {
+		"source": "Klaus Killisch",
+		"target": "Philip Grözinger",
+		"value": 10
+	}, {
+		"source": "Klaus Killisch",
+		"target": "Jens Hausmann",
+		"value": 10
+	}, {
+		"source": "Klaus Killisch",
+		"target": "Astrid Köppe",
+		"value": 10
+	}, {
+		"source": "Klaus Killisch",
+		"target": "Robert Lippok",
+		"value": 10
+	}, {
+		"source": "Klaus Killisch",
+		"target": "Robert Lippok",
+		"value": 25
+	}, {
+		"source": "Klaus Killisch",
+		"target": "Nik Nowak",
+		"value": 25
+	}, {
+		"source": "Klaus Killisch",
+		"target": "Manfred Peckl",
+		"value": 10
+	}, {
+		"source": "Klaus Killisch",
+		"target": "Pietro Sanguineti",
+		"value": 10
+	}, {
+		"source": "Klaus Killisch",
+		"target": "Susanne Schirdewahn",
+		"value": 10
+	}, {
+		"source": "Klaus Killisch",
+		"target": "Trak Wendisch",
+		"value": 10
+	}, 
+
+
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Christian Achenbach",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Axel Anklam",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Isabelle Borges",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Fritz Bornstück",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Bram Braam",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Sven Drühl",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Wolfgang Flad",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Oliver Gröne",
+		"value": 10
+	},
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Philip Grözinger",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Daniel Grüttner",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Stefanie Gutheil",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Jens Hausmann",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Michelle Jezierski",
+		"value": 10
+	},
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Klaus Killisch",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Bjørn Melhus",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Jan Muche",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Manfred Peckl",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Susanne Schirdewahn",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Erik Schmidt",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Miriam Vlaming",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Hansa Wißkirchen",
+		"value": 10
+	},
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Markus Wüste",
+		"value": 10
+	}, 
+ 	{
+		"source": "Franziska Klotz",
+		"target": "Michaela Zimmer",
+		"value": 10
+	}, 
+
+
+	{
+		"source": "Kevin Kopacka",
+		"target": "Fritz Bornstück",
+		"value": 10
+	}, {
+		"source": "Kevin Kopacka",
+		"target": "Michelle Jezierski",
+		"value": 10
+	}, {
+		"source": "Kevin Kopacka",
+		"target": "Malte Kebbel",
+		"value": 10
+	}, {
+		"source": "Kevin Kopacka",
+		"target": "Jeewi Lee",
+		"value": 10
+	}, {
+		"source": "Kevin Kopacka",
+		"target": "Sebastian Meschenmoser",
+		"value": 10
+	}, {
+		"source": "Kevin Kopacka",
+		"target": "Jan Muche",
+		"value": 10
+	}, {
+		"source": "Kevin Kopacka",
+		"target": "Shira Wachsmann",
+		"value": 10
+	}, {
+		"source": "Kevin Kopacka",
+		"target": "Hansa Wißkirchen",
+		"value": 10
+	}, {
+		"source": "Astrid Köppe",
+		"target": "Wolfgang Flad",
+		"value": 10
+	}, {
+		"source": "Astrid Köppe",
+		"target": "Peter Freitag",
+		"value": 10
+	}, {
+		"source": "Astrid Köppe",
+		"target": "Sibylle Jazra",
+		"value": 10
+	}, {
+		"source": "Astrid Köppe",
+		"target": "Klaus Killisch",
+		"value": 10
+	}, {
+		"source": "Caroline Kryzecki",
+		"target": "Christian Achenbach",
+		"value": 10
+	}, {
+		"source": "Caroline Kryzecki",
+		"target": "Christian Achenbach",
+		"value": 25
+	}, {
+		"source": "Caroline Kryzecki",
+		"target": "Jofroi Amaral",
+		"value": 10
+	}, {
+		"source": "Caroline Kryzecki",
+		"target": "Isabelle Borges",
+		"value": 10
+	}, {
+		"source": "Caroline Kryzecki",
+		"target": "Fritz Bornstück",
+		"value": 10
+	}, {
+		"source": "Caroline Kryzecki",
+		"target": "Carla Chan",
+		"value": 25
+	}, {
+		"source": "Caroline Kryzecki",
+		"target": "Ornella Fieres",
+		"value": 10
+	}, {
+		"source": "Caroline Kryzecki",
+		"target": "Wolfgang Flad",
+		"value": 10
+	}, {
+		"source": "Caroline Kryzecki",
+		"target": "Wolfgang Flad",
+		"value": 25
+	}, {
+		"source": "Caroline Kryzecki",
+		"target": "Jay Gard",
+		"value": 10
+	}, {
+		"source": "Caroline Kryzecki",
+		"target": "Jay Gard",
+		"value": 25
+	}, {
+		"source": "Caroline Kryzecki",
+		"target": "Lukas Glinkowski",
+		"value": 10
+	}, {
+		"source": "Caroline Kryzecki",
+		"target": "Philip Grözinger",
+		"value": 10
+	}, {
+		"source": "Caroline Kryzecki",
+		"target": "Jens Hausmann",
+		"value": 10
+	}, {
+		"source": "Caroline Kryzecki",
+		"target": "Sibylle Jazra",
+		"value": 10
+	}, {
+		"source": "Caroline Kryzecki",
+		"target": "Michelle Jezierski",
+		"value": 10
+	}, {
+		"source": "Caroline Kryzecki",
+		"target": "Jeewi Lee",
+		"value": 10
+	}, {
+		"source": "Caroline Kryzecki",
+		"target": "Sebastian Meschenmoser",
+		"value": 10
+	}, {
+		"source": "Caroline Kryzecki",
+		"target": "Sebastian Meschenmoser",
+		"value": 25
+	}, {
+		"source": "Caroline Kryzecki",
+		"target": "Jan Muche",
+		"value": 10
+	}, {
+		"source": "Caroline Kryzecki",
+		"target": "Manfred Peckl",
+		"value": 10
+	}, {
+		"source": "Caroline Kryzecki",
+		"target": "Erik Schmidt",
+		"value": 10
+	}, {
+		"source": "Caroline Kryzecki",
+		"target": "Erik Schmidt",
+		"value": 25
+	}, {
+		"source": "Caroline Kryzecki",
+		"target": "Sinta Werner",
+		"value": 10
+	}, {
+		"source": "Caroline Kryzecki",
+		"target": "Michaela Zimmer",
+		"value": 10
+	}, {
+		"source": "Alanna Lawley",
+		"target": "Aram Bartholl",
+		"value": 10
+	}, {
+		"source": "Alanna Lawley",
+		"target": "Bram Braam",
+		"value": 10
+	}, {
+		"source": "Alanna Lawley",
+		"target": "Bram Braam",
+		"value": 25
+	}, {
+		"source": "Alex Lebus",
+		"target": "Amélie Blendl",
+		"value": 10
+	}, {
+		"source": "Alex Lebus",
+		"target": "Isabelle Borges",
+		"value": 10
+	}, {
+		"source": "Alex Lebus",
+		"target": "Fritz Bornstück",
+		"value": 10
+	}, {
+		"source": "Alex Lebus",
+		"target": "Bram Braam",
+		"value": 10
+	}, {
+		"source": "Alex Lebus",
+		"target": "Philip Grözinger",
+		"value": 10
+	}, {
+		"source": "Alex Lebus",
+		"target": "Jens Hausmann",
+		"value": 10
+	}, {
+		"source": "Alex Lebus",
+		"target": "Jan Muche",
+		"value": 10
+	}, {
+		"source": "Alex Lebus",
+		"target": "Manfred Peckl",
+		"value": 10
+	}, {
+		"source": "Alex Lebus",
+		"target": "Michaela Zimmer",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Christian Achenbach",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Jofroi Amaral",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Axel Anklam",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Clemens Behr",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Fritz Bornstück",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Bram Braam",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Carla Chan",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Sven Drühl",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Ornella Fieres",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Wolfgang Flad",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Moritz Frei",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Jay Gard",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Lukas Glinkowski",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Philip Grözinger",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Michelle Jezierski",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Anne Duk Hee Jordan",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Kevin Kopacka",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Caroline Kryzecki",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Bjørn Melhus",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Jan Muche",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Christophe Ndabananiye",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Christophe Ndabananiye",
+		"value": 15
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Manfred Peckl",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Lerato Shadi",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Lerato Shadi",
+		"value": 15
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Viron Erol Vert",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Viron Erol Vert",
+		"value": 15
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Sinta Werner",
+		"value": 10
+	},
+
+	{
+		"source": "Annekatrin Lemke",
+		"target": "Isabelle Borges",
+		"value": 10
+	},
+	{
+		"source": "Annekatrin Lemke",
+		"target": "Bram Braam",
+		"value": 10
+	},
+	{
+		"source": "Annekatrin Lemke",
+		"target": "Moritz Frei",
+		"value": 10
+	},
+	{
+		"source": "Annekatrin Lemke",
+		"target": "Manfred Peckl",
+		"value": 10
+	},
+	{
+		"source": "Annekatrin Lemke",
+		"target": "Pietro Sanguineti",
+		"value": 10
+	},
+  {
+    "source": "Annekatrin Lemke",
+    "target": "Cornelia Theimer Gardella",
+    "value": 10
+  },
+
+
+	 {
+		"source": "Grischa Lichtenberger",
+		"target": "Christopher Bauder",
+		"value": 10
+	}, {
+		"source": "Grischa Lichtenberger",
+		"target": "Robert Henke",
+		"value": 10
+	}, {
+		"source": "Grischa Lichtenberger",
+		"target": "Robert Lippok",
+		"value": 10
+	}, {
+		"source": "Grischa Lichtenberger",
+		"target": "Robert Lippok",
+		"value": 15
+	}, {
+		"source": "Grischa Lichtenberger",
+		"target": "Robert Lippok",
+		"value": 25
+	}, {
+		"source": "Grischa Lichtenberger",
+		"target": "Jan Muche",
+		"value": 25
+	}, {
+		"source": "Robert Lippok",
+		"target": "Lucas Gutierrez",
+		"value": 10
+	}, {
+		"source": "Robert Lippok",
+		"target": "Lucas Gutierrez",
+		"value": 25
+	}, {
+		"source": "Robert Lippok",
+		"target": "Barbara Morgenstern",
+		"value": 10
+	}, {
+		"source": "Robert Lippok",
+		"target": "Barbara Morgenstern",
+		"value": 25
+	}, {
+		"source": "Ekaterina Mitichkina",
+		"target": "Axel Anklam",
+		"value": 10
+	}, {
+		"source": "Ekaterina Mitichkina",
+		"target": "Axel Anklam",
+		"value": 25
+	}, {
+		"source": "Ekaterina Mitichkina",
+		"target": "Isabelle Borges",
+		"value": 10
+	}, {
+		"source": "Ekaterina Mitichkina",
+		"target": "Bram Braam",
+		"value": 10
+	}, {
+		"source": "Ekaterina Mitichkina",
+		"target": "Sven Drühl",
+		"value": 10
+	}, {
+		"source": "Ekaterina Mitichkina",
+		"target": "Peter Freitag",
+		"value": 15
+	}, {
+		"source": "Ekaterina Mitichkina",
+		"target": "Philip Grözinger",
+		"value": 25
+	}, {
+		"source": "Ekaterina Mitichkina",
+		"target": "Stefanie Gutheil",
+		"value": 25
+	}, {
+		"source": "Ekaterina Mitichkina",
+		"target": "Jens Hausmann",
+		"value": 10
+	}, {
+		"source": "Ekaterina Mitichkina",
+		"target": "Peter Kröning",
+		"value": 10
+	}, {
+		"source": "Ekaterina Mitichkina",
+		"target": "Sandra Meisel",
+		"value": 10
+	}, {
+		"source": "Ekaterina Mitichkina",
+		"target": "Sandra Meisel",
+		"value": 25
+	}, {
+		"source": "Ekaterina Mitichkina",
+		"target": "Jan Muche",
+		"value": 10
+	}, {
+		"source": "Ekaterina Mitichkina",
+		"target": "Johannes Mundinger",
+		"value": 10
+	}, {
+		"source": "Ekaterina Mitichkina",
+		"target": "Johannes Mundinger",
+		"value": 15
+	}, {
+		"source": "Ekaterina Mitichkina",
+		"target": "Johannes Mundinger",
+		"value": 25
+	}, {
+		"source": "Ekaterina Mitichkina",
+		"target": "Manfred Peckl",
+		"value": 10
+	}, {
+		"source": "Ekaterina Mitichkina",
+		"target": "Manfred Peckl",
+		"value": 15
+	}, {
+		"source": "Ekaterina Mitichkina",
+		"target": "Manfred Peckl",
+		"value": 25
+	}, {
+		"source": "Ekaterina Mitichkina",
+		"target": "Tracey Snelling",
+		"value": 25
+	}, {
+		"source": "Ekaterina Mitichkina",
+		"target": "Viron Erol Vert",
+		"value": 25
+	}, {
+		"source": "Ekaterina Mitichkina",
+		"target": "Hansa Wißkirchen",
+		"value": 10
+	}, 
+
+	{
+		"source": "Marcela Moraga",
+		"target": "Rajkamal Kahlon",
+		"value": 10
+	}, 
+	{
+		"source": "Marcela Moraga",
+		"target": "Rajkamal Kahlon",
+		"value": 15
+	}, 
+
+
+
+	{
+		"source": "Barbara Morgenstern",
+		"target": "Toni Kater",
+		"value": 10
+	}, {
+		"source": "Barbara Morgenstern",
+		"target": "Bettina Köster",
+		"value": 10
+	}, {
+		"source": "Barbara Morgenstern",
+		"target": "Pilocka Krach",
+		"value": 25
+	}, {
+		"source": "Barbara Morgenstern",
+		"target": "Robert Lippok",
+		"value": 10
+	}, {
+		"source": "Barbara Morgenstern",
+		"target": "Robert Lippok",
+		"value": 25
+	}, {
+		"source": "Barbara Morgenstern",
+		"target": "T.Raumschmiere",
+		"value": 10
+	}, {
+		"source": "Barbara Morgenstern",
+		"target": "T.Raumschmiere",
+		"value": 25
+	}, {
+		"source": "Johannes Mundinger",
+		"target": "Clemens Behr",
+		"value": 10
+	}, {
+		"source": "Johannes Mundinger",
+		"target": "Jenny Brosinski",
+		"value": 10
+	}, {
+		"source": "Johannes Mundinger",
+		"target": "Ekaterina Mitichkina",
+		"value": 10
+	}, {
+		"source": "Johannes Mundinger",
+		"target": "Ekaterina Mitichkina",
+		"value": 25
+	}, {
+		"source": "Johannes Mundinger",
+		"target": "Jan Muche",
+		"value": 10
+	}, {
+		"source": "Johannes Mundinger",
+		"target": "Manfred Peckl",
+		"value": 10
+	}, {
+		"source": "Bärnd Nettmann",
+		"target": "Fehmi Baumbach",
+		"value": 10
+	}, {
+		"source": "Bärnd Nettmann",
+		"target": "Maria Gideon",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Christian Achenbach",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Axel Anklam",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Isabelle Borges",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Fritz Bornstück",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Bram Braam",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Mimmo Catania",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Sven Drühl",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Wolfgang Flad",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Peter Freitag",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Jay Gard",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Lukas Glinkowski",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Philip Grözinger",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Stefanie Gutheil",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Jens Hausmann",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Michelle Jezierski",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Franziska Klotz",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Alex Lebus",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Jeewi Lee",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Sandra Meisel",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Sebastian Meschenmoser",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Ekaterina Mitichkina",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Jan Muche",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Rainer Neumeier",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Pietro Sanguineti",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Susanne Schirdewahn",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Miriam Vlaming",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Julius Weiland",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Hansa Wißkirchen",
+		"value": 10
+	}, {
+		"source": "Manfred Peckl",
+		"target": "Michaela Zimmer",
+		"value": 10
+	}, 
+
+	{
+		"source": "Laura Põld",
+		"target": "Liisi Eelmaa",
+		"value": 10
+	}, 
+	{
+		"source": "Laura Põld",
+		"target": "Camille Laurelli",
+		"value": 25
+	}, 
+
+  {
+    "source": "Radio Papesse",
+    "target": "Rajkamal Kahlon",
+    "value": 15
+  }, 
+  {
+    "source": "Radio Papesse",
+    "target": "Jeewi Lee",
+    "value": 15
+  }, 
+  {
+    "source": "Radio Papesse",
+    "target": "Marcela Moraga",
+    "value": 15
+  }, 
+  {
+    "source": "Radio Papesse",
+    "target": "Christophe Ndabananiye",
+    "value": 15
+  }, 
+  {
+    "source": "Radio Papesse",
+    "target": "Lerato Shadi",
+    "value": 15
+  }, 
+  {
+    "source": "Radio Papesse",
+    "target": "Viron Erol Vert",
+    "value": 15
+  }, 
+  {
+    "source": "Radio Papesse",
+    "target": "Viron Erol Vert",
+    "value": 25
+  }, 
+
+
+	{
+		"source": "Gonzalo Reyes Araos",
+		"target": "Isabelle Borges",
+		"value": 10
+	}, {
+		"source": "Gonzalo Reyes Araos",
+		"target": "Fritz Bornstück",
+		"value": 10
+	}, {
+		"source": "Gonzalo Reyes Araos",
+		"target": "Stefano Bosis",
+		"value": 10
+	}, {
+		"source": "Gonzalo Reyes Araos",
+		"target": "Jay Gard",
+		"value": 10
+	}, {
+		"source": "Gonzalo Reyes Araos",
+		"target": "Lukas Glinkowski",
+		"value": 10
+	}, {
+		"source": "Gonzalo Reyes Araos",
+		"target": "Philip Grözinger",
+		"value": 10
+	}, {
+		"source": "Gonzalo Reyes Araos",
+		"target": "Lucas Gutierrez",
+		"value": 10
+	}, {
+		"source": "Gonzalo Reyes Araos",
+		"target": "Michelle Jezierski",
+		"value": 10
+	}, {
+		"source": "Gonzalo Reyes Araos",
+		"target": "Caroline Kryzecki",
+		"value": 10
+	}, {
+		"source": "Gonzalo Reyes Araos",
+		"target": "Michel Lamoller",
+		"value": 10
+	}, {
+		"source": "Gonzalo Reyes Araos",
+		"target": "Jan Muche",
+		"value": 10
+	}, {
+		"source": "Gonzalo Reyes Araos",
+		"target": "Pietro Sanguineti",
+		"value": 10
+	}, {
+		"source": "Gonzalo Reyes Araos",
+		"target": "Julius Weiland",
+		"value": 10
+	}, {
+		"source": "Gonzalo Reyes Araos",
+		"target": "Michaela Zimmer",
+		"value": 10
+	}, {
+		"source": "Susanne Schirdewahn",
+		"target": "Christian Achenbach",
+		"value": 10
+	}, {
+		"source": "Susanne Schirdewahn",
+		"target": "Michelle Jezierski",
+		"value": 10
+	}, {
+		"source": "Susanne Schirdewahn",
+		"target": "Klaus Killisch",
+		"value": 10
+	}, {
+		"source": "Susanne Schirdewahn",
+		"target": "Klaus Killisch",
+		"value": 25
+	}, {
+		"source": "Susanne Schirdewahn",
+		"target": "Franziska Klotz",
+		"value": 10
+	}, {
+		"source": "Susanne Schirdewahn",
+		"target": "Astrid Köppe",
+		"value": 10
+	}, {
+		"source": "Susanne Schirdewahn",
+		"target": "Astrid Köppe",
+		"value": 25
+	}, {
+		"source": "Susanne Schirdewahn",
+		"target": "Jan Muche",
+		"value": 10
+	}, {
+		"source": "Susanne Schirdewahn",
+		"target": "Manfred Peckl",
+		"value": 10
+	}, {
+		"source": "Susanne Schirdewahn",
+		"target": "Miriam Vlaming",
+		"value": 10
+	}, {
+		"source": "Susanne Schirdewahn",
+		"target": "Wiebke Maria Wachmann",
+		"value": 10
+	}, 
+
+	{
+		"source": "Lerato Shadi",
+		"target": "Jeewi Lee",
+		"value": 10
+	},
+	{
+		"source": "Lerato Shadi",
+		"target": "Jeewi Lee",
+		"value": 15
+	}, 
+	{
+		"source": "Lerato Shadi",
+		"target": "Viron Erol Vert",
+		"value": 10
+	}, 
+	{
+		"source": "Lerato Shadi",
+		"target": "Viron Erol Vert",
+		"value": 15
+	}, 
+	{
+		"source": "Lerato Shadi",
+		"target": "Christophe Ndabananiye",
+		"value": 10
+	}, 
+	{
+		"source": "Lerato Shadi",
+		"target": "Christophe Ndabananiye",
+		"value": 15
+	}, 
+
+
+	{
+		"source": "Tracey Snelling",
+		"target": "Song-Ming Ang",
+		"value": 10
+	}, {
+		"source": "Tracey Snelling",
+		"target": "Ekaterina Mitichkina",
+		"value": 10
+	}, {
+		"source": "Tracey Snelling",
+		"target": "Ekaterina Mitichkina",
+		"value": 25
+	}, {
+		"source": "Tracey Snelling",
+		"target": "Tomoyuki Ueno",
+		"value": 15
+	}, {
+		"source": "Tracey Snelling",
+		"target": "Tomoyuki Ueno",
+		"value": 25
+	}, {
+		"source": "Kitty Solaris",
+		"target": "Toni Kater",
+		"value": 25
+	}, {
+		"source": "Frank Spilker",
+		"target": "Fehmi Baumbach",
+		"value": 10
+	}, {
+		"source": "Frank Spilker",
+		"target": "Bernd Begemann",
+		"value": 10
+	}, 
+
+  {
+    "source": "Cornelia Theimer Gardella",
+    "target": "Annekatrin Lemke",
+    "value": 25
+  }, 
+
+
+  {
+		"source": "Tomoyuki Ueno",
+		"target": "Tracey Snelling",
+		"value": 15
+	}, 
+
+
+	{
+		"source": "Viron Erol Vert",
+		"target": "Jeewi Lee",
+		"value": 10
+	}, 
+	{
+		"source": "Viron Erol Vert",
+		"target": "Jeewi Lee",
+		"value": 15
+	}, 
+	{
+		"source": "Viron Erol Vert",
+		"target": "Lerato Shadi",
+		"value": 10
+	}, 
+	{
+		"source": "Viron Erol Vert",
+		"target": "Lerato Shadi",
+		"value": 15
+	}, 
+	{
+		"source": "Viron Erol Vert",
+		"target": "Christophe Ndabananiye",
+		"value": 10
+	}, 
+	{
+		"source": "Viron Erol Vert",
+		"target": "Christophe Ndabananiye",
+		"value": 15
+	}, 
+
+	{
+		"source": "Miriam Vlaming",
+		"target": "Christian Achenbach",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Axel Anklam",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Fritz Bornstück",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Grigori Dor",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Sven Drühl",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Oliver Gröne",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Philip Grözinger",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Jens Hausmann",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Michelle Jezierski",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Franziska Klotz",
+		"value": 10
+	}, 
+
+  {
+    "source": "Miriam Vlaming",
+    "target": "Via Lewandowsky",
+    "value": 10
+  }, 
+  {
+    "source": "Miriam Vlaming",
+    "target": "Christian Mio Loclair",
+    "value": 10
+  }, 
+
+	{
+		"source": "Miriam Vlaming",
+		"target": "Sebastian Meschenmoser",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Jan Muche",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Manfred Peckl",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Susanne Schirdewahn",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Tracey Snelling",
+		"value": 10
+	}, 
+	{
+		"source": "Miriam Vlaming",
+		"target": "Hansa Wißkirchen",
+		"value": 10
+	}, 
+
+	{
+		"source": "Julius Weiland",
+		"target": "Sven Drühl",
+		"value": 10
+	}, {
+		"source": "Julius Weiland",
+		"target": "Jens Hausmann",
+		"value": 10
+	}, {
+		"source": "Julius Weiland",
+		"target": "Jan Muche",
+		"value": 10
+	}, {
+		"source": "Julius Weiland",
+		"target": "Rainer Neumeier",
+		"value": 10
+	}, {
+		"source": "Julius Weiland",
+		"target": "Manfred Peckl",
+		"value": 10
+	}, {
+		"source": "Peter Welz",
+		"target": "Michaela Zimmer",
+		"value": 10
+	}, {
+		"source": "Peter Welz",
+		"target": "Michaela Zimmer",
+		"value": 25
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Jofroi Amaral",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Axel Anklam",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Aram Bartholl",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Sebastian Bieniek",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Isabelle Borges",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Sven Drühl",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Wolfgang Flad",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Alex Flemming",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Moritz Frei",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Philip Grözinger",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Daniel Grüttner",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Sibylle Jazra",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Franziska Klotz",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Caroline Kryzecki",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Alex Lebus",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Jeewi Lee",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Sandra Meisel",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Jan Muche",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Rainer Neumeier",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Nik Nowak",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Manfred Peckl",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Stefan Roigk",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Pietro Sanguineti",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Erik Schmidt",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Miriam Vlaming",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Wiebke Maria Wachmann",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Peter Welz",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Sinta Werner",
+		"value": 10
+	}, {
+		"source": "Michaela Zimmer",
+		"target": "Hansa Wißkirchen",
+		"value": 10
+	}]
+}
