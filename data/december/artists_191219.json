@@ -1266,7 +1266,12 @@
           "lat": 52.566984, 
           "lon": 13.398299 
         }
-      ]
+      ],
+      "questions": {
+        "why": "I love to hang out in my studio and paint.",
+        "music": "ambientfunk, KaiSaR, Sendelica, Big Sun, Winter Moon.",
+        "workHours" : "usually from 11am until 5pm."
+      }
 		},
 		{
 			"name": "Franziska Klotz",
