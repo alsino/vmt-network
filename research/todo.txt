@@ -17,21 +17,18 @@ Filter:
 
 Infos:
 ------
-- Info evtl wieder neben Freistellerbild (A)
-- Infos bei Künstlern anfragen (Why, Arbeitszeit, Music) (S)
-- Verbindungen ergänzen (S)
-- Netzwerk von Artists explorieren lassen für Feedback (S) 
+- Info evtl wieder neben Freistellerbild
 
 
 Nice to have:  
 -------------
-- Tag/Nacht-Darstellung
+- Day/Night-Modus
 - Dropdown schöner
 - Search 
-- working time (who works now?)
+- male / female / diverse
+- age-slider
 - Musikgeschmack (z.B. Welcher Künstler hört  EPMD? bei der Arbeit)
-- age
-- male / female / others
+- working time (who works now?)
 - More category symbols: https://stackoverflow.com/questions/25332120/create-additional-d3-js-symbols
 
 
@@ -41,13 +38,10 @@ Responsive:
 - Mobile: Elemente untereinander  
 
 
-
 Next:
 -----
 - Doku
-- Einreichung republica (Deadline: 15. Dezember 2019)
 - Futurium
-- http://ieeevis.org/
 
 
 Links: 
