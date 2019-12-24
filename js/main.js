@@ -57,7 +57,7 @@ let legendLinks = legendConnections
 
 
 
-  d3.json("./data/december/artists_191221.json").then(function(graph) {
+  d3.json("./data/december/artists_191223.json").then(function(graph) {
 
     let headingArtists = legendArtists
     .append("div")
