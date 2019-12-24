@@ -1,4 +1,5 @@
 let disciplineSelected = false;
+let darkMode = false;
 
 let svg = d3.select("svg"),
   width = +svg.attr("width"),
@@ -747,3 +748,37 @@ let legendLinks = legendConnections
     }
 
 })
+
+// Dark mode switch
+let modeBtn = d3.select('body').append('div').classed("btn-mode", true);
+let modeBtnSymbol = modeBtn.append("span").classed("btn-mode-symbol", true).text("");
+let modeBtnText = modeBtn.append("span").classed("btn-mode-text", true).text("Night");
+
+modeBtn.on("click", () => {
+  darkMode = !darkMode;
+
+  if(darkMode) {
+
+    svg.style("background-color", "black");
+    d3.select("#intro").style("color", "white")
+    d3.select("body").style("color", "white")
+    d3.select("body").style("background", "black");
+
+    modeBtnSymbol.style("background", "white")
+    modeBtnText.text("Day")
+
+  } else {
+
+    svg.style("background-color", "white");
+    d3.select("#intro").style("color", "black")
+    d3.select("body").style("color", "black")
+    d3.select("body").style("background", "white")
+    
+    modeBtnSymbol.style("background", "black")
+    modeBtnText.text("Night")
+
+  }
+ 
+})
+
+
