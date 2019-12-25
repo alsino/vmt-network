@@ -764,8 +764,8 @@ modeBtn.on("click", () => {
     d3.select("body").style("color", "white")
     d3.select("body").style("background", "black");
 
-    d3.selectAll(".legendSymbol > path").style("fill", "black");
-    d3.selectAll(".legendSymbol > path").style("stroke", "white");
+    d3.selectAll(".legendSymbol > path").style("fill", "white");
+    d3.selectAll(".legendSymbol > path").style("stroke", "black");
 
 
     modeBtnSymbol.style("background", "white")
