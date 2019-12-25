@@ -767,6 +767,8 @@ modeBtn.on("click", () => {
     d3.selectAll(".legendSymbol > path").style("fill", "white");
     d3.selectAll(".legendSymbol > path").style("stroke", "black");
 
+    node.style("fill", "white");
+
 
     modeBtnSymbol.style("background", "white")
     modeBtnText.text("Day")
