@@ -2551,6 +2551,31 @@
 		},
 
     {
+      "name": "Erika Stürmer-Alex",
+      "discipline": [6,1],
+      "gender": "female",
+      "birthYear": 1938,
+      "birthTown": "Wriezen",
+      "birthCountry": "GDR",
+      "profileID": 0,
+      "imageUrl" : "erika_stuermer_alex.jpg",
+      "studioVisit": "Lietzen",
+      "studioLocations": [
+        {
+          "name": "Kunsthof Lietzen",
+          "address": "Falkenhagener Straße 10, 15306 Lietzen",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 0, 
+          "lon": 0
+        }
+      ]
+    },
+
+
+
+
+    {
       "name": "Cornelia Theimer Gardella",
       "discipline": [5,4],
       "gender": "female",
@@ -5064,14 +5089,12 @@
     "target": "Klaus Killisch",
     "value": 10
   }, 
-
-      {
+  {
     "source": "Norbert Wagenbrett",
     "target": "Via Lewandowsky",
     "value": 10
   }, 
-
-      {
+  {
     "source": "Norbert Wagenbrett",
     "target": "Erika Stürmer-Alex",
     "value": 10
@@ -5081,7 +5104,6 @@
     "target": "Trak Wendisch",
     "value": 10
   }, 
-
 
 
 	{
