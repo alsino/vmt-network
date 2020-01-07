@@ -1459,20 +1459,20 @@
       "name": "Zora Kreuzer",
       "discipline": [2,5],
       "gender": "female",
-      "birthYear": 0,
-      "birthTown": "?",
-      "birthCountry": "?",
-      "profileID": 0,
+      "birthYear": 1986,
+      "birthTown": "Bonn",
+      "birthCountry": "Germany",
+      "profileID": "10726",
       "imageUrl" : "zora_kreuzer.jpg",
       "studioVisit": "Berlin",
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Porschestraße 11, 12107 Berlin",
           "date_in": 0,
           "date_out": "now",
-          "lat": 0, 
-          "lon": 0  
+          "lat": 52.436161, 
+          "lon": 13.375025  
         }
       ],
       "questions": {
