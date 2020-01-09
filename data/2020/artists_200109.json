@@ -205,7 +205,7 @@
 			"discipline": [3,7],
 			"gender": "male",
 			"birthYear": 1962,
-			"birthTown": "?",
+			"birthTown": "Braunschweig",
 			"birthCountry": "Germany",
 			"profileID": "8612",
 			"imageUrl" : "bernd_begemann.jpg",
@@ -1766,7 +1766,12 @@
           "lat": 52.518286, 
           "lon": 13.470481  
         }
-      ]
+      ],
+			"questions": {
+				"why": "...",
+				"music": "If I don’t work on music I prefer classic and all of Basic Channel. It’s kind of classic too.",
+				"workHours" : "Constantly."
+			}
 		},
 		{
 			"name": "Friedrich Liechtenstein",
