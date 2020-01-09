@@ -37,7 +37,7 @@ select {
     -moz-appearance: none;
     appearance: none;
     cursor: pointer;
-    background-image: url("/assets/icons/drop2.png");   
+    background-image: url("./assets/icons/drop.png");   
 }
 
 .wrapper {
