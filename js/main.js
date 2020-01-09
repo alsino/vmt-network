@@ -21,6 +21,9 @@ let sidebar = d3.select(".wrapper")
   .append("div")
   .attr("class", "sidebar")
 
+let zoom;
+let zoomLevel;
+
 
 
 // Legend setup
@@ -405,14 +408,16 @@ let legendLinks = legendConnections
   let zoom_handler = d3.zoom()
     .on("zoom", zoom_actions);
 
+  console.log(zoom);
+
   zoom_handler(svg);   
 
   //Zoom functions 
   function zoom_actions(){
-    let zoom = d3.event.transform;
-    let zoomLevel = d3.event.transform.k;
+    zoom = d3.event.transform;
+    zoomLevel = d3.event.transform.k;
     g.attr("transform", d3.event.transform)
-    console.log(zoomLevel);
+    // console.log(zoomLevel);
 
     if (zoomLevel > 1.1) {
       d3.selectAll('.label').style('display', 'block');
@@ -639,6 +644,7 @@ let legendLinks = legendConnections
     node
       .append('text')
       .text(function (d) {
+        console.log(zoomLevel);
         return d.name;
       })
       .attr('x', 9)
