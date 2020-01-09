@@ -21,11 +21,6 @@ let sidebar = d3.select(".wrapper")
   .append("div")
   .attr("class", "sidebar")
 
-let zoom;
-let zoomLevel;
-
-
-
 // Legend setup
 let legendDiscipline = sidebar.append("div").attr("class", "legend-discipline");
 let legendConnections = sidebar.append("div").attr("class", "legend-connections");
@@ -402,29 +397,38 @@ let legendLinks = legendConnections
       filterArtist(artistName, 0.1);
     })
 
+    zoomLevel();
 
 
-  // Add zoom capabilities 
-  let zoom_handler = d3.zoom()
+  function zoomLevel(){
+    let zoom;
+    let zoomLevel;
+    // Add zoom capabilities 
+    let zoom_handler = d3.zoom()
     .on("zoom", zoom_actions);
 
-  console.log(zoom);
+    zoom_handler(svg);   
 
-  zoom_handler(svg);   
+    //Zoom functions 
+    function zoom_actions(){
+      zoom = d3.event.transform;
+      zoomLevel = d3.event.transform.k;
+      g.attr("transform", d3.event.transform)
+      // console.log(zoomLevel);
 
-  //Zoom functions 
-  function zoom_actions(){
-    zoom = d3.event.transform;
-    zoomLevel = d3.event.transform.k;
-    g.attr("transform", d3.event.transform)
-    // console.log(zoomLevel);
-
-    if (zoomLevel > 1.1) {
-      d3.selectAll('.label').style('display', 'block');
-    } else {
-      d3.selectAll('.label').style('display', 'none');
+      if (zoomLevel > 1.1) {
+        d3.selectAll('.label').style('display', 'block');
+      } else {
+        d3.selectAll('.label').style('display', 'none');
+      }
     }
-  }
+
+    return zoomLevel;
+
+}
+
+
+
 
   // Utility functions
 
@@ -607,6 +611,11 @@ let legendLinks = legendConnections
     // .data(data, d => d)
     // .join("g")
     // .attr('class', 'node')
+
+    zoomLevel = zoomLevel();
+
+    console.log(zoomLevel);
+
     
     
     let u = d3.select('.nodes')
@@ -644,7 +653,6 @@ let legendLinks = legendConnections
     node
       .append('text')
       .text(function (d) {
-        console.log(zoomLevel);
         return d.name;
       })
       .attr('x', 9)
