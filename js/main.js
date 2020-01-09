@@ -358,8 +358,6 @@ let legendLinks = legendConnections
     .attr("class", "legendItemLinks")
     .on("click", (d, i, nodes)=> {
 
-      
-
       linkTypeselected = true;
 
       if (linkTypeselected) {
@@ -421,10 +419,6 @@ let legendLinks = legendConnections
     } else {
       d3.selectAll('.label').style('display', 'none');
     }
-
-
-
-
   }
 
   // Utility functions
