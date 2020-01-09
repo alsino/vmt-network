@@ -219,7 +219,12 @@
           "lat": 53.603608,
           "lon": 9.926998  
         }
-      ]
+   		],
+			"questions": {
+				"why": "Song is the happiest and sharpest of artforms. Singing is instant bliss and complete communication.",
+				"music": "my own because I work on music.",
+				"workHours" : "wWriting songs takes minutes or years, so..."
+			}
 		},
 		{
 			"name": "Clemens Behr",
@@ -2154,6 +2159,7 @@
 			"name": "Ostberlin Androgyn",
 			"discipline": [3,7],
 			"gender": "mixed",
+			"birthYear": 0,
 			"birthTown": "Berlin",
 			"birthCountry": "Germany",
 			"profileID": "7702",
@@ -2175,9 +2181,9 @@
       "name": "Radio Papesse",
       "discipline": [3],
       "gender": "female",
-      "birthYear": 0,
-      "birthTown": " ",
-      "birthCountry": " ",
+      "birthYear": 2006,
+      "birthTown": "Siena",
+      "birthCountry": "Italy",
       "profileID": 0,
       "imageUrl" : "radio_papesse.jpg",
       "studioVisit": "Florence",
