@@ -397,12 +397,13 @@ let legendLinks = legendConnections
       filterArtist(artistName, 0.1);
     })
 
-    zoomLevel();
+  zoomFunctionality();
 
 
-  function zoomLevel(){
+  function zoomFunctionality(){
     let zoom;
     let zoomLevel;
+
     // Add zoom capabilities 
     let zoom_handler = d3.zoom()
     .on("zoom", zoom_actions);
@@ -414,7 +415,7 @@ let legendLinks = legendConnections
       zoom = d3.event.transform;
       zoomLevel = d3.event.transform.k;
       g.attr("transform", d3.event.transform)
-      // console.log(zoomLevel);
+      console.log(zoomLevel);
 
       if (zoomLevel > 1.1) {
         d3.selectAll('.label').style('display', 'block');
@@ -422,9 +423,6 @@ let legendLinks = legendConnections
         d3.selectAll('.label').style('display', 'none');
       }
     }
-
-    return zoomLevel;
-
 }
 
 
@@ -611,12 +609,6 @@ let legendLinks = legendConnections
     // .data(data, d => d)
     // .join("g")
     // .attr('class', 'node')
-
-    zoomLevel = zoomLevel();
-
-    console.log(zoomLevel);
-
-    
     
     let u = d3.select('.nodes')
       .selectAll('g')
@@ -652,6 +644,7 @@ let legendLinks = legendConnections
 
     node
       .append('text')
+      .attr('class', "label")
       .text(function (d) {
         return d.name;
       })
