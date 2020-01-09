@@ -3,10 +3,10 @@ const symbolTypes = [
   {"discipline": 6,"name": "Sculpture / Installation","symbol": 'symbolCircle', "selected": false},
   {"discipline": 4,"name": "Photography / Film","symbol": 'symbolCircle', "selected": false},
   {"discipline": 1,"name": "Painting / Drawing / Collage","symbol": 'symbolCircle', "selected": false},
-  {"discipline": 2,"name": "Media Art / Performance","symbol": 'symbolSquare', "selected": false},
-  {"discipline": 3,"name": "Music / Sound", "symbol": 'symbolDiamond', "selected": false},
-  {"discipline": 5,"name": "Conceptual Art / Mixed Media","symbol": 'symbolSquare', "selected": false},
-  {"discipline": 7,"name": "Writing","symbol": 'symbolTriangle', "selected": false}
+  {"discipline": 2,"name": "Media Art / Performance","symbol": 'symbolCircle', "selected": false},
+  {"discipline": 3,"name": "Music / Sound", "symbol": 'symbolCircle', "selected": false},
+  {"discipline": 5,"name": "Conceptual Art / Mixed Media","symbol": 'symbolCircle', "selected": false},
+  {"discipline": 7,"name": "Writing","symbol": 'symbolCircle', "selected": false}
 ]
 
 const linkTypes = [
