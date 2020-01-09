@@ -883,7 +883,7 @@
 		},
 
     {
-      "name": "Hannah Goldstein",
+      "name": "hannah goldstein",
       "discipline": [4],
       "gender": "female",
       "birthYear": 0,
@@ -2665,9 +2665,9 @@
 			"discipline": [5],
 			"gallery": "Galerie Reinhard Hauff",
 			"gender": "male",
-			"birthYear": 0,
-			"birthTown": "?",
-			"birthCountry": "?",
+			"birthYear": 1975,
+			"birthTown": "Varel",
+			"birthCountry": "Germany",
 			"profileID": "4996",
 			"imageUrl" : "viron_erol_vert.jpg",
 			"studioVisit": "Florence",
