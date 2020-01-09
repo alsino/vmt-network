@@ -40,7 +40,8 @@ select {
 
     background-image: url("/assets/icons/drop2.png");
     background-size: 5px 5px;
-    background-position: 100% 50%
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
 }
 
 .wrapper {
