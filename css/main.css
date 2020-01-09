@@ -39,7 +39,7 @@ select {
     cursor: pointer;
 
     background-image: url("/assets/icons/drop2.png");
-    background-size: contain;
+    background-size: 5px 5px;
 }
 
 .wrapper {
