@@ -38,7 +38,7 @@ select {
     appearance: none;
     cursor: pointer;
 
-    background-image: url("/assets/icons/drop2.png");
+    background-image: url("/assets/icons/chevron.svg");
     background-size: 12px 12px;
     background-position: 90% 50%;
     background-repeat: no-repeat;

@@ -52,8 +52,7 @@ let legendLinks = legendConnections
 //     .append("div")
 //     .attr("class", "legend-heading")
 //     .text(`Select one of ${n} artists`);
-
-
+  
 
   d3.json("./data/2020/artists_200107.json").then(function(graph) {
 
@@ -400,6 +399,11 @@ let legendLinks = legendConnections
   zoomFunctionality();
 
 
+  function zoomed(event) {
+    console.log(d3.event.transform.k);
+}
+
+
   function zoomFunctionality(){
     let zoom;
     let zoomLevel;
@@ -415,7 +419,7 @@ let legendLinks = legendConnections
       zoom = d3.event.transform;
       zoomLevel = d3.event.transform.k;
       g.attr("transform", d3.event.transform)
-      console.log(zoomLevel);
+      // console.log(zoomLevel);
 
       if (zoomLevel > 1.1) {
         d3.selectAll('.label').style('display', 'block');
@@ -492,6 +496,7 @@ let legendLinks = legendConnections
       this.setAttribute('fill-opacity', thisOpacity);
       return thisOpacity;
     });
+
 
     if (isActive){
       label.style('display', function (o) {
