@@ -900,11 +900,11 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Freienwalder Straße 21, 13359 Berlin",
           "date_in": 0,
           "date_out": "now",
-          "lat": 0, 
-          "lon": 0
+          "lat": 52.558215, 
+          "lon": 13.391963 
         }
       ]
     },
@@ -1692,6 +1692,35 @@
 				"workHours" : "My working time is completely melted together with my private time that it does not have a clear start and not an end. But one clear fact is: I´m more active at night than in the morning."
 			}
 		},
+
+		{
+			"name": "Stefan Leyh",
+			"discipline": [2,6,12],
+			"gender": "male",
+			"birthYear": 1976,
+			"birthTown": "Meiningen",
+			"birthCountry": "GDR",
+			"profileID": 0,
+			"imageUrl" : "stefan_leyh.jpg",
+			"studioVisit": "Erfurt",
+      "studioLocations": [
+        {
+          "name": "Wächterhaus 3",
+          "address": "Nordhäuser Straße 84, 99089 Erfurt",
+          "date_in": "May 2018",
+          "date_out": "now",
+          "lat": 50.989148, 
+          "lon": 11.014846
+        }
+      ],
+			"questions": {
+				"why": " ",
+				"music": " ",
+				"workHours" : " "
+			}
+		},
+
+
 		{
 			"name": "Annekatrin Lemke",
 			"discipline": [1,6],
@@ -2815,8 +2844,13 @@
           "lat": 51.347198, 
           "lon": 12.356928 
         }
-      ]
-    },
+      ],
+			"questions": {
+				"why": "Eine Stimme in mir sagt, male diese Bilder.",
+				"music": "nur gute Musik.",
+				"workHours" : "sogut wie immer nachts."
+			}
+		},
 
 
 		{
