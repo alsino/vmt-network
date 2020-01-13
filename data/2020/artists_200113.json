@@ -1136,6 +1136,35 @@
 				"workHours" : "9 to 5 to 9 to 5 to 9."
 			}
 		},
+
+
+		{
+			"name": "Jeans Team",
+			"discipline": [9,14,16],
+			"gender": "male",
+			"birthYear": 1995,
+			"birthTown": "Berlin",
+			"birthCountry": "Germany",
+			"profileID": 0,
+			"imageUrl" : "jeans_team.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "MDN1",
+          "address": "Prinzenallee 83, 13357 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.553839, 
+          "lon": 13.382333
+        }
+      ],
+			"questions": {
+				"why": "Because there is no better way to give form to your inner dialogue.",
+				"music": "Four Tet.",
+				"workHours" : "9 to 5 to 9 to 5 to 9."
+			}
+		},
+
 		{
 			"name": "Michelle Jezierski",
 			"discipline": [1],
@@ -1780,7 +1809,7 @@
 		},
 		{
 			"name": "Friedrich Liechtenstein",
-			"discipline": [14,16],
+			"discipline": [9,14,16],
 			"gender": "male",
 			"birthYear": 1956,
 			"birthTown": "Stalinstadt",
