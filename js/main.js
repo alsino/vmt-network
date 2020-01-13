@@ -54,7 +54,7 @@ let legendLinks = legendConnections
 //     .text(`Select one of ${n} artists`);
   
 
-  d3.json("./data/2020/artists_200109.json").then(function(graph) {
+  d3.json("./data/2020/artists_200113.json").then(function(graph) {
 
     let headingArtists = legendArtists
     .append("div")

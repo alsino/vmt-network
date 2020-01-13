@@ -1,12 +1,21 @@
 const symbolTypes = [
   {"discipline": 0,"name": "All Disciplines","symbol": 'symbolCircle', "selected": true},
-  {"discipline": 6,"name": "Sculpture / Installation","symbol": 'symbolCircle', "selected": false},
-  {"discipline": 4,"name": "Photography / Film","symbol": 'symbolCircle', "selected": false},
-  {"discipline": 1,"name": "Painting / Drawing / Collage","symbol": 'symbolCircle', "selected": false},
-  {"discipline": 2,"name": "Media Art / Performance","symbol": 'symbolCircle', "selected": false},
-  {"discipline": 3,"name": "Music / Sound", "symbol": 'symbolCircle', "selected": false},
-  {"discipline": 5,"name": "Conceptual Art / Mixed Media","symbol": 'symbolCircle', "selected": false},
-  {"discipline": 7,"name": "Writing","symbol": 'symbolCircle', "selected": false}
+  {"discipline": 1,"name": "Painting","symbol": 'symbolCircle', "selected": false},
+  {"discipline": 2,"name": "Drawing","symbol": 'symbolCircle', "selected": false},
+  {"discipline": 3,"name": "Collage","symbol": 'symbolCircle', "selected": false},
+  {"discipline": 4,"name": "Photography","symbol": 'symbolCircle', "selected": false},
+  {"discipline": 5,"name": "Film","symbol": 'symbolCircle', "selected": false},
+  {"discipline": 6,"name": "Sculpture","symbol": 'symbolCircle', "selected": false},
+  {"discipline": 7,"name": "Installation","symbol": 'symbolCircle', "selected": false},
+  {"discipline": 8,"name": "Media Art","symbol": 'symbolCircle', "selected": false},
+  {"discipline": 9,"name": "Performance","symbol": 'symbolCircle', "selected": false},
+  {"discipline": 10,"name": "Light","symbol": 'symbolCircle', "selected": false},
+  {"discipline": 11,"name": "Textile","symbol": 'symbolCircle', "selected": false},
+  {"discipline": 12,"name": "Mixed Media","symbol": 'symbolCircle', "selected": false},
+  {"discipline": 13,"name": "Conceptual Art","symbol": 'symbolCircle', "selected": false},
+  {"discipline": 14,"name": "Music / Sound", "symbol": 'symbolCircle', "selected": false},
+  {"discipline": 15,"name": "Creative Coding","symbol": 'symbolCircle', "selected": false},
+  {"discipline": 16,"name": "Writing","symbol": 'symbolCircle', "selected": false}
 ]
 
 const linkTypes = [
