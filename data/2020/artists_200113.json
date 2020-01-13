@@ -900,11 +900,11 @@
       "studioLocations": [
         {
           "name": " ",
-          "address": " ",
+          "address": "Freienwalder Straße 21, 13359 Berlin",
           "date_in": 0,
           "date_out": "now",
-          "lat": 0, 
-          "lon": 0
+          "lat": 52.558215, 
+          "lon": 13.391963 
         }
       ]
     },
@@ -1696,9 +1696,9 @@
 		{
 			"name": "Stefan Leyh",
 			"discipline": [2,6,12],
-			"gender": "female",
-			"birthYear": 0,
-			"birthTown": "?",
+			"gender": "male",
+			"birthYear": 1976,
+			"birthTown": "Meiningen",
 			"birthCountry": "GDR",
 			"profileID": 0,
 			"imageUrl" : "stefan_leyh.jpg",
