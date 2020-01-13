@@ -645,8 +645,7 @@ let legendLinks = legendConnections
       .on("start", dragstarted)
       .on("drag", dragged)
       .on("end", dragended))
-
-      // .attr('transform', d => `translate(${d.x},${d.y})`)
+      .attr('transform', d => `translate(${d.x},${d.y})`)
       // .on('mouseover.fade', (d, i, nodes) => {
       //   fade(d, i, nodes, 0.1, "0000FF", true);
       //  })
@@ -800,5 +799,4 @@ modeBtn.on("click", () => {
   }
  
 })
-
 
