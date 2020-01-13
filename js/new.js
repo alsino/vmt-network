@@ -1,11 +1,14 @@
 let disciplineSelected = false;
+let darkMode = false;
 
 let svg = d3.select("svg"),
   width = +svg.attr("width"),
   height = +svg.attr("height");
 
+let viewOffesetX = 100;
+
 svg
-  .attr("viewBox", [-width / 2, -height / 2, width, height]);
+  .attr("viewBox", [-width / 2 - viewOffesetX, -height / 2, width, height]);
 
 let g = svg.append("g")
     .attr("class", "network");
@@ -18,53 +21,59 @@ let sidebar = d3.select(".wrapper")
   .append("div")
   .attr("class", "sidebar")
 
-
-
 // Legend setup
 let legendDiscipline = sidebar.append("div").attr("class", "legend-discipline");
 let legendConnections = sidebar.append("div").attr("class", "legend-connections");
 let legendArtists = sidebar.append("div").attr("class", "legend-artists");
 
+const symbolSizeLegend = 70;
+const symbolRadius = 7;
+const symbolGenerator = d3.symbol();
+
 
 // 1. Legend Disciplines
-let headingDisciplines = legendDiscipline
-    .append("div")
-    .attr("class", "legend-heading")
-    .text("Diciplines");
+// let headingDisciplines = legendDiscipline
+//     .append("div")
+//     .attr("class", "legend-heading")
+//     .text("Main Discipline");
 
 let legend = legendDiscipline
     .append("div")
     .attr("class", "legend");
 
 // 2. Legend Connections
-let headingConnection = legendConnections
-    .append("div")
-    .attr("class", "legend-heading")
-    .text("Type of Connection");
+// let headingConnection = legendConnections
+//     .append("div")
+//     .attr("class", "legend-heading")
+//     .text("Type of Connection");
 
 // 3. Legend Links
 let legendLinks = legendConnections
     .append("div")
     .attr("class", "legend-links");
 
-let headingArtists = legendArtists
+// let headingArtists = legendArtists
+//     .append("div")
+//     .attr("class", "legend-heading")
+//     .text(`Select one of ${n} artists`);
+  
+
+  d3.json("./data/2020/artists_200113.json").then(function(graph) {
+
+    let headingArtists = legendArtists
     .append("div")
     .attr("class", "legend-heading")
-    .text("Select Artist");
+    .text(`Select one of ${graph.nodes.length} artists`);
 
-// 4. Select setup
-let select = legendArtists.append("select")
-  .attr("class", "selector");
+    // 4. Select setup
+    let select = legendArtists.append("select")
+      .attr("class", "selector");
 
-// 5. Tooltip setup
-let tooltip = sidebar
-  .append("div")
-  .attr("class", "tooltip")
-  .style("opacity", 0);
-
-
-d3.json("./data/november/artists_191101.json", function (error, graph) {
-  if (error) throw error;
+    // 5. Tooltip setup
+    let tooltip = sidebar
+      .append("div")
+      .attr("class", "tooltip")
+      .style("opacity", 0);
 
   function distance(link) {
     // return 1 / Math.min(count(link.source), count(link.target));
@@ -82,8 +91,8 @@ d3.json("./data/november/artists_191101.json", function (error, graph) {
     .distanceMin(100);
 
 
-  // Simulation -> Einzelne an den Rand
-  const simulation = d3.forceSimulation().alphaDecay(0.03)
+    // Simulation -> Einzelne an den Rand
+    let simulation = d3.forceSimulation().alphaDecay(0.03)
     .force("charge", d3.forceManyBody().strength(-200))
     .force("link", d3.forceLink().id(d => d.name))
     .force("x", d3.forceX().strength(0.315))
@@ -91,24 +100,36 @@ d3.json("./data/november/artists_191101.json", function (error, graph) {
     .force("attractForce", attractForce)
     .force("repelForce", repelForce);
 
-  simulation
-    .nodes(graph.nodes)
-    .on("tick", ticked);
+    simulation
+      .on("tick", ticked);
 
-  simulation.force("link")
-    .links(graph.links);
+
+  // // Simulation -> Einzelne an den Rand
+  // const simulation = d3.forceSimulation().alphaDecay(0.03)
+  //   .force("charge", d3.forceManyBody().strength(-200))
+  //   .force("link", d3.forceLink().id(d => d.name))
+  //   .force("x", d3.forceX().strength(0.315))
+  //   .force("y", d3.forceY().strength(0.315))
+  //   .force("attractForce", attractForce)
+  //   .force("repelForce", repelForce);
+
+  // simulation
+  //   .on("tick", ticked);
+
+  // simulation
+  //   .force("link")
+  //   .links(graph.links);
 
   let link = linkCont.selectAll('line')
-    .data(graph.links)
-    .enter().append('line');
+    // .data(graph.links)
+  //   .enter().append('line');
 
-  link
-    .attr('class', 'link')
-    // .style("stroke", "rgba(0, 5, 255, 0.1)")
-    .style("stroke", (d, i, nodes) => linkColor(d));
+  // link
+  //   .attr('class', 'link')
+  //   .style("stroke", "rgba(0, 5, 255, 0.1)")
+  //   .style("stroke", (d, i, nodes) => linkColor(d));
 
-    
-
+  
   let node = nodeCont.selectAll('.node')
     // .data(graph.nodes)
     // .enter().append('g')
@@ -118,9 +139,36 @@ d3.json("./data/november/artists_191101.json", function (error, graph) {
     //   .on("drag", dragged)
     //   .on("end", dragended));
 
-  updateData(graph.nodes);
+    
+    
+    update(graph.nodes);
+   
+
+      // Find number of links
+    graph.links.forEach(function(link){
+
+      // initialize a new property on the node
+      if (!link.source["linkCount"]) link.source["linkCount"] = 0; 
+      if (!link.target["linkCount"]) link.target["linkCount"] = 0;
+
+      // count it up
+      link.source["linkCount"]++;
+      link.target["linkCount"]++;   
+    });
+
+    // let mostLinks = graph.nodes.map((item) => {
+    //   if(!item.linkCount) {item.linkCount = 0;} 
+    //   return item;
+    // })
+
+    // mostLinks.sort(function(a, b) {
+    //   return b.linkCount - a.linkCount;
+    // });
+
+    console.log(graph.nodes);
 
 
+ 
 
   function tooltipContent(d) {
     let questions = d.questions; 
@@ -144,24 +192,25 @@ d3.json("./data/november/artists_191101.json", function (error, graph) {
       })
 
 
-    if (d.birthYear != 0) {
+    if (d.birthYear != null) {
 
-      if(questions) {
+      if(questions)  {
         // All information
         return `<div class="tooltip-info">
           <div class="tooltip-info-inner">
             <div class="tooltip-name">${d.name}</div>
             ${discipline}
             <div class="tooltip-birth">Born ${d.birthYear} in ${d.birthTown}, ${d.birthCountry}</div>
-            <div>Studio in ${d.studioLocation}</div>
+            <div>Studio in ${d.studioVisit}</div>
             <br>
             <div>${d.questions.why}</div>
             <br>
-            <div>Works from ${d.questions.workHours}</div>
-            <div>Listens to ${d.questions.music}</div>
           </div>
         </div>
         <img class="tooltip-img" src="./assets/img/${d.imageUrl}">`
+
+        // return toolTipInfo[0].content
+        // console.log(toolTipInfo)
   
       } else {
         // All information
@@ -170,7 +219,7 @@ d3.json("./data/november/artists_191101.json", function (error, graph) {
             <div class="tooltip-name">${d.name}</div>
             ${discipline}
             <div class="tooltip-birth">Born ${d.birthYear} in ${d.birthTown}, ${d.birthCountry}</div>
-            <div>Studio in ${d.studioLocation}</div>
+            <div>Studio in ${d.studioVisit}</div>
           </div>
         </div>
         <img class="tooltip-img" src="./assets/img/${d.imageUrl}">`
@@ -185,12 +234,10 @@ d3.json("./data/november/artists_191101.json", function (error, graph) {
           <div class="tooltip-info-inner">
             <div class="tooltip-name">${d.name}</div>
             ${discipline}
-            <div>Studio in ${d.studioLocation}</div>
+            <div>Studio in ${d.studioVisit}</div>
             <br>
             <div>${d.questions.why}</div>
             <br>
-            <div>Works from ${d.questions.workHours}</div>
-            <div>Listens to ${d.questions.music}</div>
           </div>
         </div>
         <img class="tooltip-img" src="./assets/img/${d.imageUrl}">`
@@ -201,7 +248,7 @@ d3.json("./data/november/artists_191101.json", function (error, graph) {
           <div class="tooltip-info-inner">
             <div class="tooltip-name">${d.name}</div>
             ${discipline}
-            <div>Studio in ${d.studioLocation}</div>
+            <div>Studio in ${d.studioVisit}</div>
           </div>
         </div>
         <img class="tooltip-img" src="./assets/img/${d.imageUrl}">`
@@ -211,63 +258,64 @@ d3.json("./data/november/artists_191101.json", function (error, graph) {
     }
   }
 
-  const symbolSize = 70;
-  const symbolRadius = 7;
-  const symbolGenerator = d3.symbol()
-    .size(symbolSize);
+     
 
+  function getNodeSize(node, defaultSize){
+    return node == 0 ? Math.sqrt(defaultSize / Math.PI * 1) : Math.sqrt(defaultSize / Math.PI * node);
+  }
+
+  let textScale = d3.scaleLinear()
+                  .domain([0, 63])
+                  .range([10, 20]);
 
   // node
+  // .on('mouseover.fade', (d, i, nodes) => {
+  //   fade(d, i, nodes, 0.1, "0000FF", true);
+  //  })
+  //  .on('mouseover.tooltip', function (d) {
+  //   showTooltip(d);
+  // })
+  //  .on('mouseout.fade', (d, i, nodes) => {
+  //    fade(d, i, nodes, 1, "black", false);
+  //  })
+  // .on("mouseout.tooltip", function () {
+  //   // node.style("fill", "black");
+  //   hideTooltip();
+  // })
+  // .on('dblclick', releasenode)
+  // .on('click', (d) => openArtistPage(d.profileID))
   //   .append('path')
-  //   .attr('r', symbolRadius)
   //   .attr('d', function (d) {
   //     if (d.discipline[0] && d.discipline[0] < 11) {
   //       symbolGenerator
-  //         .type(d3[symbolTypes[d.discipline[0] - 1].symbol]);
+  //         .type(d3[symbolTypes[d.discipline[0]].symbol])
+  //         .size(getNodeSize(d.linkCount, 2000));
   //       return symbolGenerator();
   //     }
   //   })
-  //   .on('mouseover.tooltip', function (d) {
-  //     showTooltip(d);
-  //   })
-  //   .on("mouseout.tooltip", function () {
-  //     hideTooltip();
-  //   })
-  //   .on("mousemove", function () {
-  //     // tooltip.style("left", (d3.event.pageX) + "px")
-  //     //   .style("top", (d3.event.pageY + 10) + "px");
-  //   })
-  //   .on('dblclick', releasenode)
-  //   .on('click', openArtistPage)
+    
 
 
-  // // Labels
+  // //Labels
   // let label = node.append("text")
   //   .text(function (d) {
   //     return d.name;
   //   })
-  //   .attr('x', 6)
+  //   // .style("font-size", 12)
+  //   .attr('class', "label")
+  //   .attr('x', 9)
   //   .attr('y', 3)
-  //   .on('mouseover.fade', (d, i, nodes) => {
-  //     fade(d, i, nodes, 0.1, "capitalize");
-  //   })
-  //   .on('mouseout.fade', (d, i, nodes) => {
-  //     fade(d, i, nodes, 1, "capitalize");
-  //   })
-  //   .on('mouseover.tooltip', (d) => { showTooltip(d);})
-  //   .on("mouseout.tooltip", function () {
-  //     label.style("fill", "black");
-  //     hideTooltip();
-  //   })
   //   .on('dblclick', releasenode)
   //   .on('click', (d) => openArtistPage(d.profileID))
 
   
   let legendItemSelected = false;
+
+  
   
   // Legend Disciplines
   let legendItem = legend.selectAll("div")
-    .data(symbolTypes)
+    .data(symbolTypes, d => d)
     .enter()
     .append("div")
     .attr("class", "legendItem")
@@ -290,7 +338,6 @@ d3.json("./data/november/artists_191101.json", function (error, graph) {
 
     // Reset all disciplines on svg click
     d3.select("svg").on("click", function() {
-
       for (let i = 0; i < symbolTypes.length; i++) {
         let element = symbolTypes[i].selected;
         element = false;
@@ -305,27 +352,42 @@ d3.json("./data/november/artists_191101.json", function (error, graph) {
     .attr("class", "legendSymbol")
     .append('path')
     .attr('d', function (d) {
-      if (d.discipline && d.discipline < 11) {
+      if (d.discipline) {
         symbolGenerator
-          .type(d3[symbolTypes[d.discipline - 1].symbol]);
+          .type(d3[symbolTypes[d.discipline].symbol])
+          .size(symbolSizeLegend);
         return symbolGenerator();
-      }
-    }).attr('transform', 'translate(10, 10)');
+      }})
+    .attr('transform', 'translate(10, 10)');
 
-  let legendDescription = legendItem.append("div").text((d) => d.name)
-
+  let legendDescription = legendItem
+    .append("div")
+    .text(d => d.name)
+ 
+  let linkTypeselected = false;
 
   // Legend Link Types
   let linkTypeItem = legendLinks.selectAll("div")
     .data(linkTypes)
     .enter()
     .append("div")
-    .attr("class", "legendItem")
-    .on("click", (d)=> {
-      // console.log(d.value);
-      filterLinks(d.value, 0.1);
-      // fade(d, i, nodes, 0.1, "capitalize");
+    .attr("class", "legendItemLinks")
+    .on("click", (d, i, nodes)=> {
+
+      linkTypeselected = true;
+
+      if (linkTypeselected) {
+        d3.selectAll(".legendItemLinks").classed("legendItem-active", false);
+        d3.select(nodes[i]).classed("legendItem-active", true);
+        filterLinks(d, d.value, 0.1);
+      }
     })
+
+    let firstLegendItem = legendItem.filter(function (d, i) { return i === 0;} )
+        firstLegendItem.classed("legendItem-active", true)
+
+    let firstlinkTypeItem = linkTypeItem.filter(function (d, i) { return i === 0;} )
+        firstlinkTypeItem.classed("legendItem-active", true)
 
     let legendTypeSymbol = linkTypeItem
       .append("div")
@@ -353,18 +415,47 @@ d3.json("./data/november/artists_191101.json", function (error, graph) {
       filterArtist(artistName, 0.1);
     })
 
+  zoomFunctionality();
 
 
-  // Add zoom capabilities 
-  let zoom_handler = d3.zoom()
+  function zoomed(event) {
+    console.log(d3.event.transform.k);
+}
+
+
+  function zoomFunctionality(){
+    let zoom;
+    let zoomLevel;
+
+    // Add zoom capabilities 
+    let zoom_handler = d3.zoom()
     .on("zoom", zoom_actions);
 
-  zoom_handler(svg);   
+    zoom_handler(svg);   
 
-  //Zoom functions 
-  function zoom_actions(){
-    g.attr("transform", d3.event.transform)
-  }
+    //Zoom functions 
+    function zoom_actions(){
+      zoom = d3.event.transform;
+      zoomLevel = d3.event.transform.k;
+      g.attr("transform", d3.event.transform)
+      // console.log(zoomLevel);
+
+      if (zoomLevel > 1.1) {
+        d3.selectAll('.label').style('display', 'block');
+
+        node
+        .on('mouseout.fade', (d, i, nodes) => {
+          fade(d, i, nodes, 1, "black", false, true);
+        })
+
+      } else {
+        d3.selectAll('.label').style('display', 'none');
+      }
+    }
+}
+
+
+
 
   // Utility functions
 
@@ -418,11 +509,10 @@ d3.json("./data/november/artists_191101.json", function (error, graph) {
   }
 
 
-  function fade(d, i, nodes, opacity, fontStyle) {
-    d3.select(nodes[i]).style("fill", "#0000ff");
-    d3.select(nodes[i]).style("text-transform", fontStyle);
+  function fade(d, i, nodes, opacity, fillColor, isActive, isZoomed) {
 
-    
+    d3.select(nodes[i]).style("fill", fillColor); // Highlight node on hover
+    d3.select(nodes[i]).select(".label").style("fill", fillColor); // Highlight node label on hover
 
     let op = opacity;
 
@@ -432,31 +522,52 @@ d3.json("./data/november/artists_191101.json", function (error, graph) {
       return thisOpacity;
     });
 
+
+    if (isActive){
+      label.style('display', function (o) {
+        visibilityMode = isConnected(d, o) ? "block" : "none";
+        return visibilityMode;
+      })
+    } else {
+      label.style('display', "none")
+    }
+
+    
     if (op != 1) {
-      link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : op / 2));
+      link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : op));
       // link.style('stroke', o => (o.value == 10 ? "#F76906" : "#1CDE7E"));
     } else {
       link.style('stroke-opacity', o => (o.source === d || o.target === d ? 1 : op));
-    }    
+    } 
+
+    if (isZoomed) {
+      label.style('display', "block")
+    }
+    
   }
 
   function filterDisciplines(discipline, opacity) {
     node.style('stroke-opacity', function (o) {
-      const thisOpacity = o.discipline == discipline ? 1 : opacity;
+      const thisOpacity = o.discipline[0] == discipline || o.discipline[1] == discipline  ? 1 : opacity;
       this.setAttribute('fill-opacity', thisOpacity);
       return thisOpacity;
     });
   }
 
-  function filterLinks(linkType, opacity) {
+  function filterLinks(d, linkType, opacity) {
 
   let op = opacity;
   let selectedLinks;
   let selectedNodes = [];
 
    selectedLinks = graph.links.filter(function(o){
-      return o.value == linkType;
-    })
+
+    if (linkType == 0) { 
+      return graph.links 
+    } else { 
+      return o.value == linkType;  
+    }
+  })
 
     selectedLinks.forEach((item) => {
       // Check if node is already in selectedNodes array
@@ -466,69 +577,191 @@ d3.json("./data/november/artists_191101.json", function (error, graph) {
       }
     })
 
-    console.log(selectedNodes);
+    // console.log(graph.nodes);
+    // console.log(selectedNodes);
+    // console.log(output1);
 
-    updateData(selectedNodes);
+    const result = [];
+    const map = new Map();
+    for (const item of selectedNodes) {
+        if(!map.has(item.name)){
+            map.set(item.name, true);    // set any value to Map
+            result.push({
+                name: item.name,
+                birthCountry: item.birthCountry,
+                birthTown: item.birthTown,
+                birthYear: item.birthYear,
+                discipline: item.discipline,
+                gender: item.gender,
+                imageUrl: item.imageUrl,
+                index: item.index,
+                linkCount: item.linkCount,
+                profileID: item.profileID,
+                studioVisit: item.studioVisit,
+                questions: item.questions,
+                vx: item.vx,
+                vy: item.vy,
+                x: item.x,
+                y: item.y
+            });
+        }
+    }
+    
 
     link.style('stroke-opacity', function (l) {
-      const thisOpacity = l.value == linkType ? 1 : op;
-      this.setAttribute('fill-opacity', thisOpacity);
-      return thisOpacity;
-    });
 
-  }
+      let thisOpacity;
 
-
-  function updateData(data){
-    // https://www.d3indepth.com/enterexit/
-
-    const symbolSize = 70;
-    const symbolRadius = 7;
-    const symbolGenerator = d3.symbol()
-    .size(symbolSize);
-    
-    let u = d3.select('.nodes').selectAll("node")
-    // .data(data, function(d) {
-    //   return d
-    // })
-    .data(data)
-  
-    u.enter()
-    .append('g')
-    .attr('class', 'node')
-    .append('path')
-    .merge(u)
-    .attr('r', symbolRadius)
-    .attr('d', function (d) {
-      if (d.discipline[0] && d.discipline[0] < 11) {
-        symbolGenerator
-          .type(d3[symbolTypes[d.discipline[0] - 1].symbol]);
-        return symbolGenerator();
+      if (linkType == 0) {
+        thisOpacity = 1;
+      } else {
+        thisOpacity = l.value == linkType ? 1 : op;
       }
-    })
 
-    let label = u.append("text")
-    .text(function (d) {
-      return d.name;
-    })
-    .attr('x', 6)
-    .attr('y', 3)
-    .on('mouseover.fade', (d, i, nodes) => {
-      fade(d, i, nodes, 0.1, "capitalize");
-    })
-    .on('mouseout.fade', (d, i, nodes) => {
-      fade(d, i, nodes, 1, "capitalize");
-    })
-    .on('mouseover.tooltip', (d) => { showTooltip(d);})
-    .on("mouseout.tooltip", function () {
-      label.style("fill", "black");
-      hideTooltip();
-    })
-    .on('dblclick', releasenode)
-    .on('click', (d) => openArtistPage(d.profileID))
+      
+      
+      return thisOpacity;
+    
+    });   
 
-    u.exit().remove();
+    // console.log(graph.nodes);
+    // console.log(selectedNodes);
+    // console.log(result);
+
+    update(result);
   }
+
+
+
+
+  function update(data) {
+    // https://www.d3indepth.com/enterexit/
+    // https://fabiofranchino.com/blog/the-new-d3.js-join-method-is-awesome-for-t/
+    // https://bl.ocks.org/mbostock/1095795
+
+
+    // Apply the general update pattern to the nodes.
+    // node = node.data(nodes, function(d) { return d.id;});
+    // node.exit().remove();
+    // node = node.enter().append("circle").attr("fill", function(d) { return color(d.id); }).attr("r", 8).merge(node);
+
+    // // Apply the general update pattern to the links.
+    // link = link.data(links, function(d) { return d.source.id + "-" + d.target.id; });
+    // link.exit().remove();
+    // link = link.enter().append("line").merge(link);
+
+    // // Update and restart the simulation.
+    // simulation.nodes(nodes);
+    // simulation.force("link").links(links);
+    // simulation.alpha(1).restart();
+
+    // Apply the general update pattern to the nodes.
+    node = node.data(data, function(d) {return d;});
+    node.exit().remove();
+    node = node.enter()
+            .append("g")
+            .attr('class', 'node')
+            .append('path')
+            .attr('r', symbolRadius)
+            .attr('d', function (d) {
+              if (d.discipline[0] && d.discipline[0] < 11) {
+                symbolGenerator
+                  .type(d3[symbolTypes[d.discipline[0]].symbol])
+                  .size(getNodeSize(d.linkCount, 2000));
+                return symbolGenerator();
+              }
+            })
+            .merge(node);
+
+    // Apply the general update pattern to the links.
+    link = link.data(graph.links, function(d) { return d.source.id + "-" + d.target.id; });
+    link.exit().remove();
+    link = link.enter().append("line").merge(link);
+  
+    link
+    .attr('class', 'link')
+    .style("stroke", "rgba(0, 5, 255, 0.1)")
+    .style("stroke", (d, i, nodes) => linkColor(d));
+
+
+    // Update and restart the simulation.
+    simulation.nodes(data);
+    simulation.force("link").links(graph.links);
+    simulation.alpha(1).restart();
+
+    // .enter().append('g')
+    // .attr('class', 'node')
+
+    
+    // let u = d3.select('.nodes')
+    //   .selectAll('g')
+    //   .data(data, function(d) {
+    //     return d;
+    //   });
+
+  
+    // let node = u.enter()
+    //   .append('g')
+    //   .merge(u)
+    //   .attr('class', 'node')
+
+    // node
+    //   .append('path')
+    //   .attr('r', symbolRadius)
+    //   .attr('d', function (d) {
+    //     if (d.discipline[0] && d.discipline[0] < 11) {
+    //       symbolGenerator
+    //         .type(d3[symbolTypes[d.discipline[0]].symbol])
+    //         .size(getNodeSize(d.linkCount, 2000));
+    //       return symbolGenerator();
+    //     }
+    //   })
+    //   .call(d3.drag()
+    //   .on("start", dragstarted)
+    //   .on("drag", dragged)
+    //   .on("end", dragended))
+
+      // .attr('transform', d => `translate(${d.x},${d.y})`)
+      // .on('mouseover.fade', (d, i, nodes) => {
+      //   fade(d, i, nodes, 0.1, "0000FF", true);
+      //  })
+      //  .on('mouseover.tooltip', function (d) {
+      //   showTooltip(d);
+      // })
+      //  .on('mouseout.fade', (d, i, nodes) => {
+      //    fade(d, i, nodes, 1, "black", false);
+      //  })
+      // .on("mouseout.tooltip", function () {
+      //   // node.style("fill", "black");
+      //   hideTooltip();
+      // })
+      // .on('dblclick', releasenode)
+      // .on('click', (d) => openArtistPage(d.profileID))
+      //   .append('path')
+      //   .attr('d', function (d) {
+      //     if (d.discipline[0] && d.discipline[0] < 11) {
+      //       symbolGenerator
+      //         .type(d3[symbolTypes[d.discipline[0]].symbol])
+      //         .size(getNodeSize(d.linkCount, 2000));
+      //       return symbolGenerator();
+      //     }
+      //   })
+
+      // u.exit().remove();
+
+    // console.log(node);
+
+    // simulation
+    //   .nodes(data)
+    //   .force("link");
+        
+
+
+  }
+
+
+
+
 
 
   function resetDisciplines() {
@@ -556,7 +789,12 @@ d3.json("./data/november/artists_191101.json", function (error, graph) {
       return thisOpacity;
     });
 
-    
+   
+    label.style('display', function (o) {
+      visibilityMode = isConnected(selectedArtist, o) ? "block" : "none";
+      return visibilityMode;
+    })
+
 
     if (opacity != 1) {
       link.style('stroke-opacity', o => (o.source === selectedArtist || o.target === selectedArtist ? 1 : opacity / 2));
@@ -570,10 +808,10 @@ d3.json("./data/november/artists_191101.json", function (error, graph) {
   function linkColor(d) {
     switch(d.value) {
       case 5: return "rgba(0,0,255,0)"; break;
-      case 10: return  "rgba(0, 5, 255, 0.3)"; break;
-      case 15: return "rgba(0,255,0,0.3)"; break;
+      case 10: return  "rgba(0, 5, 255, 0.2)"; break;
+      case 15: return "rgba(0,255,0,0.2)"; break;
       case 20: return "rgba(0,0,255,0)"; break;
-      case 25: return "rgba(255,0,0,0.3)"; break;
+      case 25: return "rgba(255,0,0,0.2)"; break;
       case 30: return "rgba(0,0,0,0)"; break;
       default: return "rgba(0,0,0,0)";
     }        
@@ -595,8 +833,47 @@ d3.json("./data/november/artists_191101.json", function (error, graph) {
           .style("opacity", 0);
     }
 
-
-  let sequentialScale = d3.scaleOrdinal(d3.schemeSet3)
-    .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
-
 })
+
+// Dark mode switch
+let modeBtn = d3.select('body').append('div').classed("btn-mode", true);
+let modeBtnSymbol = modeBtn.append("span").classed("btn-mode-symbol", true).text("");
+let modeBtnText = modeBtn.append("span").classed("btn-mode-text", true).text("Night");
+
+modeBtn.on("click", () => {
+  darkMode = !darkMode;
+
+  if(darkMode) {
+
+    svg.style("background-color", "black");
+    d3.select("#intro").style("color", "white")
+    d3.select("body").style("color", "white")
+    d3.select("body").style("background", "black");
+
+    d3.selectAll(".legendSymbol > path").style("fill", "white");
+    d3.selectAll(".legendSymbol > path").style("stroke", "black");
+
+    node.style("fill", "white");
+
+
+    modeBtnSymbol.style("background", "white")
+    modeBtnText.text("Day")
+
+  } else {
+
+    svg.style("background-color", "white");
+    d3.select("#intro").style("color", "black")
+    d3.select("body").style("color", "black")
+    d3.select("body").style("background", "white")
+
+    d3.selectAll(".legendSymbol > path").style("fill", "black");
+    d3.selectAll(".legendSymbol > path").style("stroke", "white");
+    
+    modeBtnSymbol.style("background", "black")
+    modeBtnText.text("Night")
+
+  }
+ 
+})
+
+
