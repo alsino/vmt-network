@@ -906,8 +906,13 @@
           "lat": 52.558215, 
           "lon": 13.391963 
         }
-      ]
-    },
+      ],
+			"questions": {
+				"why": "Because I have do to it to be able to be me.",
+				"music": "I usually listen to the radio, but at the moment I am listening to Kate Tempest.",
+				"workHours" : "Usually I work from when I can until I’m too tired."
+			}
+		},
 
 		{
 			"name": "Oliver Gröne",
