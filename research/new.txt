@@ -9,7 +9,9 @@ Was zeigen wir:
 
 Features Grundversion:
 -----------------------
-1. Netzwerk und Geo Layout wechslend per switch (https://bl.ocks.org/cmgiven/4cfa1a95f9b952622280a90138842b79)
+1. Netzwerk und Geo Layout wechslend per switch
+  - https://bl.ocks.org/cmgiven/4cfa1a95f9b952622280a90138842b79
+  - https://stackoverflow.com/questions/51411646/d3js-force-layout-on-a-map
 2. Künstlerfotos on demand
 3. Filter nach Verknüpfungen (welche?) und/oder Disziplinen
 
