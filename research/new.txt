@@ -1,0 +1,22 @@
+Was zeigen wir:
+---------------
+
+0. Wir stellen KünstlerInnen vor - Wer bin ich?
+1. Verknüpfungen (wer kennt wen? / exhibited together) - Wen kenne ich?
+2. Wo sind die KünstlerInnen (evtl. nach Disziplinen)? - Wo bin ich?
+3. Was beschäftig die KünstlerInnen (was wollen wir wissen? irgendwas aus "Soft-Daten") 
+
+
+Features Grundversion:
+-----------------------
+1. Netzwerk und Geo Layout wechslend per switch
+  - https://bl.ocks.org/cmgiven/4cfa1a95f9b952622280a90138842b79
+  - https://stackoverflow.com/questions/51411646/d3js-force-layout-on-a-map
+2. Künstlerfotos on demand
+3. Filter nach Verknüpfungen (welche?) und/oder Disziplinen
+
+
+Future:
+-------
+1. Bewegungen in der Stadt
+2. Kontakt Futurium
