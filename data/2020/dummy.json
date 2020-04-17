@@ -1,0 +1,383 @@
+{
+	"nodes": [
+
+		{
+			"name": "Lucas Gutierrez",
+			"discipline": [7,8,15],
+			"gender": "male",
+			"birthYear": 1985,
+			"birthTown": "Belén/Catamarca",
+			"birthCountry": "Argentina",
+			"profileID": "10015",
+			"imageUrl" : "lucas_gutierrez.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Schönhauser Allee 140, 10437 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.542323, 
+          "lon": 13.411824 
+        }
+      ],
+      "questions": {
+        "why": "I feel the need to do what I do.",
+        "music": "super random. From Argentinian radio shows to YouTube videos.",
+        "workHours" : "Usually I work from noon until late."
+      }
+		},
+		
+		{
+			"name": "Astrid Köppe",
+			"discipline": [1,6,12],
+			"gender": "female",
+			"birthYear": 1974,
+			"birthTown": "Köthen/Anhalt",
+			"birthCountry": "Germany",
+			"profileID": "170",
+			"imageUrl" : "astrid_koeppe.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Ohlauer Straße 40, 10999 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 52.494678, 
+          "lon": 13.429053 
+        },
+        {
+          "name": " ",
+          "address": "Stieffring 7, 13627 Berlin",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 52.545353, 
+          "lon": 13.313796 
+        }
+      ]
+		},
+
+		{
+			"name": "Jeewi Lee",
+			"discipline": [12,13],
+			"gallery": "Sexauer",
+			"gender": "female",
+			"birthYear": 1987,
+			"birthTown": "Seoul",
+			"birthCountry": "Korea",
+			"profileID": "4105",
+			"imageUrl" : "jeewi_lee.jpg",
+			"studioVisit": "Berlin, Florence",
+      "studioLocations": [
+        {
+          "name": " ",
+          "address": "Köpenickerstraße 21, 10997 Berlin",
+          "date_in": 0,
+          "date_out": 0,
+          "lat": 52.506483, 
+          "lon": 13.432181  
+        },
+        {
+          "name": "Villa Romana",
+          "address": "Via Senese 68, 50124 Florence",
+          "date_in": "01.02.2018",
+          "date_out": "30.11.2018",
+          "lat": 43.753996, 
+          "lon": 11.239159  
+        }
+      ],
+			"questions": {
+				"why": "I do what I do, because I never thought of doing something else.",
+				"music": "80´s music.",
+				"workHours" : "My working time is completely melted together with my private time that it does not have a clear start and not an end. But one clear fact is: I´m more active at night than in the morning."
+			}
+		},
+
+		{
+			"name": "Tracey Snelling",
+			"discipline": [2,5,6,14],
+			"gender": "female",
+			"birthYear": 1970,
+			"birthTown": "Oakland",
+			"birthCountry": "USA",
+			"profileID": "7884",
+			"imageUrl" : "tracey_snelling.jpg",
+			"studioVisit": "Berlin",
+      "studioLocations": [
+        {
+          "name": "Gerichtshöfe",
+          "address": "Gerichtstraße 12-13, 13347 Berlin",
+          "date_in": 0,
+          "date_out": 2019,
+          "lat": 52.543609, 
+          "lon": 13.375432 
+        }
+      ]
+		},
+		
+		{
+			"name": "Frank Spilker",
+			"discipline": [14,16],
+			"gender": "male",
+			"birthYear": 1966,
+			"birthTown": "Herford",
+			"birthCountry": "Germany",
+			"profileID": "8605",
+			"imageUrl" : "frank_spilker.jpg",
+			"studioVisit": "Hamburg",
+      "studioLocations": [
+        {
+          "name": "Die Sterne",
+          "address": "Warnholtzstrasse 4, 22767 Hamburg",
+          "date_in": 0,
+          "date_out": "now",
+          "lat": 53.555009, 
+          "lon": 9.945380 
+        }
+      ]
+		},
+
+		{
+			"name": "Viron Erol Vert",
+			"discipline": [7,12,13],
+			"gallery": "Galerie Reinhard Hauff",
+			"gender": "male",
+			"birthYear": 1975,
+			"birthTown": "Varel",
+			"birthCountry": "Germany",
+			"profileID": "4996",
+			"imageUrl" : "viron_erol_vert.jpg",
+			"studioVisit": "Florence",
+      "studioLocations": [
+        {
+          "name": "Villa Romana",
+          "address": "Via Senese 68, 50124 Florence",
+          "date_in": "01.02.2018",
+          "date_out": "30.11.2018",
+          "lat": 43.753996, 
+          "lon": 11.239159  
+        }
+      ],
+			"questions": {
+				"why": "To survive.",
+				"music": "all depends on the mood I know that a work is.",
+				"workHours" : "always."
+			}
+		},
+
+	],
+	"links": [
+
+	{
+		"source": "Lucas Gutierrez",
+		"target": "Robert Henke",
+		"value": 10
+	}, {
+		"source": "Lucas Gutierrez",
+		"target": "Robert Lippok",
+		"value": 10
+	}, {
+		"source": "Lucas Gutierrez",
+		"target": "Robert Lippok",
+		"value": 25
+	}, {
+		"source": "Lucas Gutierrez",
+		"target": "Sean Derrick Cooper Marquardt",
+		"value": 10
+	}, {
+		"source": "Lucas Gutierrez",
+		"target": "Gonzalo Reyes Araos",
+		"value": 10
+	}, {
+		"source": "Astrid Köppe",
+		"target": "Wolfgang Flad",
+		"value": 10
+	}, {
+		"source": "Astrid Köppe",
+		"target": "Peter Freitag",
+		"value": 10
+	}, {
+		"source": "Astrid Köppe",
+		"target": "Sibylle Jazra",
+		"value": 10
+	}, {
+		"source": "Astrid Köppe",
+		"target": "Klaus Killisch",
+		"value": 10
+	}, 
+{
+		"source": "Jeewi Lee",
+		"target": "Christian Achenbach",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Jofroi Amaral",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Axel Anklam",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Clemens Behr",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Fritz Bornstück",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Bram Braam",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Carla Chan",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Sven Drühl",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Ornella Fieres",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Wolfgang Flad",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Moritz Frei",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Jay Gard",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Lukas Glinkowski",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Philip Grözinger",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Michelle Jezierski",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Anne Duk Hee Jordan",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Kevin Kopacka",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Caroline Kryzecki",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Bjørn Melhus",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Jan Muche",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Christophe Ndabananiye",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Christophe Ndabananiye",
+		"value": 15
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Manfred Peckl",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Lerato Shadi",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Lerato Shadi",
+		"value": 15
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Viron Erol Vert",
+		"value": 10
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Viron Erol Vert",
+		"value": 15
+	}, {
+		"source": "Jeewi Lee",
+		"target": "Sinta Werner",
+		"value": 10
+	},
+
+	{
+		"source": "Tracey Snelling",
+		"target": "Song-Ming Ang",
+		"value": 10
+	}, {
+		"source": "Tracey Snelling",
+		"target": "Ekaterina Mitichkina",
+		"value": 10
+	}, {
+		"source": "Tracey Snelling",
+		"target": "Ekaterina Mitichkina",
+		"value": 25
+	}, {
+		"source": "Tracey Snelling",
+		"target": "Tomoyuki Ueno",
+		"value": 15
+	}, {
+		"source": "Tracey Snelling",
+		"target": "Tomoyuki Ueno",
+		"value": 25
+	}, {
+		"source": "Frank Spilker",
+		"target": "Fehmi Baumbach",
+		"value": 10
+	}, {
+		"source": "Frank Spilker",
+		"target": "Bernd Begemann",
+		"value": 10
+	}, 
+
+	{
+		"source": "Viron Erol Vert",
+		"target": "Jeewi Lee",
+		"value": 10
+	}, 
+	{
+		"source": "Viron Erol Vert",
+		"target": "Jeewi Lee",
+		"value": 15
+	}, 
+	{
+		"source": "Viron Erol Vert",
+		"target": "Lerato Shadi",
+		"value": 10
+	}, 
+	{
+		"source": "Viron Erol Vert",
+		"target": "Lerato Shadi",
+		"value": 15
+	}, 
+	{
+		"source": "Viron Erol Vert",
+		"target": "Christophe Ndabananiye",
+		"value": 10
+	}, 
+	{
+		"source": "Viron Erol Vert",
+		"target": "Christophe Ndabananiye",
+		"value": 15
+	}]
+}
