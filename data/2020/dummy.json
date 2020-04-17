@@ -171,213 +171,47 @@
 
 	{
 		"source": "Lucas Gutierrez",
-		"target": "Robert Henke",
+		"target": "Jeewi Lee",
 		"value": 10
 	}, {
 		"source": "Lucas Gutierrez",
-		"target": "Robert Lippok",
-		"value": 10
-	}, {
-		"source": "Lucas Gutierrez",
-		"target": "Robert Lippok",
-		"value": 25
-	}, {
-		"source": "Lucas Gutierrez",
-		"target": "Sean Derrick Cooper Marquardt",
-		"value": 10
-	}, {
-		"source": "Lucas Gutierrez",
-		"target": "Gonzalo Reyes Araos",
+		"target": "Viron Erol Vert",
 		"value": 10
 	}, {
 		"source": "Astrid Köppe",
-		"target": "Wolfgang Flad",
+		"target": "Jeewi Lee",
 		"value": 10
 	}, {
 		"source": "Astrid Köppe",
-		"target": "Peter Freitag",
-		"value": 10
-	}, {
-		"source": "Astrid Köppe",
-		"target": "Sibylle Jazra",
-		"value": 10
-	}, {
-		"source": "Astrid Köppe",
-		"target": "Klaus Killisch",
+		"target": "Frank Spilker",
 		"value": 10
 	}, 
-{
-		"source": "Jeewi Lee",
-		"target": "Christian Achenbach",
-		"value": 10
-	}, {
-		"source": "Jeewi Lee",
-		"target": "Jofroi Amaral",
-		"value": 10
-	}, {
-		"source": "Jeewi Lee",
-		"target": "Axel Anklam",
-		"value": 10
-	}, {
-		"source": "Jeewi Lee",
-		"target": "Clemens Behr",
-		"value": 10
-	}, {
-		"source": "Jeewi Lee",
-		"target": "Fritz Bornstück",
-		"value": 10
-	}, {
-		"source": "Jeewi Lee",
-		"target": "Bram Braam",
-		"value": 10
-	}, {
-		"source": "Jeewi Lee",
-		"target": "Carla Chan",
-		"value": 10
-	}, {
-		"source": "Jeewi Lee",
-		"target": "Sven Drühl",
-		"value": 10
-	}, {
-		"source": "Jeewi Lee",
-		"target": "Ornella Fieres",
-		"value": 10
-	}, {
-		"source": "Jeewi Lee",
-		"target": "Wolfgang Flad",
-		"value": 10
-	}, {
-		"source": "Jeewi Lee",
-		"target": "Moritz Frei",
-		"value": 10
-	}, {
-		"source": "Jeewi Lee",
-		"target": "Jay Gard",
-		"value": 10
-	}, {
-		"source": "Jeewi Lee",
-		"target": "Lukas Glinkowski",
-		"value": 10
-	}, {
-		"source": "Jeewi Lee",
-		"target": "Philip Grözinger",
-		"value": 10
-	}, {
-		"source": "Jeewi Lee",
-		"target": "Michelle Jezierski",
-		"value": 10
-	}, {
-		"source": "Jeewi Lee",
-		"target": "Anne Duk Hee Jordan",
-		"value": 10
-	}, {
-		"source": "Jeewi Lee",
-		"target": "Kevin Kopacka",
-		"value": 10
-	}, {
-		"source": "Jeewi Lee",
-		"target": "Caroline Kryzecki",
-		"value": 10
-	}, {
-		"source": "Jeewi Lee",
-		"target": "Bjørn Melhus",
-		"value": 10
-	}, {
-		"source": "Jeewi Lee",
-		"target": "Jan Muche",
-		"value": 10
-	}, {
-		"source": "Jeewi Lee",
-		"target": "Christophe Ndabananiye",
-		"value": 10
-	}, {
-		"source": "Jeewi Lee",
-		"target": "Christophe Ndabananiye",
-		"value": 15
-	}, {
-		"source": "Jeewi Lee",
-		"target": "Manfred Peckl",
-		"value": 10
-	}, {
-		"source": "Jeewi Lee",
-		"target": "Lerato Shadi",
-		"value": 10
-	}, {
-		"source": "Jeewi Lee",
-		"target": "Lerato Shadi",
-		"value": 15
-	}, {
+ {
 		"source": "Jeewi Lee",
 		"target": "Viron Erol Vert",
 		"value": 10
 	}, {
 		"source": "Jeewi Lee",
-		"target": "Viron Erol Vert",
-		"value": 15
-	}, {
-		"source": "Jeewi Lee",
-		"target": "Sinta Werner",
-		"value": 10
-	},
-
-	{
-		"source": "Tracey Snelling",
-		"target": "Song-Ming Ang",
-		"value": 10
-	}, {
-		"source": "Tracey Snelling",
-		"target": "Ekaterina Mitichkina",
-		"value": 10
-	}, {
-		"source": "Tracey Snelling",
-		"target": "Ekaterina Mitichkina",
-		"value": 25
-	}, {
-		"source": "Tracey Snelling",
-		"target": "Tomoyuki Ueno",
-		"value": 15
-	}, {
-		"source": "Tracey Snelling",
-		"target": "Tomoyuki Ueno",
-		"value": 25
-	}, {
-		"source": "Frank Spilker",
-		"target": "Fehmi Baumbach",
-		"value": 10
-	}, {
-		"source": "Frank Spilker",
-		"target": "Bernd Begemann",
+		"target": "Tracey Snelling",
 		"value": 10
 	}, 
 
 	{
-		"source": "Viron Erol Vert",
+		"source": "Tracey Snelling",
+		"target": "Lucas Gutierrez",
+		"value": 10
+	}, {
+		"source": "Tracey Snelling",
 		"target": "Jeewi Lee",
+		"value": 10
+	}, {
+		"source": "Frank Spilker",
+		"target": "Astrid Köppe",
 		"value": 10
 	}, 
 	{
 		"source": "Viron Erol Vert",
 		"target": "Jeewi Lee",
-		"value": 15
-	}, 
-	{
-		"source": "Viron Erol Vert",
-		"target": "Lerato Shadi",
 		"value": 10
-	}, 
-	{
-		"source": "Viron Erol Vert",
-		"target": "Lerato Shadi",
-		"value": 15
-	}, 
-	{
-		"source": "Viron Erol Vert",
-		"target": "Christophe Ndabananiye",
-		"value": 10
-	}, 
-	{
-		"source": "Viron Erol Vert",
-		"target": "Christophe Ndabananiye",
-		"value": 15
 	}]
 }
